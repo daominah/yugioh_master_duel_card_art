@@ -1,0 +1,19 @@
+# coding app's project files
+.idea
+.vscode
+
+
+# Go testing output
+*.out
+*.test
+profile*.pdf
+
+
+# binary exes
+cmd/*/*.exe
+cmd/example/example
+
+
+# config with real username, password...
+conf/*ignore*.sh
+env_docker_run.list*
