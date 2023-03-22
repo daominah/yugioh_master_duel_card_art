@@ -16,7 +16,7 @@ Extract cards image data from "Yu-Gi-Oh! Master Duel" and rename files from card
   It takes a long duration and use a lot of RAM (16GB is enough).
   Save all files with type "Texture2D", output is a lot of PNG images (size about 12GB)
   
-* Before run `rename.go` in this repository to rename PNG files from card ID to card name,
+* Before run `cmd/rename_from_extracted/rename.go` to rename PNG files from card ID to card name,
   need to change flag `dirSourceCardArt` and `dirTargetCardArt` to right directories.
 
 ### Result
@@ -32,3 +32,4 @@ All arts result, uploaded on [Google drive](https://drive.google.com/drive/folde
 * [Guide from Reddit](https://www.reddit.com/r/masterduel/comments/uszzul/guide_to_create_card_art_replacement_file_pc/)
 * [Website for search YuGiOh card ID](https://ygocdb.com/)
 * [Install Golang](https://golang.org/doc/install)
+* [OCG art uncensored](https://www.youtube.com/watch?v=hXGVXXHT6us)
