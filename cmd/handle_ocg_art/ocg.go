@@ -14,6 +14,8 @@ import (
 
 	"os"
 
+	"sync"
+
 	yugioh "github.com/daominah/yugioh_master_duel_card_art"
 	"golang.org/x/image/bmp"
 )
@@ -49,71 +51,80 @@ func main() {
 	}
 
 	// TODO: run in goroutines because func ConvertBmpToPng is slow
+	wg := &sync.WaitGroup{}
 	nCopiedFiles := 0
+	mu := &sync.Mutex{} // protect nCopiedFiles
 	for i, f := range dir {
 		//if i >= 4 { // small number for testing
 		//	break
 		//}
-		sourceFullPath := filepath.Join(dirSourceCardArt, f.Name())
-		words := strings.Split(f.Name(), " ")
-		if len(words) < 2 { // card name format: "{cardId} {cen|unc} - name.bmp"
-			log.Printf("ignore unexpected file name %v", f.Name())
-			continue
-		}
-		cardId := words[0]
-		var ocgSuffix string
-		if words[1] != "(cen)" {
-			ocgSuffix = "ocg"
-		}
+		wg.Add(1)
+		go func(i int, fName string) {
+			defer wg.Add(-1)
+			sourceFullPath := filepath.Join(dirSourceCardArt, fName)
+			words := strings.Split(fName, " ")
+			if len(words) < 2 { // card name format: "{cardId} {cen|unc} - name.bmp"
+				log.Printf("ignore unexpected file name %v", fName)
+				return
+			}
+			cardId := words[0]
+			var ocgSuffix string
+			if words[1] != "(cen)" {
+				ocgSuffix = "_ocg"
+			}
 
-		cardInfo, found := cards[cardId]
-		if !found {
-			log.Printf("i %v ignore %v", i, f.Name())
-			continue
-		}
-		enName := cardInfo.EnName
-		if enName == "" {
-			enName = cardInfo.WikiEn
-		}
-		targetName := fmt.Sprintf("%v_%v_%v_%v.png",
-			yugioh.NormalizeName(enName), cardInfo.Id, cardInfo.Cid, ocgSuffix)
+			cardInfo, found := cards[cardId]
+			if !found {
+				log.Printf("i %v ignore %v", i, fName)
+				return
+			}
+			enName := cardInfo.EnName
+			if enName == "" {
+				enName = cardInfo.WikiEn
+			}
+			targetName := fmt.Sprintf("%v_%v_%v%v.png",
+				yugioh.NormalizeName(enName), cardInfo.Id, cardInfo.Cid, ocgSuffix)
 
-		targetFullPath := filepath.Join(dirTargetCardArt, targetName)
-		log.Printf("i %v doing copy `%v` to `%v`", i, f.Name(), targetName)
+			targetFullPath := filepath.Join(dirTargetCardArt, targetName)
+			log.Printf("i %v doing copy `%v` to `%v`", i, fName, targetName)
 
-		sourceFile, err := os.Open(sourceFullPath)
-		if err != nil {
-			log.Printf("error os.ReadFile: %v", err)
-			continue
-		}
-		if _, err := os.Stat(targetFullPath); err == nil {
-			log.Printf("do nothing because of existed %v", targetFullPath)
-			continue
-		}
-		targetFile, err := os.Create(targetFullPath)
-		if err != nil {
-			log.Printf("error os.Create: %v", err)
-			continue
-		}
+			sourceFile, err := os.Open(sourceFullPath)
+			if err != nil {
+				log.Printf("error os.ReadFile: %v", err)
+				return
+			}
+			if _, err := os.Stat(targetFullPath); err == nil {
+				log.Printf("do nothing because of existed %v", targetFullPath)
+				return
+			}
+			targetFile, err := os.Create(targetFullPath)
+			if err != nil {
+				log.Printf("error os.Create: %v", err)
+				return
+			}
 
-		bs, err := io.ReadAll(sourceFile)
-		if err != nil {
-			log.Printf("error io.ReadAll: %v", err)
-			continue
-		}
-		pngBytes, err := ConvertBmpToPng(bs)
-		if err != nil {
-			log.Printf("error ConvertBmpToPng: %v", err)
-			continue
-		}
-		_, err = io.Copy(targetFile, bytes.NewReader(pngBytes))
-		if err != nil {
-			log.Printf("error io.Copy: %v", err)
-			continue
-		}
-		nCopiedFiles += 1
-		log.Printf("created new file %v", targetName)
+			bs, err := io.ReadAll(sourceFile)
+			if err != nil {
+				log.Printf("error io.ReadAll: %v", err)
+				return
+			}
+			pngBytes, err := ConvertBmpToPng(bs)
+			if err != nil {
+				log.Printf("error ConvertBmpToPng: %v", err)
+				return
+			}
+			_, err = io.Copy(targetFile, bytes.NewReader(pngBytes))
+			if err != nil {
+				log.Printf("error io.Copy: %v", err)
+				return
+			}
+			mu.Lock()
+			nCopiedFiles += 1
+			mu.Unlock()
+			log.Printf("created new file %v", targetName)
+		}(i, f.Name())
 	}
+	wg.Wait()
 	log.Printf("func main returned, nCopiedFiles: %v", nCopiedFiles)
 }
 
