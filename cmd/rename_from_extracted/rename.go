@@ -17,15 +17,19 @@ import (
 var (
 	dirSourceCardArt string
 	dirTargetCardArt string
+	targetNameSuffix string
 )
 
 func init() {
 	flag.StringVar(&dirSourceCardArt, "dirSourceCardArt",
-		`/media/tungdt/WindowsData/picture/card_Master_Duel_art`,
+		`/media/tungdt/WindowsData/Master_Duel_art/Texture2D`,
 		"path to source directory that contains extracted images from the game")
 	flag.StringVar(&dirTargetCardArt, "dirTargetCardArt",
-		`/home/tungdt/opt/card_Master_Duel/in_game_art_renamed`,
+		`/media/tungdt/WindowsData/Master_Duel_art/all_art_renamed`,
 		"path to target directory that contains output renamed images from this program")
+	flag.StringVar(&targetNameSuffix, "targetNameSuffix",
+		``,
+		`set to "_ocg" if processing OCG arts to append to output files name`)
 }
 
 func main() {
@@ -59,7 +63,9 @@ func main() {
 		if enName == "" {
 			enName = cardInfo.WikiEn
 		}
-		targetName := fmt.Sprintf("%v_%v_%v.png", yugioh.NormalizeName(enName), cardInfo.Id, cardInfo.Cid)
+
+		targetName := fmt.Sprintf("%v_%v_%v%v.png",
+			yugioh.NormalizeName(enName), cardInfo.Id, cardInfo.Cid, targetNameSuffix)
 		targetFullPath := filepath.Join(dirTargetCardArt, targetName)
 		log.Printf("i %v doing copy `%v` to `%v`", i, f.Name(), targetName)
 
