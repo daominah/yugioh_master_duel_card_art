@@ -22,15 +22,17 @@ var (
 
 func init() {
 	flag.StringVar(&dirSourceCardArt, "dirSourceCardArt",
-		`/media/tungdt/WindowsData/Master_Duel_art/Texture2D`,
+		`/media/tungdt/WindowsData/syncthing/Master_Duel_art_full/Texture2D`,
 		"path to source directory that contains extracted images from the game")
 	flag.StringVar(&dirTargetCardArt, "dirTargetCardArt",
-		`/media/tungdt/WindowsData/Master_Duel_art/all_art_renamed`,
+		`/media/tungdt/WindowsData/syncthing/Master_Duel_art_full/all_art_renamed`,
 		"path to target directory that contains output renamed images from this program")
 	flag.StringVar(&targetNameSuffix, "targetNameSuffix",
 		``,
 		`set to "_ocg" if processing OCG arts to append to output files name`)
 }
+
+var weirdDir = `/media/tungdt/WindowsData/syncthing/Master_Duel_art_full/Texture2D_weird`
 
 func main() {
 	log.SetFlags(log.Lshortfile | log.Ltime)
@@ -56,7 +58,30 @@ func main() {
 		fnameWOExt := strings.TrimSuffix(f.Name(), ".png")
 		cardInfo, found := cards[fnameWOExt]
 		if !found {
-			log.Printf("i %v ignore %v", i, f.Name())
+			if false {
+				sourceFile, err := os.Open(sourceFullPath)
+				if err != nil {
+					log.Printf("error os.ReadFile: %v", err)
+					continue
+				}
+				targetFullPath := filepath.Join(weirdDir, f.Name())
+				if _, err := os.Stat(targetFullPath); err == nil {
+					continue
+				}
+				targetFile, err := os.Create(targetFullPath)
+				if err != nil {
+					log.Printf("error os.Create: %v", err)
+					continue
+				}
+				nCopiedBytes, err := io.Copy(targetFile, sourceFile)
+				if err != nil {
+					log.Printf("error io.Copy: %v", err)
+					continue
+				}
+				log.Printf("created missing info card %v nCopiedBytes %v", f.Name(), nCopiedBytes)
+			} else {
+				log.Printf("i %v ignore %v", i, f.Name())
+			}
 			continue
 		}
 		enName := cardInfo.EnName
