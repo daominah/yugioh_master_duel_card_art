@@ -9,11 +9,9 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"os"
 	"path/filepath"
 	"strings"
-
-	"os"
-
 	"sync"
 
 	yugioh "github.com/daominah/yugioh_master_duel_card_art"
