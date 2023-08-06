@@ -20,22 +20,22 @@ var (
 	targetNameSuffix string
 )
 
-func init() {
-	flag.StringVar(&dirSourceCardArt, "dirSourceCardArt",
-		`/media/tungdt/WindowsData/syncthing/Master_Duel_art_full/Texture2D`,
-		"path to source directory that contains extracted images from the game")
-	flag.StringVar(&dirTargetCardArt, "dirTargetCardArt",
-		`/media/tungdt/WindowsData/syncthing/Master_Duel_art_full/all_art_renamed`,
-		"path to target directory that contains output renamed images from this program")
-	flag.StringVar(&targetNameSuffix, "targetNameSuffix",
-		``,
-		`set to "_ocg" if processing OCG arts to append to output files name`)
-}
-
 var weirdDir = `/media/tungdt/WindowsData/syncthing/Master_Duel_art_full/Texture2D_weird`
 
 func main() {
 	log.SetFlags(log.Lshortfile | log.Ltime)
+
+	// MD_file_Japanese uncensored OCG arts will be handled in `cmd/diff_texture/diff_texture.go`,
+	// this `rename.go` only renames English art.
+	flag.StringVar(&dirSourceCardArt, "dirSourceCardArt",
+		`/media/tungdt/WindowsData/syncthing/Master_Duel_art_full/MD_file_English/Texture2D`,
+		"path to source directory that contains extracted images from the game")
+	flag.StringVar(&dirTargetCardArt, "dirTargetCardArt",
+		`/media/tungdt/WindowsData/syncthing/Master_Duel_art_full/art_renamed_all`,
+		"path to target directory that contains output renamed images from this program")
+	flag.StringVar(&targetNameSuffix, "targetNameSuffix",
+		``,
+		`set to "_ocg" if processing Japanese arts to append to output files name`)
 
 	flag.Parse()
 	log.Printf("flag vars:")
@@ -55,8 +55,8 @@ func main() {
 		//	break
 		//}
 		sourceFullPath := filepath.Join(dirSourceCardArt, f.Name())
-		fnameWOExt := strings.TrimSuffix(f.Name(), ".png")
-		cardInfo, found := cards[fnameWOExt]
+		nameNoExt := strings.TrimSuffix(f.Name(), ".png")
+		cardInfo, found := cards[nameNoExt]
 		if !found {
 			if false {
 				sourceFile, err := os.Open(sourceFullPath)
@@ -84,13 +84,14 @@ func main() {
 			}
 			continue
 		}
+
 		enName := cardInfo.EnName
 		if enName == "" {
 			enName = cardInfo.WikiEn
 		}
-
 		targetName := fmt.Sprintf("%v_%v_%v%v.png",
 			yugioh.NormalizeName(enName), cardInfo.Id, cardInfo.Cid, targetNameSuffix)
+
 		targetFullPath := filepath.Join(dirTargetCardArt, targetName)
 		log.Printf("i %v doing copy `%v` to `%v`", i, f.Name(), targetName)
 
