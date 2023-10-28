@@ -89,8 +89,8 @@ func main() {
 		if enName == "" {
 			enName = cardInfo.WikiEn
 		}
-		targetName := fmt.Sprintf("%v_%v_%v%v.png",
-			yugioh.NormalizeName(enName), cardInfo.Id, cardInfo.Cid, targetNameSuffix)
+		targetName := fmt.Sprintf("%v_%v%v.png",
+			yugioh.NormalizeName(enName), cardInfo.Cid, targetNameSuffix)
 
 		targetFullPath := filepath.Join(dirTargetCardArt, targetName)
 		log.Printf("i %v doing copy `%v` to `%v`", i, f.Name(), targetName)
