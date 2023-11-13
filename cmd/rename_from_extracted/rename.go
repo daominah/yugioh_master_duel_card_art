@@ -28,7 +28,7 @@ func main() {
 	// MD_file_Japanese uncensored OCG arts will be handled in `cmd/diff_texture/diff_texture.go`,
 	// this `rename.go` only renames English art.
 	flag.StringVar(&dirSourceCardArt, "dirSourceCardArt",
-		`/media/tungdt/WindowsData/syncthing/Master_Duel_art_full/MD_file_English/Texture2D`,
+		`/media/tungdt/WindowsData/syncthing/Master_Duel_art_full/MD_file_Japanese/Texture2D`,
 		"path to source directory that contains extracted images from the game")
 	flag.StringVar(&dirTargetCardArt, "dirTargetCardArt",
 		`/media/tungdt/WindowsData/syncthing/Master_Duel_art_full/art_renamed_all`,
@@ -42,7 +42,7 @@ func main() {
 	log.Printf("dirSourceCardArt: %v", dirSourceCardArt)
 	log.Printf("dirTargetCardArt: %v", dirTargetCardArt)
 
-	cards := yugioh.ReadAllCardData()
+	cards := yugioh.ReadAllCardDataKonami()
 
 	log.Printf("doing read dir %v", dirSourceCardArt)
 	dir, err := os.ReadDir(dirSourceCardArt)
@@ -85,13 +85,8 @@ func main() {
 			continue
 		}
 
-		enName := cardInfo.EnName
-		if enName == "" {
-			enName = cardInfo.WikiEn
-		}
 		targetName := fmt.Sprintf("%v_%v%v.png",
-			yugioh.NormalizeName(enName), cardInfo.Cid, targetNameSuffix)
-
+			yugioh.NormalizeName(cardInfo.CardName), cardInfo.CardID, targetNameSuffix)
 		targetFullPath := filepath.Join(dirTargetCardArt, targetName)
 		log.Printf("i %v doing copy `%v` to `%v`", i, f.Name(), targetName)
 
