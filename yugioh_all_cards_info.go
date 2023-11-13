@@ -148,7 +148,7 @@ func ReadAllCardData() map[string]Card {
 */
 type Card struct {
 	Cid    int    // file name in Master Duel data
-	Id     int    // Konami card id
+	Id     int    // Konami card 8-digits password
 	EnName string `json:"en_name"`
 	WikiEn string `json:"wiki_en"`
 }

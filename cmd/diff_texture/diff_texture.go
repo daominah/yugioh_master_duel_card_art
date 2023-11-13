@@ -18,8 +18,8 @@ import (
 var (
 	dirEnglish     string // Master Dual English arts
 	dirJapanese    string // Master Dual Japanese arts
-	dirDifferent   string // pairs of English and Japanese art if they are different
-	dirDiffRenamed string // Japanese art renamed card id to card name
+	dirDifferent   string // pairs of MD files (English, Japanese) art if they are different
+	dirDiffRenamed string
 )
 
 func main() {
@@ -34,10 +34,18 @@ func main() {
 		`/media/tungdt/WindowsData/syncthing/Master_Duel_art_full/different_renamed2`, "")
 	log.Printf("dirEnglish: %v\n", dirEnglish)
 	log.Printf("dirJapanese: %v\n", dirJapanese)
+	log.Printf("dirDifferent: %v\n", dirDifferent)
+	log.Printf("dirDiffRenamed: %v\n", dirDiffRenamed)
 
 	dirEnglishObj, err := os.ReadDir(dirEnglish)
 	if err != nil {
 		log.Fatalf("error os.ReadDir: %v", err)
+	}
+	for _, v := range []string{dirDifferent, dirDiffRenamed} {
+		_, err := os.ReadDir(v)
+		if err != nil {
+			log.Fatalf("error os.ReadDir: %v", err)
+		}
 	}
 	cards := yugioh.ReadAllCardData()
 
@@ -69,8 +77,8 @@ func main() {
 				if enName == "" {
 					enName = cardInfo.WikiEn
 				}
-				cardName = fmt.Sprintf("%v_%v_%v",
-					yugioh.NormalizeName(enName), cardInfo.Id, cardInfo.Cid)
+				cardName = fmt.Sprintf("%v_%v",
+					yugioh.NormalizeName(enName), cardInfo.Cid)
 			}
 
 			engBytes, err := os.ReadFile(engFullPath)
