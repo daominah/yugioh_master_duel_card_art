@@ -47,7 +47,7 @@ func main() {
 			log.Fatalf("error os.ReadDir: %v", err)
 		}
 	}
-	cards := yugioh.ReadAllCardData()
+	cards := yugioh.ReadAllCardDataKonami()
 
 	beginT := time.Now()
 	limitGoroutines := make(chan bool, 8)
@@ -71,14 +71,9 @@ func main() {
 			diffFullPathEng := filepath.Join(dirDifferent, f.Name())
 			diffFullPathJap := filepath.Join(dirDifferent, cid+"_ocg"+ext)
 			cardInfo, found := cards[cid]
-			var cardName string
+			var cardNameID string // card name concat with cardID
 			if found {
-				enName := cardInfo.EnName
-				if enName == "" {
-					enName = cardInfo.WikiEn
-				}
-				cardName = fmt.Sprintf("%v_%v",
-					yugioh.NormalizeName(enName), cardInfo.Cid)
+				cardNameID = fmt.Sprintf("%v_%v", yugioh.NormalizeName(cardInfo.CardName), cardInfo.CardID)
 			}
 
 			engBytes, err := os.ReadFile(engFullPath)
@@ -100,13 +95,13 @@ func main() {
 				var target1, target2 string
 				if k == 0 {
 					target1 = diffFullPathEng
-					if cardName != "" {
-						target2 = filepath.Join(dirDiffRenamed, cardName+ext)
+					if cardNameID != "" {
+						target2 = filepath.Join(dirDiffRenamed, cardNameID+ext)
 					}
 				} else if k == 1 {
 					target1 = diffFullPathJap
-					if cardName != "" {
-						target2 = filepath.Join(dirDiffRenamed, cardName+"_ocg"+ext)
+					if cardNameID != "" {
+						target2 = filepath.Join(dirDiffRenamed, cardNameID+"_ocg"+ext)
 					}
 				}
 				targets := []string{target1}
