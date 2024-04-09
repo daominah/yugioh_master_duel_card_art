@@ -63,6 +63,7 @@ type CardKonami struct {
 	CardID     string `json:"MiscKonamiCardID"`
 	CardName   string
 	MonsterATK float64
+	AltArtID   string
 }
 
 func ReadAllCardDataKonami() map[string]CardKonami {
@@ -90,7 +91,9 @@ func ReadAllCardDataKonami() map[string]CardKonami {
 		"3891": "12950", // Ash Blossom & Joyous Spring
 	}
 	for alt, origin := range altArts {
-		cards[alt] = cards[origin]
+		v := cards[origin]
+		v.AltArtID = alt
+		cards[alt] = v
 	}
 
 	log.Printf("ok ReadAllCardDataKonami, len(cards): %v", len(cards))
