@@ -8,9 +8,10 @@ Extract cards image data from "Yu-Gi-Oh! Master Duel" and rename files from card
   [steampowered.com/app/../YuGiOh_Master_Duel](https://store.steampowered.com/app/1449850/YuGiOh_Master_Duel/)
 
 * Download app `AssetStudio` (to extract image data from the game)  
-  [github.com/Perfare/AssetStudio](https://github.com/Perfare/AssetStudio/releases)  
-  Default .NET verison on Windows is v4.x
-
+  [github.com/Perfare/AssetStudio](https://github.com/Perfare/AssetStudio/releases) or
+  [its fork](https://github.com/zhangjiequan/AssetStudio).  
+  (Default .NET verison on Windows is v4.x)
+  
 * Use `AssetStudio` to open directory
   `steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData` in the Steam library.
   It takes a long duration and use a lot of RAM (16GB is enough).
