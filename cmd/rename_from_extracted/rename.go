@@ -106,8 +106,10 @@ func main() {
 		if cardInfo.AltArtID != "" {
 			targetName += "_alt" + cardInfo.AltArtID
 		}
+
+		// sometimes Asset Studio save OCG art 1st (without fragment), sometimes TCG art 1st
 		if fragment != "" {
-			targetName += "_tcg" + fragment
+			targetName += "_censor"
 		}
 		targetName += ".png"
 
