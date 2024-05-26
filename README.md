@@ -11,14 +11,16 @@ Extract cards image data from "Yu-Gi-Oh! Master Duel" and rename files from card
   [github.com/Perfare/AssetStudio](https://github.com/Perfare/AssetStudio/releases) or
   [its fork](https://github.com/zhangjiequan/AssetStudio).  
   (Default .NET verison on Windows is v4.x)
-  
-* Use `AssetStudio` to open directory
-  `steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData` in the Steam library.
-  It takes a long duration and use a lot of RAM (16GB is enough).
-  Save all files with type "Texture2D", output is a lot of PNG images (size about 12GB)
+
+* Use `AssetStudio` to open directory `steamapps/common/Yu-Gi-Oh!  Master Duel`
+  in the Steam library.  
+  It takes a long duration and use almost all of your remaining RAM.  
+  Change export option so output files group by path (default group by type).
+  Filter the following file types to export:
+  AudioClip, Font, Mesh, Sprite, TextAsset, Texture2D.
 
 * Before run `cmd/rename_from_extracted/rename.go` to rename PNG files from card ID to card name,
-  need to change flag `dirSourceCardArt` and `dirTargetCardArt` to right directories.
+  need to correct the input, output dirs in the Go code.
 
 ### Result
 
