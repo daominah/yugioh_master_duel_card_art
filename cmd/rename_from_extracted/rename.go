@@ -28,12 +28,12 @@ func main() {
 		dirSourceCardArtTCG    = dirBase + "/MD_file/assets/resources/card/images/illust/tcg"
 
 		dirTargetCardArt = dirBase + "/MD_art_renamed"
-		dirCardsNoData   = dirBase + "/MD_card_no_data"
+		dirTokenMonster  = dirBase + "/MD_token_monster"
 		dirDiffCensor    = dirBase + "/MD_different_censored"
 	)
 
 	log.Printf("_______________________________________________________")
-	for _, v := range []string{dirTargetCardArt, dirCardsNoData, dirDiffCensor} {
+	for _, v := range []string{dirTargetCardArt, dirTokenMonster, dirDiffCensor} {
 		if _, err := os.Stat(v); err != nil {
 			log.Fatalf("error probably directory does not exist: %v", v)
 		}
@@ -71,7 +71,7 @@ func main() {
 
 				if !found {
 					// OCG exclusive cards or new cards that have not been in TCG, or Token;
-					// this code section moves them to "dirCardsNoData"
+					// this code section moves them to "dirTokenMonster"
 					maybeCardID, err := strconv.Atoi(cardID)
 					if err != nil {
 						continue
@@ -86,7 +86,7 @@ func main() {
 						log.Printf("error os.ReadFile: %v", err)
 						continue
 					}
-					targetFullPath := filepath.Join(dirCardsNoData, f.Name())
+					targetFullPath := filepath.Join(dirTokenMonster, f.Name())
 					if _, err := os.Stat(targetFullPath); err == nil {
 						continue
 					}
