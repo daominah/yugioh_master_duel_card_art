@@ -10,14 +10,17 @@ import (
 var AllowChars = make(map[rune]bool)
 
 func init() {
-	for _, char := range []rune("abcdefghijklmnopqrstuvwxyz_0123456789") {
+	// diff range string vs range []rune: https://stackoverflow.com/a/49062341/4097963,
+	// TLDR: if don't care about rune index, same results
+	for _, char := range "abcdefghijklmnopqrstuvwxyz_0123456789" {
 		AllowChars[char] = true
 	}
 }
 
+// NormalizeName keeps alphanumeric chars, replace others with underscore _
 func NormalizeName(s string) string {
 	var ret []rune
-	for _, char := range []rune(strings.ToLower(s)) {
+	for _, char := range strings.ToLower(s) {
 		if !AllowChars[char] {
 			ret = append(ret, '_')
 		} else {
@@ -27,7 +30,7 @@ func NormalizeName(s string) string {
 	return string(ret)
 }
 
-//go:embed konami_db_en.json
+//go:embed konami_db.json
 var allCardDataKonami []byte
 
 /*

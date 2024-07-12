@@ -15,49 +15,57 @@ import (
 
 // this program read all images with name "{cardID}.png"
 // (extracted from YuGiOh Master Duel, see README.md for more info),
-// then copy them to a new directory with name "{cardEnglishName}.png";
+// then copy them to a new directory "${dirTargetCardArt}",
+// with name changed to "{cardEnglishName}.png";
 func main() {
 	log.SetFlags(log.Lshortfile | log.Ltime)
 
-	// the following dir and file paths only work on Linux
-	const (
-		dirBase = "/media/tungdt/WindowsData/syncthing/Master_Duel_art_full"
+	// consts, do not change them while executing this program
+	var (
+		//dirBase = "/media/tungdt/WindowsData/syncthing/Master_Duel_art_full"
+		dirBase = "/media/tungdt/WindowsData/tmp_process_MD_file"
 
-		dirSourceCardArtCommon = dirBase + "/MD_file/assets/resources/card/images/illust/common"
-		dirSourceCardArtOCG    = dirBase + "/MD_file/assets/resources/card/images/illust/ocg"
-		dirSourceCardArtTCG    = dirBase + "/MD_file/assets/resources/card/images/illust/tcg"
+		// TODO: handle sources: resourcesassetbundle, resourcesassetbundleintutorial
 
-		dirTargetCardArt = dirBase + "/MD_art_renamed"
-		dirTokenMonster  = dirBase + "/MD_token_monster"
-		dirDiffCensor    = dirBase + "/MD_different_censored"
+		dirSourceCardArtCommon = filepath.Join(dirBase, "/MD_file/assets/resources/card/images/illust/common")
+		dirSourceCardArtOCG    = filepath.Join(dirBase, "/MD_file/assets/resources/card/images/illust/ocg")
+		dirSourceCardArtTCG    = filepath.Join(dirBase, "/MD_file/assets/resources/card/images/illust/tcg")
+
+		dirTargetCardArt = filepath.Join(dirBase, "/MD_art_renamed")
+		dirTokenMonster  = filepath.Join(dirBase, "/MD_token_monster")
+		dirDiffCensor    = filepath.Join(dirBase, "/MD_different_censored")
 	)
 
 	log.Printf("_______________________________________________________")
 	for _, v := range []string{dirTargetCardArt, dirTokenMonster, dirDiffCensor} {
 		if _, err := os.Stat(v); err != nil {
 			log.Fatalf("error probably directory does not exist: %v", v)
+			// mkdir MD_art_renamed MD_different_censored MD_token_monster
 		}
 	}
-	log.Printf("all directory exists, READY to process")
+	log.Printf("all target directories exist, READY to process")
 	time.Sleep(1 * time.Second)
 
 	cards := yugioh.ReadAllCardDataKonami()
 
+	beginProcessT := time.Now()
 	nProcessed := 0
+	nCopiedAsTokenCards := 0
 	nCopiedFiles := 0
 	nCopiedFilesCensor := 0
+
 	for _, dirSourceCardArt := range []string{dirSourceCardArtCommon, dirSourceCardArtOCG, dirSourceCardArtTCG} {
-		dir, err := os.ReadDir(dirSourceCardArt)
+		cardIDPrefixDirs, err := os.ReadDir(dirSourceCardArt) // return ["03", "04", ..., "20"]
 		if err != nil {
 			log.Fatalf("error os.ReadDir: %v", err)
 		}
-		for _, subDir := range dir {
+		for _, subDir := range cardIDPrefixDirs {
 			subDirPath := filepath.Join(dirSourceCardArt, subDir.Name())
 			subDir, err := os.ReadDir(subDirPath)
 			if err != nil {
 				log.Printf("error os.ReadDir: %v", err)
 			}
-			for _, f := range subDir {
+			for _, f := range subDir { // f is in ["4007.png", "4008.png", ..., "4999.png"], Blue-Eyes to Osiris
 				nProcessed += 1
 				log.Printf("i: %-5v, f: %v", nProcessed, f.Name())
 				sourceFullPath := filepath.Join(subDirPath, f.Name())
@@ -69,7 +77,7 @@ func main() {
 				}
 				cardInfo, found := cards[cardID]
 
-				if !found {
+				if !found { // minority case, mostly found is true
 					// OCG exclusive cards or new cards that have not been in TCG, or Token;
 					// this code section moves them to "dirTokenMonster"
 					maybeCardID, err := strconv.Atoi(cardID)
@@ -88,6 +96,7 @@ func main() {
 					}
 					targetFullPath := filepath.Join(dirTokenMonster, f.Name())
 					if _, err := os.Stat(targetFullPath); err == nil {
+						// target file existed
 						continue
 					}
 					targetFile, err := os.Create(targetFullPath)
@@ -100,8 +109,8 @@ func main() {
 						log.Printf("error io.Copy: %v", err)
 						continue
 					}
+					nCopiedAsTokenCards += 1
 					log.Printf("saved missing info card %v nCopiedBytes %v", f.Name(), nCopiedBytes)
-
 					continue
 				}
 
@@ -111,27 +120,27 @@ func main() {
 				}
 
 				// sometimes Asset Studio save OCG art 1st (without fragment), sometimes TCG art 1st
-				needCopyToDirDiffCensor := false
+				needCopyToDirCensor := false
 				switch dirSourceCardArt {
 				case dirSourceCardArtOCG:
 					targetName += "_ocg"
-					needCopyToDirDiffCensor = true
+					needCopyToDirCensor = true
 				case dirSourceCardArtTCG:
 					targetName += "_tcg"
-					needCopyToDirDiffCensor = true
+					needCopyToDirCensor = true
 				default:
 					// do nothing
 				}
 				targetName += ".png"
-
 				targetFullPath := filepath.Join(dirTargetCardArt, targetName)
+				// copyFile does nothing if target file existed
 				isCopied := copyFile(sourceFullPath, targetFullPath)
 				if isCopied {
 					nCopiedFiles += 1
 					log.Printf("created new file %v", targetName)
 				}
 
-				if needCopyToDirDiffCensor {
+				if needCopyToDirCensor {
 					targetFullPath := filepath.Join(dirDiffCensor, targetName)
 					isCopied := copyFile(sourceFullPath, targetFullPath)
 					if isCopied {
@@ -146,8 +155,11 @@ func main() {
 	log.Printf("-------------------------------------------------------")
 	log.Printf("-------------------------------------------------------")
 	log.Printf("func main returned")
+	log.Printf("done processing %v files, duration: %v", nProcessed, time.Since(beginProcessT))
 	log.Printf("nCopiedFiles: %v", nCopiedFiles)
 	log.Printf("nCopiedFilesCensor: %v", nCopiedFilesCensor)
+	log.Printf("nCopiedAsTokenCards: %v", nCopiedAsTokenCards)
+
 }
 
 // getCardIDFromFileName returns (cardID, fragment),
@@ -164,6 +176,7 @@ func getCardIDFromFileName(fileName string) (string, string) {
 	return cardID, fragment
 }
 
+// copyFile does nothing if target file existed,
 // copyFile logs and handles error too
 func copyFile(sourceFullPath string, targetFullPath string) bool {
 	sourceFile, err := os.Open(sourceFullPath)
@@ -172,7 +185,7 @@ func copyFile(sourceFullPath string, targetFullPath string) bool {
 		return false
 	}
 	if _, err := os.Stat(targetFullPath); err == nil {
-		//log.Printf("do nothing because of existed %v", targetFullPath)
+		//log.Printf("do nothing because target file existed %v", targetFullPath)
 		return false
 	}
 	targetFile, err := os.Create(targetFullPath)
