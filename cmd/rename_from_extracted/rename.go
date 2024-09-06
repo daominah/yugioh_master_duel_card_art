@@ -22,18 +22,21 @@ func main() {
 
 	// consts, do not change them while executing this program
 	var (
-		//dirBase = "/media/tungdt/WindowsData/syncthing/Master_Duel_art_full"
-		dirBase = "/media/tungdt/WindowsData/tmp_process_MD_file"
+		// dirSourceBase = "/media/tungdt/WindowsData/tmp_process_MD_file"
+		dirSourceBase = `D:\tmp_process_MD_file_by_path`
+
+		// dirTargetBase = "/media/tungdt/WindowsData/syncthing/Master_Duel_art_full"
+		dirTargetBase = `D:\tmp_process_MD_file`
 
 		// TODO: handle sources: resourcesassetbundle, resourcesassetbundleintutorial
 
-		dirSourceCardArtCommon = filepath.Join(dirBase, "/MD_file/assets/resources/card/images/illust/common")
-		dirSourceCardArtOCG    = filepath.Join(dirBase, "/MD_file/assets/resources/card/images/illust/ocg")
-		dirSourceCardArtTCG    = filepath.Join(dirBase, "/MD_file/assets/resources/card/images/illust/tcg")
+		dirSourceCardArtCommon = filepath.Join(dirSourceBase, "/assets/resources/card/images/illust/common")
+		dirSourceCardArtOCG    = filepath.Join(dirSourceBase, "/assets/resources/card/images/illust/ocg")
+		dirSourceCardArtTCG    = filepath.Join(dirSourceBase, "/assets/resources/card/images/illust/tcg")
 
-		dirTargetCardArt = filepath.Join(dirBase, "/MD_art_renamed")
-		dirTokenMonster  = filepath.Join(dirBase, "/MD_token_monster")
-		dirDiffCensor    = filepath.Join(dirBase, "/MD_different_censored")
+		dirTargetCardArt = filepath.Join(dirTargetBase, "/MD_art_renamed")
+		dirTokenMonster  = filepath.Join(dirTargetBase, "/MD_token_monster")
+		dirDiffCensor    = filepath.Join(dirTargetBase, "/MD_different_censored")
 	)
 
 	log.Printf("_______________________________________________________")
@@ -59,6 +62,8 @@ func main() {
 		if err != nil {
 			log.Fatalf("error os.ReadDir: %v", err)
 		}
+		log.Printf("doing directory %v", dirSourceCardArt)
+		time.Sleep(1 * time.Second)
 		for _, subDir := range cardIDPrefixDirs {
 			subDirPath := filepath.Join(dirSourceCardArt, subDir.Name())
 			subDir, err := os.ReadDir(subDirPath)
@@ -159,7 +164,6 @@ func main() {
 	log.Printf("nCopiedFiles: %v", nCopiedFiles)
 	log.Printf("nCopiedFilesCensor: %v", nCopiedFilesCensor)
 	log.Printf("nCopiedAsTokenCards: %v", nCopiedAsTokenCards)
-
 }
 
 // getCardIDFromFileName returns (cardID, fragment),
@@ -185,7 +189,7 @@ func copyFile(sourceFullPath string, targetFullPath string) bool {
 		return false
 	}
 	if _, err := os.Stat(targetFullPath); err == nil {
-		//log.Printf("do nothing because target file existed %v", targetFullPath)
+		// log.Printf("do nothing because target file existed %v", targetFullPath)
 		return false
 	}
 	targetFile, err := os.Create(targetFullPath)

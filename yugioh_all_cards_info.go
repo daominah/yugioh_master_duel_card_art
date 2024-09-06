@@ -87,11 +87,16 @@ func ReadAllCardDataKonami() map[string]CardKonami {
 		"3415": "14676", // I:P Masquerena
 		"3421": "13601", // Knightmare Unicorn
 		"3423": "15123", // Eldlich the Golden Lord
+		"3434": "13671", // Sky Striker Mobilize - Engage!
 		"3801": "4007",  // Blue-Eyes White Dragon
 		"3863": "4041",  // Dark Magician
 		"3868": "4998",  // Obelisk the Tormentor
-		"3869": "4999",  //  Slifer the Sky Dragon
+		"3869": "4999",  // Slifer the Sky Dragon
+		"3882": "7734",  // Stardust Dragon
+		"3894": "11258", // El Shaddoll Construct
 		"3891": "12950", // Ash Blossom & Joyous Spring
+		"3895": "11257", // El Shaddoll Winda
+		"3899": "13668", // Sky Striker Ace - Kagari
 	}
 	for alt, origin := range altArts {
 		v := cards[origin]
