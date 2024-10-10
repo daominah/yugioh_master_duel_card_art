@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 	"os"
+	"strings"
 
 	yugioh "github.com/daominah/yugioh_master_duel_card_art"
 )
@@ -21,6 +22,12 @@ func main() {
 	}
 	for _, fileObj := range dirEntries {
 		if fileObj.IsDir() {
+			continue
+		}
+		if strings.Contains(fileObj.Name(), "_icon_") ||
+			strings.Contains(fileObj.Name(), "_token_") ||
+			strings.Contains(fileObj.Name(), "_custom_card") ||
+			strings.Contains(fileObj.Name(), "_transparent") {
 			continue
 		}
 		if !validNames.CheckPrefixIsAKey(fileObj.Name()) {

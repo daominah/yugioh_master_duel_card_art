@@ -9,14 +9,11 @@ import (
 	"strconv"
 	"strings"
 	"time"
-
-	yugioh "github.com/daominah/yugioh_master_duel_card_art"
 )
 
 // this program read all images with name "{cardID}.png" or "{cardID} #{fragment}.png"
 // (extracted from YuGiOh Master Duel, see README.md for more info),
-// then copy them to a new directory "${dirTargetCardArt}",
-// with name changed to "{cardEnglishName}.png";
+// then copy them to a new directory "${dirTargetCardID}" (prefer OCG art first)
 func main() {
 	log.SetFlags(log.Lshortfile | log.Ltime)
 
@@ -26,21 +23,15 @@ func main() {
 		dirSourceBase = `D:\tmp_process_MD_file_by_path`
 
 		// dirTargetBase = "/media/tungdt/WindowsData/syncthing/Master_Duel_art_full"
-		dirTargetBase = `D:\tmp_process_MD_file`
-
-		// TODO: handle sources: resourcesassetbundle, resourcesassetbundleintutorial
+		dirTarget = `D:\tmp_process_MD_file\card_id`
 
 		dirSourceCardArtCommon = filepath.Join(dirSourceBase, "/assets/resources/card/images/illust/common")
 		dirSourceCardArtOCG    = filepath.Join(dirSourceBase, "/assets/resources/card/images/illust/ocg")
 		dirSourceCardArtTCG    = filepath.Join(dirSourceBase, "/assets/resources/card/images/illust/tcg")
-
-		dirTargetCardArt = filepath.Join(dirTargetBase, "/MD_art_renamed")
-		dirTokenMonster  = filepath.Join(dirTargetBase, "/MD_token_monster")
-		dirDiffCensor    = filepath.Join(dirTargetBase, "/MD_different_censored")
 	)
 
 	log.Printf("_______________________________________________________")
-	for _, v := range []string{dirTargetCardArt, dirTokenMonster, dirDiffCensor} {
+	for _, v := range []string{dirTarget} {
 		if _, err := os.Stat(v); err != nil {
 			log.Fatalf("error probably directory does not exist: %v", v)
 			// mkdir MD_art_renamed MD_different_censored MD_token_monster
@@ -49,13 +40,9 @@ func main() {
 	log.Printf("all target directories exist, READY to process")
 	time.Sleep(1 * time.Second)
 
-	cards := yugioh.ReadAllCardDataKonami()
-
 	beginProcessT := time.Now()
 	nProcessed := 0
-	nCopiedAsTokenCards := 0
 	nCopiedFiles := 0
-	nCopiedFilesCensor := 0
 
 	for _, dirSourceCardArt := range []string{dirSourceCardArtCommon, dirSourceCardArtOCG, dirSourceCardArtTCG} {
 		cardIDPrefixDirs, err := os.ReadDir(dirSourceCardArt) // return ["03", "04", ..., "20"]
@@ -80,78 +67,21 @@ func main() {
 					// fragment images are usually duplicated
 					continue
 				}
-				cardInfo, found := cards[cardID]
-
-				if !found { // minority case, mostly found is true
-					// OCG exclusive cards or new cards that have not been in TCG, or Token;
-					// this code section moves them to "dirTokenMonster"
-					maybeCardID, err := strconv.Atoi(cardID)
-					if err != nil {
-						continue
-					}
-					if maybeCardID < 3000 || maybeCardID > 50000 {
-						// Konami cardID start from 4007 Blue-Eyes White Dragon,
-						// some alternative arts have cardID between 3000-4000
-						continue
-					}
-					sourceFile, err := os.Open(sourceFullPath)
-					if err != nil {
-						log.Printf("error os.ReadFile: %v", err)
-						continue
-					}
-					targetFullPath := filepath.Join(dirTokenMonster, f.Name())
-					if _, err := os.Stat(targetFullPath); err == nil {
-						// target file existed
-						continue
-					}
-					targetFile, err := os.Create(targetFullPath)
-					if err != nil {
-						log.Printf("error os.Create: %v", err)
-						continue
-					}
-					nCopiedBytes, err := io.Copy(targetFile, sourceFile)
-					if err != nil {
-						log.Printf("error io.Copy: %v", err)
-						continue
-					}
-					nCopiedAsTokenCards += 1
-					log.Printf("saved missing info card %v nCopiedBytes %v", f.Name(), nCopiedBytes)
+				if cardID == "" {
+					continue
+				}
+				_, err := strconv.Atoi(cardID)
+				if err != nil {
 					continue
 				}
 
-				targetName := fmt.Sprintf("%v_%v", yugioh.NormalizeName(cardInfo.CardName), cardInfo.CardID)
-				if cardInfo.AltArtID != "" {
-					targetName += "_alt" + cardInfo.AltArtID
-				}
-
-				// sometimes Asset Studio save OCG art 1st (without fragment), sometimes TCG art 1st
-				needCopyToDirCensor := false
-				switch dirSourceCardArt {
-				case dirSourceCardArtOCG:
-					targetName += "_ocg"
-					needCopyToDirCensor = true
-				case dirSourceCardArtTCG:
-					targetName += "_tcg"
-					needCopyToDirCensor = true
-				default:
-					// do nothing
-				}
-				targetName += ".png"
-				targetFullPath := filepath.Join(dirTargetCardArt, targetName)
+				targetName := cardID + ".png"
+				targetFullPath := filepath.Join(dirTarget, targetName)
 				// copyFile does nothing if target file existed
 				isCopied := copyFile(sourceFullPath, targetFullPath)
 				if isCopied {
 					nCopiedFiles += 1
 					log.Printf("created new file %v", targetName)
-				}
-
-				if needCopyToDirCensor {
-					targetFullPath := filepath.Join(dirDiffCensor, targetName)
-					isCopied := copyFile(sourceFullPath, targetFullPath)
-					if isCopied {
-						nCopiedFilesCensor += 1
-						log.Printf("created new file in dirDiffCensor %v", targetName)
-					}
 				}
 			}
 		}
@@ -162,8 +92,6 @@ func main() {
 	log.Printf("func main returned")
 	log.Printf("done processing %v files, duration: %v", nProcessed, time.Since(beginProcessT))
 	log.Printf("nCopiedFiles: %v", nCopiedFiles)
-	log.Printf("nCopiedFilesCensor: %v", nCopiedFilesCensor)
-	log.Printf("nCopiedAsTokenCards: %v", nCopiedAsTokenCards)
 }
 
 // getCardIDFromFileName returns (cardID, fragment),
@@ -203,4 +131,10 @@ func copyFile(sourceFullPath string, targetFullPath string) bool {
 		return false
 	}
 	return true
+}
+
+type LogWriterISOTime struct{}
+
+func (w LogWriterISOTime) Write(output []byte) (int, error) {
+	return fmt.Fprintf(os.Stderr, "%v %s", time.Now().UTC().Format(time.RFC3339), output)
 }
