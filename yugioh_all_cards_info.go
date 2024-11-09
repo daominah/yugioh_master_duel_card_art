@@ -88,6 +88,8 @@ func ReadAllCardDataKonami() map[string]CardKonami {
 		"3421": "13601", // Knightmare Unicorn
 		"3423": "15123", // Eldlich the Golden Lord
 		"3434": "13671", // Sky Striker Mobilize - Engage!
+		"3437": "15626", // Evil★Twin Ki-sikil
+		"3438": "15627", // Evil★Twin Lil-la
 		"3801": "4007",  // Blue-Eyes White Dragon
 		"3863": "4041",  // Dark Magician
 		"3868": "4998",  // Obelisk the Tormentor
