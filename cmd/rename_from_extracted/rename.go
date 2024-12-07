@@ -20,12 +20,15 @@ import (
 func main() {
 	log.SetFlags(log.Lshortfile | log.Ltime)
 
-	// consts, do not change them while executing this program
+	// constants,
+	// these are paths to input and output directories,
+	// depending on Linux or Windows, change them before running this script,
+	// do not change them while executing this program
 	var (
-		// dirSourceBase = "/media/tungdt/WindowsData/tmp_process_MD_file"
+		// dirSourceBase = "/media/tungdt/WindowsData/tmp_process_MD_file_by_path"
 		dirSourceBase = `D:\tmp_process_MD_file_by_path`
 
-		// dirTargetBase = "/media/tungdt/WindowsData/syncthing/Master_Duel_art_full"
+		// dirTargetBase = "/media/tungdt/WindowsData/tmp_process_MD_file"
 		dirTargetBase = `D:\tmp_process_MD_file`
 
 		// TODO: handle sources: resourcesassetbundle, resourcesassetbundleintutorial
@@ -164,6 +167,7 @@ func main() {
 	log.Printf("nCopiedFiles: %v", nCopiedFiles)
 	log.Printf("nCopiedFilesCensor: %v", nCopiedFilesCensor)
 	log.Printf("nCopiedAsTokenCards: %v", nCopiedAsTokenCards)
+	log.Printf("check the target directories for results:\n%v\n%v\n%v", dirTargetCardArt, dirTokenMonster, dirDiffCensor)
 }
 
 // getCardIDFromFileName returns (cardID, fragment),
