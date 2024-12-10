@@ -33,8 +33,7 @@ ls -lh --time-style=+%Y-%m-%d
 # dca6ade4 em_chef_tft, duplicated English card art, move before extract
 
 mv dca6ade4 /d/game/SteamLibrary/steamapps/common/localdata_dca6ade4
-cd "/d/game/SteamLibrary/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalSave"
-mv dca6ade4 /d/game/SteamLibrary/steamapps/common/localsave_dca6ade4
+mv "/d/game/SteamLibrary/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalSave/dca6ade4" /d/game/SteamLibrary/steamapps/common/localsave_dca6ade4
 
 ls /d/game/SteamLibrary/steamapps/common | grep local
 # Output:
@@ -63,6 +62,13 @@ This takes about 30 minutes and use almost all the computer remaining memory.
 
 This takes about 3 hours,
 occasionally show errors and stuck, require human to click OK.
+
+After the export, move assets for account `dca6ade4` back to the original directory:
+
+```bash
+mv /d/game/SteamLibrary/steamapps/common/localdata_dca6ade4 "/d/game/SteamLibrary/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/dca6ade4"
+mv /d/game/SteamLibrary/steamapps/common/localsave_dca6ade4 "/d/game/SteamLibrary/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalSave/dca6ade4"
+```
 
 #### Konami ID to card name
 
