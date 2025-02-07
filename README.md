@@ -14,8 +14,8 @@ rename files from Konami card IDs to card names.
 AssetStudio is an app to extract Unity game assets.
 Download from one of the following URLs:
 
-- [github.com/zhangjiequan/AssetStudio](https://github.com/zhangjiequan/AssetStudio)
 - [github.com/Perfare/AssetStudio](https://github.com/Perfare/AssetStudio/releases) (original, archived)
+- [github.com/zhangjiequan/AssetStudio](https://github.com/zhangjiequan/AssetStudio) (some updates, but slow)
 
 Default .NET verison on Windows is v4.x
 
