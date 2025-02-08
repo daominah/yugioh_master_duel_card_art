@@ -82,23 +82,31 @@ func ReadAllCardDataKonami() map[string]CardKonami {
 
 	// map alt art ID to original art ID
 	altArts := map[string]string{
-		"3401": "5000",  // The Winged Dragon of Ra
-		"3411": "14496", // Apollousa, Bow of the Goddess
-		"3415": "14676", // I:P Masquerena
-		"3421": "13601", // Knightmare Unicorn
-		"3423": "15123", // Eldlich the Golden Lord
-		"3434": "13671", // Sky Striker Mobilize - Engage!
-		"3437": "15626", // Evil★Twin Ki-sikil
-		"3438": "15627", // Evil★Twin Lil-la
-		"3801": "4007",  // Blue-Eyes White Dragon
-		"3863": "4041",  // Dark Magician
-		"3868": "4998",  // Obelisk the Tormentor
-		"3869": "4999",  // Slifer the Sky Dragon
-		"3882": "7734",  // Stardust Dragon
-		"3894": "11258", // El Shaddoll Construct
-		"3891": "12950", // Ash Blossom & Joyous Spring
-		"3895": "11257", // El Shaddoll Winda
-		"3899": "13668", // Sky Striker Ace - Kagari
+		"3801":  "4007",  // Blue-Eyes White Dragon
+		"3863":  "4041",  // Dark Magician
+		"3868":  "4998",  // Obelisk the Tormentor
+		"3869":  "4999",  // Slifer the Sky Dragon
+		"3401":  "5000",  // The Winged Dragon of Ra
+		"20040": "5328",  // Reinforcement of the Army
+		"3881":  "6653",  // Elemental HERO Neos
+		"19077": "7696",  // Junk Warrior
+		"3882":  "7734",  // Stardust Dragon
+		"19943": "9122",  // Tuning
+		"3895":  "11257", // El Shaddoll Winda
+		"3894":  "11258", // El Shaddoll Construct
+		"3891":  "12950", // Ash Blossom & Joyous Spring
+		"3892":  "13587", // Ghost Belle & Haunted Mansion
+		"3421":  "13601", // Knightmare Unicorn
+		"3899":  "13668", // Sky Striker Ace - Kagari
+		"3433":  "13669", // Sky Striker Ace - Shizuku
+		"21227": "13670", // Sky Striker Ace - Raye
+		"3434":  "13671", // Sky Striker Mobilize - Engage!
+		"21228": "13763", // Sky Striker Ace - Hayate
+		"3411":  "14496", // Apollousa, Bow of the Goddess
+		"3415":  "14676", // I:P Masquerena
+		"3423":  "15123", // Eldlich the Golden Lord
+		"3437":  "15626", // Evil★Twin Ki-sikil
+		"3438":  "15627", // Evil★Twin Lil-la
 	}
 	for alt, origin := range altArts {
 		v := cards[origin]
