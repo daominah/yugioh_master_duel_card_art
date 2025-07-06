@@ -173,8 +173,6 @@ Example a card, `Tales of the White Forest`,
 game file `20237.png`,  
 renamed to `tales_of_the_white_forest_20237.png`:
 
-![Tales of the White Forest](20237.png)
-
 ## References
 
 * [Guide from Reddit](https://www.reddit.com/r/masterduel/comments/uszzul/guide_to_create_card_art_replacement_file_pc/)
