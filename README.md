@@ -117,50 +117,6 @@ meld MD_different_censored/ /d/tmp_process_MD_file/MD_different_censored/
 
 ```
 
-Example, the Master Duel update in 2024-12, featuring White Forest archetype,
-there are the following new cards:
-
-```text
-cat a.txt | awk '{print $NF}' | sort
-# Output:
-astellar_of_the_white_forest_20192.png
-beware_the_white_forest_20238.png
-cxyz_gimmick_puppet_fanatix_machinix_20222.png
-diabell__queen_of_the_white_forest_20219.png
-diabellze_the_original_sinkeeper_19853.png
-elzette_of_the_white_forest_20193.png
-emergency_apport_19828.png
-flock_together_19527.png
-gimmick_puppet_cattle_scream_20188.png
-gimmick_puppet_fantasix_machinix_20221.png
-gimmick_puppet_little_soldiers_20186_ocg.png
-gimmick_puppet_little_soldiers_20186_tcg.png
-gimmick_puppet_rouge_doll_20187.png
-kuebiko_20421.png
-magicolloidal_sol_20419.png
-mansion_of_the_dreadful_dolls_20235.png
-psychic_arsenal_19827.png
-psychic_processor_19826.png
-rciela__sinister_soul_of_the_white_forest_20218.png
-rucia_of_the_white_forest_20195.png
-scourge_of_the_white_forest_20532_ocg.png
-scourge_of_the_white_forest_20532_tcg.png
-service_puppet_play_20249.png
-silhouhatte_rabbit_20231.png
-silhouhatte_trick_20258.png
-silvera__wolf_tamer_of_the_white_forest_20217.png
-silvy_of_the_white_forest_20194.png
-simultaneous_equation_cannons_19921.png
-sinful_spoils_of_slumber___morrian_19916.png
-sinful_spoils_subdual_19915.png
-susurrus_of_the_sinful_spoils_20239.png
-tales_of_the_white_forest_20237.png
-vesper_girsu_20243.png
-vulmina__statue_of_the_sacred_dragon_20420.png
-way_where_there_s_a_will_19908.png
-woes_of_the_white_forest_20250.png
-```
-
 ## Result
 
 All arts result are published at:
@@ -169,9 +125,9 @@ All arts result are published at:
 * https://mdygo2048.daominah.uk/
 * [Google Drive daominah@gmail.com](https://drive.google.com/drive/folders/1PVaWUaullSjaSKwbOi3Q1Xj024Qzq4YD?usp=share_link) (not updated frequently)
 
-Example a card, `Tales of the White Forest`,  
-game file `20237.png`,  
-renamed to `tales_of_the_white_forest_20237.png`:
+Example a card, `Ryzeal Detonator`,  
+game file `20578.png`,  
+renamed to `ryzeal_detonator_20578.png`.
 
 ## References
 

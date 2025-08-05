@@ -91,9 +91,12 @@ func ReadAllCardDataKonami() map[string]CardKonami {
 		"3881":  "6653",  // Elemental HERO Neos
 		"19077": "7696",  // Junk Warrior
 		"3882":  "7734",  // Stardust Dragon
+		"3420":  "7898",  // Black Rose Dragon
 		"19943": "9122",  // Tuning
+		"19736": "9131",  // Medallion of the Ice Barrier
 		"3895":  "11257", // El Shaddoll Winda
 		"3894":  "11258", // El Shaddoll Construct
+		"3873":  "11721", // Clear Wing Synchro Dragon
 		"3891":  "12950", // Ash Blossom & Joyous Spring
 		"3892":  "13587", // Ghost Belle & Haunted Mansion
 		"3421":  "13601", // Knightmare Unicorn
@@ -105,8 +108,12 @@ func ReadAllCardDataKonami() map[string]CardKonami {
 		"3411":  "14496", // Apollousa, Bow of the Goddess
 		"3415":  "14676", // I:P Masquerena
 		"3423":  "15123", // Eldlich the Golden Lord
+		"20567": "15245", // Fallen of Albaz
 		"3437":  "15626", // Evil★Twin Ki-sikil
 		"3438":  "15627", // Evil★Twin Lil-la
+		"20569": "16195", // Aluber the Jester of Despia
+		"20568": "16493", // Incredible Ecclesia, the Virtuous
+		"20570": "17767", // Blazing Cartesia, the Virtuous
 	}
 	for alt, origin := range altArts {
 		v := cards[origin]
