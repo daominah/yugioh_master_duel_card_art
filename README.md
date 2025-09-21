@@ -14,10 +14,10 @@ rename files from Konami card IDs to card names.
 AssetStudio is an app to extract Unity game assets.
 Download from one of the following URLs:
 
+- [github.com/aelurum/AssetStudio](https://github.com/aelurum/AssetStudio)
 - [github.com/Perfare/AssetStudio](https://github.com/Perfare/AssetStudio/releases) (original, archived)
-- [github.com/zhangjiequan/AssetStudio](https://github.com/zhangjiequan/AssetStudio) (some updates, but slow)
 
-Default .NET verison on Windows is v4.x
+Default .NET version on Windows is v4.x
 
 ### Prepare Steam account assets
 
@@ -62,6 +62,9 @@ This takes about 30 minutes and use almost all the computer remaining memory.
 
 This takes about 3 hours,
 occasionally show errors and stuck, require human to click OK.
+
+The result card arts as PNG, named as Konami card ID,
+most are in dir `assets/resources/card/images/illust/common`.
 
 After the export, move assets for account `dca6ade4` back to the original directory:
 
