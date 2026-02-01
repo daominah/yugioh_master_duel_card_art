@@ -23,4 +23,15 @@ func TestReadAllCardDataKonami(t *testing.T) {
 	if got, want := cards["3423"].MonsterATK, 2500.0; got != want {
 		t.Fatalf("error NormalizeName: %v, want: %v", got, want)
 	}
+
+	// Test alt arts: Blue-Eyes White Dragon (4007) should have alt art 3801
+	if cards["3801"].CardID != "4007" {
+		t.Fatalf("error alt art 3801 should map to original card 4007")
+	}
+	if cards["3801"].AltArtID != "3801" {
+		t.Fatalf("error alt art 3801 should have AltArtID = 3801")
+	}
+	if cards["3801"].CardName != "Blue-Eyes White Dragon" {
+		t.Fatalf("error alt art 3801 should have same name as original")
+	}
 }

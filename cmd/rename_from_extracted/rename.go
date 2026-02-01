@@ -160,6 +160,10 @@ func main() {
 		}
 	}
 
+	// Delete files in dirTokenMonster that match known alt art IDs
+	isDryRunNextFunc := true
+	_ = deleteKnownAltArtsFromTokenMonster(dirTokenMonster, isDryRunNextFunc)
+
 	log.Printf("-------------------------------------------------------")
 	log.Printf("-------------------------------------------------------")
 	log.Printf("func main returned")
@@ -207,4 +211,49 @@ func copyFile(sourceFullPath string, targetFullPath string) bool {
 		return false
 	}
 	return true
+}
+
+// deleteKnownAltArtsFromTokenMonster deletes files in dirTokenMonster
+// if the file name (without extension) matches a known alt art ID.
+// If isDryRun is true, it only returns the map without deleting files.
+// Returns a map of fileName -> knownAltArtCardName for files that match known alt art IDs.
+func deleteKnownAltArtsFromTokenMonster(dirTokenMonster string, isDryRun bool) map[string]string {
+	// Build map of alt art ID -> card name
+	altArtIDToCardName := make(map[string]string)
+	for _, entry := range yugioh.AltArts {
+		for _, altID := range entry.AltArtIDs {
+			altArtIDToCardName[altID] = entry.CardName
+		}
+	}
+
+	files, err := os.ReadDir(dirTokenMonster)
+	if err != nil {
+		log.Printf("error os.ReadDir dirTokenMonster: %v", err)
+		return make(map[string]string)
+	}
+
+	result := make(map[string]string)
+	for _, f := range files {
+		if f.IsDir() {
+			continue
+		}
+		// Get file name without extension
+		nameNoExt := strings.TrimSuffix(f.Name(), ".png")
+		// Check if it matches a known alt art ID
+		if cardName, exists := altArtIDToCardName[nameNoExt]; exists {
+			result[f.Name()] = cardName
+			if !isDryRun {
+				fullPath := filepath.Join(dirTokenMonster, f.Name())
+				err := os.Remove(fullPath)
+				if err != nil {
+					log.Printf("error os.Remove: %v", err)
+					continue
+				}
+				log.Printf("deleted known alt art file: %v (card: %v)", f.Name(), cardName)
+			} else {
+				log.Printf("would delete known alt art file: %v (card: %v)", f.Name(), cardName)
+			}
+		}
+	}
+	return result
 }
