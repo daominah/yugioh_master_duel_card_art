@@ -34,4 +34,14 @@ func TestReadAllCardDataKonami(t *testing.T) {
 	if cards["3801"].CardName != "Blue-Eyes White Dragon" {
 		t.Fatalf("error alt art 3801 should have same name as original")
 	}
+
+	if cards["21230"].CardID != "17785" {
+		t.Fatalf("error alt art 21230 should map to original card 17785")
+	}
+	if cards["21230"].AltArtID != "21230" {
+		t.Fatalf("error alt art 21230 should have AltArtID = 21230")
+	}
+	if cards["21230"].CardName != "Lady Labrynth of the Silver Castle" {
+		t.Fatalf("error alt art 21230 should have same name as original")
+	}
 }

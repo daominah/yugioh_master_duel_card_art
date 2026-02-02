@@ -1,247 +1,324 @@
 [
-    {
-        "OriginalCardID": "4007",
-        "CardName": "Blue-Eyes White Dragon",
-        "AltArtIDs": [
-            "3801"
-        ]
-    },
-    {
-        "OriginalCardID": "4041",
-        "CardName": "Dark Magician",
-        "AltArtIDs": [
-            "3863"
-        ]
-    },
-    {
-        "OriginalCardID": "4998",
-        "CardName": "Obelisk the Tormentor",
-        "AltArtIDs": [
-            "3868"
-        ]
-    },
-    {
-        "OriginalCardID": "4999",
-        "CardName": "Slifer the Sky Dragon",
-        "AltArtIDs": [
-            "3869"
-        ]
-    },
-    {
-        "OriginalCardID": "5000",
-        "CardName": "The Winged Dragon of Ra",
-        "AltArtIDs": [
-            "3401"
-        ]
-    },
-    {
-        "OriginalCardID": "5328",
-        "CardName": "Reinforcement of the Army",
-        "AltArtIDs": [
-            "20040"
-        ]
-    },
-    {
-        "OriginalCardID": "6653",
-        "CardName": "Elemental HERO Neos",
-        "AltArtIDs": [
-            "3881"
-        ]
-    },
-    {
-        "OriginalCardID": "7696",
-        "CardName": "Junk Warrior",
-        "AltArtIDs": [
-            "19077"
-        ]
-    },
-    {
-        "OriginalCardID": "7734",
-        "CardName": "Stardust Dragon",
-        "AltArtIDs": [
-            "3882"
-        ]
-    },
-    {
-        "OriginalCardID": "7898",
-        "CardName": "Black Rose Dragon",
-        "AltArtIDs": [
-            "3420"
-        ]
-    },
-    {
-        "OriginalCardID": "9122",
-        "CardName": "Tuning",
-        "AltArtIDs": [
-            "19943"
-        ]
-    },
-    {
-        "OriginalCardID": "9131",
-        "CardName": "Medallion of the Ice Barrier",
-        "AltArtIDs": [
-            "19736"
-        ]
-    },
-    {
-        "OriginalCardID": "11257",
-        "CardName": "El Shaddoll Winda",
-        "AltArtIDs": [
-            "3895"
-        ]
-    },
-    {
-        "OriginalCardID": "11258",
-        "CardName": "El Shaddoll Construct",
-        "AltArtIDs": [
-            "3894"
-        ]
-    },
-    {
-        "OriginalCardID": "11721",
-        "CardName": "Clear Wing Synchro Dragon",
-        "AltArtIDs": [
-            "3873"
-        ]
-    },
-    {
-        "OriginalCardID": "12843",
-        "CardName": "Aleister the Invoker",
-        "AltArtIDs": [
-            "3409"
-        ]
-    },
-    {
-        "OriginalCardID": "12849",
-        "CardName": "Invoked Mechaba",
-        "AltArtIDs": [
-            "3431"
-        ]
-    },
-    {
-        "OriginalCardID": "12950",
-        "CardName": "Ash Blossom \u0026 Joyous Spring",
-        "AltArtIDs": [
-            "3891"
-        ]
-    },
-    {
-        "OriginalCardID": "13587",
-        "CardName": "Ghost Belle \u0026 Haunted Mansion",
-        "AltArtIDs": [
-            "3892"
-        ]
-    },
-    {
-        "OriginalCardID": "13601",
-        "CardName": "Knightmare Unicorn",
-        "AltArtIDs": [
-            "3421"
-        ]
-    },
-    {
-        "OriginalCardID": "13668",
-        "CardName": "Sky Striker Ace - Kagari",
-        "AltArtIDs": [
-            "3899"
-        ]
-    },
-    {
-        "OriginalCardID": "13669",
-        "CardName": "Sky Striker Ace - Shizuku",
-        "AltArtIDs": [
-            "3433"
-        ]
-    },
-    {
-        "OriginalCardID": "13670",
-        "CardName": "Sky Striker Ace - Raye",
-        "AltArtIDs": [
-            "21227"
-        ]
-    },
-    {
-        "OriginalCardID": "13671",
-        "CardName": "Sky Striker Mobilize - Engage!",
-        "AltArtIDs": [
-            "3434"
-        ]
-    },
-    {
-        "OriginalCardID": "13763",
-        "CardName": "Sky Striker Ace - Hayate",
-        "AltArtIDs": [
-            "21228"
-        ]
-    },
-    {
-        "OriginalCardID": "14496",
-        "CardName": "Apollousa, Bow of the Goddess",
-        "AltArtIDs": [
-            "3411"
-        ]
-    },
-    {
-        "OriginalCardID": "14676",
-        "CardName": "I:P Masquerena",
-        "AltArtIDs": [
-            "3415"
-        ]
-    },
-    {
-        "OriginalCardID": "15123",
-        "CardName": "Eldlich the Golden Lord",
-        "AltArtIDs": [
-            "3423"
-        ]
-    },
-    {
-        "OriginalCardID": "15245",
-        "CardName": "Fallen of Albaz",
-        "AltArtIDs": [
-            "20567"
-        ]
-    },
-    {
-        "OriginalCardID": "15626",
-        "CardName": "Evil★Twin Ki-sikil",
-        "AltArtIDs": [
-            "3437"
-        ]
-    },
-    {
-        "OriginalCardID": "15627",
-        "CardName": "Evil★Twin Lil-la",
-        "AltArtIDs": [
-            "3438"
-        ]
-    },
-    {
-        "OriginalCardID": "16195",
-        "CardName": "Aluber the Jester of Despia",
-        "AltArtIDs": [
-            "20569"
-        ]
-    },
-    {
-        "OriginalCardID": "16493",
-        "CardName": "Incredible Ecclesia, the Virtuous",
-        "AltArtIDs": [
-            "20568"
-        ]
-    },
-    {
-        "OriginalCardID": "17767",
-        "CardName": "Blazing Cartesia, the Virtuous",
-        "AltArtIDs": [
-            "20570"
-        ]
-    },
-    {
-        "OriginalCardID": "19148",
-        "CardName": "Diabellstar the Black Witch",
-        "AltArtIDs": [
-            "21231"
-        ]
-    }
+	{
+		"OriginalCardID": "",
+		"CardName": "",
+		"AltArtIDs": [
+			""
+		]
+	},
+	{
+		"OriginalCardID": "4007",
+		"CardName": "Blue-Eyes White Dragon",
+		"AltArtIDs": [
+			"3801"
+		]
+	},
+	{
+		"OriginalCardID": "4041",
+		"CardName": "Dark Magician",
+		"AltArtIDs": [
+			"3863"
+		]
+	},
+	{
+		"OriginalCardID": "4998",
+		"CardName": "Obelisk the Tormentor",
+		"AltArtIDs": [
+			"3868"
+		]
+	},
+	{
+		"OriginalCardID": "4999",
+		"CardName": "Slifer the Sky Dragon",
+		"AltArtIDs": [
+			"3869"
+		]
+	},
+	{
+		"OriginalCardID": "5000",
+		"CardName": "The Winged Dragon of Ra",
+		"AltArtIDs": [
+			"3401"
+		]
+	},
+	{
+		"OriginalCardID": "5328",
+		"CardName": "Reinforcement of the Army",
+		"AltArtIDs": [
+			"20040"
+		]
+	},
+	{
+		"OriginalCardID": "5655",
+		"CardName": "Breaker the Magical Warrior",
+		"AltArtIDs": [
+			"22081"
+		]
+	},
+	{
+		"OriginalCardID": "6653",
+		"CardName": "Elemental HERO Neos",
+		"AltArtIDs": [
+			"3881"
+		]
+	},
+	{
+		"OriginalCardID": "7696",
+		"CardName": "Junk Warrior",
+		"AltArtIDs": [
+			"19077"
+		]
+	},
+	{
+		"OriginalCardID": "7734",
+		"CardName": "Stardust Dragon",
+		"AltArtIDs": [
+			"3882"
+		]
+	},
+	{
+		"OriginalCardID": "7898",
+		"CardName": "Black Rose Dragon",
+		"AltArtIDs": [
+			"3420"
+		]
+	},
+	{
+		"OriginalCardID": "9122",
+		"CardName": "Tuning",
+		"AltArtIDs": [
+			"19943"
+		]
+	},
+	{
+		"OriginalCardID": "9131",
+		"CardName": "Medallion of the Ice Barrier",
+		"AltArtIDs": [
+			"19736"
+		]
+	},
+	{
+		"OriginalCardID": "9755",
+		"CardName": "Rescue Rabbit",
+		"AltArtIDs": [
+			"21965"
+		]
+	},
+	{
+		"OriginalCardID": "11257",
+		"CardName": "El Shaddoll Winda",
+		"AltArtIDs": [
+			"3895"
+		]
+	},
+	{
+		"OriginalCardID": "11258",
+		"CardName": "El Shaddoll Construct",
+		"AltArtIDs": [
+			"3894"
+		]
+	},
+	{
+		"OriginalCardID": "11721",
+		"CardName": "Clear Wing Synchro Dragon",
+		"AltArtIDs": [
+			"3873"
+		]
+	},
+	{
+		"OriginalCardID": "12843",
+		"CardName": "Aleister the Invoker",
+		"AltArtIDs": [
+			"3409"
+		]
+	},
+	{
+		"OriginalCardID": "12849",
+		"CardName": "Invoked Mechaba",
+		"AltArtIDs": [
+			"3431"
+		]
+	},
+	{
+		"OriginalCardID": "12852",
+		"CardName": "Invocation",
+		"AltArtIDs": [
+			"3432"
+		]
+	},
+	{
+		"OriginalCardID": "12950",
+		"CardName": "Ash Blossom & Joyous Spring",
+		"AltArtIDs": [
+			"3891"
+		]
+	},
+	{
+		"OriginalCardID": "13587",
+		"CardName": "Ghost Belle & Haunted Mansion",
+		"AltArtIDs": [
+			"3892"
+		]
+	},
+	{
+		"OriginalCardID": "13601",
+		"CardName": "Knightmare Unicorn",
+		"AltArtIDs": [
+			"3421"
+		]
+	},
+	{
+		"OriginalCardID": "13668",
+		"CardName": "Sky Striker Ace - Kagari",
+		"AltArtIDs": [
+			"3899"
+		]
+	},
+	{
+		"OriginalCardID": "13669",
+		"CardName": "Sky Striker Ace - Shizuku",
+		"AltArtIDs": [
+			"3433"
+		]
+	},
+	{
+		"OriginalCardID": "13670",
+		"CardName": "Sky Striker Ace - Raye",
+		"AltArtIDs": [
+			"21227"
+		]
+	},
+	{
+		"OriginalCardID": "13671",
+		"CardName": "Sky Striker Mobilize - Engage!",
+		"AltArtIDs": [
+			"3434"
+		]
+	},
+	{
+		"OriginalCardID": "13763",
+		"CardName": "Sky Striker Ace - Hayate",
+		"AltArtIDs": [
+			"21228"
+		]
+	},
+	{
+		"OriginalCardID": "14144",
+		"CardName": "Pot of Extravagance",
+		"AltArtIDs": [
+			"21234"
+		]
+	},
+	{
+		"OriginalCardID": "14496",
+		"CardName": "Apollousa, Bow of the Goddess",
+		"AltArtIDs": [
+			"3411"
+		]
+	},
+	{
+		"OriginalCardID": "14676",
+		"CardName": "I:P Masquerena",
+		"AltArtIDs": [
+			"3415"
+		]
+	},
+	{
+		"OriginalCardID": "14765",
+		"CardName": "House Dragonmaid",
+		"AltArtIDs": [
+			"3435"
+		]
+	},
+	{
+		"OriginalCardID": "14766",
+		"CardName": "Dragonmaid Hospitality",
+		"AltArtIDs": [
+			"3436"
+		]
+	},
+	{
+		"OriginalCardID": "15032",
+		"CardName": "Accesscode Talker",
+		"AltArtIDs": [
+			"21226"
+		]
+	},
+	{
+		"OriginalCardID": "15123",
+		"CardName": "Eldlich the Golden Lord",
+		"AltArtIDs": [
+			"3423"
+		]
+	},
+	{
+		"OriginalCardID": "15245",
+		"CardName": "Fallen of Albaz",
+		"AltArtIDs": [
+			"20567"
+		]
+	},
+	{
+		"OriginalCardID": "15626",
+		"CardName": "Evil★Twin Ki-sikil",
+		"AltArtIDs": [
+			"3437"
+		]
+	},
+	{
+		"OriginalCardID": "15627",
+		"CardName": "Evil★Twin Lil-la",
+		"AltArtIDs": [
+			"3438"
+		]
+	},
+	{
+		"OriginalCardID": "16195",
+		"CardName": "Aluber the Jester of Despia",
+		"AltArtIDs": [
+			"20569"
+		]
+	},
+	{
+		"OriginalCardID": "16493",
+		"CardName": "Incredible Ecclesia, the Virtuous",
+		"AltArtIDs": [
+			"20568"
+		]
+	},
+	{
+		"OriginalCardID": "17767",
+		"CardName": "Blazing Cartesia, the Virtuous",
+		"AltArtIDs": [
+			"20570"
+		]
+	},
+	{
+		"OriginalCardID": "17785",
+		"CardName": "Lady Labrynth of the Silver Castle",
+		"AltArtIDs": [
+			"21230"
+		]
+	},
+	{
+		"OriginalCardID": "18017",
+		"CardName": "Ohime the Manifested Mikanko",
+		"AltArtIDs": [
+			"21733"
+		]
+	},
+	{
+		"OriginalCardID": "18482",
+		"CardName": "Hu-Li the Jewel Mikanko",
+		"AltArtIDs": [
+			"21732"
+		]
+	},
+	{
+		"OriginalCardID": "19148",
+		"CardName": "Diabellstar the Black Witch",
+		"AltArtIDs": [
+			"21231"
+		]
+	}
 ]

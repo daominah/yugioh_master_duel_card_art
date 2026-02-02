@@ -27,6 +27,13 @@ func init() {
 
 	AltArts = make(map[string]AltArtEntry)
 	for _, entry := range entries {
+		// ignore dummy template entry
+		if entry.OriginalCardID == "" &&
+			entry.CardName == "" &&
+			(len(entry.AltArtIDs) <= 0 || (len(entry.AltArtIDs) == 1 && entry.AltArtIDs[0] == "")) {
+			continue
+		}
+
 		// validate OriginalCardID and all AltArtIDs in JSON data are valid integers
 		_, err := strconv.Atoi(entry.OriginalCardID)
 		if err != nil {
