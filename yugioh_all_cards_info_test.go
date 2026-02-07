@@ -44,4 +44,11 @@ func TestReadAllCardDataKonami(t *testing.T) {
 	if cards["21230"].CardName != "Lady Labrynth of the Silver Castle" {
 		t.Fatalf("error alt art 21230 should have same name as original")
 	}
+
+	// Test cards have 3+ alt arts
+	for _, cardID := range []string{"14676", "3415", "22746"} {
+		if cards[cardID].CardName != "I:P Masquerena" {
+			t.Fatalf("error card %v should be I:P Masquerena", cardID)
+		}
+	}
 }

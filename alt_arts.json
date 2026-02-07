@@ -17,7 +17,7 @@
 		"OriginalCardID": "4041",
 		"CardName": "Dark Magician",
 		"AltArtIDs": [
-			"3863"
+			"3863", "3880"
 		]
 	},
 	{
@@ -126,6 +126,13 @@
 		]
 	},
 	{
+		"OriginalCardID": "12456",
+		"CardName": "Dark Magical Circle",
+		"AltArtIDs": [
+			"21729"
+		]
+	},
+	{
 		"OriginalCardID": "12843",
 		"CardName": "Aleister the Invoker",
 		"AltArtIDs": [
@@ -165,6 +172,13 @@
 		"CardName": "Knightmare Unicorn",
 		"AltArtIDs": [
 			"3421"
+		]
+	},
+	{
+		"OriginalCardID": "13619",
+		"CardName": "Called by the Grave",
+		"AltArtIDs": [
+			"21233"
 		]
 	},
 	{
@@ -220,7 +234,7 @@
 		"OriginalCardID": "14676",
 		"CardName": "I:P Masquerena",
 		"AltArtIDs": [
-			"3415"
+			"3415", "22746"
 		]
 	},
 	{
@@ -319,6 +333,13 @@
 		"CardName": "Diabellstar the Black Witch",
 		"AltArtIDs": [
 			"21231"
+		]
+	},
+	{
+		"OriginalCardID": "19188",
+		"CardName": "S:P Little Knight",
+		"AltArtIDs": [
+			"22747"
 		]
 	}
 ]

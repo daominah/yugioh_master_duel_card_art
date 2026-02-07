@@ -17,3 +17,6 @@ cmd/example/example
 # config with real username, password...
 conf/*ignore*.sh
 env_docker_run.list*
+
+
+alt_arts.js
