@@ -63,6 +63,13 @@
 		]
 	},
 	{
+		"OriginalCardID": "7096",
+		"CardName": "Destiny HERO - Plasma",
+		"AltArtIDs": [
+			"3413"
+		]
+	},
+	{
 		"OriginalCardID": "7696",
 		"CardName": "Junk Warrior",
 		"AltArtIDs": [
@@ -81,6 +88,20 @@
 		"CardName": "Black Rose Dragon",
 		"AltArtIDs": [
 			"3420"
+		]
+	},
+	{
+		"OriginalCardID": "8091",
+		"CardName": "Stardust Dragon/Assault Mode",
+		"AltArtIDs": [
+			"22302"
+		]
+	},
+	{
+		"OriginalCardID": "9066",
+		"CardName": "Mask Change",
+		"AltArtIDs": [
+			"21731"
 		]
 	},
 	{
@@ -116,6 +137,13 @@
 		"CardName": "El Shaddoll Construct",
 		"AltArtIDs": [
 			"3894"
+		]
+	},
+	{
+		"OriginalCardID": "11313",
+		"CardName": "Masked HERO Dark Law",
+		"AltArtIDs": [
+			"21730"
 		]
 	},
 	{
@@ -249,6 +277,13 @@
 		"CardName": "Dragonmaid Hospitality",
 		"AltArtIDs": [
 			"3436"
+		]
+	},
+	{
+		"OriginalCardID": "14908",
+		"CardName": "Secrets of Dark Magic",
+		"AltArtIDs": [
+			"21728"
 		]
 	},
 	{
