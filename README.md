@@ -241,23 +241,8 @@ so they are not part of the art set.
 ## Animations
 
 There are two unrelated kinds of animation, stored and exported differently.
-
-### Unity Animators (FBX)
-
-Use `scripts/extract_md_animator.ps1`.
-It runs the CLI in `-m animator` mode and exports FBX plus referenced textures.
-
-- Almost all animators live in `masterduel_Data\data.unity3d` (about 2784),
-  a single ~158 MB bundle that loads whole in about one minute.
-- LocalData buckets hold only a few each, and StreamingAssets has none.
-- This export cannot be chunked per hex bucket like the image script,
-  because an animator references clips, mesh, and skeleton in other bundles.
-  Each source is loaded whole instead.
-- MonoBehaviour controller data needs IL2CPP dummy DLLs to be readable
-  (pass `-AssemblyFolder`), but the FBX geometry and animation export without them.
-
-The GUI's reputation for animator export errors comes from loading the whole
-game folder at once. Exporting just `data.unity3d` runs clean.
+The one you usually want is the per-card summon cut-in (Spine 2D).
+Generic 3D scene effects are a separate Unity system (FBX), covered briefly after.
 
 ### Monster cut-in (Spine 2D)
 
@@ -268,65 +253,60 @@ They are captured by the `textAsset` and `tex2d` types of the image extraction.
 
 Location: `resourcesassetbundle/duel/timeline/duel/monstercutin/<region>/p<id>/`,
 where `<region>` is `ocg` or `tcg`.
+Each card ships two quality tiers, `highend_hd` and `sd`;
+this guide only covers `highend_hd`, the best quality.
+See `scripts/gather_monster_cutin_by_id.sh` for the on-disk layout
+of the skeleton, atlas, and texture page files within a tier.
 
-Each card ships two quality tiers, `highend_hd` and `sd`.
-Inside each tier the atlas and texture pages sit in a scale-named subfolder,
-while the skeleton and mesh sit at the tier root:
-
-```text
-p<id>/
-  highend_hd/
-    P<id>JS.asset                          # skeleton, or P<id>JS.json (see note)
-    Skeleton Prefab Mesh [SpineP<id>].obj
-    <scale>/                               # e.g. 0.56 or 0.97
-      P<id>.atlas
-      P<id>.png, P<id>_2.png, ...
-  sd/
-    ... same layout, smaller scale ...
-```
-
-The scale and the number and size of texture pages vary per card,
-they are not fixed per tier. Two examples:
-
-| Card  | Tier         | Scale | Texture pages     |
-|-------|--------------|-------|-------------------|
-| 19375 | `highend_hd` | 0.56  | four 2048 by 2048 |
-| 19375 | `sd`         | 0.28  | two 2048 by 2048  |
-| 10001 | `highend_hd` | 0.97  | one 4096 by 4096  |
-| 10001 | `sd`         | 0.485 | one 2048 by 2048  |
-
-The files in each tier:
-
-- `P<id>JS.json` or `P<id>JS.asset`: the Spine skeleton and animation,
-  Spine version 4.2.20.
-  The `.json` versus `.asset` extension does not track the tier reliably:
-  some cards use `.asset` in both tiers, some use `.json` in both,
-  some split by tier. It depends on the card and region.
-- `P<id>.atlas`: maps skeleton attachments to regions of the texture pages.
-- `P<id>.png`, `P<id>_2.png`, ...: the atlas pages.
-- `Skeleton Prefab Mesh [SpineP<id>].obj`: a static bind-pose mesh only,
-  no animation, useful only to see the shape.
-  The bracketed name spacing varies, for example `[SpineP<id>]` or `[Spine P<id>]`.
+`monster_cutin.md` at the repo root lists every card id that ships a cut-in,
+with its name and `ocg`/`tcg` availability, generated from `konami_db.json`
+and `alt_arts.json`. Check it before gathering a card's assets,
+since most cards have no cut-in at all.
 
 The skeleton stores a native canvas size, for example Centur-Ion Legatia (19375)
 is 4155 by 4178 at 60 fps.
-The textures ship downscaled (card 19375 `highend_hd` tier at 0.56),
+The texture ships downscaled (card 19375 `highend_hd` tier at scale 0.56),
 so the sharpest real detail is around 2327 by 2340,
 and rendering at full native upscales the textures.
 
-To view and screenshot a cut-in,
-load `P<id>JS.json` plus `P<id>.atlas` plus the `.png` pages
-in the Official Spine editor (trial),
-which plays Spine 4.2 natively and has a frame-accurate timeline.
-Blender has no native Spine support and is not a usable route.
+To view and screenshot a cut-in, use Skeleton Viewer, not the Official Spine editor trial:
+the trial always installs the latest Spine version, incompatible with this data's Spine 4.2.20.
+
+1. Gather one card's assets into one editor-ready folder:
+   `scripts/gather_monster_cutin_by_id.sh -c <card_id>`
+   (see the script header for the `-r` region and `-t` tier options).
+2. Open the result in Skeleton Viewer (free, playback only, no Spine license needed).
+   It needs Java 9 or newer; if missing, install a runtime first,
+   for example Eclipse Temurin: click the Download button at
+   `https://adoptium.net/` (it serves the matching installer
+   for your OS and architecture, any version 9 and up works).
+   Download a version matching the data's Spine version (4.2.20), for example
+   `https://esotericsoftware.com/files/sv/skeletonViewer-4.2.40.jar`.
+   If that version is gone, pick another from the list at
+   `https://esotericsoftware.com/spine-skeleton-viewer#Download`.
+   Run it with `java -jar scripts/skeletonViewer-4.2.40.jar`,
+   then Open `P<id>.json` from the gathered folder.
+3. Click the animation's name in the left Animation panel to play it,
+   it loops automatically. To pause on a frame, set the speed control to `0.0x`.
+4. Capture a frame with PrintScreen.
+
+Example, a captured frame for Centur-Ion Legatia (19375):
+
+![Centur-Ion Legatia monster cut-in](monster_cutin_p19375_centur_ion_legatia.png)
+
+### Unity Animators (FBX)
+
+Generic 3D duel-scene effects (card flip, Synchro star rings, link markers,
+summon portals, particle rigs), not per-card art.
+They are keyed by internal asset id, not Konami card id, so there is no per-card FBX.
+
+Extract with `scripts/extract_md_animator.ps1`, which runs the CLI in `-m animator`
+mode against `masterduel_Data\data.unity3d` (one ~158 MB bundle holding almost all
+~2784 animators) and exports FBX plus referenced textures.
+An FBX opens directly in any 3D tool.
 
 ## Remaining work
 
-- View the monster cut-in animations in the Official Spine editor (trial),
-  using the `highend_hd` tier files for one card as a first test.
-- Add a script that collects a single card's cut-in assets by id
-  (skeleton json, atlas, texture pages) into one folder,
-  named and laid out so the Spine editor can open it directly.
 - Verify OCG coverage and collect the missing OCG art.
   OCG counts taken from the merged `D:\tmp_process_MD_file_by_path\assets`
   working tree are unreliable for this:
