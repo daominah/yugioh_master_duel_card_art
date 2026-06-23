@@ -206,7 +206,7 @@ Master Duel extracted `assets\resourcesassetbundle\duel\timeline\duel\monstercut
 | 14668  | Marincess Wonder Heart                             |     | Yes |
 | 14672  | Unchained Abomination                              |     | Yes |
 | 14676  | I:P Masquerena                                     | Yes | Yes |
-| 14741  | Nibiru, the Primal Being                           |     | Yes |
+| 14741  | Nibiru, the Primal Being                           |     |     |
 | 14751  | Geomathmech Final Sigma                            |     | Yes |
 | 14765  | House Dragonmaid                                   |     | Yes |
 | 14795  | Draco Masters of the Tenyi                         | Yes | Yes |

@@ -273,8 +273,12 @@ To view and screenshot a cut-in, use Skeleton Viewer, not the Official Spine edi
 the trial always installs the latest Spine version, incompatible with this data's Spine 4.2.20.
 
 1. Gather one card's assets into one editor-ready folder:
-   `scripts/gather_monster_cutin_by_id.sh -c <card_id>`
-   (see the script header for the `-r` region and `-t` tier options).
+   `scripts/gather_monster_cutin_by_id.sh --card <card_id>`
+   (or `--all` for every card in `monster_cutin.md`;
+   see the script header for the `--region`, `--tier`, and `--force` options).
+   By default it gathers `highend_hd`, falling back to `sd` when a card has no
+   `highend_hd` cut-in, and skips a card whose output folder already exists
+   (so an interrupted `--all` run resumes cheaply; pass `--force` to re-gather).
 2. Open the result in Skeleton Viewer (free, playback only, no Spine license needed).
    It needs Java 9 or newer; if missing, install a runtime first,
    for example Eclipse Temurin: click the Download button at
@@ -285,7 +289,8 @@ the trial always installs the latest Spine version, incompatible with this data'
    If that version is gone, pick another from the list at
    `https://esotericsoftware.com/spine-skeleton-viewer#Download`.
    Run it with `java -jar scripts/skeletonViewer-4.2.40.jar`,
-   then Open `P<id>.json` from the gathered folder.
+   then Open the `.json` file from the gathered folder
+   (named after the folder itself, e.g. `centur_ion_legatia_p19375.json`).
 3. Click the animation's name in the left Animation panel to play it,
    it loops automatically. To pause on a frame, set the speed control to `0.0x`.
 4. Capture a frame with PrintScreen.
