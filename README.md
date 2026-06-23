@@ -291,9 +291,17 @@ the trial always installs the latest Spine version, incompatible with this data'
    Run it with `java -jar scripts/skeletonViewer-4.2.40.jar`,
    then Open the `.json` file from the gathered folder
    (named after the folder itself, e.g. `centur_ion_legatia_p19375.json`).
+   Alternatively, this repo bundles a custom-built jar at
+   `scripts/spine-skeletonviewer.jar`, source and releases at
+   [yugioh_spine_skeleton_viewer](https://github.com/daominah/yugioh_spine_skeleton_viewer),
+   a fork adding cut-in-specific features: a Pause button and frame counter,
+   keyframe-jump buttons, and an Export PNG button that writes the current
+   frame as an auto-framed, transparent-background square PNG. Run it with
+   `java -jar scripts/spine-skeletonviewer.jar` instead.
 3. Click the animation's name in the left Animation panel to play it,
-   it loops automatically. To pause on a frame, set the speed control to `0.0x`.
-4. Capture a frame with PrintScreen.
+   it loops automatically. To pause on a frame, set the speed control to `0.0x`
+   (or, in the fork's jar, click a keyframe button).
+4. Capture a frame with PrintScreen (or, in the fork's jar, click Export PNG).
 
 Example, a captured frame for Centur-Ion Legatia (19375):
 
