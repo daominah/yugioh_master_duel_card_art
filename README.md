@@ -307,16 +307,48 @@ Example, a captured frame for Centur-Ion Legatia (19375):
 
 ![Centur-Ion Legatia monster cut-in](monster_cutin_p19375_centur_ion_legatia.png)
 
-### Unity Animators (FBX)
+### Mates
 
-Generic 3D duel-scene effects (card flip, Synchro star rings, link markers,
-summon portals, particle rigs), not per-card art.
-They are keyed by internal asset id, not Konami card id, so there is no per-card FBX.
+Mate companions are the characters that appear in your duel room,
+stored as 3D models under `assets/resourcesassetbundle/mate/`.
+Folders are named `m<id>/` for monster-based mates (keyed by Konami card ID)
+or `v<id>/` for non-card mates (v00001 through v00014).
 
-Extract with `scripts/extract_md_animator.ps1`, which runs the CLI in `-m animator`
-mode against `masterduel_Data\data.unity3d` (one ~158 MB bundle holding almost all
-~2784 animators) and exports FBX plus referenced textures.
-An FBX opens directly in any 3D tool.
+#### Screenshot from the pre-rendered icon (simplest)
+
+Each mate folder has an `iconimage/` subfolder with a 256 × 256 PNG,
+the same image the game shows in its mate selection screen.
+No 3D tools needed.
+
+#### Screenshot from the 3D mesh in Blender (higher quality)
+
+The mesh and textures are enough for a static render; no animation clips needed.
+
+- **File > Import > Wavefront (.obj)**, not File > Open
+  (File > Open only shows `.blend` files)
+- Navigate to the mate folder, for example `mate\m13587` (Ghost Belle),
+  and select the mesh parts (`body.obj`, `face.obj`);
+  you can select multiple files at once in the file browser.
+- Delete the default startup cube if still present: select it, press **X > Delete**.
+- Press **A** to select all imported parts, then **Numpad .** to frame them in view.
+- Apply the texture to each mesh part (both `body.obj` and `face.obj` share the same texture):
+  - Select the mesh, open the **Material Properties** tab (sphere icon in the Properties panel)
+  - Click **New** to create a material
+  - Next to **Base Color**, click the small yellow dot on its left
+  - Choose **Image Texture** from the popup
+  - Click **Open** and load `M13587_tex.png`
+- Press **Z** and choose **Material Preview** to see the result
+
+Current result (body only, face not yet resolved):
+
+![Ghost Belle mate body in Blender](mate_ghost_belle_m13587.png)
+
+The face mesh (`face.obj`) contains 5 groups: `face`, `face_0` through `face_3`.
+Blender imports each group as a separate object (`face`, `face.001`, etc.).
+`face_0` through `face_3` are expression morph targets with no UV data
+and may occlude the main face when imported together.
+Next step: investigate importing only the `face` group,
+or hiding `face.001` and above in the Outliner before rendering.
 
 ## Remaining work
 
