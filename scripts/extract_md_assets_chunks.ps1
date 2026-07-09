@@ -48,7 +48,10 @@
 param(
     [string]$CliExe = 'D:\opt\AssetStudioModCLI_net472_win32_64\AssetStudioModCLI.exe',
 
-    [string]$InputRoot = 'D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\LocalData\70102374\0000',
+    # English (minahdao):
+    # [string]$InputRoot = 'D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\LocalData\70102374\0000',
+    # # Japanese OCG (bixuzofa):
+    [string]$InputRoot = 'D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\LocalData\2509bcbc\0000',  # Japanese OCG (bixuzofa)
 
     # Second, smaller asset store shipped with the game
     # (the bootstrap/tutorial set, ~100 MB).
