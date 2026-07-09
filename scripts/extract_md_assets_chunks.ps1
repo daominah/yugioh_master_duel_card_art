@@ -48,40 +48,40 @@
 param(
     [string]$CliExe = 'D:\opt\AssetStudioModCLI_net472_win32_64\AssetStudioModCLI.exe',
 
-    # English (minahdao):
-    # [string]$InputRoot = 'D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\LocalData\70102374\0000',
-    # # Japanese OCG (bixuzofa):
-    [string]$InputRoot = 'D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\LocalData\2509bcbc\0000',  # Japanese OCG (bixuzofa)
+# English (minahdao):
+# [string]$InputRoot = 'D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\LocalData\70102374\0000',
+# # Japanese OCG (bixuzofa):
+    [string]$InputRoot = 'D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\LocalData\2509bcbc\0000', # Japanese OCG (bixuzofa)
 
-    # Second, smaller asset store shipped with the game
-    # (the bootstrap/tutorial set, ~100 MB).
-    # It also contains card art under an "assets/resources/card/..." container,
-    # so it is exported in one final pass after the LocalData buckets.
-    # Set to '' to skip this pass.
+# Second, smaller asset store shipped with the game
+# (the bootstrap/tutorial set, ~100 MB).
+# It also contains card art under an "assets/resources/card/..." container,
+# so it is exported in one final pass after the LocalData buckets.
+# Set to '' to skip this pass.
     [string]$StreamingAssetsRoot = 'D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\masterduel_Data\StreamingAssets\AssetBundle',
 
-    # Output root: point this at the parent of the "assets" folder,
-    # not at "...\assets" itself.
-    # The CLI container paths already begin with "assets/",
-    # so AssetStudio builds the "assets\..." tree under this root on its own.
-    # Pointing at "...\tmp_process_MD_file_by_path" yields a single
-    # "assets\resources\card\..." tree;
-    # pointing at "...\assets" would nest a redundant "assets\assets\..." level.
-    #
-    # Fills the existing extraction in place:
-    # without -r, files that already exist are skipped,
-    # so only the assets missed by a previous out-of-memory crash get written.
+# Output root: point this at the parent of the "assets" folder,
+# not at "...\assets" itself.
+# The CLI container paths already begin with "assets/",
+# so AssetStudio builds the "assets\..." tree under this root on its own.
+# Pointing at "...\tmp_process_MD_file_by_path" yields a single
+# "assets\resources\card\..." tree;
+# pointing at "...\assets" would nest a redundant "assets\assets\..." level.
+#
+# Fills the existing extraction in place:
+# without -r, files that already exist are skipped,
+# so only the assets missed by a previous out-of-memory crash get written.
     [string]$OutputDir = 'D:\tmp_process_MD_file_by_path',
 
-    # Comma or semicolon separated asset types (see CLI -t help).
-    # Default: all types present in the data except MonoBehaviour and Animator.
+# Comma or semicolon separated asset types (see CLI -t help).
+# Default: all types present in the data except MonoBehaviour and Animator.
     [string]$Types = 'tex2d,sprite,textAsset,audio,mesh',
 
-    # Concurrent texture decodes per run. Lower means less peak memory.
-    [int]$MaxExportTasks = 2,
+# Concurrent texture decodes per run. Lower means less peak memory.
+    [int]$MaxExportTasks = 16,
 
-    # When set, keep content-different variants instead of skipping by file name.
-    # See the header for the staging and reconcile behavior.
+# When set, keep content-different variants instead of skipping by file name.
+# See the header for the staging and reconcile behavior.
     [switch]$KeepDifferentVariants
 )
 
@@ -116,7 +116,7 @@ function Invoke-Export([string]$inputPath, [string]$outDir) {
 function Merge-Staging([string]$stageDir, [string]$destRoot, [string]$stamp) {
     $prefix = (Resolve-Path -LiteralPath $stageDir).Path.TrimEnd('\') + '\'
     Get-ChildItem -LiteralPath $stageDir -Recurse -File | ForEach-Object {
-        $rel  = $_.FullName.Substring($prefix.Length)
+        $rel = $_.FullName.Substring($prefix.Length)
         $dest = Join-Path $destRoot $rel
         $destDir = Split-Path -Parent $dest
 
@@ -135,7 +135,7 @@ function Merge-Staging([string]$stageDir, [string]$destRoot, [string]$stamp) {
         # Different content at the same path:
         # keep it as a dated variant, sidestepping same-day collisions.
         $base = [System.IO.Path]::GetFileNameWithoutExtension($dest)
-        $ext  = [System.IO.Path]::GetExtension($dest)
+        $ext = [System.IO.Path]::GetExtension($dest)
         $variant = Join-Path $destDir ("{0}_d{1}{2}" -f $base, $stamp, $ext)
         $n = 1
         while (Test-Path -LiteralPath $variant) {
@@ -180,7 +180,7 @@ foreach ($bucket in $buckets) {
     Write-Host ("[{0,3}/{1}] bucket {2} ..." -f $i, $total, $bucket.Name)
 
     if (-not (Export-OneInput $bucket.FullName)) {
-        Write-Warning "bucket $($bucket.Name) exited with a non-zero code"
+        Write-Warning "bucket $( $bucket.Name ) exited with a non-zero code"
         $failed += $bucket.Name
     }
 }
@@ -209,7 +209,8 @@ if (Test-Path -LiteralPath $StageRoot) {
 
 Write-Host ("`nDone in {0:hh\:mm\:ss}. Processed {1} bucket(s) + StreamingAssets." -f $swTotal.Elapsed, $total)
 if ($failed.Count -gt 0) {
-    Write-Warning "Passes with non-zero exit: $($failed -join ', ')"
-} else {
+    Write-Warning "Passes with non-zero exit: $( $failed -join ', ' )"
+}
+else {
     Write-Host "All passes exited cleanly."
 }
