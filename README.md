@@ -9,19 +9,18 @@ rename files from Konami card IDs to card names.
 
 [steampowered.com/app/YuGiOh_Master_Duel](https://store.steampowered.com/app/1449850/YuGiOh_Master_Duel/)
 
-### Download AssetStudio
+### Download AssetStudioModCLI
 
-AssetStudio is an app to extract Unity game assets.
-Download from one of the following URLs:
+AssetStudioModCLI is the command-line build of AssetStudio for extracting Unity game assets.
+Download from [github.com/aelurum/AssetStudio](https://github.com/aelurum/AssetStudio),
+direct link to the version in use:
+[AssetStudioModCLI_net472_win32_64.zip](https://github.com/aelurum/AssetStudio/releases/download/v0.19.0/AssetStudioModCLI_net472_win32_64.zip)
 
-- [github.com/aelurum/AssetStudio](https://github.com/aelurum/AssetStudio)
-- [github.com/Perfare/AssetStudio](https://github.com/Perfare/AssetStudio/releases) (original, archived)
-
-Default .NET version on Windows is v4.x
+Expected path: `D:\opt\AssetStudioModCLI_net472_win32_64\AssetStudioModCLI.exe`
 
 ### Prepare Steam account assets
 
-On my Windows, each Steam accounts have its own game assets, located in
+On my Windows, each Steam account has its own game assets, located in
 `D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\LocalData`
 
 A sibling `LocalSave` directory exists with the same account-folder structure,
@@ -34,51 +33,12 @@ ls -lh --time-style=+%Y-%m-%d
 # Output:
 # 70102374 minahdao, English card art
 # 2509bcbc bixuzofa, Japanese card art
-# dca6ade4 em_chef_tft, duplicated English card art, move before extract
-
-mv dca6ade4 /d/game/SteamLibrary/steamapps/common/localdata_dca6ade4
-mv "/d/game/SteamLibrary/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalSave/dca6ade4" /d/game/SteamLibrary/steamapps/common/localsave_dca6ade4
-
-ls /d/game/SteamLibrary/steamapps/common | grep local
-# Output:
-# localdata_dca6ade4/
-# localsave_dca6ade4/
+# dca6ade4 em_chef_tft, duplicated English card art
 ```
 
 ### Extract game assets
 
-#### Load folder
-
-Start `AssetStudio` (probably as administrator, so it has less memory errors).
-
-File: Load folder: `D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel`
-
-This takes about 30 minutes and use almost all the computer remaining memory.
-
-#### Export
-
-* Options: Export options: Group exported assets by: container path
-* Filter Type: choose all EXCEPT the following types:
-  - MonoBehaviour (a lot of human unreadable files)
-  - Animator (probably they cause exporting errors)
-* Export: Filtered assets: choose output to `D:\tmp_process_MD_file_by_path`
-  (make sure the directory exists and empty).
-
-This takes about 3 hours,
-occasionally show errors and stuck, require human to click OK.
-
-The result card arts as PNG, named as Konami card ID,
-most are in dir `assets/resources/card/images/illust/common`.
-
-#### Export by chunks to avoid out-of-memory (optional)
-
-The GUI "Load folder" approach loads all ~38k bundles (about 13 GB) at once,
-decompresses blocks into RAM, then decodes textures to RGBA in parallel.
-On a 32 GB machine this can commit ~50 GB and crash with out-of-memory,
-which is why some card arts come out missing.
-
-`scripts/extract_md_assets_chunks.ps1` avoids this by driving the CLI build
-([AssetStudioModCLI](https://github.com/aelurum/AssetStudio))
+`scripts/extract_md_assets_chunks.ps1` drives AssetStudioModCLI
 once per hex bucket of the `LocalData` store.
 Each invocation loads only one bucket (about 150 bundles),
 exports, then exits and frees all memory before the next bucket,
@@ -91,10 +51,10 @@ powershell -ExecutionPolicy Bypass -File .\scripts\extract_md_assets_chunks.ps1
 Key points, all set as defaults at the top of the script:
 
 - `-t tex2d,sprite,textAsset,audio,mesh`: every type present in the data
-  except MonoBehaviour and Animator (same filter as the GUI steps above).
-- `-g container`: keeps the same output tree as a single GUI run,
-  because the path comes from each bundle's container metadata, not the bucket.
-- `--max-export-tasks 2`: caps concurrent texture decodes to limit peak memory.
+  except MonoBehaviour and Animator.
+- `-g container`: keeps the output tree organized by container path
+  (the path comes from each bundle's container metadata, not the bucket).
+- `--max-export-tasks 16`: concurrent texture decodes.
   We skip `--decompress-to-disk`: per-bucket loading already bounds memory,
   so keeping decompression in RAM is faster.
 - No `-r` flag, so files that already exist are skipped.
@@ -114,43 +74,20 @@ The game ships card art in two places, and the script covers both:
   It also holds card art, under an `assets/resources/card/...` container,
   and is exported in one final pass after the buckets.
 
-##### Keep different variants across accounts (`-KeepDifferentVariants`)
+#### Running a second account (English TCG art)
 
-By default the CLI skips an output file whenever one of the same name exists,
-regardless of content.
-That hides the case where a second account has different art for the same card id,
-for example a censored versus an uncensored illustration.
-
-Run with `-KeepDifferentVariants` to compare by content instead:
+The default run extracts the Japanese OCG account (`2509bcbc`).
+To also pick up cards that only exist in the English account,
+run again pointing at `70102374`:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\extract_md_assets_chunks.ps1 `
-  -InputRoot 'D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\LocalData\2509bcbc\0000' `
-  -KeepDifferentVariants
+  -InputRoot 'D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\LocalData\70102374\0000'
 ```
 
-Each bucket exports to a staging folder,
-then reconciles into the output tree by file content:
-
-- output missing: moved in as is.
-- identical bytes: skipped.
-- same path, different bytes: kept as `<name>_dYYYYMMDD<ext>`
-  (for example `19375_d20260611.png`), so the new art sits next to the first.
-  A same-day rerun that finds yet another distinct version adds a `_1`, `_2` suffix.
-
-This relies on AssetStudio encoding the same texture to identical bytes each run,
-which it does, so only genuinely different art produces a variant.
-The mode re-extracts every file each run,
-so it is slower than the default file-name skip.
-Use it for cross-account comparison runs,
-then review the `_dYYYYMMDD` files to see which cards differ between accounts.
-
-After the export, move assets for account `dca6ade4` back to the original directory:
-
-```bash
-mv /d/game/SteamLibrary/steamapps/common/localdata_dca6ade4 "/d/game/SteamLibrary/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/dca6ade4"
-mv /d/game/SteamLibrary/steamapps/common/localsave_dca6ade4 "/d/game/SteamLibrary/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalSave/dca6ade4"
-```
+The CLI skips any file that already exists by name,
+so OCG art from the first run is kept as-is.
+Only cards missing from the OCG account are added.
 
 #### Konami ID to card name
 
@@ -389,3 +326,96 @@ renamed to `ryzeal_detonator_20578.png`.
 * [ygocdb.com for search YuGiOh card ID](https://ygocdb.com/)
 * [Install Golang](https://golang.org/doc/install)
 * [OCG art uncensored](https://www.youtube.com/watch?v=hXGVXXHT6us)
+
+## Deprecated
+
+### Keep different variants across accounts (`-KeepDifferentVariants`)
+
+By default, the CLI skips an output file whenever one of the same name exists,
+regardless of content.
+That hides the case where a second account has different art for the same card id,
+for example a censored versus an uncensored illustration.
+
+Run with `-KeepDifferentVariants` to compare by content instead:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\extract_md_assets_chunks.ps1 `
+  -InputRoot 'D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\LocalData\70102374\0000' `
+  -KeepDifferentVariants
+```
+
+Each bucket exports to a staging folder,
+then reconciles into the output tree by file content:
+
+- output missing: moved in as is.
+- identical bytes: skipped.
+- same path, different bytes: kept as `<name>_dYYYYMMDD<ext>`
+  (for example `19375_d20260611.png`), so the new art sits next to the first.
+  A same-day rerun that finds yet another distinct version adds a `_1`, `_2` suffix.
+
+This relies on AssetStudio encoding the same texture to identical bytes each run,
+which it does, so only genuinely different art produces a variant.
+The mode re-extracts every file each run,
+so it is slower than the default file-name skip.
+Use it for cross-account comparison runs,
+then review the `_dYYYYMMDD` files to see which cards differ between accounts.
+
+### AssetStudio GUI extraction
+
+The original approach used the AssetStudio GUI,
+now superseded by `scripts/extract_md_assets_chunks.ps1` and the CLI build.
+
+Download the GUI from one of the following URLs:
+
+- [github.com/aelurum/AssetStudio](https://github.com/aelurum/AssetStudio)
+- [github.com/Perfare/AssetStudio](https://github.com/Perfare/AssetStudio/releases) (original, archived)
+
+Default .NET version on Windows is v4.x
+
+#### Moving dca6ade4 aside before extraction
+
+The GUI loads all accounts under `LocalData` at once,
+so the duplicate English account (`dca6ade4`) must be moved aside
+to avoid re-extracting it:
+
+```bash
+cd "/d/game/SteamLibrary/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData"
+
+mv dca6ade4 /d/game/SteamLibrary/steamapps/common/localdata_dca6ade4
+mv "/d/game/SteamLibrary/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalSave/dca6ade4" /d/game/SteamLibrary/steamapps/common/localsave_dca6ade4
+
+ls /d/game/SteamLibrary/steamapps/common | grep local
+# Output:
+# localdata_dca6ade4/
+# localsave_dca6ade4/
+```
+
+After the export, move them back:
+
+```bash
+mv /d/game/SteamLibrary/steamapps/common/localdata_dca6ade4 "/d/game/SteamLibrary/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/dca6ade4"
+mv /d/game/SteamLibrary/steamapps/common/localsave_dca6ade4 "/d/game/SteamLibrary/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalSave/dca6ade4"
+```
+
+#### Load folder
+
+Start `AssetStudio` (probably as administrator, so it has less memory errors).
+
+File: Load folder: `D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel`
+
+This takes about 30 minutes and uses almost all the computer remaining memory.
+
+#### Export
+
+* Options: Export options: Group exported assets by: container path
+* Filter Type: choose all EXCEPT the following types:
+  - MonoBehaviour (a lot of human unreadable files)
+  - Animator (probably they cause exporting errors)
+* Export: Filtered assets: choose output to `D:\tmp_process_MD_file_by_path`
+  (make sure the directory exists and empty).
+
+This takes about 3 hours,
+occasionally show errors and stuck, require human to click OK.
+
+The result card arts as PNG, named as Konami card ID,
+most are in dir `assets/resources/card/images/illust/common`.
