@@ -24,6 +24,10 @@ Default .NET version on Windows is v4.x
 On my Windows, each Steam accounts have its own game assets, located in
 `D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\LocalData`
 
+A sibling `LocalSave` directory exists with the same account-folder structure,
+but it holds only player progress data (a handful of tiny files, up to ~1 KB each)
+and can be ignored for extraction.
+
 ```bash
 cd "/d/game/SteamLibrary/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData"
 ls -lh --time-style=+%Y-%m-%d
