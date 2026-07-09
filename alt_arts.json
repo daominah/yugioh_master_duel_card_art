@@ -17,7 +17,8 @@
 		"OriginalCardID": "4041",
 		"CardName": "Dark Magician",
 		"AltArtIDs": [
-			"3863", "3880"
+			"3863",
+			"3880"
 		]
 	},
 	{
@@ -262,7 +263,8 @@
 		"OriginalCardID": "14676",
 		"CardName": "I:P Masquerena",
 		"AltArtIDs": [
-			"3415", "22746"
+			"3415",
+			"22746"
 		]
 	},
 	{
@@ -294,10 +296,31 @@
 		]
 	},
 	{
+		"OriginalCardID": "15057",
+		"CardName": "Fusion Deployment",
+		"AltArtIDs": [
+			"22188"
+		]
+	},
+	{
 		"OriginalCardID": "15123",
 		"CardName": "Eldlich the Golden Lord",
 		"AltArtIDs": [
 			"3423"
+		]
+	},
+	{
+		"OriginalCardID": "15239",
+		"CardName": "Dogmatika Ecclesia, the Virtuous",
+		"AltArtIDs": [
+			"22186"
+		]
+	},
+	{
+		"OriginalCardID": "15242",
+		"CardName": "Dogmatika Fleurdelis, the Knighted",
+		"AltArtIDs": [
+			"22187"
 		]
 	},
 	{
@@ -354,6 +377,13 @@
 		"CardName": "Ohime the Manifested Mikanko",
 		"AltArtIDs": [
 			"21733"
+		]
+	},
+	{
+		"OriginalCardID": "18214",
+		"CardName": "Triple Tactics Thrust",
+		"AltArtIDs": [
+			"22189"
 		]
 	},
 	{

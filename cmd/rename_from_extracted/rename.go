@@ -161,7 +161,7 @@ func main() {
 	}
 
 	// Delete files in dirTokenMonster that match known alt art IDs
-	isDryRunNextFunc := true
+	isDryRunNextFunc := false
 	_ = deleteKnownAltArtsFromTokenMonster(dirTokenMonster, isDryRunNextFunc)
 
 	log.Printf("-------------------------------------------------------")
