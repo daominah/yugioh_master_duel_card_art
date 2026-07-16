@@ -291,6 +291,44 @@ and may occlude the main face when imported together.
 Next step: investigate importing only the `face` group,
 or hiding `face.001` and above in the Outliner before rendering.
 
+## Wallpapers
+
+Master Duel wallpapers are stored under
+`assets/resourcesassetbundle/wallpaper/wallpaper{number}/{region}/`.
+The number is a sequential index (0001 to 0136, plus 1001 and the 2001 collaboration block),
+not a Konami card ID: it is the tail of the item ID, so `wallpaper0076` is item `1130076`.
+
+The game does not ship a finished wallpaper image.
+It composites one at runtime from a transparent art layer,
+the shared effect textures in `wallpaper/common/`, and a background gradient.
+The art layer is the piece worth collecting:
+it holds the foreground subject, cut out of its background.
+
+Run `cmd\collect_wallpaper\collect_wallpaper.go`
+to copy every art layer to `D:\tmp_process_MD_file\MD_wallpaper`,
+named `{number}_{layer}_{card_name}_{cardID}[_alt{altArtID}]_{region}.png`,
+for example `0017_1_dark_magician_4041_alt3863_tcg.png`.
+The name, card ID and `_alt` suffix follow `cmd\rename_from_extracted\rename.go`,
+so a wallpaper carries the same label as the card art it was cut from.
+Both regions are collected because OCG and TCG do not always ship the same art.
+
+### Where the wallpaper names come from
+
+In-game names are unreachable:
+`texts/{lang}/IDS_ITEM.bytes` keys every name by a hash of an internal ID,
+and the hash function is unknown.
+
+Since a wallpaper is almost always one card's illustration with the background cut away,
+each art layer was matched against the extracted card art
+(`D:\tmp_process_MD_file\card_id`, see `cmd\mix_dir_card_id\mix_dir_card_id.go`)
+with ORB features plus a RANSAC check, which separates cleanly:
+a wallpaper and its source card share 66 to 526 inlier points,
+while an unrelated pair never exceeds 11.
+The matched ID then gives the name from `konami_db.json` and `alt_arts.json`,
+and the nine wallpapers matching could not reach were named by hand.
+The result is the `wallpaperCards` map in the script,
+so a new pack is named by re-running the matcher.
+
 ## Remaining work
 
 - Verify OCG coverage and collect the missing OCG art.
