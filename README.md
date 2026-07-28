@@ -36,6 +36,34 @@ ls -lh --time-style=+%Y-%m-%d
 # dca6ade4 em_chef_tft, duplicated English card art
 ```
 
+### Check which account has new assets
+
+`scripts/check_latest_asset_time.go` walks each account
+and reports the newest file found anywhere below it,
+which the directory timestamp from `ls` above does not reflect.
+
+Run it after a Master Duel update to confirm each account actually downloaded it:
+
+```bash
+go run scripts/check_latest_asset_time.go
+# Output:
+# D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\LocalData
+#
+# 2509bcbc  2026-07-28 13:32     38883 files   12.60 GiB  0000/32/32782cb5
+# 70102374  2026-07-27 21:28     38805 files   12.56 GiB  0000/32/32782cb5
+```
+
+Both rows land on or after the 2026-07-27 update, so both accounts are ready to extract.
+An earlier run showed `2509bcbc` still at 2026-07-23:
+new assets download in-game, into the logged-in account only,
+so that account needed the game launched before it caught up.
+
+Point `--input` at the output tree for the other half of the comparison:
+
+```bash
+go run scripts/check_latest_asset_time.go --input 'D:\tmp_process_MD_file_by_path\assets'
+```
+
 ### Extract game assets
 
 `scripts/extract_md_assets_chunks.ps1` drives AssetStudioModCLI
@@ -45,6 +73,7 @@ exports, then exits and frees all memory before the next bucket,
 so peak RAM stays small.
 
 ```powershell
+cd "$HOME\go\src\github.com\daominah\yugioh_master_duel_card_art"
 powershell -ExecutionPolicy Bypass -File .\scripts\extract_md_assets_chunks.ps1
 ```
 
