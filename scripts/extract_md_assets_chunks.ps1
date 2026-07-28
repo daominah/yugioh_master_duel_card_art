@@ -35,11 +35,11 @@
 # -KeepDifferentVariants changes how an already existing output file is handled.
 # Instead of the CLI skipping by file name, each input is exported to a staging
 # folder first, then every file is reconciled into the output tree by content:
-#   output missing         -> moved in as is.
-#   identical content       -> dropped (skip).
-#   same path, new content  -> kept as "<name>_dYYYYMMDD<ext>",
-#                              so a second account's different art for the same
-#                              card id is preserved next to the first.
+# - output missing: moved in as is.
+# - identical content: dropped (skip).
+# - same path, new content: kept as "<name>_dYYYYMMDD<ext>",
+#   so a second account's different art for the same
+#   card id is preserved next to the first.
 # This mode re-extracts every file each run (it gives up the fast file-name
 # skip), so it is slower. Use it for cross-account comparison runs,
 # for example extracting a Japanese account after an English one.
@@ -78,7 +78,14 @@ param(
     [string]$Types = 'tex2d,sprite,textAsset,audio,mesh',
 
 # Concurrent texture decodes per run. Lower means less peak memory.
-    [int]$MaxExportTasks = 16,
+# 0 means auto: use every logical processor.
+# Must NOT exceed the logical CPU count (physical cores times threads-per-core,
+# i.e. what [Environment]::ProcessorCount reports, hyperthreads included),
+# because the CLI validates against Environment.ProcessorCount.
+# Worse, on a too-high value the CLI prints a parse error but still exits 0,
+# so an over-large number would silently extract nothing.
+# The value is validated and clamped to that ceiling below.
+    [int]$MaxExportTasks = 0,
 
 # When set, keep content-different variants instead of skipping by file name.
 # See the header for the staging and reconcile behavior.
@@ -92,6 +99,19 @@ if (-not (Test-Path -LiteralPath $InputRoot)) {
     throw "Input root not found: $InputRoot"
 }
 New-Item -ItemType Directory -Force -Path $OutputDir | Out-Null
+
+# Clamp the decode task count to the logical CPU count.
+# See the -MaxExportTasks note above: the CLI rejects a larger value with a
+# parse error but still exits 0, which would look like a clean run that
+# extracted nothing.
+$cores = [Environment]::ProcessorCount
+if ($MaxExportTasks -le 0) {
+    $MaxExportTasks = $cores
+}
+elseif ($MaxExportTasks -gt $cores) {
+    Write-Warning "MaxExportTasks $MaxExportTasks exceeds logical CPUs ($cores); clamping to $cores."
+    $MaxExportTasks = $cores
+}
 
 # Staging folder for -KeepDifferentVariants, kept on the same drive as the
 # output so that reconciling moves files (a rename) instead of copying them.
@@ -170,10 +190,13 @@ function Export-OneInput([string]$inputPath) {
 $buckets = Get-ChildItem -LiteralPath $InputRoot -Directory | Sort-Object Name
 $total = $buckets.Count
 Write-Host "Found $total bucket(s) under `"$InputRoot`""
-Write-Host "Output -> $OutputDir`n"
+Write-Host "Output: $OutputDir"
+Write-Host "MaxExportTasks: $MaxExportTasks (logical CPUs: $cores)`n"
 
 $i = 0
 $failed = @()
+# Cutoff for counting files written during this run (see the summary below).
+$runStart = Get-Date
 $swTotal = [System.Diagnostics.Stopwatch]::StartNew()
 foreach ($bucket in $buckets) {
     $i++
@@ -207,7 +230,15 @@ if (Test-Path -LiteralPath $StageRoot) {
     Remove-Item -Recurse -Force -LiteralPath $StageRoot
 }
 
+# Count files written to the output tree during this run: new extractions and,
+# in -KeepDifferentVariants mode, kept variants. Move-Item preserves each file's
+# write time from when the CLI created it in staging, so a single timestamp
+# cutoff catches both direct writes and reconciled moves.
+$newCount = (Get-ChildItem -LiteralPath $OutputDir -Recurse -File -ErrorAction SilentlyContinue |
+    Where-Object { $_.LastWriteTime -ge $runStart } | Measure-Object).Count
+
 Write-Host ("`nDone in {0:hh\:mm\:ss}. Processed {1} bucket(s) + StreamingAssets." -f $swTotal.Elapsed, $total)
+Write-Host "New files extracted this run: $newCount"
 if ($failed.Count -gt 0) {
     Write-Warning "Passes with non-zero exit: $( $failed -join ', ' )"
 }
