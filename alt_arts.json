@@ -18,7 +18,37 @@
 		"CardName": "Dark Magician",
 		"AltArtIDs": [
 			"3863",
-			"3880"
+			"3880",
+			"23487"
+		]
+	},
+	{
+		"OriginalCardID": "4386",
+		"CardName": "Blue-Eyes Ultimate Dragon",
+		"AltArtIDs": [
+			"23489"
+		]
+	},
+	{
+		"OriginalCardID": "4766",
+		"CardName": "Dark Magician Girl",
+		"AltArtIDs": [
+			"23488"
+		]
+	},
+	{
+		"OriginalCardID": "4837",
+		"CardName": "Polymerization",
+		"AltArtIDs": [
+			"20386",
+			"23490"
+		]
+	},
+	{
+		"OriginalCardID": "4842",
+		"CardName": "Monster Reborn",
+		"AltArtIDs": [
+			"23491"
 		]
 	},
 	{
@@ -61,6 +91,13 @@
 		"CardName": "Elemental HERO Neos",
 		"AltArtIDs": [
 			"3881"
+		]
+	},
+	{
+		"OriginalCardID": "6784",
+		"CardName": "Elemental HERO Stratos",
+		"AltArtIDs": [
+			"3407"
 		]
 	},
 	{
@@ -289,6 +326,13 @@
 		]
 	},
 	{
+		"OriginalCardID": "15022",
+		"CardName": "Ghost Mourner & Moonlit Chill",
+		"AltArtIDs": [
+			"3416"
+		]
+	},
+	{
 		"OriginalCardID": "15032",
 		"CardName": "Accesscode Talker",
 		"AltArtIDs": [
@@ -394,6 +438,13 @@
 		]
 	},
 	{
+		"OriginalCardID": "18732",
+		"CardName": "Vanquish Soul Caesar Valius",
+		"AltArtIDs": [
+			"23494"
+		]
+	},
+	{
 		"OriginalCardID": "19148",
 		"CardName": "Diabellstar the Black Witch",
 		"AltArtIDs": [
@@ -405,6 +456,34 @@
 		"CardName": "S:P Little Knight",
 		"AltArtIDs": [
 			"22747"
+		]
+	},
+	{
+		"OriginalCardID": "21054",
+		"CardName": "Ame no Murakumo no Mitsurugi",
+		"AltArtIDs": [
+			"23496"
+		]
+	},
+	{
+		"OriginalCardID": "21355",
+		"CardName": "Dracotail Faimena",
+		"AltArtIDs": [
+			"23492"
+		]
+	},
+	{
+		"OriginalCardID": "21371",
+		"CardName": "Yummy★Snatchy",
+		"AltArtIDs": [
+			"23493"
+		]
+	},
+	{
+		"OriginalCardID": "21380",
+		"CardName": "K9-17 \"Ripper\"",
+		"AltArtIDs": [
+			"23495"
 		]
 	}
 ]
