@@ -89,12 +89,18 @@ Key points, all set as defaults at the top of the script:
 - No `-r` flag, so files that already exist are skipped.
   This makes the run resumable, and pointing `OutputDir` at an existing
   extraction fills only the assets a previous crashed run missed.
+- Each run ends by deleting the byte-identical copies it just wrote.
+  AssetStudio appends `_#{pathID}` when two assets share a container name,
+  and that number changes between runs,
+  so the skip-by-name check alone lets a re-run write the same bytes
+  under a new suffix: about 250 files per repeat of the `data.unity3d` pass.
+  Only files the run itself wrote are deleted, never what was already there.
 - `OutputDir` defaults to `D:\tmp_process_MD_file_by_path` (the parent of `assets`),
   not `...\assets`. The CLI container paths already begin with `assets/`,
   so the script writes a single `assets\resources\card\...` tree.
   Pointing it at `...\assets` would nest a redundant `assets\assets\...` level.
 
-The game ships card art in two places, and the script covers both:
+The game keeps assets in three stores, and the script covers all three:
 
 - `LocalData\<account>\0000\`: the main store (about 13 GB),
   downloaded and updated over time, processed one hex bucket per run.
@@ -102,6 +108,54 @@ The game ships card art in two places, and the script covers both:
   (about 100 MB) shipped with the game for the tutorial/first run.
   It also holds card art, under an `assets/resources/card/...` container,
   and is exported in one final pass after the buckets.
+- `masterduel_Data\data.unity3d`: the store built into the Unity player
+  (about 122 MB), holding what the game needs before any bundle loads,
+  mostly shared user interface textures.
+  Its assets carry no container path, so they export flat:
+  the pass writes them into a `data_unity3d\` subfolder of the output
+  instead of scattering about 1800 loose files over the `assets\...` tree.
+  The sibling `resources.resource` holds the streamed texture bytes,
+  and AssetStudio picks it up on its own because it sits next to `data.unity3d`.
+
+#### Card type frames
+
+The blank card templates (colored border, name box, art window, effect box)
+live only in `data.unity3d`,
+as `card_frame00` through `card_frame19` plus `card_frame_ext`.
+Indices 04, 05, 06 and 11 do not exist.
+The two that a `LocalData` bundle happens to re-reference,
+`card_frame03` and `card_frame09`,
+also land under `assets/resourcesassetbundle/prefabs/carddecoder/effect/`.
+
+Each frame ships at 704 by 1024 and at 480 by 700.
+The 480 by 700 copy has a dark placeholder painted into the art window,
+so the 704 by 1024 one is the usable template.
+
+| File | Card type |
+|-------------------|--------------------|
+| `card_frame00`    | normal monster     |
+| `card_frame01`    | effect monster     |
+| `card_frame02`    | ritual monster     |
+| `card_frame03`    | fusion monster     |
+| `card_frame07`    | spell              |
+| `card_frame08`    | trap               |
+| `card_frame09`    | token              |
+| `card_frame10`    | synchro monster    |
+| `card_frame12`    | xyz monster        |
+| `card_frame13`    | pendulum normal    |
+| `card_frame14`    | pendulum effect    |
+| `card_frame15`    | pendulum xyz       |
+| `card_frame16`    | pendulum synchro   |
+| `card_frame17`    | pendulum fusion    |
+| `card_frame18`    | link monster       |
+| `card_frame19`    | pendulum ritual    |
+| `card_frame_ext`  | no counterpart in the Card Editor set |
+
+The mapping comes from matching each frame against
+`yugioh_card_editor\web\card_frame\`:
+every one of those 16 files matches its game texture
+to within a mean absolute pixel difference of about 1.1 out of 255,
+so the Card Editor frames are these textures upscaled to 1180 by 1720.
 
 #### Running a second account (English TCG art)
 
