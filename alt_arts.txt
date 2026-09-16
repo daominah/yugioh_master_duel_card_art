@@ -1,11 +1,13 @@
 The following card list is copied from:
 https://yugipedia.com/wiki/Category:Yu-Gi-Oh!_Master_Duel_cards_with_alternate_artworks
 
+The following 72 pages are in this category, out of 72 total.
 A
 
     Accesscode Talker (Master Duel)
     Aleister the Invoker (Master Duel)
     Aluber the Jester of Despia (Master Duel)
+    Ame no Murakumo no Mitsurugi (Master Duel)
     Apollousa, Bow of the Goddess (Master Duel)
     Ash Blossom & Joyous Spring (Master Duel)
 
@@ -13,6 +15,7 @@ B
 
     Black Rose Dragon (Master Duel)
     Blazing Cartesia, the Virtuous (Master Duel)
+    Blue-Eyes Ultimate Dragon (Master Duel)
     Blue-Eyes White Dragon (Master Duel)
     Breaker the Magical Warrior (Master Duel)
 
@@ -20,31 +23,40 @@ C
 
     Called by the Grave (Master Duel)
     Clear Wing Synchro Dragon (Master Duel)
+    Cyber Dragon Infinity (Master Duel)
 
 D
 
     Dark Magical Circle (Master Duel)
     Dark Magician (Master Duel)
+    Dark Magician Girl (Master Duel)
     Destiny HERO - Plasma (Master Duel)
     Diabellstar the Black Witch (Master Duel)
+    Dogmatika Ecclesia, the Virtuous (Master Duel)
+    Dogmatika Fleurdelis, the Knighted (Master Duel)
+    Dracotail Faimena (Master Duel)
     Dragonmaid Hospitality (Master Duel)
 
 E
 
+    Effect Veiler (Master Duel)
     El Shaddoll Construct (Master Duel)
     El Shaddoll Winda (Master Duel)
     Eldlich the Golden Lord (Master Duel)
     Elemental HERO Neos (Master Duel)
+    Elemental HERO Stratos (Master Duel)
     Evil★Twin Ki-sikil (Master Duel)
     Evil★Twin Lil-la (Master Duel)
 
 F
 
     Fallen of Albaz (Master Duel)
+    Fusion Deployment (Master Duel)
 
 G
 
     Ghost Belle & Haunted Mansion (Master Duel)
+    Ghost Mourner & Moonlit Chill (Master Duel)
 
 H
 
@@ -64,17 +76,21 @@ J
 
 K
 
+    K9-17 "Ripper" (Master Duel)
     Knightmare Unicorn (Master Duel)
 
 L
 
     Lady Labrynth of the Silver Castle (Master Duel)
+    Lightning Storm (Master Duel)
+    Limiter Removal (Master Duel)
 
 M
 
     Mask Change (Master Duel)
     Masked HERO Dark Law (Master Duel)
     Medallion of the Ice Barrier (Master Duel)
+    Monster Reborn (Master Duel)
 
 O
 
@@ -83,6 +99,7 @@ O
 
 P
 
+    Polymerization (Master Duel)
     Pot of Extravagance (Master Duel)
 
 R
@@ -105,8 +122,17 @@ S
 
 T
 
+    Triple Tactics Thrust (Master Duel)
     Tuning (Master Duel)
+
+V
+
+    Vanquish Soul Caesar Valius (Master Duel)
 
 W
 
     The Winged Dragon of Ra (Master Duel)
+
+Y
+
+    Yummy★Snatchy (Master Duel)

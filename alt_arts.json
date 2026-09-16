@@ -73,6 +73,13 @@
 		]
 	},
 	{
+		"OriginalCardID": "5129",
+		"CardName": "Limiter Removal",
+		"AltArtIDs": [
+			"19945"
+		]
+	},
+	{
 		"OriginalCardID": "5328",
 		"CardName": "Reinforcement of the Army",
 		"AltArtIDs": [
@@ -136,6 +143,13 @@
 		]
 	},
 	{
+		"OriginalCardID": "8933",
+		"CardName": "Effect Veiler",
+		"AltArtIDs": [
+			"21224"
+		]
+	},
+	{
 		"OriginalCardID": "9066",
 		"CardName": "Mask Change",
 		"AltArtIDs": [
@@ -189,6 +203,13 @@
 		"CardName": "Clear Wing Synchro Dragon",
 		"AltArtIDs": [
 			"3873"
+		]
+	},
+	{
+		"OriginalCardID": "11765",
+		"CardName": "Cyber Dragon Infinity",
+		"AltArtIDs": [
+			"3898"
 		]
 	},
 	{
@@ -316,6 +337,13 @@
 		"CardName": "Dragonmaid Hospitality",
 		"AltArtIDs": [
 			"3436"
+		]
+	},
+	{
+		"OriginalCardID": "14876",
+		"CardName": "Lightning Storm",
+		"AltArtIDs": [
+			"21235"
 		]
 	},
 	{
