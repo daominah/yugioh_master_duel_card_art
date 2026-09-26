@@ -21,6 +21,7 @@
 param(
 #    [string]$Dir = 'D:\syncthing\Master_Duel_art_full\MD_different_censored',
 #    [string]$Dir = 'D:\syncthing\Master_Duel_art_full\upscayled_2048',
+#    [string]$Dir = 'D:\syncthing\Master_Duel_art_full\yugioh_card_editor\card_result',
     [string]$Dir = 'D:\syncthing\Master_Duel_art_full\MD_art_renamed',
     [datetime]$BaseTime = ([datetime]'2001-01-01T00:00:00'),
     [string[]]$Extensions = @('.png', '.jpg', '.jpeg', '.webp'),
@@ -64,7 +65,7 @@ function Get-CardId([string]$fileName)
 }
 
 # Group by card id so that every image of one card shares a minute. Files with
-# no card id keep their own minute each and sort last, by name.
+# no card id are skipped, so their timestamps stay untouched.
 $groups = @{ }   # sort key -> list of FileInfo
 $noIdCount = 0
 foreach ($f in $files)
@@ -72,14 +73,11 @@ foreach ($f in $files)
     $id = Get-CardId $f.Name
     if ($null -eq $id)
     {
-        Write-Warning "No card id found in: $( $f.Name ) (sorted last)"
-        $key = "2`t$( $f.Name )"
+        Write-Warning "No card id found in: $( $f.Name ) (skipped)"
         $noIdCount++
+        continue
     }
-    else
-    {
-        $key = "1`t$($id.ToString('D12') )"
-    }
+    $key = $id.ToString('D12')
     if (-not $groups.ContainsKey($key))
     {
         $groups[$key] = New-Object System.Collections.ArrayList
@@ -125,4 +123,4 @@ else
     'Done'
 }
 Write-Host "$mode on $Dir"
-Write-Host "Processed $n card group(s) across $( $files.Count ) file(s), $noIdCount without a card id."
+Write-Host "Processed $n card group(s) across $( $files.Count - $noIdCount ) file(s), skipped $noIdCount without a card id."
