@@ -9,18 +9,18 @@ using the card database, so the notes stay searchable and accurate.
 
 Canonical names live in a SQLite database in the sibling repo:
 
-- File: `../../yugioh_card_editor/data/yugioh.db`
+- File: `../../yugioh_card_editor_database/data/yugioh.db`
 - Table `cards`: column `card_name_en` (the canonical English name).
 - Table `card_texts`: `effect` per `lang` (use `lang = "en"`),
   for disambiguating by effect text.
 
-Keep `yugioh_card_editor` unchanged: it is a repo we use as-is.
+Keep `yugioh_card_editor_database` unchanged: it is a repo we use as-is.
 Any lookup script below is temporary. Delete it after the run
 so `git status` in that repo stays clean.
 
 ## Look up by name substring
 
-Create a throwaway command in `yugioh_card_editor`, run it, then delete it.
+Create a throwaway command in `yugioh_card_editor_database`, run it, then delete it.
 It mirrors the existing `cmd/read-yugiohdb-by-cardid`
 (same `base.GetProjectRootDir` plus `modernc.org/sqlite` setup).
 
@@ -35,7 +35,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/daominah/yugioh_card_editor/pkg/base"
+	"github.com/daominah/yugioh_card_editor_database/pkg/base"
 	_ "modernc.org/sqlite"
 )
 
@@ -71,7 +71,7 @@ func main() {
 }
 ```
 
-Run it from the `yugioh_card_editor` directory,
+Run it from the `yugioh_card_editor_database` directory,
 passing each guessed name (or archetype prefix) as an argument:
 
 ```bash

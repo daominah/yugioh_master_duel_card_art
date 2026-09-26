@@ -152,7 +152,7 @@ so the 704 by 1024 one is the usable template.
 | `card_frame_ext`  | no counterpart in the Card Editor set |
 
 The mapping comes from matching each frame against
-`yugioh_card_editor\web\card_frame\`:
+`yugioh_card_editor_database\web\card_frame\`:
 every one of those 16 files matches its game texture
 to within a mean absolute pixel difference of about 1.1 out of 255,
 so the Card Editor frames are these textures upscaled to 1180 by 1720.
