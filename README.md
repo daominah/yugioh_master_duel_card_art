@@ -64,18 +64,36 @@ Point `--input` at the output tree for the other half of the comparison:
 go run scripts/check_latest_asset_time.go --input 'D:\tmp_process_MD_file_by_path\assets'
 ```
 
-### Extract game assets
+## Extract game assets
 
 `scripts/extract_md_assets_chunks.ps1` drives AssetStudioModCLI
 once per hex bucket of the `LocalData` store.
-Each invocation loads only one bucket (about 150 bundles),
-exports, then exits and frees all memory before the next bucket,
-so peak RAM stays small.
+The default run extracts the Japanese OCG account (`2509bcbc`):
 
 ```powershell
 cd "$HOME\go\src\github.com\daominah\yugioh_master_duel_card_art"
 powershell -ExecutionPolicy Bypass -File .\scripts\extract_md_assets_chunks.ps1
 ```
+
+## Extract game assets: second account (English TCG art)
+
+To also pick up cards that only exist in the English account,
+run again pointing at `70102374`:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\extract_md_assets_chunks.ps1 `
+  -InputRoot 'D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\LocalData\70102374\0000'
+```
+
+The CLI skips any file that already exists by name,
+so OCG art from the first run is kept as-is.
+Only cards missing from the OCG account are added.
+
+## Extraction details
+
+Each invocation loads only one bucket (about 150 bundles),
+exports, then exits and frees all memory before the next bucket,
+so peak RAM stays small.
 
 Key points, all set as defaults at the top of the script:
 
@@ -117,7 +135,7 @@ The game keeps assets in three stores, and the script covers all three:
   The sibling `resources.resource` holds the streamed texture bytes,
   and AssetStudio picks it up on its own because it sits next to `data.unity3d`.
 
-#### Card type frames
+### Card type frames
 
 The blank card templates (colored border, name box, art window, effect box)
 live only in `data.unity3d`,
@@ -157,22 +175,7 @@ every one of those 16 files matches its game texture
 to within a mean absolute pixel difference of about 1.1 out of 255,
 so the Card Editor frames are these textures upscaled to 1180 by 1720.
 
-#### Running a second account (English TCG art)
-
-The default run extracts the Japanese OCG account (`2509bcbc`).
-To also pick up cards that only exist in the English account,
-run again pointing at `70102374`:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\extract_md_assets_chunks.ps1 `
-  -InputRoot 'D:\game\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel\LocalData\70102374\0000'
-```
-
-The CLI skips any file that already exists by name,
-so OCG art from the first run is kept as-is.
-Only cards missing from the OCG account are added.
-
-#### Konami ID to card name
+## Konami ID to card name
 
 We will use script `cmd\rename_from_extracted\rename.go`
 to rename PNG files from Konami card ID to card name.
@@ -190,7 +193,7 @@ is copy card art with name as Konami card ID to `D:\tmp_process_MD_file\card_id`
 then they will be uploaded to [mdygo.daominah.uk](https://mdygo.daominah.uk/) (by WinSCP),  
 to serve the Card Editor on [daominah.github.io](https://daominah.github.io/).
 
-#### Compare and copy new arts to the final directory
+## Compare and copy new arts to the final directory
 
 After the renaming script, the output are in `D:\tmp_process_MD_file`,
 we want to update the final output in `D:\syncthing\Master_Duel_art_full`.
@@ -424,7 +427,7 @@ so a new pack is named by re-running the matcher.
   (Japanese, present but not yet parsed on this machine),
   then compare their OCG id sets.
   Alternatively, run the Japanese account with `-KeepDifferentVariants`
-  (see the chunked export section) against the existing tree:
+  (see the Deprecated section) against the existing tree:
   any card whose Japanese art differs lands as a `_dYYYYMMDD` sibling,
   which directly surfaces the cross-account differences.
 
