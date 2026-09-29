@@ -3,7 +3,7 @@
 # If you hit "running scripts is disabled on this system", the execution policy
 # blocks the script before its first line runs, so it cannot bypass itself.
 # Launch it one of these ways instead:
-#   powershell -ExecutionPolicy Bypass -File scripts\sort_by_card_id.ps1
+#   powershell -ExecutionPolicy Bypass -File sort_by_card_id.ps1
 # or set it once for your user (then plain .\sort_by_card_id.ps1 works):
 #   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 #
@@ -20,9 +20,9 @@
 [CmdletBinding()]
 param(
 #    [string]$Dir = 'D:\syncthing\Master_Duel_art_full\MD_different_censored',
-#    [string]$Dir = 'D:\syncthing\Master_Duel_art_full\upscayled_2048',
+    [string]$Dir = 'D:\syncthing\Master_Duel_art_full\upscayled_2048',
 #    [string]$Dir = 'D:\syncthing\Master_Duel_art_full\yugioh_card_editor\card_result',
-    [string]$Dir = 'D:\syncthing\Master_Duel_art_full\MD_art_renamed',
+#    [string]$Dir = 'D:\syncthing\Master_Duel_art_full\MD_art_renamed',
     [datetime]$BaseTime = ([datetime]'2001-01-01T00:00:00'),
     [string[]]$Extensions = @('.png', '.jpg', '.jpeg', '.webp'),
     [int64]$MinCardId = 1000,
@@ -37,58 +37,101 @@ if (-not (Test-Path -LiteralPath $Dir))
 $files = Get-ChildItem -LiteralPath $Dir -File |
         Where-Object { $Extensions -contains $_.Extension.ToLower() }
 
-# Card id = last token that is all digits, optionally prefixed by "p" as the
-# cut-in images are named (accesscode_talker_p15032_cutin2048).
-# This skips digits glued to a word (up2048, cutin2048, art2, a01) and digits
-# that are part of the card name (number_99__utopia_dragonar_16471 -> 16471).
-# An alt art id wins over the base card id when it comes last
-# (dogmatika_ecclesia..._15239_alt22186 has no trailing pure-digit token, so it
-# keeps 15239, while eldlich..._p3423_cutin2048 sorts as card 3423).
-# Numbers below $MinCardId are rejected as too small to be a real card id, which
-# drops the last false positives: coin_01, number_39__utopia, number_99__utopia.
+# File names end with the ids, in one of these shapes (suffix words are skipped):
+#   {name}_{originalCardID}_alt{n}_{suffix}     alt art of a card
+#   {name}_{originalCardID}_token{n}_{suffix}   token of a card
+#   {name}_{originalCardID}_p{n}_cutin2048      alt art cut-in
+#   {name}_p{n}_cutin2048                       cut-in, p{n} is the card id itself
+#   {name}_{originalCardID}_{suffix}            plain card
+# Scan the tokens from the end and look at up to 2 id patterns:
+# alt{n}, token{n}, p{n}, {n}.
+# The primary id is the originalCardID, the bare {n}, so an alt art or token
+# stays next to its original card; without a bare {n} the p{n} is the primary id.
+# When the name has both, the number of the alt{n}, token{n} or p{n} is the
+# secondary id: the sort key inside the card, after the images without one.
+# Digits glued to a word (up2048, cutin2048, art2) are not id patterns,
+# and scanning stops at the bare {n}, so digits inside the card name
+# (number_99__utopia_dragonar_16471) are never reached.
+# Bare {n} and p{n} below $MinCardId are rejected as too small to be a real
+# card id (coin_01, number_39__utopia); alt{n} and token{n} have no such limit (alt3, alt4).
 function Get-CardId([string]$fileName)
 {
     $stem = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
-    $id = $null
-    foreach ($t in ($stem -split '_'))
+    $tokens = $stem -split '_'
+    $patternCount = 0
+    $secondary = $null
+    $printedId = $null
+    for ($i = $tokens.Count - 1; $i -ge 0 -and $patternCount -lt 2; $i--)
     {
-        if ($t -match '^p?(?<num>\d+)$')
+        $t = $tokens[$i]
+        if ($t -match '^(alt|token)(?<num>\d+)$')
         {
-            $candidate = [int64]$Matches['num']
-            if ($candidate -ge $MinCardId)
+            $patternCount++
+            if ($null -eq $secondary)
             {
-                $id = $candidate
+                $secondary = [int64]$Matches['num']
             }
         }
+        elseif ($t -match '^p(?<num>\d+)$' -and [int64]$Matches['num'] -ge $MinCardId)
+        {
+            $patternCount++
+            if ($null -eq $secondary)
+            {
+                $secondary = [int64]$Matches['num']
+            }
+            if ($null -eq $printedId)
+            {
+                $printedId = [int64]$Matches['num']
+            }
+        }
+        elseif ($t -match '^\d+$' -and [int64]$t -ge $MinCardId)
+        {
+            return [pscustomobject]@{ Id = [int64]$t; Secondary = $secondary }
+        }
     }
-    return $id
+    if ($null -eq $printedId)
+    {
+        return $null
+    }
+    return [pscustomobject]@{ Id = $printedId; Secondary = $null }
 }
 
 # Group by card id so that every image of one card shares a minute. Files with
 # no card id are skipped, so their timestamps stay untouched.
-$groups = @{ }   # sort key -> list of FileInfo
+$groups = @{ }   # sort key -> list of @{ File; Secondary }
 $noIdCount = 0
 foreach ($f in $files)
 {
-    $id = Get-CardId $f.Name
-    if ($null -eq $id)
+    $ids = Get-CardId $f.Name
+    if ($null -eq $ids)
     {
         Write-Warning "No card id found in: $( $f.Name ) (skipped)"
         $noIdCount++
         continue
     }
-    $key = $id.ToString('D12')
+    $key = $ids.Id.ToString('D12')
     if (-not $groups.ContainsKey($key))
     {
         $groups[$key] = New-Object System.Collections.ArrayList
     }
-    [void]$groups[$key].Add($f)
+    [void]$groups[$key].Add([pscustomobject]@{ File = $f; Secondary = $ids.Secondary })
 }
 
 $n = 0
 foreach ($key in ($groups.Keys | Sort-Object))
 {
-    $group = $groups[$key] | Sort-Object Name
+    # Images without a secondary id first, then by secondary id, then by name.
+    $group = $groups[$key] |
+            Sort-Object @{ Expression = { if ($null -eq $_.Secondary)
+            {
+                -1
+            }
+            else
+            {
+                $_.Secondary
+            } } },
+            @{ Expression = { $_.File.Name } } |
+            ForEach-Object { $_.File }
     if ($group.Count -gt 29)
     {
         Write-Warning "Card group $key has $( $group.Count ) images, more than the 29 that fit in one minute"
