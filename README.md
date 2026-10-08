@@ -149,25 +149,25 @@ Each frame ships at 704 by 1024 and at 480 by 700.
 The 480 by 700 copy has a dark placeholder painted into the art window,
 so the 704 by 1024 one is the usable template.
 
-| File | Card type |
-|-------------------|--------------------|
-| `card_frame00`    | normal monster     |
-| `card_frame01`    | effect monster     |
-| `card_frame02`    | ritual monster     |
-| `card_frame03`    | fusion monster     |
-| `card_frame07`    | spell              |
-| `card_frame08`    | trap               |
-| `card_frame09`    | token              |
-| `card_frame10`    | synchro monster    |
-| `card_frame12`    | xyz monster        |
-| `card_frame13`    | pendulum normal    |
-| `card_frame14`    | pendulum effect    |
-| `card_frame15`    | pendulum xyz       |
-| `card_frame16`    | pendulum synchro   |
-| `card_frame17`    | pendulum fusion    |
-| `card_frame18`    | link monster       |
-| `card_frame19`    | pendulum ritual    |
-| `card_frame_ext`  | no counterpart in the Card Editor set |
+| File             | Card type                             |
+|------------------|---------------------------------------|
+| `card_frame00`   | normal monster                        |
+| `card_frame01`   | effect monster                        |
+| `card_frame02`   | ritual monster                        |
+| `card_frame03`   | fusion monster                        |
+| `card_frame07`   | spell                                 |
+| `card_frame08`   | trap                                  |
+| `card_frame09`   | token                                 |
+| `card_frame10`   | synchro monster                       |
+| `card_frame12`   | xyz monster                           |
+| `card_frame13`   | pendulum normal                       |
+| `card_frame14`   | pendulum effect                       |
+| `card_frame15`   | pendulum xyz                          |
+| `card_frame16`   | pendulum synchro                      |
+| `card_frame17`   | pendulum fusion                       |
+| `card_frame18`   | link monster                          |
+| `card_frame19`   | pendulum ritual                       |
+| `card_frame_ext` | no counterpart in the Card Editor set |
 
 The mapping comes from matching each frame against
 `yugioh_card_editor_database\web\card_frame\`:
@@ -221,6 +221,19 @@ meld MD_different_censored/ /d/tmp_process_MD_file/MD_different_censored/
 # meld MD_token_monster /media/tungdt/WindowsData/tmp_process_MD_file/MD_token_monster
 
 ```
+
+## Remove the SAMPLE watermark from Instagram art
+
+Card art on the Instagram page [yugioh_cardgame_official_jpn](https://www.instagram.com/yugioh_cardgame_official_jpn)
+has a semi-transparent "SAMPLE" overlay.
+
+`cmd/remove_yugiohjpn_watermark` removes it:
+
+- It finds the overlay in each image.
+- It undoes the overlay pixel by pixel, so the art underneath comes back.
+- Images without the overlay are copied unchanged.
+
+Details are in [cmd/remove_yugiohjpn_watermark/README.md](cmd/remove_yugiohjpn_watermark/README.md).
 
 ## Card text and effects
 

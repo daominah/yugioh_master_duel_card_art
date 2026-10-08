@@ -20,3 +20,7 @@ env_docker_run.list*
 
 
 alt_arts.js
+
+
+# Python bytecode
+__pycache__/
