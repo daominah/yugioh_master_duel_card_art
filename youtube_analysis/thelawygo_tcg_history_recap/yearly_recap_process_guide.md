@@ -8,6 +8,9 @@ Notes on [TheLawYGO](https://www.youtube.com/@TheLawYGO)'s yearly
 | 2016 | <https://www.youtube.com/watch?v=y8S7Ns89Q8A> |
 | 2017 | <https://www.youtube.com/watch?v=44Otn2Uo0_8> |
 | 2022 | <https://www.youtube.com/watch?v=WSpNG8aXODE> |
+| 2023 | <https://www.youtube.com/watch?v=cdcT6BlbbLQ> |
+| 2024 | <https://www.youtube.com/watch?v=ns0SiTgcsos> |
+| 2025 | <https://www.youtube.com/watch?v=o_ZY7ZvKAu0> |
 
 ## Process for a year
 
@@ -40,8 +43,13 @@ Set `VIDEO_URL` and `OUTPUT` in [youtube_transcript.py](../youtube_transcript.py
 
 `recap{year}_archetypes.md`: a summary of the cleaned transcript.
 
-- A summary table (with a column for the World Championship result and a line naming the winner),
-  then one `##` section per top archetype
+- A summary table with the columns Archetype, Top period, Months and Highlights,
+  plus a line naming the World Championship winner.
+  Highlights holds what the month count hides, left empty when there is nothing:
+  World Champion (with the player), a World Championship top 8 or top 4,
+  and dominance such as "Tier zero (November to December)",
+  so a short but dominant deck still stands out.
+- Then one `##` section per top archetype
   (so the archetypes show in the document outline),
   ordered by how long it was a top deck, longest first.
 - Each archetype has its top period (months), new archetype cards or new strong support by set,
@@ -71,6 +79,13 @@ Lessons from earlier years, so they don't need to be repeated as corrections.
 - Captions misread common words as card names too
   ("Blue-Eyes" was really "Blue Layer" next to Emergency Teleport),
   so a name that exists can still be the wrong card.
+- The World Championship is usually in August (2024: September 7th to 8th, Seattle),
+  and it uses its own ban list (combined or OCG in some years),
+  so the winning deck can differ from the TCG decks topping at the same time.
+  Use the date to place Worlds among the video's events,
+  then fact check the winner, the deck and the player name against an external source
+  (Yugipedia, roadoftheking.com): player names in captions are often garbled.
+  There was no World Championship from 2020 to 2022 (COVID-19): write "Not held".
 - Event dates are mostly relative ("two weeks later"),
   so top periods are approximate months; say so in the summary.
 - The archetypes summary also lists the non-archetype cards that made a deck top,

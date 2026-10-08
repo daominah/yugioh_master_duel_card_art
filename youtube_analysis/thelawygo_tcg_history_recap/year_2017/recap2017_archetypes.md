@@ -17,17 +17,19 @@ Circuit Break (October 20th), Spirit Warriors (November).
 
 Master Rule 4 (Link monsters and the Extra Monster Zones) started with Link Strike in July.
 
-| Archetype          | Top period            | Months | World Championship 2017 |
-|--------------------|-----------------------|--------|-------------------------|
-| Zoodiac            | February to September | 8      | Not legal (OCG list)    |
-| True Draco         | May to September      | 5      |                         |
-| SPYRAL             | October to December   | 3      |                         |
-| Paleozoic          | March                 | 1      |                         |
-| Pendulum Magician  | September             | 1      |                         |
-| Metalfoes          | January               | 1      |                         |
-| True King Dinosaur | none in TCG events    | 0      | Winner                  |
+| Archetype          | Top period            | Months | Highlights                                        |
+|--------------------|-----------------------|--------|---------------------------------------------------|
+| Zoodiac            | February to September | 8      | Tier zero, but crippled at Worlds by the OCG list |
+| True Draco         | May to September      | 5      |                                                   |
+| SPYRAL             | October to December   | 3      | Tier zero (October to December)                   |
+| Paleozoic          | March                 | 1      |                                                   |
+| Pendulum Magician  | September             | 1      |                                                   |
+| Metalfoes          | January               | 1      |                                                   |
+| True King Dinosaur | none in TCG events    | 0      | World Champion (Ryosuke Tsujimura)                |
 
-World Championship 2017 winner: True King Dinosaur, Sujimura Rosoki (Japan, name as heard).
+World Championship 2017 winner (Tokyo, August 12th to 13th): True King Dinosaur,
+Ryosuke Tsujimura (Japan; heard as "Sujimura Rosoki", spelling checked externally),
+listed externally as True King Yang Zing Dinosaur.
 Worlds used the OCG ban list, where Zoodiac was already crippled,
 under Master Rule 4 with only Link Strike's Links legal,
 so decks that need one extra deck monster at a time were favored.

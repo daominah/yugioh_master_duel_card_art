@@ -1,0 +1,3286 @@
+Source: https://www.youtube.com/watch?v=o_ZY7ZvKAu0
+
+0:00:04 2025 in Yu-Gi-Oh. A bit of a turnaround
+0:00:07 year compared to the last. Where last
+0:00:09 year seemed to have a bunch of nothing
+0:00:10 burger sets left and right until a big
+0:00:12 burst at the end, this year was a decent
+0:00:14 bit more spread out overall. With very
+0:00:16 few exceptions, we had a new deck on the
+0:00:18 scene with every set release that could
+0:00:19 put up results in some shape or form,
+0:00:21 which is ideal and what we'd want to
+0:00:23 see. But on top of that, we saw a
+0:00:24 significant drop overall in the price of
+0:00:26 the game, making it easier for newer
+0:00:28 players to jump in. Granted, that has
+0:00:30 led to a whole new issue with product
+0:00:31 pricing for OTS's to make their profit
+0:00:33 with, but considering some recent
+0:00:34 announcements that might be solved in
+0:00:36 the next year. In the meantime, we've
+0:00:38 got quite a year ahead of us to unpack.
+0:00:40 Four core sets, two import sets, two
+0:00:43 deck building sets, a structure deck.
+0:00:45 >> He's back, [screaming]
+0:00:47 and even an entirely new concept for a
+0:00:50 structure deck adjacent set known as the
+0:00:51 Chronicles deck. All bringing new cards
+0:00:53 to the table. So, enough introduction.
+0:00:56 Let's jump right in. This is your
+0:00:57 Yu-Gi-Oh TCG 2025 recap.
+0:01:07 Supreme Darkness. Release date January
+0:01:10 24th, 2025. Set type: core set. Major
+0:01:14 Strategies: Mitsarugi. Evil Hero
+0:01:17 Crestron. Impact. Hit [laughter] it.
+0:01:21 [cheering]
+0:01:23 I need a
+0:01:25 >> Supreme Darkness started off the year
+0:01:26 with a bit of an interesting wave of
+0:01:28 legacy support for multiple arc types,
+0:01:30 but lacked a new headlining archetype to
+0:01:32 call its own that could make any kind of
+0:01:34 a meta impact. At this stage, we're
+0:01:36 fairly used to the main attraction of a
+0:01:37 core set being the single new arc type
+0:01:39 it drops into the game, standardly tied
+0:01:41 to the main lore cards. But this time
+0:01:42 around, the only one there was Argo
+0:01:44 Stars, which didn't perform in the
+0:01:45 slightest. Instead, we saw waves of
+0:01:47 support doled out to a couple of arc
+0:01:49 types that have been struggling for some
+0:01:50 time now to get a fault hold. So, let's
+0:01:52 go ahead and start and get out of the
+0:01:53 way my own personal biases. Evil hero
+0:01:55 Toxic Bubble can summon itself from
+0:01:57 hand, but locks you to heroes for the
+0:01:58 rest of the turn and draws two if you do
+0:02:00 it while you control a dark fusion
+0:02:01 fusion. Dead end prison can summon
+0:02:03 itself if you control a dark fusion
+0:02:05 fusion and can dump a hero from deck for
+0:02:06 cost to make itself a substitute fusion
+0:02:08 material for any named material on a
+0:02:10 hero fusion. Infernal Rider searches or
+0:02:12 recurs dark fusion on summon and can
+0:02:14 banish itself alongside four other
+0:02:15 monsters engraved to set a super poly
+0:02:17 from deck, locking you to heroes and
+0:02:19 circumventing the dark fusion
+0:02:20 requirement until the end of your
+0:02:21 opponent's turn. Dark contact lets you
+0:02:23 fusion a dark fusion locked fusion by
+0:02:25 shuffling back materials from field
+0:02:26 grave or banishment or searches supreme
+0:02:28 king's castle or dark fusion. Evil
+0:02:30 assault for a discard searches or
+0:02:32 specials an evil hero but locks your
+0:02:33 extra deck summons to heroes and can
+0:02:35 banish itself from grave to recur a dark
+0:02:37 fusion. Dark Supremacy negates face up
+0:02:39 cards the opponent controls up to the
+0:02:40 number of dark fusions or spell
+0:02:42 mentioners in the grave this turn and
+0:02:43 can be banished from grave to shuffle
+0:02:45 back five heroes from grave or
+0:02:46 banishment. Neos lord is a fusion of
+0:02:48 Neos or a Neos fusion with an effect
+0:02:50 monster on field. Must be summoned with
+0:02:51 dark fusion. Can't be destroyed by
+0:02:53 battle or card effects and when summoned
+0:02:54 or a monster gets sent to the opponent's
+0:02:56 grave, steals a face up monster from the
+0:02:57 opponent. Inferno Wing backfires a
+0:02:59 fusion of Avon or Binitatrix with any
+0:03:01 other hero. must be summoned with dark
+0:03:02 fusion, searches or recurs dark fusion
+0:03:04 or a mentioner on summon and burns the
+0:03:06 opponent for 2100 when a hero destroys
+0:03:08 something in battle. And darkest knight
+0:03:10 is a fusion of a fiend and a warrior,
+0:03:11 must be summoned with dark fusion, drops
+0:03:13 the opponent's attack by the attack of
+0:03:14 its materials, can attack twice, and
+0:03:16 revives a fiend or warrior if removed by
+0:03:18 the opponent. Evil hero has always been
+0:03:20 the red-headed stepchild of the hero
+0:03:21 archetypes, namely due to being far too
+0:03:23 gimmicky for their own good, isolating
+0:03:25 themselves to exclusively being used as
+0:03:27 a splash in a dedicated hero deck that
+0:03:29 was generally suboptimal at best. Now
+0:03:31 with the addition of dark supremacy,
+0:03:32 evil hero has an actual reason to be
+0:03:34 played in hero piles by providing a
+0:03:36 negate to their inboards that doesn't
+0:03:37 die to a nibiru. But even still would
+0:03:39 just mean that hero is once again adding
+0:03:41 three to four one-offs to their already
+0:03:42 one of built deck. It just wasn't worth
+0:03:45 it. Besid can't be attacked while you
+0:03:46 control another monster, can send a
+0:03:48 water from hand or field to grave to
+0:03:49 summon itself from hand. And if
+0:03:50 summoned, can dump an Atlantan or merale
+0:03:52 from deck to bounce an opponent's card.
+0:03:54 Abyss is a waterlocked two plus material
+0:03:56 rank seven. Boosts all waters by 300 for
+0:03:59 each material under her. revives an
+0:04:00 aquatic triype on exceed summon and can
+0:04:02 detach to set an abyss trap from deck
+0:04:04 and abyss dream draws up to the number
+0:04:06 of the triype you have on the board
+0:04:07 locks you to waters from the extra until
+0:04:09 the end of your next turn and can banish
+0:04:10 itself from grave when a water is
+0:04:12 destroyed to recur a mer from graver
+0:04:13 banishment to hand trite is now the
+0:04:15 go-to exceed to go over into Poseidra
+0:04:17 able to grab both a body out of the
+0:04:18 grave and an abyss trap beforehand steam
+0:04:20 is a solid card to set with the effect
+0:04:22 that gets you to more hand trap
+0:04:23 insulations on your opponent's turn
+0:04:25 since you can easily net a draw three
+0:04:26 with it and the lock doesn't really
+0:04:28 matter at that point And new Pacyra is
+0:04:30 effectively one of the best extension
+0:04:31 tools for the deck by virtue of just
+0:04:33 being a level seven that can reliably
+0:04:34 get to the field and even disrupt when
+0:04:36 going second to extend yourself further.
+0:04:38 Mermill was already in the meta fringes
+0:04:40 from the support at the end of 2024 and
+0:04:42 this would no doubt help them push just
+0:04:43 that little bit further. But whether or
+0:04:45 not it would be able to consistently
+0:04:46 deal with both Risiel and Malice would
+0:04:48 have to be seen with results. Cron
+0:04:50 Tristaros can summon a Cresron from deck
+0:04:52 when the opponent uses a card or effect
+0:04:53 then immediately synchro summons using
+0:04:55 it and can banish itself from grave to
+0:04:57 pop a synchro you control to summon two
+0:04:59 Crystrons from deck locking you to
+0:05:00 machines from the extra for the rest of
+0:05:01 the turn. Sulfador can pop a Cron to
+0:05:03 summon itself from hand or grave locking
+0:05:05 you to machines from extra for the rest
+0:05:06 of the turn and if summoned can dump two
+0:05:08 differently named Crystrons from deck.
+0:05:10 Inclusion searches a Cristron on
+0:05:11 activation protects a Cristron from
+0:05:13 destruction in battle once per turn and
+0:05:14 can be banished from grave to revive a
+0:05:16 Cron. Cluster protects your crystrons
+0:05:18 from being banished by the opponent and
+0:05:19 can shuffle back a crystron from grave
+0:05:21 or banishment to pop a card or two if
+0:05:22 you control a crystron synchro. And
+0:05:24 Ellis Skeleus is a level seven synchro,
+0:05:26 drops the opponent's monsters by 500,
+0:05:28 recurs a crystron from grave or
+0:05:29 banishment on synchro summon and if
+0:05:31 destroyed summons a crystron from grave
+0:05:32 or banishment. Oh, also clockwork knight
+0:05:35 is a link one that takes a thousand or
+0:05:36 lower attack machine that searches a
+0:05:38 clockwork knight knight starting with an
+0:05:39 N, not a K by dumping a continuous spell
+0:05:41 you control and contribute a machine to
+0:05:43 summon a 1,000 or lower machine from a
+0:05:45 grave once per turn. Not technically a
+0:05:46 Cristron, but extremely important for
+0:05:48 what we're going to talk about. Cristron
+0:05:49 from this would be shockingly competent
+0:05:51 thanks in large part to a one-card combo
+0:05:53 line starting from Smiker.
+0:05:54 >> So, we're able to get Smiggger here,
+0:05:56 which please, I mean, I'm I know how it
+0:05:58 sounds.
+0:05:59 >> It's It's a play on Tiger. Come on. You
+0:06:02 must know this. which loops you through
+0:06:04 all of the new cards after being put in
+0:06:06 grave to end reliably on a variety of
+0:06:08 options to interact with the opponent
+0:06:10 like cyber dragon infinity to dragster
+0:06:12 to destroyer to the classic query on
+0:06:13 Gandra which we'd see to be quite
+0:06:15 potent. There are many ways to get said
+0:06:17 smiger into the grave from simply normal
+0:06:19 summoning it and linking it off with the
+0:06:21 new clockwork knight to scrap recycler
+0:06:23 to even more odd options like cherubini
+0:06:25 meaning that the deck is primed to be
+0:06:26 mixed with as long as you can find a way
+0:06:28 to put smiger in the grave. Elzette,
+0:06:30 Azamina of the White Forest, can reveal
+0:06:31 herself in hand to summon a White Forest
+0:06:33 or Azamina from hand. Can fusion summon
+0:06:35 an Azamina once per turn, and if sent to
+0:06:37 Grave Synchro Material, searches a
+0:06:38 sinful spoils. Sinful spoils of the
+0:06:40 White Forest if you control a magical
+0:06:42 triype. Yes, I am still naming them.
+0:06:45 Summons a triype from hand or fusion
+0:06:46 summons and resets itself as sent to
+0:06:48 grave to use a monster effect. Sinful
+0:06:50 spoils awakening bounces three opponents
+0:06:52 cards if you control a level five or
+0:06:53 higher illusion and they control three
+0:06:55 plus monsters and can reset itself from
+0:06:57 grave if you control a level five or
+0:06:58 higher illusion. banishing itself when
+0:07:00 it leaves field. Azamina Aphus is always
+0:07:02 a white forest card, bounces cards on
+0:07:04 the field up to the number of fusions
+0:07:05 and synchros in the triype that you
+0:07:06 control and resets itself if sent to
+0:07:08 grave to use a monster effect. And Saint
+0:07:10 Azamina is a fusion of a level six or
+0:07:12 higher fusion and synchro. Locks the
+0:07:13 opponent from targeting itself as well
+0:07:15 as all of their cards on field grave and
+0:07:17 banishment. Reflects all your battle
+0:07:18 damage to the opponent and can summon a
+0:07:20 level 9 or lower Azamina from deck or
+0:07:22 extra the turn it's fusion summoned.
+0:07:24 Effectively latching the Azaminas and
+0:07:25 White Forests together at the hip. These
+0:07:27 would prove to be extremely powerful
+0:07:29 pieces for the previously floundering to
+0:07:31 the point of needing runick to perform
+0:07:32 White Forest and the left without a home
+0:07:35 since dad got banned as Amina. While
+0:07:36 White Forest was struggling to get
+0:07:38 started initially, requiring additional
+0:07:40 quick level two bodies, Na start of
+0:07:41 Sylvie can get you to a level two
+0:07:43 through Tales into the new Elsette,
+0:07:45 which in turn can push plays further by
+0:07:46 replacing herself with a sinful spoils
+0:07:48 when you synchro with her, layering in
+0:07:49 the Azamina side of the deck. The
+0:07:51 strategy definitely has some bumps and
+0:07:53 isn't as powerful as it could have been
+0:07:54 thanks to the OSS ban, but still holds
+0:07:56 significant potential in the budding
+0:07:58 meta landscape. Snake Eyes Doom Dragon
+0:08:00 is a fusion of a Snake Eyes and an
+0:08:01 illusion, can also summon itself by
+0:08:03 sending two face up monsters in the
+0:08:04 spell trap zones to grave and bumps a
+0:08:06 monster on field back to the spell trap
+0:08:08 zone on summon. While clearly intended
+0:08:10 for Snake Eye, that strategy is on life
+0:08:12 support at the moment. So, the next best
+0:08:13 thing to enable it would be fiend as
+0:08:15 their links love to come back to the
+0:08:16 board for their combo lines. It's not
+0:08:18 the best extender you can use in the
+0:08:20 deck, but it is a decent backup in case
+0:08:22 something in your line gets blocked.
+0:08:23 Primite Dragon Ether Barrel sets a
+0:08:25 primite spell trap on normal, contribute
+0:08:27 itself to dump a normal monster from
+0:08:28 deck, and can recur itself in your
+0:08:30 standby phase if you have a normal
+0:08:31 engrave. Another enabler for the
+0:08:33 previous primite engine, giving more
+0:08:34 credence to the idea of running normal
+0:08:36 monsters in your deck, but admittedly,
+0:08:38 we'll talk more about this guy in the
+0:08:39 next section. Fiith Kiri prevents light
+0:08:41 fiends from being destroyed in battle
+0:08:42 and has the battle damage the turn you
+0:08:44 use it and can be banished from grave to
+0:08:46 fusion summon a fiendith using monsters
+0:08:47 on your field and in your spell and trap
+0:08:49 zones. And Rexra men is a fusion of a
+0:08:51 fiendith fusion and a fusion or link
+0:08:53 monster. Is immune to card effects
+0:08:54 except fiiths while equipped with a
+0:08:56 fiend smith. Can discard a card on
+0:08:57 fusion summon to dump a light fiend from
+0:08:59 deck or extra. And if sent to grave
+0:09:00 recurs a fimith card and graver
+0:09:02 banishment. a couple more options to
+0:09:04 throw into a more dedicated fiend smmith
+0:09:05 deck. But the issue stands that Rex is
+0:09:07 sort of dead in the water with fusion
+0:09:08 lacrima being banned. Cury's on field
+0:09:10 effect is complete dog water, but at
+0:09:12 least has a solid usage when sent to
+0:09:14 grave by lacrima. Though it not be
+0:09:15 enough for now to see usage. Eclipse
+0:09:17 twins is a rank four that can also use
+0:09:19 other rank fours as material. Can detach
+0:09:21 to attack twice in a battle phase and if
+0:09:23 sent to grave can revive a rank four and
+0:09:24 attach a different rank four from grave
+0:09:26 to it as material. Instantly this was
+0:09:28 clocked for what it was, a risal
+0:09:30 enabler. Twins allows you to do some
+0:09:31 funky plays with detonator, such as
+0:09:33 replacing the aggregator dump with this
+0:09:35 to enable dodging certain removals with
+0:09:37 detonator by popping itself, then
+0:09:38 reviving the same detonator, but also
+0:09:40 can be used to cycle non-h hard once per
+0:09:42 turn exceeds to use their effect twice
+0:09:44 in the same turn, like king of the feral
+0:09:45 limbs. Why mention that? We'll get there
+0:09:48 shortly. Awaku, the lightless shadow, is
+0:09:50 a link four that takes two plus
+0:09:51 monsters, including at least one fiend
+0:09:53 on quick effect. Can discard to either
+0:09:55 pop a card on field or banish itself
+0:09:56 until the end phase to revive a light or
+0:09:58 darken grave. and in your standby can
+0:10:00 draw up to the number of monster types
+0:10:02 in your grave, then put the same number
+0:10:03 on the bottom of the deck in any order.
+0:10:05 An insanely versatile boss that can be
+0:10:07 realistically played into anything as
+0:10:08 the fiend requirement is just so weak.
+0:10:11 Any deck already playing the fiend
+0:10:12 smmith engine can get to her with
+0:10:13 something like sequence and any material
+0:10:15 you sink into her can just be brought
+0:10:17 back with her effect if it was a light
+0:10:18 or a dark. You can even get to her with
+0:10:20 something as generic as the nightmare
+0:10:21 line for decks that don't specialize in
+0:10:23 fiends. Add to that the ability to
+0:10:25 either be a pop or summon a tagout on
+0:10:27 the opponent's turn means that she's
+0:10:28 just as viable going into the opponent's
+0:10:30 turn. And then there's the question of
+0:10:32 if she makes it to turn three. Her hand
+0:10:33 fixing ability makes it a simple task to
+0:10:36 just replace every hand trap you have
+0:10:37 left over for extension to go in for the
+0:10:39 kill with. Thankfully, the banning of
+0:10:41 Jougan at the end of last year allowed
+0:10:42 us to be spared from the OCG's problem
+0:10:44 of Cherubini for Jougan into Aba. But
+0:10:46 there still remains a ton of potential
+0:10:48 off of this one card. So, it's safe to
+0:10:50 say that she'll be a staple of the Link
+0:10:51 4 flexbot for some time at least. While
+0:10:54 Charmmy Meow shares the exact same
+0:10:55 effect as its kin, but this time for
+0:10:57 summons from the grave or banishment. A
+0:10:59 necessary inclusion to complete the
+0:11:00 trilogy, but comparatively to her kin is
+0:11:03 much more situationally advantageous.
+0:11:05 Still a solid inclusion for the side
+0:11:06 deck for the time being at a minimum,
+0:11:08 especially with Malice in the field.
+0:11:09 Now, if we're going off of what we were
+0:11:11 expecting to get, this would be it for
+0:11:13 the set. However, this time the TCG
+0:11:15 exclusive section managed to actually
+0:11:17 put up something quite interesting for
+0:11:18 us to experiment with. Mitsurugi no
+0:11:20 Mikoto Kusanagi if summoned or tributed
+0:11:23 can recur back a Mitsurugi card in
+0:11:24 graver banishment and if another reptile
+0:11:26 would be destroyed can tribute itself
+0:11:28 instead. Saji on summon or tribute
+0:11:30 searches a Mitsurugi spell trap and has
+0:11:31 the same destruction prevention effect.
+0:11:33 Murakumo I can't call it amay no matter
+0:11:35 how much I want to. Ryeki is the
+0:11:37 opponent's board on summon, can force
+0:11:39 the opponent to discard a card to
+0:11:40 resolve one of their effects or have it
+0:11:42 negated. And if tributed, searches a
+0:11:43 Mitsarugi card and revives itself. Futsu
+0:11:45 can revive a reptile when your opponent
+0:11:47 special summons a monster and has the
+0:11:48 same tribute effect as Murakuma. Prayers
+0:11:50 can either search a Mitsurugi monster,
+0:11:52 special summon one from hand or grave by
+0:11:54 paying 800, or can do both in sequence
+0:11:56 by tributing a reptile from hand or
+0:11:57 field. Ritual ritual summons a Mitsurugi
+0:12:00 from hand by tributing reptile monsters
+0:12:01 in the deck up to two, or from deck by
+0:12:03 tributing material from hand or field.
+0:12:05 And great purification tributes a level
+0:12:07 five or higher reptile to negate any
+0:12:09 card or effect and can be banished from
+0:12:10 grave to revive a reptile then tribute
+0:12:12 another monster you control. This
+0:12:14 support wave was shockingly powerful and
+0:12:16 in a weird way self-actualized but
+0:12:18 unfortunately lacked any kind of one
+0:12:20 card line to start up being extremely
+0:12:22 reliant on saji and any other piece to
+0:12:24 start your lines with. Though if you
+0:12:25 could do that it was a simple matter to
+0:12:27 put up both rituals and purification.
+0:12:29 YCS Orlando would start our year off on
+0:12:31 February 1st. And from the results here,
+0:12:33 it's safe to assume that the meta of
+0:12:35 late 2024 continued holding strong. Rise
+0:12:37 would continue to be the top performer
+0:12:39 alongside the Fiithmith engine, taking
+0:12:41 first place piloted by Tavon Crowley.
+0:12:43 Comparatively to what else was played
+0:12:44 preuda, the only real change for the
+0:12:46 deck here was the addition of Eclipse
+0:12:48 twins to the extra deck and Meowles to
+0:12:50 the sideboard, marking no real shift in
+0:12:52 the deck's play style. Though this
+0:12:53 wasn't the only form of risal played at
+0:12:55 the event. Mitsurugi would get its first
+0:12:56 top and a second place finish no less
+0:12:59 attached to the risal core. As by
+0:13:00 looping your risal lines through king of
+0:13:02 the fair limbs, you can search for Saji
+0:13:04 without burning the normal. Meaning that
+0:13:05 with any other Mitzarugi card in the
+0:13:07 opener, you can do full combo. Or if you
+0:13:09 didn't see any, you can still use your
+0:13:11 copy of Eclipse Twins to revive the King
+0:13:13 of the Fereral Limps in order to search
+0:13:14 the second piece of the combo anyways.
+0:13:16 Through these lines, you always had
+0:13:18 access to a Mitsarooi line. Malice would
+0:13:20 continue to perform here as it did since
+0:13:22 late 2024 extremely powerfully though
+0:13:24 notably compared to Riseal lacked the
+0:13:26 deck space to splash in an auxiliary
+0:13:28 engine outside of the best heals.
+0:13:29 However, some players going second into
+0:13:31 Riseal would begin teching Metal Trronis
+0:13:33 to banish the detonator from the board
+0:13:35 without giving them a chance to chain
+0:13:36 its effect to pop itself with the
+0:13:37 Eclipse twins trick. YCS Birmingham
+0:13:39 would take place the following weekend
+0:13:41 and with it we'd see many of the same
+0:13:42 faces with a couple of new additions.
+0:13:44 Fire King would make a shocking
+0:13:46 resurgence here to first place on the
+0:13:48 back of Dinka Boy for his second YCS
+0:13:50 win. The strategy had not been seen
+0:13:51 since the banning of OSS, but here was a
+0:13:53 very strategically placed metacall as
+0:13:55 most of the decks at this point were
+0:13:56 loading up on bissiles in order to
+0:13:58 counter the primary decks of the meta
+0:13:59 for significant back and forth gameplay.
+0:14:01 Fire King takes this interruption out of
+0:14:03 the opponent's hands by way of not
+0:14:04 relying on any lights or darks, allowing
+0:14:06 their plays to mostly go off
+0:14:07 uninterrupted while still playing the
+0:14:09 Bissials themselves for the interaction
+0:14:11 on the opponent. Momento would see some
+0:14:12 success here as the deck had developed
+0:14:14 this line quite substantially to the
+0:14:15 point where many of its pieces were
+0:14:17 simply one card combos now for a full
+0:14:19 setup. Because of this and Goblin itself
+0:14:21 being a said one card combo, the deck
+0:14:22 would see Goblin Biker Grand Breakout
+0:14:24 enter lists, allowing a player to
+0:14:26 tribute a momento to dodge Imperm and
+0:14:28 summon out Goblin from deck to keep
+0:14:30 going. White Forest would see a top
+0:14:31 eight finisher thanks in large part to
+0:14:33 its newly found integrations with
+0:14:34 Azamina. With a number of starters
+0:14:36 between the new White Forest lines, the
+0:14:38 Fimith engine, and the always consistent
+0:14:40 Diabel Star, it wasn't difficult to find
+0:14:42 lines with the strategy anymore. This
+0:14:44 would lead us into the next set release
+0:14:45 a week later, and to many players, a
+0:14:47 welcome sight, being the first time in
+0:14:49 over a year where we'd be graced with a
+0:14:51 truly cheaper option.
+0:14:59 Blue Eyes White Destiny release date
+0:15:02 February set I mean 14th 2025 set type
+0:15:06 structure deck major strategies blue
+0:15:08 eyes impact Yuki Boomer wet dream
+0:15:11 elephant in the room time before we
+0:15:13 continue we're going to be seeing a lot
+0:15:14 of weirdness around the set release
+0:15:16 schedule as we move later and later into
+0:15:17 the year as multiple times throughout
+0:15:19 the year Konami would announce a release
+0:15:21 date delay for any given product.
+0:15:22 Sometimes it would be for one region
+0:15:24 sometimes for the entire TCG. This was
+0:15:26 one such time as this product was
+0:15:28 originally supposed to release the same
+0:15:30 weekend as YCS Birmingham, but was
+0:15:31 delayed one week, making the previous
+0:15:33 event another pseuda format event. This
+0:15:35 would become more egregious as we delve
+0:15:37 deeper into the air. But for now, Blue
+0:15:39 Eyes White Destiny was the first
+0:15:40 structure deck we've received in over a
+0:15:42 year at this stage, with the previous
+0:15:43 one being the Fire King structure at the
+0:15:45 end of 2023. Because of this, the
+0:15:47 community was starved for a structure,
+0:15:49 as that generally meant that a strategy
+0:15:51 in the fringes of the meta viability
+0:15:53 could be built for cheap. And this time
+0:15:54 around, Konami pulled no punches, making
+0:15:56 it a support wave to the previous saga
+0:15:58 of blue-eyed structure from the 5Ds era.
+0:16:00 A move that would be sure to bring in
+0:16:02 all the kids who previously loved
+0:16:04 Yu-Gi-Oh because you put a blue eyes on
+0:16:05 the cover. Maiden of White can be sent
+0:16:07 to grave from hand or field to put True
+0:16:09 Light Face up on the field from hand
+0:16:10 deck or grave. Can revive herself if you
+0:16:12 special summon a Blue Eyes White Dragon,
+0:16:14 who I'll refer to as the OG from now on,
+0:16:16 and can revive the OG or a level one
+0:16:18 light tuner when she's targeted for a
+0:16:20 card effect or an attack. Wishes can
+0:16:21 discard a card to search a level one
+0:16:23 light tuner and a spell trap that
+0:16:24 mentions the OG and can banish itself
+0:16:26 from grave to equip the OG with the blue
+0:16:28 eyes from extra deck as an equip spell
+0:16:30 that gives 400 attack. Roar summons the
+0:16:32 OG from deck graver banishment and
+0:16:34 defense or any blue eyes monster if you
+0:16:36 already have out the OG locks you to
+0:16:37 dragons from the extra for that turn and
+0:16:39 can be banished from grave to fuse using
+0:16:40 the hand and field with at least one
+0:16:42 blue ice monster. Majesty reveals up to
+0:16:44 three of the OG from handfield or grave
+0:16:46 to pop that many opponents cards and can
+0:16:48 be banished from grave to ritual summon
+0:16:49 a monster by tributing OGs from
+0:16:51 handerfield. Spirit with eyes of blue is
+0:16:52 a link one that takes a level four or
+0:16:54 lower dragon or spellcaster. Locks you
+0:16:56 to dragons while on the field. Searches
+0:16:57 or dumps mausoleum of white on link
+0:16:59 summon and contribute itself to summon a
+0:17:01 blue ice monster from hand or grave.
+0:17:02 Negating its effects and locking it from
+0:17:04 attacking if it was an effect monster.
+0:17:06 An ultimate spirit dragon is a level 12
+0:17:08 synchro that takes two plus tuners and
+0:17:10 one non-tuner blue ice monster. locks
+0:17:12 the opponent from banishing from the
+0:17:13 grave, can negate a card or effect on
+0:17:14 field to gain a thousand attack that
+0:17:16 turn, and if destroyed, floats into any
+0:17:18 light dragon in grave other than itself.
+0:17:20 There are a number of one card lines
+0:17:21 that the new support here gives, namely
+0:17:23 through the absolute power players that
+0:17:25 are maiden in wishes. But the primary
+0:17:27 issue with the strategy is its reliance
+0:17:28 on the original blue eyes, as once
+0:17:30 again, you're tying your combos to a
+0:17:32 level eight vanilla brick. That is, it
+0:17:34 would have been a detriment to the deck
+0:17:35 if not for the primite engine,
+0:17:37 specifically ether barrel, because your
+0:17:39 lines are linked to the vanilla brick.
+0:17:40 Either Barrel becomes a powerhouse card
+0:17:42 that can give you stronger setups and
+0:17:44 more interaction on the opponent's turn.
+0:17:46 As alone, it can access a seals plus
+0:17:47 drill beam thanks to being full material
+0:17:49 for the new Spirit Link one. Layering
+0:17:51 this in with any of the other one card
+0:17:52 lines for Blue Eyes can also make
+0:17:54 extremely threatening boards thanks to
+0:17:56 Ultimate Spirits Omni Negate being
+0:17:57 accessible through the original Spirit
+0:17:59 Dragon's tagout effect. On top of all of
+0:18:01 this, Ultimate Spirit Dragon follows in
+0:18:03 the original Spirit Dragon's footsteps
+0:18:04 by having a tacked-on counter effect to
+0:18:06 the current metag game. This time being
+0:18:08 the grave banish lock as a middle finger
+0:18:09 to the malice matchup. While blue eyes
+0:18:11 was not top tier with this support, it
+0:18:13 was in the tier to 23 fringes for
+0:18:14 certain and would pop up from time to
+0:18:16 time through the remainder of the year,
+0:18:17 which is about all you could ask for a
+0:18:19 structure deck strategy in the modern
+0:18:20 age. A team YCS would be held in San
+0:18:23 Salvador 2 weeks later. And though it's
+0:18:24 hard to analyze a deck specific
+0:18:26 performance in an event like this, it's
+0:18:27 hard to argue with the results of the
+0:18:29 winning team look pack at him. Chuck
+0:18:30 full of previous YCS winners. Cameron
+0:18:33 Neil would get their second YCS win with
+0:18:34 this performance on Riseel. Notably
+0:18:36 playing it pure with bulky three of
+0:18:38 spell trap lines to offset the downsides
+0:18:40 of Pot of Desires. Christian Urana and
+0:18:42 Kamal Cooks though would be both on more
+0:18:44 unusual picks in Merlantion. Playing
+0:18:46 nearly identical lists with the
+0:18:48 exception of a copy of Small World in
+0:18:49 Christian's list. It's hard to play
+0:18:51 through Omnicates and Mermail excels in
+0:18:53 turboing out one of the most annoying
+0:18:55 and totally awesome prior to running
+0:18:57 through their main combo lines,
+0:18:58 especially thanks to Neptabus'
+0:19:00 versatility as a one card starter. This
+0:19:02 would also mark Kamal Cooks's fifth YCS
+0:19:04 win, putting him on pace just behind the
+0:19:06 current record holders and Christian
+0:19:07 Urana sixth, putting him tied for the
+0:19:09 record with Jesse Cotton and Chris
+0:19:10 Leblanc. YCS Sydney would be the same
+0:19:12 weekend, and detached from the team
+0:19:14 format would be able to better analyze
+0:19:16 Blue Eyes's performance in the meta
+0:19:17 landscape, where it would perform
+0:19:19 decently well for its first outing.
+0:19:20 Making a top four run, the deck was in a
+0:19:22 solid position thanks to its access to
+0:19:24 disruptive tools provided by the
+0:19:25 Primites in addition to the versatility
+0:19:27 of its lines. One option this list would
+0:19:29 run would be that of light storm dragon
+0:19:31 who can be summoned on the opponent's
+0:19:32 turn thanks to spirits tagout to operate
+0:19:34 like a harpies feather duster without
+0:19:36 letting the back row come online first.
+0:19:38 Chron would crack the top eight here
+0:19:39 utilizing the cashier monsters with
+0:19:41 fenrer and unicorn providing level seven
+0:19:43 bodies that can access draco stack who
+0:19:45 in turn summon its tokens which are
+0:19:46 naturally level threes that could
+0:19:48 convert into cherubini able to dump the
+0:19:50 smiger and fully begin the chestron
+0:19:52 line. Frederick Camel would take the
+0:19:53 event on Riseal, playing a fairly
+0:19:55 standard list here, though notably was
+0:19:56 on two copies of Eclipse twins for the
+0:19:58 detonator play and repeatability. This
+0:20:00 would lead us into the first import set
+0:20:01 of the year, and with previous years
+0:20:03 bringing a new TCG exclusive archetype
+0:20:05 with the imports, many were curious if
+0:20:06 this could finally be the one to break
+0:20:08 them out of mediocrity.
+0:20:16 Maze of the Master. Release date, March
+0:20:19 14th, 2025. set type, import set, major
+0:20:22 strategies, Odon, Tachion, Impact, a new
+0:20:26 player in the meta, and new tools for
+0:20:28 exceeds. Maze of the Master is the third
+0:20:30 in the series of maze sets, being both
+0:20:32 an import set for the animation
+0:20:33 chronicle cards, as well as this time
+0:20:35 being a dumping ground for the support
+0:20:36 from duelist pack duelist of brilliance
+0:20:38 in the OCG, which we would not be
+0:20:40 receiving in the TCG. If I had a nickel
+0:20:42 for every time,
+0:20:43 >> but duelist pack was canceled and then
+0:20:44 repackaged into an import set.
+0:20:46 >> I'd have two nickels, which isn't a lot,
+0:20:48 but it's weird that it happened twice,
+0:20:50 right?
+0:20:50 >> While it did bring us support for
+0:20:51 Tachion, XYZ, Trickstar, Clear World,
+0:20:54 Perform Age, and Allure Queen. None of
+0:20:57 these strategies were metaviable out of
+0:20:58 the box, though Tachon specifically did
+0:21:00 bring something of note. Seventh Tachion
+0:21:02 by revealing a number in the extra
+0:21:04 between 101 and 107 can search a monster
+0:21:07 with the same type or attribute and a
+0:21:09 level equal to the revealed rank. Then
+0:21:10 place a card in hand on top of the deck,
+0:21:12 locking you to exceeds from the extra
+0:21:14 for the turn. This card has many
+0:21:15 applications in a bunch of different
+0:21:16 decks due to the variety of the 101 to
+0:21:18 107 monsters and their C number
+0:21:20 variants. But for now, the only
+0:21:22 important one of note was 104 masquerade
+0:21:24 being a light rank four, meaning that
+0:21:26 Tachon could search for ice or Xed in
+0:21:28 Riseal, giving the deck three more
+0:21:30 copies of its main starter to access for
+0:21:32 relatively free. You could also opt to
+0:21:34 include 105 Star Cestus as a bridge to
+0:21:36 search for Sword if desired, but that
+0:21:38 wasn't as important as the Iser X
+0:21:40 search. There was one more arc type this
+0:21:41 time being the TCG exclusive premiere
+0:21:43 for the set being based off of Odon and
+0:21:45 his cards from the Battle City
+0:21:47 quarterfinals. The man with the mark on
+0:21:48 summon searches or dumps either Temple
+0:21:50 of the Kings or a card that mentions it
+0:21:52 while you control Temple prevents itself
+0:21:54 or your Apothes cards from being
+0:21:55 destroyed in battle or card effects and
+0:21:57 protects Temple from destruction by card
+0:21:58 effects. Merciles Scorpion of Circuit
+0:22:00 can't be normally summoned. summons
+0:22:02 itself by banishing a level 10 or higher
+0:22:03 from hand or deck while you control
+0:22:05 temple. Can search temple or a spell
+0:22:06 that mentions it once per turn and can
+0:22:08 destroy anything it battles at the start
+0:22:10 of the damage step and gains half of
+0:22:11 that monster's attack. Anubis, the last
+0:22:13 judge can't be normally summoned,
+0:22:14 summons itself by having three plus
+0:22:16 different names in grave that are temple
+0:22:17 or traps, then placing two of them on
+0:22:19 the bottom of the deck, can pitch itself
+0:22:20 from hand to search for a man with the
+0:22:22 mark, and if a spell or trap you control
+0:22:24 is destroyed by card effect, pops an
+0:22:25 opponent's card. Treasure of the King
+0:22:27 sets an Apous trap on activation. Is
+0:22:29 considered temple while in the field
+0:22:30 zone and can search a temple mentioning
+0:22:32 monster once per turn while you either
+0:22:33 have two set cards or a trap in grave.
+0:22:35 Defense of the temple fusion summons an
+0:22:37 earth fusion using monsters from the
+0:22:38 hand or field. Can use materials the
+0:22:40 opponent controls if one of the
+0:22:41 materials you put in mentions temple.
+0:22:43 And if you control temple can banish
+0:22:45 itself from grave to search for dangers
+0:22:46 of the divine. Dangerous pays half your
+0:22:48 life and tributes a monster to cheat out
+0:22:49 wing dragon of raw making its attack and
+0:22:51 defense 4,000 locking it from attacks
+0:22:54 bouncing it to hand at the end of the
+0:22:55 next turn. And when dangerous goes to
+0:22:56 grave nukes your monster zones except
+0:22:58 for winged dragon mandatorily. Verdict
+0:23:00 of Anubis negates a spell trap while you
+0:23:02 control three plus other spell traps.
+0:23:04 And also rackis the opponent if you
+0:23:05 control temple burning them for half the
+0:23:07 destroy's attack. Apous the serpent is a
+0:23:09 trap monster that sets another different
+0:23:11 apous from deck on summon that can be
+0:23:13 activated that turn and when sent to
+0:23:14 grave searches the original apous.
+0:23:16 Divine Serpent Apotheus is a fusion of
+0:23:18 two temple mentioners, can also be
+0:23:19 summoned by tributing two Apous
+0:23:21 monsters, can reset up to three Apotheus
+0:23:23 traps from grave once per turn, and can
+0:23:25 pop a card when you activate a trap once
+0:23:26 per turn. And Divine Scorpion, Beast of
+0:23:28 Circuit, is a fusion of a Circuit
+0:23:30 monster and a 2500 or less attack
+0:23:31 monster. Once per turn, banishes an
+0:23:33 opponent's monster on field during Grave
+0:23:35 on summon or at the start of the damage
+0:23:36 step at battle, gaining half of that
+0:23:38 monster's attack when you do, and can
+0:23:40 attack twice a battle phase if there is
+0:23:41 a level 10 or higher banished monster. I
+0:23:43 understand that section was a lot, but
+0:23:45 trust me, it's about to boil down
+0:23:46 nicely. You can ignore the sections
+0:23:48 involving proper fusion summons, winged
+0:23:50 dragon of raw, and the rakeki counter
+0:23:52 trap that has too many conditions to be
+0:23:53 good. Focusing in now on the Apotheus
+0:23:55 stuff, Serpent is quite frankly one of
+0:23:57 the best trap monsters we received in a
+0:23:58 while. Not you, Argo Stars. Starting
+0:24:01 with any way in demand with the mark and
+0:24:03 any card you can set in the spell trap
+0:24:04 zones, you can easily set up a line
+0:24:06 straight into Divine Surf and Apous on
+0:24:08 the first turn by setting apous the
+0:24:10 serpent with treasures, searching
+0:24:11 circuit with treasures. Once you have
+0:24:12 two sets, getting to temple, using
+0:24:14 temple to activate the Apous that turn,
+0:24:16 setting the better apous, the swamp
+0:24:18 deity, and lining your way into divine,
+0:24:20 who can then reset both apotheases to
+0:24:22 your board. On top of that, the man in
+0:24:24 circuit after that fact can be converted
+0:24:25 into Silhouat Rabbit, who can then give
+0:24:27 you more advantage with something like a
+0:24:29 statue of anguish pattern and an
+0:24:30 additional interruption by netting a
+0:24:32 spell trap pop off your next trap
+0:24:33 summon, or can be converted into
+0:24:35 something like a close heaven to
+0:24:36 accessing an additional engine like the
+0:24:38 fiend smmiths. Odon would be a deck to
+0:24:40 look out for in the coming months,
+0:24:41 seemingly out of nowhere, which is a
+0:24:43 welcome sight after the flame swordsman
+0:24:44 and gate guardian archetypes failed. And
+0:24:46 thus, eyes turned to the next block of
+0:24:48 YCS's to see if it could convert into
+0:24:50 results. A team YCS would be held in Las
+0:24:52 Vegas that weekend, which as previously
+0:24:53 stated should not be considered a look
+0:24:55 at the meta, but rather a showcase of
+0:24:56 the consistency of top players when they
+0:24:58 banned together. Case in point, team
+0:25:00 legionnaire would take the event with
+0:25:01 all three players on riseil with Jesse
+0:25:03 Cotton on the team bringing him to seven
+0:25:05 YCS wins now being the record holder
+0:25:07 once again for the most YCS titles.
+0:25:09 Jesse was on the Fenith Risal variant
+0:25:11 we've come to expect at this stage.
+0:25:13 Though his teammates Dominic Couch and
+0:25:14 Michael Albanese were both on Fimith
+0:25:16 versions of the deck, opting instead for
+0:25:18 Seventh Tachion in a small shark package
+0:25:20 of Drake Shark and surfacing Big Jaws
+0:25:22 being searchable with Seventh by
+0:25:23 revealing Ragna Zero and able to summon
+0:25:25 both bodies without the normal to access
+0:25:27 Bahamut Shark and Totally Awesome before
+0:25:29 committing to your Riseal lines. This is
+0:25:31 actually even easier to see than
+0:25:32 expected thanks to seventh ascension
+0:25:34 from duels from the deep. Able to search
+0:25:35 for seventh tachon at no cost and no
+0:25:38 restrictions, meaning that you almost
+0:25:39 always will have a risal line and
+0:25:41 potentially insulation if you open a
+0:25:43 starter and a seventh spell. YCS Buenos
+0:25:45 Aries would be held two weeks later. And
+0:25:47 here would be a more familiar scene of
+0:25:48 the meta with Rise continuing to perform
+0:25:50 the best in the format only bolstered by
+0:25:52 the new support. Luca Daniel Garcia
+0:25:54 Gonzalez would take the event on
+0:25:55 Mermail, notably using a onecard line
+0:25:57 starting from Neptabus to cycle through
+0:25:59 Deep Sea Minstrel to banish a card from
+0:26:01 the opponent's hand, then lattering into
+0:26:02 Deep Sea Primadana to stick the banish
+0:26:04 card back in hand to summon a barrier
+0:26:06 statue of the Torrent from the deck,
+0:26:07 notably under a totally awesome
+0:26:09 insulation at this stage. This would be
+0:26:11 the first high-profile case of seeing
+0:26:12 the barrier statues this year, but it
+0:26:14 certainly wouldn't be the last. YCS
+0:26:16 Houston would follow a week later, and
+0:26:18 the same picture of the Meadow continues
+0:26:19 to hold true. Odon would see its first
+0:26:21 top here, ending in the top 32,
+0:26:23 utilizing a Fiendith package to
+0:26:25 capitalize off of the extra bodies left
+0:26:26 over from the Apous line, though notably
+0:26:28 also ran the Silo Hat rabbit line to
+0:26:30 flex into anguish pattern if the Fimith
+0:26:32 line presented itself in another way.
+0:26:34 Pascal Menach would take the event on
+0:26:35 Momento, notably playing a larger goblin
+0:26:37 biker package this time rather than just
+0:26:39 the Grand Breakout, allowing for access
+0:26:41 to a full Momento line off of Territop
+0:26:43 accessing Big Gabonga into Doug Charger
+0:26:45 into Grand Entrance. announced live at
+0:26:47 YCS Houston after the finals wrapped up.
+0:26:50 A new ban list would go into effect the
+0:26:51 next day on April 7th. Newly banned were
+0:26:53 nightmare Griffin and Link Decoder, big
+0:26:55 swings at the Malice extra deck, Bahamut
+0:26:57 Shark, a massive swing at Mermale, and
+0:26:59 Abyss Dweller, which while most commonly
+0:27:01 found in Mermale was an extra deck
+0:27:02 staple piece at this point. Newly
+0:27:04 limited were risal detonator and bonfire
+0:27:06 as hits to Risealil, Bissial Druarm as a
+0:27:08 hit to the Bissal core, Crossout
+0:27:10 Designator, Triple Tactics Talents, and
+0:27:12 Dimensional Shifter as hits to Staples,
+0:27:13 and Mathmex Circular, Brilliant Fusion,
+0:27:15 and Masterpiece all coming out of the
+0:27:17 band section. Newly semi- liimited were
+0:27:19 Xed, Ice, and Sword Ryal as hits to
+0:27:21 Risal, Door Mouse, White Rabbit, and
+0:27:23 Underground as hits to Malice, and
+0:27:25 Collapser, Wyvern, Buster, Morphing Jar,
+0:27:27 Sharvara, Ash, and Paplar as eases from
+0:27:30 Limited. Lastly, unlimited were
+0:27:31 Cyberjar, Danger Jackaloupe, and
+0:27:33 Suchino, Ava, and Monkey Board. Risal
+0:27:35 was definitely hit a bunch with this
+0:27:37 list, but shockingly didn't feel too
+0:27:38 much worse overall. Granted, they just
+0:27:40 lost five main deck pieces, but they
+0:27:42 also still had access to the seventh
+0:27:43 engine, which would probably be raised
+0:27:45 in popularity from these hits. The big
+0:27:47 hit to Rise, though, was detonator to
+0:27:48 one by only having one shot with your
+0:27:50 boss. Now, Eclipse Twins was going to be
+0:27:52 pulling double duty, now not only being
+0:27:54 needed to keep your detonator alive
+0:27:55 through sticky situations, but also to
+0:27:57 recur back out your detonator after it's
+0:27:59 used up. Malice was similarly only put a
+0:28:01 little off by these hits with a link
+0:28:03 decoder being the major hit now as lines
+0:28:05 had to be more specific with their peace
+0:28:07 tags, potentially needing to commit to
+0:28:09 the splash mage lock earlier than
+0:28:10 before. And Griffin was inconsistently
+0:28:12 used at the stage anyways, so it
+0:28:14 wouldn't be too badly missed. Though
+0:28:16 Abau would need to find a new buddy to
+0:28:17 partner up with. Mermail undoubtedly was
+0:28:19 hit the hardest though with the loss of
+0:28:21 Bahamut and by extension Toad. Without
+0:28:23 the ability to flex into insulation for
+0:28:25 the strategy, it would be harder for
+0:28:26 Mermail to get their combos off with a
+0:28:28 number of hand traps around. This would
+0:28:29 be followed by the quarter century
+0:28:31 stampede, another rarity collection set
+0:28:33 aimed at reprinting a bunch of the
+0:28:34 random cards we've seen play in multiple
+0:28:36 different strategies in the quarter
+0:28:38 century secret rare. Wasn't the 25th
+0:28:41 anniversary like 2 years ago? Point here
+0:28:43 is that foolos was reprinted in an easy
+0:28:45 to get format. YCS Mexico City was the
+0:28:47 next week and from this we'd see the
+0:28:48 meta shake out to where even with Malice
+0:28:50 taking seven spots and being the most
+0:28:52 represented deck, there wasn't a clear
+0:28:54 best deck with a number of strategies
+0:28:56 viable. With a number of pieces lost
+0:28:57 from the Mal main deck, most players
+0:28:59 would pivot to including the Sky Striker
+0:29:00 package in its place. Namely, one of
+0:29:02 Engage, Hornet Drones, and Kagari to
+0:29:05 provide additional bodies to link up to
+0:29:06 your link threes to actually start
+0:29:08 playing your Malice engine. Renee Chapot
+0:29:10 would take the event on Momento,
+0:29:11 utilizing the same lines we've discussed
+0:29:13 prior now with the deck having a
+0:29:14 stronger presence in the metag game with
+0:29:15 the hits to Riseal and Malice and much
+0:29:17 more importantly to the Bastiles. This
+0:29:19 would lead into the next core set two
+0:29:21 weeks later. And though the crossover
+0:29:22 breaker strategies had been hit, they
+0:29:24 were not down yet, as they still have
+0:29:26 their waves of main set support to look
+0:29:27 forward to just around the corner.
+0:29:36 >> Alliance Insight. Release date May 2nd,
+0:29:39 2025. Set type: core set. Major
+0:29:42 Strategies: Regenesis, Adagnister,
+0:29:44 Mitsurugi. Impact: A reminder of what
+0:29:47 TCG exclusives used to be. Alliance
+0:29:49 Insight was the second core set of the
+0:29:51 year, and with it would be a far more
+0:29:52 impactful set than Supreme Darkness
+0:29:54 before it, bringing significant support
+0:29:56 to major players already in the format
+0:29:58 to help them patch up what was recently
+0:30:00 broken. The headliners of the set itself
+0:30:01 would be Adignister, receiving a series
+0:30:03 of retrains of previously more generic
+0:30:05 Cyburverse monsters used by Playmaker.
+0:30:07 Backup Agnister can summon herself if
+0:30:09 you control a cyburst from the extra
+0:30:10 deck and searches a dark cyburst on
+0:30:12 summon, discarding a card. Wizard
+0:30:14 Adagister can summon itself and a dark
+0:30:15 cybururst from grave if you control
+0:30:17 cyburst from the extra deck, locking you
+0:30:19 to cyburstes for the rest of the turn,
+0:30:20 and can be banished from field or grave
+0:30:22 to change an opponent's battle position.
+0:30:23 Kuri Karinku can summon itself from hand
+0:30:25 or grave by tributing an atignister, but
+0:30:27 gets banished when it leaves the field
+0:30:28 and contribute itself to negate anything
+0:30:30 that targets a cyburst while you control
+0:30:32 a cyburst from the extra. I connect
+0:30:34 reveals a cyburverse in hand to summon
+0:30:35 it and searches a level four or lower
+0:30:37 non-d dark cyburst monster if it's dark
+0:30:39 or shuffles it back into the deck to
+0:30:40 search a different attributed adding
+0:30:42 mnistister or otherwise. Sidekick
+0:30:44 negates face up cards on the field up to
+0:30:45 the number of 2300 attack cyburstes you
+0:30:48 control and can banish itself from grave
+0:30:49 to summon a banished cyburst. Firewall
+0:30:51 saber dragon is a level seven synchro
+0:30:53 that recurs a graved banished cyburst on
+0:30:55 synchro summon. Can copy another
+0:30:56 cyburst's level and if sent to grave for
+0:30:58 a link material searches an eye spell.
+0:31:00 Code igniter is a rank four that
+0:31:01 searches a cyburst ritual on exceeded
+0:31:03 summon can detach to ritual summon a
+0:31:04 cyburst and if sent to grave as link
+0:31:06 material searches an eye trap. An allied
+0:31:08 code talker addister as a link five that
+0:31:10 takes three plus effect monsters can
+0:31:12 revive as many 2300 cyburst as possible
+0:31:14 to its linked zones on link summon
+0:31:16 getting 500 attack for each and locking
+0:31:18 special summons for the rest of the turn
+0:31:19 and can negate a card by tributing a
+0:31:21 link monster at point two banishing the
+0:31:22 negated card when you do. While named
+0:31:24 for and clearly tied to the Adagnister
+0:31:26 archetype, these new pieces clearly
+0:31:28 linked more so to the codealker series
+0:31:30 of link monsters, all sharing the same
+0:31:32 attack value of 2,300 and all giving
+0:31:34 significant value to climbing through
+0:31:35 them on your way up to your boss link 5.
+0:31:37 That now gives a significant payoff. But
+0:31:39 hey, you know what other cyerses have
+0:31:41 2,300 attack? The malice link 3es.
+0:31:43 Because cotalker can revive any 2,300
+0:31:46 attack cyburst with its effect. One
+0:31:47 option it leaves is to be an end piece
+0:31:49 for the malice extra deck. though
+0:31:50 notably would be a bit of a pain due to
+0:31:52 reviving as many monsters as possible
+0:31:54 with its effect. Getting back Red
+0:31:55 Ransom, but potentially removing the
+0:31:57 White Binder from Grave where it
+0:31:58 wouldn't be an interaction point on the
+0:32:00 opponent's turn anymore. Though the end
+0:32:01 boss was more situational, the pieces to
+0:32:03 get there were definitely not. Backup
+0:32:05 and Wizard would quickly find their way
+0:32:07 into Malice both as starters and
+0:32:09 extenders with backup by herself
+0:32:10 representing three material worth of
+0:32:12 monsters for searching Wizard on summon,
+0:32:14 linking off for lingerbo, then wizard
+0:32:16 reviving her while summoning itself.
+0:32:17 Also being extension if you've already
+0:32:19 found a way into your malice lines with
+0:32:21 the only downside to this being that it
+0:32:22 locks you to cyers. Regenesis Archenee
+0:32:24 can summon itself from hand by revealing
+0:32:26 another 2500 original attack or defense
+0:32:28 monster in hand. searches a regenis card
+0:32:30 on summon from deck or banishment and
+0:32:32 within the grave on the opponent's end
+0:32:33 phase because it was put there this turn
+0:32:35 recurs itself. Warrior, sage, and dragon
+0:32:37 all share an effect of summon themselves
+0:32:38 from hand if you control an originally
+0:32:40 2500 attack or defense monster. And the
+0:32:43 same recursion effect as arch fiend with
+0:32:44 warrior able to tribute itself on quick
+0:32:46 effect to bounce an opponent's monster.
+0:32:47 Sage able to negate and destroy a card
+0:32:49 or effect by sending a different
+0:32:50 regenist from hand or field to grave.
+0:32:52 And dragon able to tribute itself to
+0:32:54 banish a spell trap the opponent
+0:32:55 controls on a quick effect. Lord can't
+0:32:57 be normally summoned. can summon itself
+0:32:58 from hand by banishing a face up
+0:33:00 original 2500. Sets a Regenesis spell
+0:33:02 trap on summon, gains 2500 in the battle
+0:33:04 phase only, and deals piercing damage.
+0:33:06 Regenesis either searches or dumps a
+0:33:08 Regenesis monster, or can search a 2500
+0:33:10 if you already control a Regenesis, and
+0:33:12 can be banished from grave to revive a
+0:33:14 Regenesis. Code summons a Regenesis from
+0:33:16 deck, sends it to Grave in the
+0:33:17 opponent's end phase, locks you from
+0:33:18 extra deck summons until the next end
+0:33:20 phase, and can banish itself from grave
+0:33:21 to summon a banished Regenesis. and
+0:33:23 Birth dumps a Regenesis to Grave to book
+0:33:25 an opponent's monster and can send
+0:33:26 itself to Grave on the opponent's turn
+0:33:28 to summon as many differently named
+0:33:29 Regenesises from hand grave and
+0:33:31 banishment as possible. Undoubtedly a
+0:33:33 powerful set of monsters that can all
+0:33:34 snowball off of a single summon, the
+0:33:36 issue lied in its extreme reliance on
+0:33:38 Arch Fiend to start your lines. As
+0:33:39 without it, you need another monster
+0:33:40 with a natural 2500 stat that you could
+0:33:42 put on field easily to mix with to get
+0:33:44 plays rolling. As such, while it was
+0:33:46 solid when paired with something like
+0:33:47 Cashier Unicorn or Splashed into Blue
+0:33:49 Eyes, the deck for now would not have
+0:33:50 the foothold necessary to become a major
+0:33:52 player in the meta, but would hold a
+0:33:54 decent rogue to tier three position.
+0:33:55 Heraldic Beast Griffin can dump a
+0:33:57 Heraldic Beast from deck for cost to
+0:33:59 summon itself from hand, locking extra
+0:34:00 deck summons to only be exceed summons
+0:34:02 using heraldic beasts or number
+0:34:04 materials for the rest of the turn and
+0:34:06 can be two materials for the summon of a
+0:34:07 number that takes three plus materials.
+0:34:09 Stad wheel discards a card to search two
+0:34:11 Heraldry spell traps on summon. It can
+0:34:13 be banished from grave to revive two
+0:34:14 heraldic beasts with the same name,
+0:34:15 applying the same lock. Flash of
+0:34:17 Heraldry makes any face up monsters the
+0:34:19 opponent controls name become unknown
+0:34:21 and during the end phase can reset
+0:34:22 itself if you control a psychic exceeds,
+0:34:24 banishing itself when it leaves the
+0:34:25 field. Number 69. Nice. Heraldry Crest
+0:34:28 Shatter Stream is a format rank four
+0:34:30 that can also exceed summon over an
+0:34:31 original Heraldry Crest and can summon a
+0:34:33 dark matter demolition over itself when
+0:34:35 the opponent uses a monster effect on
+0:34:37 field or attacks, destroying that
+0:34:38 monster when you do. Dark Matter
+0:34:40 Demolition is a fivemat rank four that
+0:34:42 can't be destroyed and detached to make
+0:34:43 an opponent's monster's name become
+0:34:44 unknown and negates the effects of
+0:34:46 unknowns activated by the opponent. I'm
+0:34:48 unsure why they went this hard on
+0:34:50 heraldic beast of all things, but
+0:34:51 considering that they have an inarch
+0:34:53 archetype revive two and exceed giving
+0:34:55 the strategy a circular and a dual
+0:34:56 searcher is quite a powerful wave.
+0:34:58 There's just one problem. Konami
+0:35:00 Heraldic beast sucks.
+0:35:04 This is an archetype so star for decent
+0:35:06 bodies that the only other older card
+0:35:08 you could want to bend with the griffin
+0:35:09 effect is Leo. Though that does get you
+0:35:11 to Stad Whale and thus full combo if
+0:35:13 Stad Whale wasn't the biggest Ash magnet
+0:35:15 I've ever seen in my life. Regardless,
+0:35:17 it's got the ability to make repeated
+0:35:19 rank fours with the heraldic beast
+0:35:20 materials, so it's bound to have a home
+0:35:22 somewhere. Mitsurugi Aramasa on summon
+0:35:24 or tribute searches the Mitsurugi
+0:35:25 monster and has the normal tribute
+0:35:27 protection effect. Wosu can summon
+0:35:28 itself from hand by tributing a reptile
+0:35:30 from hand and an opponent's monster.
+0:35:32 Reptile locking your summons and effects
+0:35:33 for the rest of the turn, and if
+0:35:34 tributed, can discard a card to recur
+0:35:36 itself back to hand. Habakiri drops an
+0:35:38 opponent's attack by 800, can reveal
+0:35:40 itself in hand to summon a Mitsugi from
+0:35:42 deck, then tribute a monster you control
+0:35:43 once per duel, and if tributed, searches
+0:35:45 a Mitsurugi card and revives itself.
+0:35:47 Mirror ritual summons a reptile from
+0:35:49 hand or grave and can shuffle itself
+0:35:50 from grave into deck if one of the
+0:35:51 Mitsarugi ritual names is tributed so
+0:35:53 that it names them for pre-prep.
+0:35:55 Magatama can tribute a reptile to pop an
+0:35:57 opponent's face up card or ritual summon
+0:35:59 a Mitsarugi by tributing materials on
+0:36:01 board only. Sacred Boundary blocks
+0:36:02 targeting Mitsurugi rituals with extra
+0:36:04 deck effects and can shuffle back four
+0:36:06 Mitsurugi cards in the grave to make the
+0:36:07 opponent tribute one of their monsters.
+0:36:09 And Tempest can tribute the three ritual
+0:36:11 names on field if you have a Mitsarugi
+0:36:12 ritual spell in the grave to make the
+0:36:14 opponent banish eight cards from their
+0:36:15 hand, field, grave, or extra deck. So,
+0:36:17 while a few of these options are just
+0:36:19 clearly windbar cards, this is arguably
+0:36:20 the best second wave we've ever seen a
+0:36:22 TCG exclusive archetype get. Havoci
+0:36:24 allowing you to grab Sajji out of deck
+0:36:26 then tribute it means that you can
+0:36:27 resolve her effect safely without the
+0:36:29 fear of Emperor or Veiler which in turn
+0:36:30 can grab prayers off the new deck search
+0:36:32 Aramasa. The new one card lines the
+0:36:34 support provides also consistently will
+0:36:36 leave you with two additional level
+0:36:37 fours on the field meaning that it's a
+0:36:38 simple process to either link them off
+0:36:40 for additional interaction like IP or to
+0:36:42 overlay them for arctype bridges like
+0:36:44 Duo Drive to bridge from Mitsurugi into
+0:36:46 its old partner Ryal. While we're on the
+0:36:48 topic, Risiel Mitsarugi became a much
+0:36:50 more powerful cell with this as you no
+0:36:51 longer need to commit two separate feral
+0:36:53 imp searches to the Mitsurugi pieces as
+0:36:55 now you only have to commit one for the
+0:36:57 full line that again will feed back into
+0:36:59 your riseal pushes. And honestly, that's
+0:37:01 just the tip of the iceberg for these
+0:37:02 cards. Mitzerugi because of the access
+0:37:04 to the additional bodies off of any of
+0:37:05 their one card lines along with the lack
+0:37:07 of need for extra deck pieces makes it
+0:37:09 one of the most meldable engines in the
+0:37:11 meta at this stage and we'd see plenty
+0:37:13 of it soon enough. Live twin Leela suite
+0:37:15 can discard herself to negate a carter
+0:37:17 effect used in response to a live twin
+0:37:19 carter effect and can special summon
+0:37:20 herself from grave if you control a
+0:37:21 kisakill blocking you to fiends from the
+0:37:23 extra while on board. Evil twin kisakill
+0:37:25 deal is a link one taking any Kisakill
+0:37:27 monster and dumps a Leela from deck or
+0:37:29 extra deck for cost that lets you draw a
+0:37:31 card anytime the opponent responds to
+0:37:32 your Kisakill or Leela effects that turn
+0:37:34 deal. Turning any copy of Kisakill into
+0:37:36 full combo is one thing thanks to the
+0:37:38 dump of sweet for a revive and access to
+0:37:40 your link twos which is already
+0:37:42 powerful. But add to that the ability to
+0:37:44 bridge said combo naturally into
+0:37:45 fiendmith now for free because deal is a
+0:37:47 light fiend is just the icing on the
+0:37:49 cake. Evil twin fiend was already a
+0:37:50 decent deck in the rogue fringes since
+0:37:52 the release of Aval because of its
+0:37:54 ability to recycle trouble sunny and
+0:37:56 this would only make it stronger and
+0:37:57 more popular from this position. Star
+0:37:59 Risal can summon itself by detaching an
+0:38:01 exceed material from the board with the
+0:38:02 Risal lock attached and as special
+0:38:04 summon sets a Risal spell trap from
+0:38:06 deck. Mass Driver gives Riseals a
+0:38:07 thousand attack for the turn, then puts
+0:38:09 itself under a rank four and if sent to
+0:38:11 Grave except from field, banishes a card
+0:38:12 from the opponent's grave. Star being
+0:38:14 another name in the light pyro lineup
+0:38:15 does help fill holes in the deck left by
+0:38:17 the band list. But more importantly
+0:38:18 gives you a way to access cross more
+0:38:20 reliably without having to risk the duo
+0:38:22 drive getting negated. If you don't have
+0:38:24 to burn the infernal blame banshee to
+0:38:25 get your line started, you can opt to
+0:38:27 search for star here to use her second
+0:38:29 material to summon it and get to cross
+0:38:30 potentially with the X still life if you
+0:38:32 started from ice, giving you all the
+0:38:34 more insulation to do your combo with.
+0:38:36 Malice march hair blocks targeting
+0:38:37 malice links that point to her, can
+0:38:38 banish a malice from hand or grave to
+0:38:40 summon herself, and when banished can
+0:38:41 pay 300 to recur back any malice monster
+0:38:44 from banishment. Malice in the mirror
+0:38:45 banishes a malice from your hand or
+0:38:47 field to negate an opponent's face up
+0:38:48 monster's effects that turn. and if
+0:38:50 banished can banish a malice card in
+0:38:52 grave to search a same super typed
+0:38:53 malice. Unbelievable. They gave malice
+0:38:55 basically everything they were missing
+0:38:57 in wave 1. Marchair effectively serves
+0:38:59 the deck as an inarchctype bistile that
+0:39:01 doesn't require you to put up a malice
+0:39:02 engrave first, but can still profit off
+0:39:04 doing it anyways. On top of that, her
+0:39:06 banish effect allows her to recur
+0:39:08 herself back to hand rather than summon
+0:39:09 like all the others, giving you a point
+0:39:11 of interaction on the opponent's turn
+0:39:13 thanks to her summon being a quick
+0:39:14 effect. Mirror gives more versatility to
+0:39:16 both red ransom search to potentially
+0:39:18 grab disruption and to your various
+0:39:19 banish effects by giving you another
+0:39:21 target for chessat and underground to
+0:39:22 banish that can extend one of your names
+0:39:24 in grave into an additional name search.
+0:39:26 Between these and the addisters, it's
+0:39:28 safe to say that Malice is about to be a
+0:39:30 powerhouse to deal with. Dippity is a
+0:39:31 level four light fiend normal monster
+0:39:33 that lets you play the primite stuff
+0:39:34 with fiend without having to resort to a
+0:39:36 card like white dust. That's it. Evil
+0:39:38 hero vicious clock can summon itself
+0:39:40 from hand by boosting a hero by 300
+0:39:42 attack. And if a monster is destroyed
+0:39:43 while it's engraved, revives itself and
+0:39:45 destroys a card on field if you have a
+0:39:46 monster that mentions dark fusion
+0:39:48 engrave. This card is extremely
+0:39:49 unassuming on the surface as the current
+0:39:51 hero deck really doesn't gain much from
+0:39:53 it aside from the additional interaction
+0:39:54 point of DPE. However, where it shines
+0:39:56 is in bridging from hero over to an arc
+0:39:58 type we all know and love at this point,
+0:40:00 Fimith. Starting with any way into
+0:40:02 Stratos, you can search for this and
+0:40:03 then free summon it to link over to
+0:40:05 Closed Heaven, which ironically can get
+0:40:07 you back to hero thanks to Aerial Leader
+0:40:08 sending Sinister Nekron, allowing you to
+0:40:10 bridge into an evil hero line to end on
+0:40:12 something like Backfire plus Supremacy
+0:40:14 or Neoslord, all without locking you to
+0:40:16 Hero, meaning you can even still
+0:40:18 insulate your board from Nibiru by
+0:40:19 overlaying for Wavehiking Caesar at some
+0:40:21 point. This is the first in a line of
+0:40:23 dominoes that need to fall in order for
+0:40:24 Hero to finally change off of its
+0:40:26 Xenolocking play style and join the
+0:40:28 modern era. And frankly, it won't be the
+0:40:30 last. YCS Providence would follow the
+0:40:32 same weekend and emboldened by the new
+0:40:33 support waves, we'd see two front
+0:40:35 runners instantly rocket up to the top
+0:40:36 of the meta. Malice and Mitsarugi.
+0:40:38 Mitzerugi would be the breakout star of
+0:40:40 the event, taking the whole thing
+0:40:42 piloted by Charlie Futch, once again
+0:40:43 utilizing the risal pieces, though
+0:40:45 notably was no longer nearly as reliant
+0:40:47 on them as they had been in the past.
+0:40:49 The ability for both strategies to
+0:40:50 bridge into the other between duo drive
+0:40:52 made with Mitsurugis or Feralymphs made
+0:40:54 with the risals made the strategies
+0:40:56 weave together far more powerfully than
+0:40:57 they did before. This also freed up
+0:40:59 extra deck space for more niche picks
+0:41:00 like gallant granite for a search for a
+0:41:02 backup Nibiru or Drag Lucion to make
+0:41:04 with the two Mitsarugi rituals to search
+0:41:06 for a seventh tachion which could once
+0:41:08 again grab a risal piece or out of the
+0:41:10 side reveal C103 instead to search for
+0:41:12 Lancia to lock out the Malice matchup.
+0:41:14 Speaking of which, Malice would be the
+0:41:16 most represented deck in the top 32, and
+0:41:18 it's not hard to see why. Alliance
+0:41:20 Insight was extremely kind to this
+0:41:22 strategy, booting the Sky Strikers back
+0:41:24 out of the deck in favor of the new
+0:41:25 Adagnister pieces in Marchair, who
+0:41:27 picked up the slack of the deck's
+0:41:28 extension to bring it forward into the
+0:41:30 metag game in force. Marchair
+0:41:31 effectively being an inarchctype Bistile
+0:41:33 also meant that the card was searchable
+0:41:35 and recurable with its own effect,
+0:41:36 allowing you to reliably have access to
+0:41:38 banishing White Binder to trigger its
+0:41:40 summon effect during the opponent's turn
+0:41:41 as an additional point of interruption
+0:41:43 that the deck can provide. Regenesis
+0:41:45 would also see a top here thanks
+0:41:46 primarily to the Cashira pieces
+0:41:47 providing Unicorn as a 2500 defender to
+0:41:50 get their line started. Though this was
+0:41:51 still a fairly bricky strategy if you
+0:41:53 didn't see a Cashier starter or Arch
+0:41:55 Fiend in your open. YCS Kito would
+0:41:57 follow at the end of the month and
+0:41:58 though a good portion of the results
+0:41:59 here would be lost, Malice and Mitsarugi
+0:42:01 had carved themselves out as the
+0:42:02 definitive front runners of the new meta
+0:42:04 environment. Jose Bakara would take the
+0:42:06 event on evil twin fiend, notably
+0:42:09 utilizing the new support to play
+0:42:10 through multiple interaction points from
+0:42:11 the opponent to carve out lines that
+0:42:13 disincentivize interacting further
+0:42:15 thanks to kissill deals effect.
+0:42:16 Following a week later, we'd begin our
+0:42:18 yearly WCQ season with the South
+0:42:20 American WCQ. And with it, Mitsarugi
+0:42:22 would overtake Malice to be the top
+0:42:24 performing deck of the event, though
+0:42:25 Malice would still win the day piloted
+0:42:27 by Felipe Zapda to claim the region's
+0:42:29 crown, notably utilizing Allied Code
+0:42:31 Talker Adagnister to reflood the board
+0:42:33 at the end of a combo line. This would
+0:42:34 lead into the next set just a week
+0:42:36 later, though notably was going to be a
+0:42:38 bit of a troubled release yet again due
+0:42:39 to issues beyond the player base's
+0:42:41 control.
+0:42:47 Battles of Legend Monster Mayhem release
+0:42:50 dates June 13th and August 28th, 2025.
+0:42:54 Set type: Import set. Major Strategies:
+0:42:56 Gem Knight, Orcist, Punk Impact. The
+0:43:00 most egregious delays yet. Monster
+0:43:02 Mayhem originally was due out directly
+0:43:04 at the start of the WCQ season to follow
+0:43:06 South America, aimed at disrupting the
+0:43:08 format just enough going into the
+0:43:09 largest tournament cycle of the year.
+0:43:11 However, due to a series of major
+0:43:13 delays, the set was postponed to late
+0:43:15 August for Europe, the Middle East,
+0:43:16 Africa, and Oceanania, and as such would
+0:43:19 not be legal in those regions for the
+0:43:21 WCQ season. This would turn out
+0:43:22 problematic as while most of the new
+0:43:24 support for Fabled, Jurak, Necros, DD,
+0:43:27 and Majestice would not be relevant to
+0:43:28 the current metaccape, there would be
+0:43:30 three archetypes with support here that
+0:43:32 would prove relevant to the current
+0:43:33 metag game. Gem Knight Nefarum on summon
+0:43:35 searches a gem knight, but has all
+0:43:37 effect damage dealt to the opponent that
+0:43:38 turn, letting you extra normal a gem
+0:43:40 knight once per turn, and if sent from
+0:43:41 hand or deck to grave, can pitch another
+0:43:43 card from hand to revive itself.
+0:43:44 Holocore can summon itself from hand by
+0:43:46 bidding a gym knight normal or gymnight
+0:43:48 fusion from deck for cost and can banish
+0:43:50 three gymnight cards from grave
+0:43:52 including itself while you control a
+0:43:53 gymnight fusion monster to omni negate
+0:43:55 and boost a gem knight by a thousand for
+0:43:57 the turn. Dispersion either fusion
+0:43:58 summons a gem knight using materials
+0:44:00 from hand or field and can include up to
+0:44:01 two non-rock gymnights from the deck or
+0:44:03 extra if you have a gem knight fusion
+0:44:05 engrave or searches a gem monster from
+0:44:07 deck or banishment having effect damage
+0:44:09 the opponent takes that turn. And master
+0:44:10 diamond dispersion is a fusion of three
+0:44:12 gem monsters can send itself from field
+0:44:14 to grave to summon up to three non-rock
+0:44:16 gem monsters from extra or grave
+0:44:18 ignoring summoning conditions locking
+0:44:20 you to fusions from the extra for the
+0:44:21 rest of the turn and revise itself when
+0:44:23 the gem knight fusion is destroyed in
+0:44:24 battle. Restrictions aside to keep gym
+0:44:26 knights from once again returning to the
+0:44:27 FTK. Well, the support was laser focused
+0:44:30 on giving gym knights all the tools they
+0:44:31 needed to return to their original
+0:44:33 deck's game plan, a blind second OTK
+0:44:35 strategy. Because practically all of
+0:44:37 their tools at this stage let you search
+0:44:39 out the individual pieces for free as
+0:44:40 you needed them at the cost of not going
+0:44:42 for the effect damage FTK. You can
+0:44:44 custom tailor your lines to build up
+0:44:46 significant OTK pushes, especially
+0:44:48 thanks to Diamond Dispersion being able
+0:44:49 to tag itself into any of the three
+0:44:51 non-rock fusions at once, letting you
+0:44:53 set up a custom board to clean up for
+0:44:54 the OTK. No Punk Rising Scale can summon
+0:44:57 herself from hand by banishing another
+0:44:58 punk from hand or grave. when special
+0:45:00 summoned either searches or summons a
+0:45:02 punk from deck or grave that isn't level
+0:45:03 eight and can book a 2500 plus attack
+0:45:06 monster in response to that monster
+0:45:07 using its effect. And Jam Fever is a
+0:45:09 rank eight that can be summoned over any
+0:45:11 punk fusion or synchro. Can pay 600 to
+0:45:13 detach to draw a card and can detach
+0:45:15 while you have a level three psychic
+0:45:16 engrave to negate and destroy any
+0:45:18 monster that uses its effect. These do
+0:45:20 not change the primary game plan of
+0:45:21 Punk, but rather make it more consistent
+0:45:23 and resilient to hand traps. As such,
+0:45:25 they would buff Punk back up into a
+0:45:27 rogue level strategy that can catch the
+0:45:28 unsuspecting by surprise with its
+0:45:30 resilience if unprepared. Galatea Eye,
+0:45:32 the Orcus Automaton, is a link one
+0:45:34 taking any Orcist or World Legacy as
+0:45:36 material, can only be link summoned once
+0:45:38 per turn, cannot be exceeded material,
+0:45:39 searches either a world legacy monster
+0:45:41 or an orchestrated Babel by bidding a
+0:45:43 card in hand. And if engraved, can
+0:45:45 summon itself back by banishing another
+0:45:46 Orcist engrave. And in gearsu is a link
+0:45:49 four that takes two plus monsters
+0:45:50 including an orcus link can recur back a
+0:45:52 banished orchestra world legacy
+0:45:54 returning a card from hand to deck and
+0:45:55 stealing an opponent's face up monster
+0:45:57 when you did and if engraved because it
+0:45:58 was sent there from the extra monster
+0:46:00 zone that turn can banish itself to send
+0:46:01 a card from field to grave. A link one
+0:46:04 that searches the field spell. How
+0:46:06 original. Jokes aside, the support was
+0:46:08 an incredible way for Orcus, turning all
+0:46:10 of your Orcus pieces into one card
+0:46:11 combos for the strategy, but most
+0:46:13 notably turns Gearsu into the best
+0:46:14 starter in the deck due to its ability
+0:46:16 to generate a token to both sides of the
+0:46:18 board, blocking the opponent from using
+0:46:20 Imperm and extending you that much
+0:46:21 further. On top of that, where you had
+0:46:23 to choose between Babel and Crescendo
+0:46:24 with Galatea's effect in the past, you
+0:46:26 can now get to both thanks to Galatea
+0:46:28 Eye searching for Babel before you
+0:46:29 commit to the OG Galatea. Add to that in
+0:46:32 Legus effect being reliably powerful
+0:46:34 thanks to being made a quickie by Babel
+0:46:36 and Orcas as a strategy may very well be
+0:46:38 back on the menu. Now these cards
+0:46:40 wouldn't be the only releases to
+0:46:41 consider for some of the WCQs that
+0:46:44 remained as 3 weeks later we get our
+0:46:45 third core set of the year right before
+0:46:47 we roll out the remaining four
+0:46:49 tournaments.
+0:46:56 Dualist Advance. Release date July 4th,
+0:47:00 2025. Set type: Core Set. Major
+0:47:02 Strategies: Art Mage, Onamat, LunaLite.
+0:47:06 Impact: A New Flamboyant Lore Boy.
+0:47:08 Duelist Advance would be the start of
+0:47:10 the ninth era of the game, which may
+0:47:11 come as a bit of a shock as standardly
+0:47:13 eras at this point in time were
+0:47:14 historically three-year blocks with 12
+0:47:16 core sets. However, with no more anime
+0:47:19 to tie themselves to and no longer
+0:47:20 having a need to maintain the previous
+0:47:22 era structure, the TCG moved to an eight
+0:47:24 set two-year era cycle starting with
+0:47:26 Duelist Advance, delineated by its green
+0:47:28 pack status and change in pack design
+0:47:30 layout. As such, as a standard for the
+0:47:32 era changeover, a new lore centerpiece
+0:47:34 would be introduced here in Midius the
+0:47:36 Pure, who on summon searches or summons
+0:47:38 a power patron from deck and can revive
+0:47:40 itself by shuffling a monster on field
+0:47:42 or in hand back into the deck, banishing
+0:47:43 itself when it leaves the field. This
+0:47:45 would be our new lore anchor for the
+0:47:46 next eight sets similar to Dia Bellar
+0:47:49 and as such would use its power patron
+0:47:50 tie-in as a way to connect future
+0:47:52 archetypes together all sinful spoils.
+0:47:54 Art mage power patron locks you to
+0:47:56 fusions from the extra while on field.
+0:47:58 Can quick effect fusion summon an art
+0:47:59 mage fusion or nerva the power patron of
+0:48:02 creation and if sent from hand or field
+0:48:03 to grave searches an art mage spell trap
+0:48:05 with a different name than one in grave.
+0:48:07 Finmemell gives targeting protection to
+0:48:08 six and lower art mages, can summon
+0:48:10 herself and draw one if you control an
+0:48:12 art mage, and can quick effect blanket
+0:48:13 negate the opponent's monsters on board
+0:48:15 if you have three plus different types
+0:48:17 on field, having her attack when you do.
+0:48:19 Gra flare protects itself from battle
+0:48:21 destruction once a turn, can summon
+0:48:22 itself and set an art mage spell trap
+0:48:24 from deck if you control an art mage,
+0:48:25 and can pop an opponent's spell trap
+0:48:26 once per turn, becoming a quick effect
+0:48:28 if you have three plus monster types on
+0:48:30 board. Later prevents battle damage
+0:48:32 involving her to yourself, can summon
+0:48:33 herself and recur an art mage card if
+0:48:35 you control an art mage, and can quick
+0:48:36 effect bounce herself back to hand to
+0:48:38 summon an art mage from hand in the
+0:48:39 opponent's main phase. Academic Arcane
+0:48:41 Arts Acropolis lets you normal summon an
+0:48:43 extra medius the pure once per turn and
+0:48:45 any number of times a turn can discard a
+0:48:47 spell trap to name a different art mage
+0:48:49 monster than one you've already named
+0:48:50 that turn to search for it, locking you
+0:48:52 to art mages, medius the pure and extra
+0:48:54 deck summons that turn. Thea Realize
+0:48:56 dumps Medias from deck for cost to look
+0:48:57 at the top of the opponent's deck and
+0:48:59 either stack it or bottom it and can be
+0:49:00 banished from grave to change one of
+0:49:02 your monster types and attribute.
+0:49:03 Succession fusion summons using at least
+0:49:05 one art mage. Gives the fusion 500
+0:49:07 attack if a field spell is face up. It
+0:49:08 can banish itself from grave to shuffle
+0:49:10 back three art mage cards from grave.
+0:49:12 Assault searches medius on activation.
+0:49:14 Can treat any one monster onto your
+0:49:15 field as an art mage for a fusion
+0:49:16 summon. It can set itself to grave to
+0:49:18 protect Acropolis from destruction.
+0:49:20 Alteration either places the field spell
+0:49:22 from deck or grave on board or searches
+0:49:24 any other art mage card if you already
+0:49:25 control it. It can be banished from
+0:49:26 grave to negate an attack on an art
+0:49:28 mage, then summon Medius from hand.
+0:49:30 Awakening summons an art mage or Medius
+0:49:32 from deck, locking the opponent from
+0:49:33 negating your fusion summon effects and
+0:49:35 prevents responses to the summon of a
+0:49:36 fusion monster and can be banished from
+0:49:38 grave to bounce an arc mage to pop a
+0:49:40 card the opponent controls. Diacteris is
+0:49:42 a fusion of medius and an art mage. can
+0:49:44 change a monster's battle position once
+0:49:45 per turn, omni negates once per turn if
+0:49:47 you control three plus monster types,
+0:49:48 and if destroyed, summons Medius from
+0:49:50 hand, deck, or banishment. And Nerva,
+0:49:52 the power patron of creation, is a
+0:49:53 fusion of three art mages, can also
+0:49:55 summon itself by tributing three
+0:49:56 different types of monsters. Can't be
+0:49:58 destroyed by card effects while a field
+0:49:59 spell is up, and can change your art
+0:50:00 mage monster effects to be destroy all
+0:50:02 cards the opponent controls once per
+0:50:04 turn. A tight resource loop can be found
+0:50:05 off of Medias for power patron here,
+0:50:07 allowing you to set up at minimum
+0:50:09 Diacteris, Finmemell, and Lata with an
+0:50:11 awakening engrave. but at this point in
+0:50:13 time did a little too little to see real
+0:50:15 usage, though many would keep an eye on
+0:50:16 it as the lore archetypes had a tendency
+0:50:18 to surge in usage after a couple of sets
+0:50:20 passed. Zubaba knight on summon either
+0:50:22 searches a Zubaba monster and copies its
+0:50:25 level or pops a level four lower defense
+0:50:27 monster the opponent controls and if
+0:50:28 detaches exceeds material searches the
+0:50:30 gaga. Gaga bar knight can summon itself
+0:50:33 by revealing a gaga in extra deck then
+0:50:35 either summons another gaga in hand or
+0:50:37 changes the monster's battle position.
+0:50:38 And when detaches exceeds material
+0:50:40 searches a go- goblinber berg on normal
+0:50:42 summons a non-warrior go from hand deck
+0:50:45 or grave swapping to defense after and
+0:50:47 locks you to exceed summons from the
+0:50:48 extra for the rest of the turn. And if
+0:50:49 detaches exceeds material searches a
+0:50:51 dodo monster do warrior can dump a dodo
+0:50:54 from deck for cost to summon itself from
+0:50:56 hand and make itself a level four and
+0:50:57 attack 1800 locking you to exceeds from
+0:51:00 the extra deck for the rest of the turn.
+0:51:01 And if detaches exceeds material
+0:51:03 searches a zoo bababa monster. Gaga
+0:51:05 utopic tactics blocks effect destruction
+0:51:06 and targeting to your Utopia and Utopic
+0:51:08 exceeds whose original attribute is
+0:51:10 light. Can change the level of two face
+0:51:12 up monsters including a Gaga to anything
+0:51:14 between 1 and 12 once per turn and can
+0:51:16 pop an opponent's card when you exceed
+0:51:17 summon a Utopia or Utopic monster once
+0:51:19 per turn. Unbreakable exceeds barrier
+0:51:21 omni negates while you control an exceed
+0:51:23 then can detach two materials from your
+0:51:24 exceeds to pop a card on field and can
+0:51:26 be banished from grave to attach a
+0:51:27 Utopia or utopic exceeds monster to an
+0:51:30 exceeds you control as material. Gaga
+0:51:32 Gaga Girl is a rank four that can if you
+0:51:34 have a Zubaba, Gaga, Gokugo, or Dota
+0:51:37 under her, detach to search a Gaga,
+0:51:38 Onomat, or exceeds card from deck and
+0:51:40 gives a Utopic future that uses her as
+0:51:42 material, the effect to attack twice the
+0:51:44 turn it summoned. And number F-Zero,
+0:51:46 utopic future, Zexel takes two exceeds
+0:51:48 with the same rank, is always considered
+0:51:49 a rank one, gains attack and defense
+0:51:51 equal to all ranks on your field and the
+0:51:53 opponent's grave times 500. Blocks the
+0:51:55 opponent from attacking or targeting any
+0:51:56 of your monsters except itself. It can
+0:51:58 detach when the opponent uses an effect
+0:52:00 to steal an opponent's monster,
+0:52:02 protecting that monster from destruction
+0:52:03 for the turn. I'm getting dual links
+0:52:05 flashbacks reading all these automat
+0:52:06 names again. Gaga sister has another
+0:52:09 effect. Probably the most notable card
+0:52:10 to talk about in this wave would be that
+0:52:12 of Dodo Dodo Warrior who can summon
+0:52:14 itself by dumping Doddo Dwarf Go Glove
+0:52:16 from the deck who can immediately summon
+0:52:18 itself back to the board since you
+0:52:19 control a Doddo monster enabling an
+0:52:21 instant rank four exceeds which in turn
+0:52:22 means that any deck with a rank four
+0:52:24 enabler that doesn't mind the exceeds
+0:52:25 lock just got yet another one card no
+0:52:27 normal starter such as Mitsarugi and
+0:52:29 Risealil. While you can play some of the
+0:52:31 other pieces to capitalize off of the
+0:52:33 warrior search when you detach it such
+0:52:34 as Zubaba Boncho Gaga Gakote who can
+0:52:36 then cycle back the glove later to make
+0:52:38 another rank four. This was mostly
+0:52:39 optional compared to the easy start
+0:52:41 point. Utopic futures exel also held
+0:52:43 potential as a rank four converter once
+0:52:45 their effects had been used up such as
+0:52:46 converting a duo drive or infernal flame
+0:52:48 banshee that were all used up to put
+0:52:50 another interaction point on the board.
+0:52:51 Though notably did get messed up a bit
+0:52:53 by the risal rank four lock. Lunalite
+0:52:55 gold leo on summon searches the lunalite
+0:52:57 then discards a card and if a lunalite
+0:52:59 is sent to grave while it's on field
+0:53:00 recurs it back to hand. Silverhound, if
+0:53:02 sent to grave by card effect, summons a
+0:53:04 Lunalite from deck, locking you to
+0:53:05 Lunaites from the extra while you
+0:53:07 control it, and can banish itself and a
+0:53:08 Lunalite fusion from grave to negate a
+0:53:10 spell or trap effect. Masquerade dumps a
+0:53:12 lunalite from deck the turn it's
+0:53:14 activated. On the fusion summon of a
+0:53:15 Lunaite, recurs polymerization from
+0:53:17 grave for banishment, discards a card,
+0:53:18 and lets you banish material from grave
+0:53:20 for any more Lunalite fusion summons
+0:53:22 that turn. Perfume Dancer is a fusion of
+0:53:24 two Luna lights, searches a Lunalite
+0:53:26 perfume on fusion summon, can bounce a
+0:53:28 Lunalite you control to summon a
+0:53:29 Lunalite from hand, and can banish
+0:53:30 itself from grave to drop all opponent's
+0:53:32 attack by their defense. And liker
+0:53:34 dancer is a fusion of Leo Dancer and
+0:53:36 three other Luna lights. Must be made
+0:53:38 with those materials, is a towers to
+0:53:39 non- Lunaite effects, can attack twice
+0:53:41 each battle phase, and can quick effect
+0:53:43 nuke the opponent's special summons by
+0:53:44 dumping a Lunaite from extra deck. Y'all
+0:53:46 remember that they took Tiger off the
+0:53:48 ban list last year, right? Lunalite
+0:53:50 having a non-h hard once per turn
+0:53:51 revival on Tiger and now the ability to
+0:53:53 bounce it back to hand repeatedly meant
+0:53:55 that your combo lines through Lunalite
+0:53:57 fusions are as simple as can be meaning
+0:53:58 accessing the tower that nukes the board
+0:54:00 is a simple task and on top of that can
+0:54:02 add in a rank four like beaga to the
+0:54:04 combo to stun the board since liger's
+0:54:06 immunity makes it unaffected by beooka
+0:54:08 too vanquish soul Holly Sue can summon
+0:54:10 herself from hand by revealing another
+0:54:11 vanquish soul can reveal an earth and
+0:54:13 darken hand to steal the lowest attack
+0:54:14 monster the opponent controls and can
+0:54:16 reveal a fire and darken hand to summon
+0:54:17 a non-sychic VS from Deck start searches
+0:54:20 the VS with a different attribute than
+0:54:21 one you control once per turn. Can
+0:54:23 prevent a VS's destruction by revealing
+0:54:25 one in hand once per turn. And can set
+0:54:26 up a VS trap from deck if you control
+0:54:28 two or more VS's in your end phase. And
+0:54:30 rocks is a rank for taking two plus VS
+0:54:32 monsters. Can be summoned over a VS or
+0:54:34 rock of the Vanquisher if your VS is
+0:54:36 battled that turn and gains effects
+0:54:38 based on its materials attributes with
+0:54:39 Dark dropping all opponents by 800
+0:54:41 attack. Fire boosting all VS's by a,000
+0:54:44 attack and Earth letting you detach to
+0:54:45 pop a card, notably not once per turn.
+0:54:47 For the Pure Vanquish Soul deck, this
+0:54:49 fills in a lot of the gaps in their
+0:54:50 lines. Mad Love is now a starter thanks
+0:54:52 to start by searching it with her on
+0:54:54 summon effect to get you to either Holly
+0:54:55 Sue to turn on her bounce effect or to
+0:54:57 Ryzen by linking her into rocks, which
+0:54:59 is a weird way to start some of your
+0:55:00 lines in reverse to how we're used to.
+0:55:02 Holly Sue patches a pretty major flaw on
+0:55:04 the deck in that she's a named Earth
+0:55:05 that doesn't suck to see in the hand.
+0:55:07 Notably though, she is a level five for
+0:55:09 reasons we'll get into a month from now
+0:55:10 and with the help of a fire and darkened
+0:55:12 hand can dump out another name from
+0:55:13 deck, meaning you're no longer as
+0:55:15 reliant on Xiaolong search effect as
+0:55:16 before in case you couldn't use rock to
+0:55:18 cycle back the second fire. This would
+0:55:20 be a potent contender for the WCQ
+0:55:22 season, though most players at the stage
+0:55:23 were picking them up in advance for what
+0:55:25 was coming down the pipeline in a month.
+0:55:27 Chef Day novel in scale searches a
+0:55:28 non-pendulum novail the turn it's
+0:55:30 activated and can summon itself if the
+0:55:32 opponent specials a monster on field if
+0:55:33 tributed and sent to face up extra
+0:55:35 places itself back in the pen zone. can
+0:55:37 bump an effect monster's level by three
+0:55:39 per turn on a quick effect and can
+0:55:40 banish a recipe ritual spell from hand,
+0:55:42 deck, or grave when the opponent summons
+0:55:43 a monster to copy that ritual summon
+0:55:45 effect. Recipe book forces all opponents
+0:55:47 to attack position while you control a
+0:55:49 novel monster. Makes the opponent pay
+0:55:51 850 anytime a monster is tributed by a
+0:55:53 ritual monster effect and can search a
+0:55:54 recipe or novel card when you summon a
+0:55:56 ritual by increasing its level by one.
+0:55:58 An angry burger,
+0:56:00 >> he's [screaming] angry,
+0:56:01 >> is always considered a hungry burger.
+0:56:02 Forces any able monster the opponent has
+0:56:04 to attack. ET can reveal itself in hand
+0:56:06 to search a new Vel monster and shuffle
+0:56:08 itself back in and contribute an attack
+0:56:10 position on either field to summon the
+0:56:11 OG Hungry Burger from hand or deck. The
+0:56:13 new pieces here tried desperately to
+0:56:15 make Newvel actively viable. And in a
+0:56:17 weird way, Angry Burger succeeded, just
+0:56:19 not in the way you'd expect. Thanks to
+0:56:21 the previous pussier devel, Angry Burger
+0:56:23 can search her out with its effect, who
+0:56:25 in and of herself gives you a full one
+0:56:26 card access line for the new TCG
+0:56:28 exclusive, Ritual Raven. A ritual
+0:56:30 pendulum that serves as its own ritual
+0:56:32 spell to summon out from the pen scale
+0:56:33 is considered the full tribute for a
+0:56:35 ritual summon and if tributed for a
+0:56:36 ritual summon searches any other ritual
+0:56:38 monster. This specifically has
+0:56:40 applications in any ritual deck that
+0:56:42 wants to summon their blue boys reliably
+0:56:44 such as the currently dominant
+0:56:45 Mitsarugi, marking these tools as an
+0:56:47 option for the strategy. Sky Striker
+0:56:49 special maneuver, Lindusgate, shuffles
+0:56:50 back an equal number of Sky Striker Ace
+0:56:52 monsters and Sky Striker spells from
+0:56:54 grave to bounce a card on the field for
+0:56:55 every three returned and can banish
+0:56:57 itself from grave when you special a Sky
+0:56:58 Striker to link summon a Sky Striker
+0:57:00 Ace. And Sky Striker Ace Zero takes two
+0:57:02 Sky Striker Ace monsters, can only be
+0:57:04 summoned once per turn, cannot be used
+0:57:06 to link summon, searches or recurs a Sky
+0:57:08 Striker spell on summon, and contribute
+0:57:10 itself to summon a Ray and Rose from
+0:57:11 Decker Grave, then pop a card on the
+0:57:13 field. This support is extremely
+0:57:15 powerful, especially given that Ray can
+0:57:17 still just tag into Zero with her effect
+0:57:19 rather than needing to gather the
+0:57:20 material. Searching a Sky Striker spell,
+0:57:22 then tagging back out into Ray and Rose
+0:57:24 to combo from there. Lemnus Gate is also
+0:57:26 quite potent thanks to its ability to
+0:57:27 cycle back a bunch of used pieces for
+0:57:29 board clears, but also in its ability to
+0:57:31 turn the zero tag out on the opponent's
+0:57:33 turn into an additional link off without
+0:57:35 needing to burn the ray effect. Sky
+0:57:36 Striker keeps popping up as random
+0:57:38 engine includes from time to time, so
+0:57:39 we'll see if we'll see it again with
+0:57:41 this new support. Secretarian Dragon is
+0:57:43 a fusion of a dragon and a spellcaster,
+0:57:45 loses 100 attack for every banished
+0:57:46 card, locks the effects of your
+0:57:48 opponent's specialed spellcasters and
+0:57:49 dragons, and can target a dragon and
+0:57:51 spellcaster engrave, revive one, and put
+0:57:53 the other on the bottom of the deck.
+0:57:55 This card is a touch weird to talk about
+0:57:56 now, but will be so much more relevant
+0:57:58 in roughly a month. So, we'll put a pin
+0:58:00 in that for now. Lastly, Valon, the
+0:58:02 super size Sky Blaster is a rank five
+0:58:03 that can detach on quick effect to book
+0:58:05 an opponent's monster, and if sent to
+0:58:07 Grave, pops a face down card on the
+0:58:08 field. Not a super important card for
+0:58:10 now, just being a solid generic rank
+0:58:12 five exceeds. But given that the rank
+0:58:13 five pool is about to undergo a
+0:58:15 renaissance of sorts, it's good to
+0:58:16 mention now. The Central America WCQ
+0:58:18 would be the same weekend. And despite
+0:58:20 all the new toys available in Duad,
+0:58:22 Malice and Mitsurugi would continue to
+0:58:24 be the top performing strategies with
+0:58:25 Malice taking the event piloted by
+0:58:27 Alexander Hernandez. There is a point of
+0:58:29 note, however, coming out of the
+0:58:30 Mitsurugi Risal list that came in second
+0:58:32 here being the presence of Gallant
+0:58:34 Granite in the extra deck. Because both
+0:58:36 Risiel and Mitsurugi for their combo
+0:58:38 lines can effectively ignore the normal
+0:58:39 until they get interrupted too much,
+0:58:41 they would opt for an option in the
+0:58:42 sideboard to search with Gallant being
+0:58:44 fossil dynam which could simply be
+0:58:46 normal at the end of your combo lines to
+0:58:48 lock special summons and when backed up
+0:58:50 by the Mitsurugi and Risil end boards
+0:58:52 was notably difficult to out. This would
+0:58:54 start to be a bit of a trend in the
+0:58:55 worst way imaginable. Using Granite or
+0:58:57 Infernal Flame Banshee to search for a
+0:58:59 floodgate to slap onto the board at the
+0:59:00 end of a combo using your normal summon
+0:59:02 with Granite getting either Fossil Dina
+0:59:04 or Barrier Statue of the Drought and
+0:59:05 Infernal Flame Banshee getting barrier
+0:59:07 statue of the Inferno. And this would
+0:59:09 persist into the remainder of the year,
+0:59:10 starting small and growing as time went
+0:59:12 by. Oceania would be the same weekend
+0:59:14 and Mitsurugi at this event would show
+0:59:16 signs of starting to pull away from the
+0:59:17 pack, taking 29 of the top 64 here,
+0:59:20 though would not take the event overall.
+0:59:22 Andy Leu would take the event using
+0:59:23 risal heraldic beasts using the X dump
+0:59:26 from extra to send a patriarch to bend
+0:59:28 two Leos from deck searching stad whale
+0:59:30 when you did. You could then commit the
+0:59:31 stad whale normal summon to net two
+0:59:33 copies of advanced heraldry art which in
+0:59:35 turn could each commit the two leos into
+0:59:37 an exceeded of your choice. As such some
+0:59:39 of the exceeds were included here
+0:59:40 exclusively for their ability to detach
+0:59:42 both materials at once for their effects
+0:59:44 such as dugar so that the second copy of
+0:59:46 advance could be fired immediately
+0:59:48 though could also be done through the
+0:59:49 duo drive effect. North America would be
+0:59:51 the following weekend and unlike all the
+0:59:53 other WCQs this season would have
+0:59:55 monster Mayhem legal for use which would
+0:59:57 result in some decks popping up here
+0:59:58 that wouldn't be present in the other
+1:00:00 events. One such strategy being Orcus
+1:00:02 would take the event and region title
+1:00:04 piloted by Wilfredo Flores notably able
+1:00:06 to weave through both of the fiendmith
+1:00:08 and Orcus lines all off of just the
+1:00:10 summon of Gearsu which in turn meant
+1:00:11 that you could insulate yourself from
+1:00:12 both Imperm and Niru effortlessly.
+1:00:15 Gemini would take top four with a blind
+1:00:16 second strategy, utilizing a series of
+1:00:18 one-card combos and board breakers to
+1:00:20 reliably set up into an established
+1:00:21 board. Most notably able to use Shadal
+1:00:23 Fusion to set up a construct and dump
+1:00:25 Nefim, which in turn would start the
+1:00:27 full Gem Knight line with her effect.
+1:00:28 Punk would snag a top 32 finish here
+1:00:30 with its new support as thanks to Rising
+1:00:32 Scale and Jam Fever from Monster Mayhem,
+1:00:34 the deck is able to cycle into a number
+1:00:36 of options to block out the opponent,
+1:00:37 cycle into Fiend, or go in for the kill
+1:00:39 off their one card combos. Lunalite
+1:00:42 would also finish in the top 32 here.
+1:00:43 Fresh off their duelist advance support,
+1:00:45 the new pieces made it trivally easily
+1:00:47 to access their new towers and liger
+1:00:49 dancer who has a built-in Ryeki for
+1:00:51 special summons, as well as Beagusa,
+1:00:53 which doesn't affect the lier. Gold Leo
+1:00:55 and Silverhound proved to be an
+1:00:56 incredible starter duo, effectively
+1:00:58 turning Gold Leo into the material you
+1:01:00 need for your first fusion, as well as a
+1:01:01 droll dodging search for Tiger, getting
+1:01:03 you off to the races. Lastly would be
+1:01:05 the European WCQ 2 weeks later, which as
+1:01:08 a reminder did not have Monster Mayhem
+1:01:10 legal yet. The breakout deck of the
+1:01:11 event was undoubtedly Vanquish Soul,
+1:01:13 taking a resounding 18 of the top 64, as
+1:01:16 well as the event and region title
+1:01:17 piloted by Lorenzo Muzelli. Able to play
+1:01:20 significantly more consistently now
+1:01:21 thanks to all the holes the new support
+1:01:23 patch for the deck's game plan. Holly
+1:01:25 Sue was also an incredibly valuable
+1:01:26 piece of interaction for the deck, able
+1:01:28 to summon out even when going second and
+1:01:30 provide a monster steal or a non-sychic
+1:01:32 vanquish soul summon while the opponent
+1:01:33 tries to set up. Sky Striker would also
+1:01:35 into the top eight here, utilizing the
+1:01:37 new zero in Limnus gate to provide
+1:01:39 consistency while going for a blind
+1:01:41 second board break through options like
+1:01:42 Super Poly and Thrust. Vanquish Soul was
+1:01:44 certainly on the rise from this event,
+1:01:46 but the deck was about to get a lot
+1:01:47 stronger, too, as the next deck build
+1:01:49 set that followed within a week of the
+1:01:51 event was about to blow the hinges off
+1:01:52 of the format we've started to grow too
+1:01:54 familiar with for the past few months.
+1:02:03 Justice Hunters release date August 1st
+1:02:05 2025. Set type deck building set. Major
+1:02:08 strategies Draco Tale Yummy K9 Impact
+1:02:12 and upheaval of the current meta. Just
+1:02:14 as Hunters would be the first of the two
+1:02:15 deck build packs we'd receive within the
+1:02:17 year. And where the previous deck build
+1:02:18 sets had a reputation of bringing one,
+1:02:20 maybe two total playable arc types, Josh
+1:02:22 would demolish that preconceived notion
+1:02:24 by bringing three different strategies
+1:02:26 that were all viable in the meta
+1:02:27 immediately on release. Each of the main
+1:02:29 deck Draco tails share an effect to set
+1:02:31 a Dracoail spell trap from deck when
+1:02:32 they're sent to grave as fusion material
+1:02:34 with the dragons adding on an additional
+1:02:36 effect to the set. Lucia searches a
+1:02:38 Dracoale monster on summon. Fimina can
+1:02:40 discard herself on a quick effect to
+1:02:41 fusion summon a dragon or spellcaster.
+1:02:43 Pan adds a monster destruction to its
+1:02:44 spell trap set effect and when a fusion
+1:02:46 is destroyed while it's engraved places
+1:02:47 itself on bottom of deck to revive a
+1:02:49 non-fusion Draco Tale. Urgula adds a
+1:02:51 spell trap pop to the set effect and
+1:02:53 while engrave can bottom itself to recur
+1:02:54 back a spellcaster Draco Tale. And Mulu
+1:02:57 adds a negate of a face up monster's
+1:02:58 effects to the spell trap set and can
+1:03:00 quick effect fuse a Draco Tail while on
+1:03:01 field locking you to fusions from the
+1:03:03 extra for the rest of the turn. Ketu
+1:03:05 searches a Draco Tale monster then let
+1:03:06 you fuse a dragon or spellcaster if your
+1:03:08 opponent controls a monster. Rahu fuses
+1:03:10 a Draco Tale fusion using hand deck or
+1:03:12 field but locks you to fusions from the
+1:03:14 extra for the rest of the turn. Horn
+1:03:15 bounces an attack position monster that
+1:03:17 can bottom a grave or banish Draco Tail.
+1:03:19 And Flame negates a face up spell that
+1:03:21 can bottom a grave or banish Draco Tale.
+1:03:23 Arthleon is a fusion of a Draco Tale and
+1:03:25 one or more monsters in hand. Bounces
+1:03:27 monsters up to the number of materials
+1:03:28 used on fusion summon and could revive
+1:03:30 itself if two or more monsters are sent
+1:03:32 to the grave at the same time, banishing
+1:03:33 itself when it leaves the field. And
+1:03:34 Gulamel is a fusion of a Draco Tale and
+1:03:36 one monster in hand. Pops an opponent's
+1:03:38 card when you activate a Draco Tale card
+1:03:39 or effect. It has the same revival
+1:03:41 effect as Arlon. A fusion strategy based
+1:03:43 on dragons and spellcasters with a
+1:03:45 fusion from deck spell. Why does this
+1:03:47 sound familiar? Unlike Branded though,
+1:03:49 Draco Tale cannot naturally just use
+1:03:50 materials from the deck for Rahu due to
+1:03:52 their bosses both requiring a monster in
+1:03:54 hand. Though that requirement is far
+1:03:56 from strenuous because of the
+1:03:57 flexibility of their materials and the
+1:03:59 ability for every single member of the
+1:04:00 archetype to recoup their investment by
+1:04:02 replacing themselves with a spell trap
+1:04:03 when fused. Draco Tale operates on a far
+1:04:06 different axis than branded before it.
+1:04:07 On top of that, the generic nature of
+1:04:09 their fusions allows you to commit dead
+1:04:11 hand traps like the mold charmies when
+1:04:12 going first into materials for your
+1:04:14 fusions. Any hand starting with Lucius
+1:04:16 or Ketu with any other monster is enough
+1:04:18 to get the ball rolling in a reliable
+1:04:20 manner. And Fimina allowing you to fuse
+1:04:22 on the opponent's turn means that with
+1:04:23 any opening, including herself, another
+1:04:25 name, and any other monster means that
+1:04:27 you can drop an Athelon on your
+1:04:28 unsuspecting opponent to bounce their
+1:04:30 setup away. Of the three just
+1:04:31 strategies, Draco would be initially the
+1:04:33 weakest of the bunch, but was by no
+1:04:35 means bad. With the right environment
+1:04:37 and maybe one more piece of support,
+1:04:38 this deck could easily turn into a
+1:04:40 meta-inant threat. Each of the main deck
+1:04:42 yummies share an effect to special
+1:04:43 summon themselves from hand when you
+1:04:44 control either a link one or a level two
+1:04:46 synchro. Cupsy searches a yummy on
+1:04:48 summon or can draw a card if summoned by
+1:04:49 a synchro effect. Cookie drops an
+1:04:51 opponent's monster by a thousand attack
+1:04:52 on summon or can pop it if summoned by a
+1:04:54 synchro effect. And Lollipop spins away
+1:04:56 a card from the opponent's grave on
+1:04:57 summon or can banish it if summoned by a
+1:04:59 synchro effect. Both of the yummy field
+1:05:01 spells share an effect to bottom
+1:05:02 themselves in grave along with two yummy
+1:05:04 monsters from grave for banishment with
+1:05:05 minion boosting all yummies by 500
+1:05:07 attack for each light beast on the board
+1:05:09 and can revive a level one yummy if you
+1:05:11 control a link one and arrow okay
+1:05:12 popping an opponent's card when you
+1:05:14 synchro a light beast and when your
+1:05:15 monster on field is removed by your
+1:05:16 opponent's card effect. You can replace
+1:05:18 it with any yummy from your deck.
+1:05:20 Surprise can either bounce two light
+1:05:21 beasts and two of your opponent's cards,
+1:05:23 summon a yummy from hand or grave,
+1:05:24 locking its direct attacks that turn, or
+1:05:26 returns a yummy field spell from field
+1:05:28 or grave to hand to put one from hand
+1:05:29 onto the field. Redemption drops an
+1:05:31 opponent's attack by 200 per light beast
+1:05:33 in your field or grave. Let you sculpt
+1:05:34 your hand by one every time you sync or
+1:05:36 summon a light beast. It can banish
+1:05:37 itself from grave to creature swap a
+1:05:39 yummy with an opponent's monster.
+1:05:40 Snatchy is a link one requiring a level
+1:05:42 four or lower light beast. places a
+1:05:44 yummy field spell onto the field from
+1:05:46 hand or deck when summoned, locking you
+1:05:47 from link three or highers for the turn,
+1:05:49 and can quick synchro summon in the main
+1:05:51 phase or the opponent's battle phase
+1:05:52 once per chain. All three of the yummy
+1:05:54 synchros are level twos that can
+1:05:55 consider any link one as a level one
+1:05:57 tuner and share an effect that tag out
+1:05:58 in response to an opponent's card to
+1:06:00 summon two yummies from grave with Cupsy
+1:06:02 Way searching two yummy cards and
+1:06:03 discarding a card on synchro summon.
+1:06:05 Cookie way booking two monsters on
+1:06:06 synchro summon and lollipo way reviving
+1:06:08 two yummies without their effects on
+1:06:09 synchro summon. This would be one of the
+1:06:11 most experimented with decks leading up
+1:06:13 to the release of Josh to the point
+1:06:14 where so many different lines would be
+1:06:16 lapped out with them thanks to the
+1:06:17 variety of material they can generate
+1:06:18 from themselves and from other
+1:06:20 strategies. Obviously, one of the main
+1:06:22 combo cards because they're all beast is
+1:06:24 obedient school which was even reprinted
+1:06:25 here allowing you to bring out a copy of
+1:06:27 each at a cost of locking yourself to
+1:06:29 beast for the turn. But there were also
+1:06:30 more interesting lines like the fact
+1:06:32 that hornet drones is a full yummy combo
+1:06:34 thanks to the synchro not specifying the
+1:06:35 yummy link one as their tuner rather any
+1:06:38 link one allowing you to hornet drones
+1:06:40 into kagari to cycle back the drones to
+1:06:41 do it again syncing kagari with the
+1:06:43 drones token into cupsy weight to search
+1:06:45 two of the three level ones. There are
+1:06:46 plenty more interesting interactions for
+1:06:48 the strategy but we'll leave it here for
+1:06:49 now as we'll talk more about it at the
+1:06:51 next YCS. Each of the K9 main deck
+1:06:53 monsters can be normal without tributing
+1:06:55 if the opponent has two or more cards in
+1:06:56 hand. Isizuna can summon herself on a
+1:06:58 quick effect if the opponent used a
+1:06:59 monster effect in hand or grave that
+1:07:01 turn and dumps a K9 from deck on summon.
+1:07:03 Jook can reveal itself in hand and
+1:07:05 another level five in hand to summon
+1:07:06 both locking both from being material
+1:07:08 for a light exceeded and can search a
+1:07:09 nonqua canine once per turn. Lantern can
+1:07:12 revive a non-Pyro K9 while in hand to
+1:07:14 summon itself locking both from being
+1:07:16 material for a light exceeded and can
+1:07:17 search a K9 spell trap once per turn and
+1:07:19 lupus gives it exceed targeting
+1:07:21 protection. Can revive itself on a quick
+1:07:22 effect if the opponent has used a
+1:07:24 monster effect in hand or grave that
+1:07:25 turn. and can quick exceeds on the
+1:07:26 opponent's turn. Release restraint lets
+1:07:28 you exceed summon a K9 exceeded over
+1:07:30 another K9 exceeded or any rank five
+1:07:32 exceeded and sets itself from grave at
+1:07:33 the end of the battle phase that a K9
+1:07:35 battles in. Force release is the same
+1:07:36 but exclusively for K9 exceeds is main
+1:07:39 phase locked and pops an opponent's card
+1:07:40 when you do. A case for K9 searches a K9
+1:07:42 on activation, boosts K9's by 900 attack
+1:07:45 during a turn where the opponent use a
+1:07:46 monster effect in hand or grave and if
+1:07:48 destroyed by card effect sets a K9 quick
+1:07:50 play from deck or grave. and special
+1:07:51 release equipment summons a K9 from hand
+1:07:53 or grave, then summons a K9 exceed over
+1:07:55 that monster, popping it in the end
+1:07:57 phase, and during the end phase can
+1:07:58 banish itself from grave to set a K9
+1:08:00 quick play from grave. Ripper is a rank
+1:08:02 five that can detach to search a K9,
+1:08:03 then also set a K9 quickplay if the
+1:08:05 opponent use a hand or grave monster
+1:08:06 effect that turn. And when the opponent
+1:08:08 uses a hand or grave monster effect, can
+1:08:09 detach to negate it. Hound is a rank
+1:08:11 five that is destruction immune the turn
+1:08:12 it summoned, gains 500 every time the
+1:08:14 opponent uses a monster effect, and in
+1:08:16 the standby phase can detach one to
+1:08:17 banish a card on field. And werewolf is
+1:08:19 a rank nine, can attack a number of
+1:08:21 times equal to its materials, and can
+1:08:22 detach when the opponent uses a monster
+1:08:24 effect to banish a card from both their
+1:08:26 field and grave if it is your turn, or
+1:08:27 look at their hand and banish a card
+1:08:29 from it face up until the end phase if
+1:08:30 it's their turn. K9 specializes in
+1:08:32 getting multiple level fives on the
+1:08:34 board as fast as possible with Yoko and
+1:08:35 any other five able to convert you to a
+1:08:37 minimum of three materials, which can
+1:08:39 also get you to a number 67 Paradise
+1:08:41 Smasher with a trigger, which is an
+1:08:42 absolute pain TO DEAL WITH.
+1:08:45 >> Because of this, the deck loves to mix
+1:08:47 itself with other decks with level fives
+1:08:48 as a focus, which in turn would lead to
+1:08:50 the deck mixing prominently well with
+1:08:51 Vanquish Soul thanks to Holly Sue with a
+1:08:53 few others we'll discuss shortly as
+1:08:55 well. Easily the most talked up card,
+1:08:56 however, was Azuna. Going second, Izzuna
+1:08:58 by herself. If the opponent uses a hand
+1:09:00 or grave effect, summons herself, dumps
+1:09:02 Lupus to resummon, they can quick exceed
+1:09:04 into either Ripper, who provides
+1:09:05 negation for further hand or grave
+1:09:07 effects, or the recent Valon, who can
+1:09:08 book the opponent's monsters. Going
+1:09:10 first, she can also provide insulation
+1:09:12 for decks that can fit her in. As with
+1:09:13 the same line after your opponent hand
+1:09:15 traps you the first time, she can set up
+1:09:16 Ripper to prevent the next one. K9 would
+1:09:18 easily be the most hyped of the three
+1:09:20 strategies coming out of Josh, which
+1:09:22 we'd see even more so with the next YCS.
+1:09:24 YCS Vancouver would be held two weeks
+1:09:26 later and off the bat, Vanquished Soul
+1:09:28 K9 would take the king slice of the
+1:09:29 representation pie and a second place
+1:09:31 finish with the deck coming off the
+1:09:32 heels of a fantastic performance of the
+1:09:34 EU WCQ. The addition of Isuna to the
+1:09:37 deck once again buffs the earth count
+1:09:38 while also giving them yet another
+1:09:40 option to disrupt the opponent when
+1:09:41 they're going first. The strategy was
+1:09:43 also extremely adept at placing three
+1:09:45 plus level fives on the board fast,
+1:09:47 meaning that Paradise Smasher was
+1:09:48 abundant, able to win games on the spot
+1:09:50 if it got out uninterrupted. Yummy would
+1:09:52 have a fantastic performance here as
+1:09:53 well, taking the event piloted by Trift
+1:09:55 for a second YCS win. The deck's
+1:09:57 consistency to start their basic lines
+1:09:59 off of any of their level ones was
+1:10:00 already powerful, but add to that the
+1:10:02 ability to access Marshall Metal Marcher
+1:10:04 means that you can access Herold of the
+1:10:05 Arklight early in your combos to provide
+1:10:07 insulation without compromising the line
+1:10:09 strength. Draco Tale would cap out at
+1:10:11 top eight for its first outing, notably
+1:10:12 playing copies of Blazing Carteesia to
+1:10:14 enable additional fusions in case your
+1:10:16 other fusion effects get negated
+1:10:18 alongside a large suite of hand traps
+1:10:19 with at least one copy of every single
+1:10:21 Draco Tale, as the deck cannot afford to
+1:10:23 skimp on triggers at this stage.
+1:10:24 Probably the most talked about
+1:10:25 finishier, though, was Cristron K9,
+1:10:27 which ended in the top four. If you're
+1:10:29 making a bunch of rank fives anyways,
+1:10:30 you can opt to convert one of your
+1:10:32 summons into Infinitrack River Stormer,
+1:10:34 who in turn can search for Scrap
+1:10:35 Recycler from the deck, allowing you to
+1:10:37 then convert your not yet used normal
+1:10:38 summon into a full Cristron line. On top
+1:10:40 of that, Cristron provides multiple
+1:10:42 level fives in Sulfne and Sulfador to
+1:10:44 fuel Yokul summon, making them an
+1:10:45 unlikely match made in heaven. Finally,
+1:10:47 there's Chaotic Element, which can
+1:10:49 search for both Yokal and Lantern
+1:10:50 directly from deck, while also being
+1:10:52 able to steal an opponent's monster if
+1:10:54 they themselves are on K9 and left a
+1:10:56 Yokal or Lantern on board. The 2025
+1:10:58 World Championships would be held two
+1:10:59 weeks later. And notably, this would be
+1:11:01 the first time in a long time where a
+1:11:03 number of the TCG strategies were either
+1:11:05 completely unhit or had closely mirrored
+1:11:07 hits in the OCG, allowing for a clearer
+1:11:09 representation of the format to shine
+1:11:11 through at Worlds. Though, notably, one
+1:11:12 of the few strategies missing was
+1:11:14 Mitsurugi due to its status as a TCG
+1:11:16 exclusive. Julian Leo Kahon of the US
+1:11:18 would be crowned the 2025 world champion
+1:11:21 on K9 Vanquish Soul. Notably being the
+1:11:23 third year in a row that the US took
+1:11:25 home worlds being the first time that a
+1:11:27 country other than Japan had cracked
+1:11:28 three worlds titles. Overall though the
+1:11:31 world's format was fairly diverse with
+1:11:32 K9, Yummy, Lunalite, Sky Striker,
+1:11:35 Cristron, and the even more hit than the
+1:11:37 TCG Malice all finding spots in the top
+1:11:39 eight. The 2025 Mega Tins would drop the
+1:11:42 following week on September 5th, but had
+1:11:44 notably dropped in quality significantly
+1:11:46 over the last few years, with most of
+1:11:48 the notable inclusions here being a
+1:11:49 couple of alternative art reprints
+1:11:51 locked at the higher rarity. A ban list
+1:11:53 would also be announced shortly
+1:11:54 thereafter to go into effect on
+1:11:56 September 15th aimed at adjusting the
+1:11:57 format post Josh to balance things out a
+1:11:59 little. Newly banned were Moon of the
+1:12:01 Closed Heaven to stop the generic usage
+1:12:03 of the Fiendmith engine, Splash Mage to
+1:12:04 curb the link climbing prowess of
+1:12:06 Malice, King of the Pharaoh limbs to
+1:12:08 remove the rank four bridge into
+1:12:09 Mitzerugi, and number 67 Paradise
+1:12:11 Smasher because K9 shouldn't be causing
+1:12:13 non-games with that thing. Newly limited
+1:12:15 were X-rayal, the best risil starter,
+1:12:18 Malice Door Mouse, the best Malice
+1:12:19 starter, Raisin and Stake Your Soul as
+1:12:21 consistency hits to the K9 Vanquish Soul
+1:12:23 variant, obedient schooled, and Herald
+1:12:25 of the Ark Light as hits to both Yummy's
+1:12:27 consistency and in board. Crystron
+1:12:28 inclusion as a hit to the other K9
+1:12:30 splash deck. Solemn judgment as a hit to
+1:12:32 the growing popularity of the counter
+1:12:33 trap and lacrima, link kuribo, summon
+1:12:36 sorceress, and drident all coming off of
+1:12:37 the band section with sorceress having
+1:12:39 an arata now. Newly semi-limited was
+1:12:41 branded fusion coming up from one to
+1:12:43 help a potential dracoail combination.
+1:12:45 And newly unlimited were glow-up bulb,
+1:12:47 masterpiece, morphing jar, phantom sky
+1:12:49 blaster, snake eye ash and poplar,
+1:12:51 draonic diagram, lightning storm, and
+1:12:53 zodiac barrage. All having passed the
+1:12:55 point of relevancy to stay on the list.
+1:12:57 This list is meant to take a massive
+1:12:58 swing at the previous top meta threats
+1:13:00 of Malice and Riseal. A cold to the
+1:13:01 splash ability of Mitsarugi, an attempt
+1:13:03 at culling the Fiendith Engine while
+1:13:05 still giving it a path to see some
+1:13:06 splash play and even some more pure play
+1:13:08 with the return of Lacerma, the culling
+1:13:10 of Paradise Smasher as an extremely
+1:13:11 unfair windcon for the K9 Vanquish Soul
+1:13:14 deck and a bunch of hits to some of the
+1:13:15 mixed decks with these new pieces,
+1:13:17 specifically Vanquish Soul and Chron.
+1:13:19 From this, it was clear that Konami
+1:13:21 wanted to push players to experiment
+1:13:22 more with the Josh decks in more pure
+1:13:24 variants. Although with the hits to
+1:13:25 Obedience for Yummy, that was still
+1:13:27 going to be a little bit tougher, which
+1:13:28 we'd have to see how players would adapt
+1:13:30 in the coming weeks. Interestingly, 9
+1:13:32 days after the ban list, Konami would
+1:13:34 also make an announcement regarding a
+1:13:35 completely new format for the TCG known
+1:13:37 as Genesis format, a format where all
+1:13:39 cards are legal except for links and
+1:13:41 pendulums, but the more powerful cards
+1:13:43 have point values assigned to them, with
+1:13:45 a standard event deck not being allowed
+1:13:46 to exceed 100 points. This was an
+1:13:48 interesting way to balance out the
+1:13:49 format as decks that were clearly
+1:13:51 powerful in the primary TCG had heavy
+1:13:53 point restrictions to the point where
+1:13:54 they were not playable in their TCG
+1:13:56 incarnations, allowing less powerful
+1:13:58 decks to rise up and see play. Even
+1:14:00 decks that were clearly behind the ball
+1:14:01 on their power level could see strong
+1:14:03 usage thanks to the inclusion of pointed
+1:14:05 staples like Pot of Greed to improve
+1:14:06 consistency, leading to an overall
+1:14:08 well-received format. This led us into
+1:14:10 the next core set released 2 days later.
+1:14:12 And with a new game mode to shed light
+1:14:13 on these cards with a whole new
+1:14:15 appreciation for the set would be found
+1:14:16 considering it was not highly
+1:14:18 anticipated.
+1:14:22 [music]
+1:14:26 Doom of Dimensions release date
+1:14:28 September 26th, 2025. Set type: core
+1:14:31 set. Major Strategies: Doom Z, Radiant
+1:14:34 Typhoon, DDD. Impact, a bunch of new arc
+1:14:37 types, none of them viable. Doom of
+1:14:39 Dimensions was the fourth core set of
+1:14:40 the year, and sadly though, it did bring
+1:14:42 a number of both new arc types and major
+1:14:44 support waves for older ones. None of
+1:14:46 the major waves here would be relevant,
+1:14:47 relegating this set to be mostly focused
+1:14:49 on for a small handful of support pieces
+1:14:51 to the current meta and one archetype
+1:14:52 that would be dominant in exactly
+1:14:54 Genesis format. To not take up too much
+1:14:56 time here, as this is already going to
+1:14:57 be a long one, we're going to move into
+1:14:59 skim mode for these. Doom Z is the
+1:15:01 second Medius archetype focused on
+1:15:02 overlaying their exceeds onto their
+1:15:04 monsters without properly summoning out
+1:15:05 the high ranks thanks to the utilization
+1:15:07 of equip spells with the most consistent
+1:15:09 payoff being that of Drastrius, a rank
+1:15:11 eight that can be cheated out with
+1:15:12 Drastia's effect that protects itself
+1:15:14 from destruction once a turn, conceal
+1:15:15 any other monster on field to be used as
+1:15:17 an equip spell, and can detach the
+1:15:18 negate a monster on field or engraves
+1:15:20 effect, then equip on another opponent's
+1:15:22 monster. While a decent enough payoff,
+1:15:24 having a line directly from Media
+1:15:25 straight to the previously mentioned
+1:15:26 Drastrius, equipping it with Doom Durge,
+1:15:29 there just isn't enough of a payoff
+1:15:30 currently to consider the deck over the
+1:15:32 remainder of the meta. Radiant Typhoon
+1:15:33 is a series of wind monsters that all
+1:15:35 center around the spell ruler staple
+1:15:37 Mystical Space Typhoon. having a bunch
+1:15:39 of lower level swarmers that can all
+1:15:40 summon themselves when the OG MST is
+1:15:42 engraved or the opponent controls no
+1:15:44 spell traps. Lattering through their
+1:15:45 lines to standardly set up a totem bird
+1:15:47 and access the mandate, which can give
+1:15:49 the all-time star MST the ability
+1:15:51 finally to negate by taking on a face up
+1:15:53 card activation anytime you activate
+1:15:55 MST. A really solid strategy, though its
+1:15:57 payoffs are too low to the ground to see
+1:15:58 play in the current metag game. Though
+1:16:00 notably, on release, these cards were
+1:16:01 all completely point free in Genesis,
+1:16:04 resulting in an absolute menace of the
+1:16:05 deck running loose in the Genesis
+1:16:07 format. DDD received yet another wave of
+1:16:09 legacy support. This time being
+1:16:11 headlined by Queen Machinesex, able to
+1:16:13 search and activate the new Zero King
+1:16:14 out of deck, which in turn can just
+1:16:16 destroy the Machanex to access a DD from
+1:16:18 deck without burning the normal. This
+1:16:19 alone would open the doors for a variety
+1:16:21 of new potential combo lines for DDD, no
+1:16:23 longer needing to sink the normal into
+1:16:25 starting lines only to eat a single hand
+1:16:27 trap and lose. Though notably was an
+1:16:28 extremely complicated deck to pilot once
+1:16:30 again. Though the strategy was
+1:16:32 competent, the hidden factor of the deck
+1:16:33 is the complexity, requiring a thorough
+1:16:35 knowledge of the deck to perform your
+1:16:37 lines optimally through various hand
+1:16:38 traps of the format, which could all
+1:16:40 just stop you dead in your tracks if you
+1:16:41 play incorrectly, leaving DDD to be a
+1:16:43 rogue level pick for the format, seeing
+1:16:45 regional success, but not much else.
+1:16:47 Black Rose would receive a few new
+1:16:49 pieces to end on new bosses and Bramble
+1:16:51 Rose Dragon and Rage Rose Witch. The two
+1:16:53 of which together tax the opponent for
+1:16:55 playing, threatened to tag into the
+1:16:56 original black rose to nuke the board,
+1:16:58 and then protect the remainder of your
+1:16:59 board from it thanks to rage rose.
+1:17:01 Though an annoyance, in the end, the
+1:17:02 deck put up a single point of
+1:17:04 interaction, and though it was a notably
+1:17:05 powerful board nuke, that wouldn't be
+1:17:07 enough to get it to break through the
+1:17:08 waves of interaction the current top
+1:17:10 decks could build. Onamata Kag is
+1:17:12 considered all four of the Onamat sub
+1:17:13 arc types, can summon itself from hand
+1:17:15 or grave if you control one of them,
+1:17:16 banishing it when it leaves the field,
+1:17:18 and can be banished from grave to recur
+1:17:20 back up to two exceeds. Effectively
+1:17:21 being a better fit for the Doda Dodo
+1:17:23 Warrior Splash since it filled both the
+1:17:24 same niche as the previous gloves and
+1:17:26 serve double duty as a follow-up search
+1:17:28 target. Anomato Kag would raise the
+1:17:30 popularity of the Dodo Warrior package
+1:17:32 for risal strategies as well as its
+1:17:34 splash ability into others. Driger
+1:17:35 Fricxle has the fusual fusion material
+1:17:37 effect and if summoned revives a Draco
+1:17:39 tail then bounces a monster you control.
+1:17:41 While the effect was decent enough for
+1:17:42 recurring back certain pieces like
+1:17:44 Lucius and Fina, the primary purpose
+1:17:46 that this card served was being a light
+1:17:47 attributed Draco Tale. Because of this
+1:17:49 branded fusion was now a one-card
+1:17:51 starter for the strategy by dumping this
+1:17:52 for one of your albon fusions and
+1:17:54 setting Ketu for Lucius, increasing the
+1:17:56 popularity of the branded package for
+1:17:57 Draco Tale. And that would only get more
+1:17:59 popular soon enough. Marshmallow Yummy
+1:18:01 can summon itself from hand if you
+1:18:02 control no monsters or only light
+1:18:04 beasts, recurs a yummy spell trap on
+1:18:06 summon, or places a yummy field or
+1:18:08 continue a spell from deck or banishment
+1:18:09 face up instead if it was summoned by a
+1:18:11 synchro effect. Marshmallow is a bit of
+1:18:13 a divisive card for the yummy deck. On
+1:18:15 the one hand, it's a free extender that
+1:18:17 can either start your lines or can recur
+1:18:18 back your pieces once you've burned
+1:18:20 them, such as surprise, or even cycle
+1:18:21 back an outed field spell. On the other
+1:18:23 hand, it makes alive. One of the biggest
+1:18:25 benefits to playing Yummy in the current
+1:18:26 metag game was how it matched up
+1:18:28 specifically into K9 Azuna by never
+1:18:30 using an effect in hand or in grave. And
+1:18:32 this did complicate the matter because
+1:18:34 it was an extremely solid support that
+1:18:36 just opened up a can of worms. K9 Noroy
+1:18:38 has the K9 normal summon condition, can
+1:18:40 special a non-machine K9 from deck on
+1:18:42 normal, but locks your extra deck
+1:18:43 summons to K9's while you control that
+1:18:45 monster you summoned, and can send a K9
+1:18:46 from field to grave to take a peek at
+1:18:48 the opponent's hand. Jax is a rank five
+1:18:50 that can detach to pop a monster when
+1:18:51 it's exceeded summoned or when the
+1:18:52 opponent activates a monster effect in
+1:18:54 hand or grave and if used as material
+1:18:56 for a K9 exceeded doubles the battle
+1:18:57 damage to the opponent on turns where
+1:18:59 they've used a hand or grave effect.
+1:19:00 Noroy gives the deck an actual normal
+1:19:02 summon that you want to spend the normal
+1:19:04 on. Unlike all of the other key pieces,
+1:19:06 either having conditions to special
+1:19:07 summon or just being a brick that you
+1:19:09 never want to draw, effectively
+1:19:10 providing a reliable line into your rank
+1:19:12 fives right away while also being a
+1:19:13 machine to cycle into the Cristron
+1:19:15 build. Jax, on the other hand, is more
+1:19:17 clearly meant to be an Asuna target to
+1:19:18 provide more instantaneous disruption if
+1:19:20 you choose to fire her, trading the
+1:19:22 previous prevention that Ripper gives
+1:19:23 for a more instant payoff. Both of these
+1:19:25 would be solid inclusions for all sorts
+1:19:27 of K9 decks, which we'd see soon enough.
+1:19:29 YCS Lima would happen the same weekend,
+1:19:30 and I would like to take a moment here
+1:19:32 to note a change that was made involving
+1:19:34 top cut playouts. Although top 32 to top
+1:19:36 64 would be reported on for prizing
+1:19:38 purposes, depending on the players
+1:19:40 participating, only top eight would be
+1:19:42 played out from this point forward. As
+1:19:43 such, while we will be showing all of
+1:19:45 the decks that made the cut, we will
+1:19:46 only be discussing relevant decks from
+1:19:48 the top eight from now on. While no new
+1:19:50 strategies would emerge from the dude
+1:19:51 releases, multiple strategies would
+1:19:53 reinforce their game plans with Yummy
+1:19:55 taking the king slice of the pie chart
+1:19:56 here, as well as first place piloted by
+1:19:58 Trip to his third YCS win, being his
+1:20:00 second back-to-back win after Vancouver
+1:20:02 a month and a half ago, and notably
+1:20:03 having all three wins within the last 10
+1:20:05 months. Trip's deck was not standard by
+1:20:07 any means, but would introduce a deck
+1:20:09 concept that had been theorized for a
+1:20:10 bit up until this point, but never saw
+1:20:12 the top cut. Mitsurugi Yummy. Though
+1:20:14 Mitsurugi had lost their rank four
+1:20:16 bridge in the banning of Fereralymphs,
+1:20:18 they still maintained one in Yummy,
+1:20:19 specifically thanks to Herold of the Ark
+1:20:21 Light, who can be linked off the board
+1:20:22 to bring out an option like IP, search
+1:20:24 Hakiri with its effect, and then
+1:20:26 recurrent it back to revive Sorroat, who
+1:20:28 you'd make while climbing into Herold in
+1:20:29 the first place, able to then remake him
+1:20:31 by using another yummy body. He would
+1:20:33 also be playing a wide variety of ritual
+1:20:35 engines here to make the most of the
+1:20:36 preparation of right search such as
+1:20:38 Angry Burger to utilize the miracle
+1:20:39 raven line we mentioned earlier and
+1:20:41 illusion of chaos for a souls line. YCS
+1:20:43 Lao would be held the same weekend and
+1:20:45 with it what was clear was that K9 had
+1:20:47 taken a substantial nose dive in its
+1:20:48 playability following the hits to
+1:20:50 Vanquish Soul down to only one player in
+1:20:52 the top 64. Diego Zilia would take the
+1:20:54 event on Odon Primite a true underdog
+1:20:57 run to be certain. The deck was an
+1:20:59 insane metacall for specifically
+1:21:00 Mitsurugi and Draco Tale, both of which
+1:21:02 were in the top three decks represented
+1:21:04 with a sideboard targeted at swapping
+1:21:05 out hate for the yummy matchup to handle
+1:21:07 the last top deck. By concentrating your
+1:21:09 game plan into two self-sufficient seven
+1:21:11 card engines, the deck could then opt to
+1:21:13 absolutely max out on hand traps. Seeing
+1:21:15 some less common options like Ghost Bell
+1:21:17 and Ciphrame Gear Delta in the main for
+1:21:19 targeting its specific matchups. YCS
+1:21:21 Anaheim would be a week later. And
+1:21:23 though the meta looks more balanced at a
+1:21:24 glance, the same three decks were
+1:21:26 continuing to be the only strategies
+1:21:27 taking more than two top spots. Though
+1:21:29 notably a couple of decks did sneak into
+1:21:31 top eight, Riseal would claim a spot in
+1:21:33 the top four for the first time since
+1:21:35 their major hits. Notably playing a much
+1:21:37 heavier automat package with Onamara,
+1:21:39 which in turn guarantees you access to
+1:21:40 at least one rank four and is searchable
+1:21:42 with Gaga Gaga Girl, who also shores up
+1:21:44 your lines to access Infernal Flame
+1:21:46 Banshee to start the risal side of your
+1:21:47 combos or to search Nemesis Flag, who
+1:21:49 can trigger off of Anamakag's recursion
+1:21:51 effect. Kamal Krooks Valdez would take
+1:21:53 the event on Cristron K9, marking his
+1:21:56 sixth YCS win. Cristron, despite the
+1:21:58 hits, was still a solid deck to pilot
+1:21:59 with the K9's thanks in large part to
+1:22:01 Noroy allowing instant access to set up
+1:22:03 for your rank fives. But this particular
+1:22:04 deck was also marred by a very specific
+1:22:06 interaction. By linking into artifact
+1:22:08 daga during your Crystron lines, you
+1:22:10 could set artifact muir to your board
+1:22:12 and pop it with one of your various Cron
+1:22:14 effects. From there, with access to a
+1:22:15 rank five, you can make Imperial
+1:22:17 Princess Kin Carry to then revive the
+1:22:18 Muolnir to your opponent's side of the
+1:22:20 field, mandatorily triggering its effect
+1:22:22 despite the opponent having no targets
+1:22:23 and locking all special summons until
+1:22:25 the end of their next turn. Effectively,
+1:22:27 similar to the gimmick puppet lock that
+1:22:28 Branded used to pull, this card was
+1:22:30 inherently toxic now that the line was
+1:22:32 openly available and would become yet
+1:22:33 another piece in the growing arsenal of
+1:22:35 summon lockers available at relatively
+1:22:37 low investment points for the format. We
+1:22:39 see Sa Paulo would be the following
+1:22:41 week. And with its rise over the past
+1:22:42 couple of events, Draco Tale would
+1:22:44 finally clear enough to tie a position
+1:22:45 for the top deck of the event with
+1:22:47 Mitsurugi Yummy taking the event as
+1:22:48 well. Piloted by Waqin Poyagi. Fricxel
+1:22:51 being a light meant that branded fusion
+1:22:52 now had a viable turn one dump target
+1:22:54 without having to burn the blue bell in
+1:22:55 recursion by accessing either of the
+1:22:57 albon targets and searching your Draco
+1:22:59 Tale bridge. Thanks to this performance,
+1:23:01 branded Draco Tale would become a more
+1:23:02 common sight in the format, but also
+1:23:04 because of a brand new set type that
+1:23:05 would drop just 2 weeks later.
+1:23:12 The Fallen and the Virtuous. Release
+1:23:14 date, October 24th, 2025. Set type:
+1:23:17 Chronicles deck. Major Strategies
+1:23:20 branded impact. A new search target for
+1:23:22 Albon. The Fallen and the Virtuous would
+1:23:24 be the first in a new line of
+1:23:26 pre-constructed decks that aimed to
+1:23:27 reprint a popular series of cards with a
+1:23:29 couple of new additions, all in ultra
+1:23:31 rare, all for the purpose of advertising
+1:23:33 Konami's new short form anime series
+1:23:35 known as Yu-Gi-Oh! Card Game: The
+1:23:36 Chronicles. We had previously received
+1:23:38 some cards meant to tie into this in the
+1:23:40 form of random pieces of Sky Striker
+1:23:41 support to advertise the first arc, but
+1:23:43 with this set, it seemed that Konami
+1:23:45 aimed to isolate the new cards to these
+1:23:47 decks exclusively from now on. For the
+1:23:49 inaugural set, Branded was selected as
+1:23:51 the arc type of choice, namely thanks to
+1:23:52 being the second arc chosen for the
+1:23:54 series, notably with Spirit Charmers and
+1:23:56 Majestice following with one of those
+1:23:58 already confirmed to have a Chronicles
+1:24:00 deck coming in the next year. In this
+1:24:01 product, Branded would receive two new
+1:24:03 cards. The Fallen in the Virtuous is
+1:24:05 always considered both a branded and
+1:24:06 Dogmatica card and can either dump an
+1:24:08 Albbaz fusion from extra to pop a card
+1:24:10 or if you have Ecclesia on the field or
+1:24:12 engrave can revive a monster from either
+1:24:14 graveyard. The dragon that devours Dogma
+1:24:16 is a fusion of Albaz, a light or dark
+1:24:18 monster and an effect monster, gains 500
+1:24:21 attack and is card effect immune while
+1:24:22 Elesia is on fielder and grave. Shuffles
+1:24:25 back two cards from any grave or
+1:24:26 banishment on summon and searches a
+1:24:28 dogmatica or tri brigade card in the end
+1:24:30 phase it sent to grave. So, Devourers
+1:24:32 was simply not going to cut it for the
+1:24:33 current version of the branded deck due
+1:24:35 to the lack of ecclesia in their
+1:24:36 lineups. But the Fallen and the Virtuous
+1:24:38 was almost exactly what the deck needed
+1:24:40 at this point, namely in terms of the
+1:24:41 Draco Tale variant. By giving a card
+1:24:43 that was effectively dogmatica
+1:24:45 punishment without the extra deck lock
+1:24:46 that you could set off Albon on the end
+1:24:48 of your opening turn, you added yet
+1:24:50 another interaction point to the board
+1:24:51 that could potentially grab another
+1:24:52 later, which was notably desirable. What
+1:24:55 was not expected was a new ban list that
+1:24:57 went into effect on October 27th, only
+1:24:59 just over a month after the previous
+1:25:01 one, being marked accurately by the
+1:25:03 community as an emergency ban list. The
+1:25:05 first we've seen since 2016 or 18
+1:25:08 depending on who you ask. Newly banned
+1:25:10 were Protos, Muolnir, Barrier Statue of
+1:25:12 the Dr. Inferno, Fossil Dina, Oraos, and
+1:25:15 Dearrier. Every single one of these
+1:25:17 cards had a common factor between them.
+1:25:19 They promoted extremely unfun game
+1:25:21 states. Protos, Muolnir, Drought,
+1:25:23 Inferno, and Patches were all floodgates
+1:25:25 that were easily accessible via extra
+1:25:27 deck monsters with Protos and Inferno
+1:25:29 being found by Infernal Flame Banshee,
+1:25:31 Drought and Pachephilo being found by
+1:25:33 Gallant Granite, and Mjolnir being found
+1:25:35 by a combination of Dagda and King
+1:25:36 Carry. Ora Boros was banned due to the
+1:25:38 consistency of getting its hand ripoff
+1:25:40 multiple times in a rank four deck
+1:25:42 thanks to Eclipse Twins. Lastly, Darrier
+1:25:44 was effectively an auto-in button
+1:25:46 against so many decks in the format that
+1:25:47 was also searchable with Thrust. This
+1:25:49 ban list was universally praised by the
+1:25:51 community with even some going as far as
+1:25:53 to say that Konami should aim to do
+1:25:54 these kind of lists more often to start
+1:25:56 pre-boxing out the unfun interactions
+1:25:58 and floodgates from the format before
+1:26:00 they become issues in the future. Two
+1:26:02 weeks later would be the Legendary 5Ds
+1:26:04 decks if you lived in Europe. While
+1:26:06 Europe had their issues with production
+1:26:07 delays earlier in the year, North and
+1:26:09 South America would have theirs here at
+1:26:11 the end, seeing both Legendary Dex 5Ds
+1:26:13 and the last set of the year get
+1:26:14 significantly delayed from their
+1:26:16 expected release dates by 2 weeks.
+1:26:17 Thankfully, these would not bring any
+1:26:19 new cards to the fold currently, just
+1:26:21 reprints of the Charmies and other meta
+1:26:22 staples, and the next set would not see
+1:26:24 any events impacted, but the delay was
+1:26:26 still noticeable in the community due in
+1:26:28 large part to said reprints being
+1:26:29 delayed. YCS Pittsburgh would be the
+1:26:31 same weekend and with the new branded
+1:26:33 support in tow branded Draco Tale would
+1:26:34 shoot up to being the most represented
+1:26:36 deck in the top 32. Also taking the
+1:26:38 event piloted by Adita Darup, the NAWCQ
+1:26:41 winner from 2024. Though notably, he was
+1:26:43 not playing the new cards in his variant
+1:26:44 unlike many of the other topping lists.
+1:26:47 YCS Bolognia would be held two weeks
+1:26:48 later and this event would once again
+1:26:50 showcase a disconnect between top
+1:26:52 players in North America and the top
+1:26:53 players in Europe. Seeing K9 Vanquish
+1:26:55 Soul absolutely dominate the event, even
+1:26:58 taking the whole thing piloted by Pierre
+1:26:59 Burgles by leaning more heavily into the
+1:27:01 K9 side of the deck, accessing the rank
+1:27:03 five pool continued to be a breeze.
+1:27:05 notably playing a Nash Knight line in
+1:27:07 order to access a full powered copy of
+1:27:09 number C104 Umbreal Horror Masquerade to
+1:27:11 not only provide a monster effectation
+1:27:13 but also a hand ripen life point having
+1:27:16 the other deck worth talking about in
+1:27:17 the top eight here would be Malice from
+1:27:18 the top four despite the deck's numerous
+1:27:20 hits and falling off in the public's
+1:27:22 favor in North America the deck
+1:27:23 continued to see surging popularity and
+1:27:25 results in Europe not having changed
+1:27:27 much of the deck structure in that time
+1:27:28 aside from the restriction to its core
+1:27:30 pieces YCS Merida would be the last YCS
+1:27:32 of the year taking place just a week
+1:27:34 later and following Following their
+1:27:35 performance in Bolognia, Vanquish Soul
+1:27:37 K9 would see a significant surge in
+1:27:38 popularity once again. James Marcoitz
+1:27:40 would take the event on Mitsuruki Yummy,
+1:27:42 playing a fairly standard list for the
+1:27:44 deck at this stage, utilizing the Herald
+1:27:46 Bridge between the two strategies. This
+1:27:48 would lead into the final set of the
+1:27:49 year, and despite there being no
+1:27:50 remaining events, it would draw some
+1:27:52 significant focus due to the fact that
+1:27:54 it was yet another deck build pack.
+1:28:02 Phantom Revenge. Release date December
+1:28:05 5th and 19th, 2025. Set type: deck
+1:28:08 building set. Major Strategies: Hecah
+1:28:10 Hands, Aniacraft, Cool Tune. Impact, a
+1:28:14 resounding thud to end the year. Phantom
+1:28:15 Revenge would be the last set of the
+1:28:17 year, once again seeing a two-week delay
+1:28:18 for its release in the Americas compared
+1:28:20 to its overseas counterparts, though
+1:28:22 notably did not affect any YCS level
+1:28:23 events for the period in question. After
+1:28:25 the insane level of success that
+1:28:27 followed the release of Justice Hunters,
+1:28:28 many looked to the set to be another
+1:28:30 breath of fresh air into the format.
+1:28:32 Instead, all three of the arc types
+1:28:33 present here were considerably
+1:28:34 halfbaked. Overall, though did hold
+1:28:36 potential based on support and upcoming
+1:28:38 releases. All of the Hekah hand monsters
+1:28:40 have the illusion gimmick. If can
+1:28:42 shuffle herself from hand into deck to
+1:28:43 summon a different heck of hands and
+1:28:45 could revive a different heck of hands
+1:28:46 when sent to grave. Yadell can shuffle
+1:28:48 herself from hand into deck to search a
+1:28:49 heck ofahand spell trap and can reset a
+1:28:51 spell trap from grave when sent to
+1:28:52 grave. God can summon itself from hand
+1:28:54 when the opponent adds a card to hand
+1:28:56 outside of the draw phase and can revive
+1:28:57 a monster from the opponent's grave on a
+1:28:59 quick effect in their main phase. Gigas
+1:29:01 shares the same summon condition and can
+1:29:02 excavate three from the opponent's deck
+1:29:04 to summon a monster from it to your
+1:29:05 field. Brea shares the same summon
+1:29:07 condition and can look at a random card
+1:29:08 in the opponent's hand to summon it to
+1:29:10 your field if it's a monster. Hidden
+1:29:11 Hecahand searches a Hecahance monster.
+1:29:13 Can also send a card you control to
+1:29:15 grave to add a spell trap set from deck
+1:29:16 to that effect. And can banish itself
+1:29:18 from grave to let the opponent draw and
+1:29:19 discard one. Tardus either bounces an
+1:29:22 opponent's spell trap or fuses a heck
+1:29:23 ofahands by banishing monsters from
+1:29:25 field or grave, treating the opponent's
+1:29:26 stolen monsters as heckahand monsters.
+1:29:28 Ibal negates and destroys a monster
+1:29:30 effect, then summons it to your field.
+1:29:32 Yadell does the same for spell traps,
+1:29:33 setting it to your field. Jouoza is a
+1:29:35 fusion of a Hekah hands and an illusion.
+1:29:37 Can also summon itself by tributing an
+1:29:39 illusion and a monster owned by the
+1:29:40 opponent on your field. And searches or
+1:29:42 recurs a hecka hands once per turn. And
+1:29:44 Zeno is a fusion of three heckans. Can
+1:29:46 quick effect look at two random extra
+1:29:48 deck monsters from the opponent and
+1:29:49 summon one to your field. And if
+1:29:50 destroyed by the opponent's card effect,
+1:29:52 steals every monster the opponent
+1:29:53 controls. A strategy with a solid grind
+1:29:55 game that can put up true board
+1:29:56 annoyances in large part thanks to yada
+1:29:58 giving you access to your main lines
+1:30:00 easily. Generally able to set up a
+1:30:02 minimum of a gigas and a counter trap
+1:30:03 with the extended ability to the other
+1:30:05 counter and Jiaoza if Gigas hits its
+1:30:07 excavation. Also able to start directly
+1:30:09 from Itel though loses the first counter
+1:30:11 trap if you do. The issue comes up in
+1:30:13 what happens if Gigas misses. Without a
+1:30:15 Gigas hit, the deck flounders to get
+1:30:16 going at first, leaving you with maybe
+1:30:18 one point of interaction before the
+1:30:20 opponent gets a crack back. The long and
+1:30:21 short is that with this deck, you need
+1:30:23 to see multiple pieces to get a combo
+1:30:24 truly going without risking it all on a
+1:30:26 one out of three hit. And at this point
+1:30:28 in time, it was just too unreasonable of
+1:30:30 an ask for a strategy to make. All of
+1:30:32 the Ania Craft monsters share an effect
+1:30:34 to reveal themselves in hand to special
+1:30:35 summon a monster from hand face down,
+1:30:37 locking you to only special summoning
+1:30:38 face down monsters for the turn and
+1:30:40 share a pendulum effect to gain an EC
+1:30:42 counter when a monster is flipped up.
+1:30:43 The low-level Eniacrafts in the pendulum
+1:30:45 zone can pay 900 to reveal three
+1:30:47 Eniacraft cards from deck to randomly
+1:30:49 add one to hand and all have monster
+1:30:50 effects that flip themselves face up
+1:30:52 when the opponent performs an action to
+1:30:53 search an aircraft card. Proto flips
+1:30:55 when the opponent uses a monster effect
+1:30:57 in hand, popping a monster the opponent
+1:30:58 controls on flip. Dtero flips when the
+1:31:00 opponent uses a card that adds a card
+1:31:02 from deck to hand, banishing a random
+1:31:03 card from the opponent's hand face up
+1:31:05 for the turn when flipped. Ecto flips
+1:31:06 when the opponent uses a card or effect
+1:31:08 to special summon, negating an
+1:31:09 opponent's monster's effect on flip. And
+1:31:11 an auto flips when the opponent uses an
+1:31:13 effect in grave or banishment, shuffling
+1:31:14 back up to three opponents cards from
+1:31:16 graver banishment on flip. All of the
+1:31:18 higher level anycraft share a pendulum
+1:31:20 effect to pop a monster with less attack
+1:31:21 than themselves at the end of the battle
+1:31:23 phase if you have another any scale and
+1:31:25 share a monster effect to flip
+1:31:26 themselves up in response to an
+1:31:27 opponent's action to perform a
+1:31:29 disruption effect. Isa Leon flips when
+1:31:31 the opponent chains to your effect,
+1:31:32 bouncing up to three cards on field and
+1:31:34 burns the opponent for 900 anytime they
+1:31:36 add a card to hand by effect after it's
+1:31:38 flipped up. Aixia flips when the
+1:31:40 opponent targets one of your cards with
+1:31:41 a card effect, negating it and banishing
+1:31:43 a random card from their hand face down,
+1:31:44 and locks the opponent from targeting
+1:31:46 cards on field or engrave after it's
+1:31:48 flipped up. Atori flips when the
+1:31:49 opponent activates a card or effect on
+1:31:51 field, negating and destroying it, and
+1:31:53 books the entire opponent's board when
+1:31:54 flipped, locking them from changing
+1:31:56 battle positions. An archetail flips
+1:31:58 when the opponent uses a card that would
+1:31:59 destroy cards, giving your monsters and
+1:32:00 spell traps destruction immunity for the
+1:32:02 turn and burns the opponent for 900
+1:32:04 anytime a monster is sent to the
+1:32:06 opponent's grave after it's been flipped
+1:32:07 up. Anyapolis is always considered an
+1:32:09 anycraft. Removes all EC counters from
+1:32:11 the board in the end phase to burn the
+1:32:13 opponent for 900 for each. Can bounce
+1:32:15 any number of any craft pendulums once
+1:32:16 per turn and can either bounce or move
+1:32:18 the scale in any craft monster after
+1:32:20 it's flipped face up during the main
+1:32:22 phase. Release places the any craft in
+1:32:24 the pen scale from deck and can banish
+1:32:25 itself from grave to recur an any craft
+1:32:27 in the face up extra deck. And reverse
+1:32:29 shuffles back any number of any crafts
+1:32:31 from hand or field to deck to draw that
+1:32:33 many cards and can banish itself from
+1:32:34 grave when the opponent summons a
+1:32:35 monster to either summon an any craft
+1:32:37 from hand face down or flip a set any on
+1:32:40 the board. By far and away the most
+1:32:41 complicated of the three strategies, any
+1:32:43 aims to create a new axis of control
+1:32:45 strategy that a flip archetype has never
+1:32:47 done before and as such has a lot of
+1:32:49 interesting points going with its
+1:32:50 strategy. Because of the nature of their
+1:32:52 reveal and hand effects being
+1:32:53 repeatable, you can effectively set
+1:32:55 every In anycraft in the hand off of one
+1:32:57 card, leaving your normal set for the
+1:32:58 last to set one of the low levels to
+1:33:00 give a board of mystery interaction
+1:33:02 points for the opponent to have to chew
+1:33:03 through. On top of that, the field spell
+1:33:05 adding a substantial burn to each of the
+1:33:07 flips adds a clock to the strategy that
+1:33:08 promotes the idea of playing a slower
+1:33:10 control game as nine triggers of the
+1:33:12 burn results in a burn for gain. The
+1:33:14 problems for the deck lie mostly in
+1:33:15 their effects not always resolving the
+1:33:17 way you want them to and the bricky
+1:33:18 nature of the strategy itself as unless
+1:33:20 you're playing three copies of a card,
+1:33:21 you have no way to reliably access any
+1:33:23 of them, and you can't very well max out
+1:33:25 on everything without entering Brick
+1:33:27 City. Still a strategy to keep an eye on
+1:33:29 though, as it does show promise in its
+1:33:30 complexity. All the main deck cool tunes
+1:33:32 are tuners that share an effect to use
+1:33:34 one other tuner in hand with it as
+1:33:35 synchro material while on the field and
+1:33:37 have an effect that triggers when sent a
+1:33:39 grave is synchro material. Mix searches
+1:33:40 or recurs a non-level two cool tune on
+1:33:42 summon and pops an opponent's monster
+1:33:44 when used as material. Clip can summon
+1:33:46 itself in the opponent's main phase to
+1:33:47 quick synchro a tuner synchro monster
+1:33:49 and banishes a random card from the
+1:33:50 opponent's extra deck face up when used
+1:33:52 as material. Rico searches or recurs a
+1:33:54 non-level three cool tune on summon and
+1:33:56 pops a spell trap when used as material
+1:33:58 and Q can summon any tuner from hand
+1:33:59 deck or grave on normal locks you to
+1:34:01 summoning tuners for the rest of the
+1:34:02 turn and excavates two from the
+1:34:04 opponent's deck banishing one of them
+1:34:05 and puts the other back on top or bottom
+1:34:07 of the deck when used as material.
+1:34:08 Synchro searches a cool tune and can
+1:34:10 quick synchro in the same effect,
+1:34:11 locking you to tuners for the rest of
+1:34:13 the turn, being a hard twice per turn
+1:34:14 spell. JJ lets you normal an extra tuner
+1:34:17 each turn, boost loudness war by 3,300
+1:34:19 while the opponent has a tuner on field
+1:34:21 or engrave, and contribute a tuner to
+1:34:23 search or special a cool tune from deck,
+1:34:24 locking you to tuners for the rest of
+1:34:26 the turn. And playlist either recurs a
+1:34:27 cool tune from field or grave or
+1:34:29 triggers that monster's material effect
+1:34:31 being a hard twice per turn trap.
+1:34:32 Trackmaker is a level four synchrotuner
+1:34:34 that takes a cool tune and oneplus
+1:34:35 tuners. Has the same material and hand
+1:34:37 effect as the main deck pieces. Searches
+1:34:39 a cool tune card on synchro summon and
+1:34:41 bounces an opponent's card if used as
+1:34:42 material. Remix is a level five taking
+1:34:44 mix and one plus tuners gaining 1500
+1:34:46 while the opponent has a tuner on field
+1:34:48 or engrave and on the opponent's turn
+1:34:50 can quick effect recur a non-synchro
+1:34:51 tuner and revive a non-synchrot tuner.
+1:34:53 Then quick synchro a synchro tuner. RS
+1:34:55 is a level five taking Rico and one plus
+1:34:57 tuners. Gains 300 attack for every tuner
+1:34:59 in either grave. increases all opponents
+1:35:01 monsters level by one if they have 1,700
+1:35:03 or less attack and can quick effect
+1:35:04 banish a tuner in grave to negate an
+1:35:06 opponent's face up card for the turn and
+1:35:08 loudness wars a level six taking two
+1:35:10 plus tuners gives other tuners targeting
+1:35:11 an effect destruction protection and can
+1:35:13 banish a cool tune from grave when the
+1:35:15 opponent activates a card or effect to
+1:35:16 copy its material effect. This is the
+1:35:18 main strategy that holds the potential
+1:35:20 to be meta viable in the future. Thanks
+1:35:21 to Q being able to summon any tuner with
+1:35:23 her effect, not just cool tunes, you can
+1:35:25 opt to summon the RDA designed Red Nova,
+1:35:27 who in turn lets you access Trackmaker
+1:35:29 for its search, as well as summoning a
+1:35:30 Rico straight out of the deck, who then
+1:35:32 in turn searches for either clip or mix
+1:35:34 to combo straight into RS or Remix.
+1:35:36 Remix also holds significant power in
+1:35:38 the strategy thanks to its adback
+1:35:40 allowing you to hit tuners that aren't
+1:35:41 in archype as well, meaning that hand
+1:35:43 traps like Ash Blossom are actually
+1:35:44 recurable, too. The main limitation of
+1:35:46 the strategy, though, is your extra deck
+1:35:48 lineup. as being all tuners means that
+1:35:50 you can only make all tuner synchros,
+1:35:52 which effectively limits you to only the
+1:35:54 cool tune ones or if you're not tuner
+1:35:56 locked, something insane like prime
+1:35:57 heart. As such, their primary limitation
+1:35:59 is going to be what inarchctype extra
+1:36:01 deck options they have access to, which
+1:36:03 in turn means that they'll need
+1:36:04 additional options in future support
+1:36:05 waves to truly break them into the meta.
+1:36:07 Though, at a minimum, they're a solid
+1:36:08 option for Genesis for the time being.
+1:36:10 And that wraps up our look back at 2025
+1:36:13 Yu-Gi-Oh. a lot of ups, a couple of
+1:36:15 downs, and a hopeful outlook on the
+1:36:17 future of the game. With many players
+1:36:18 showing positive outlooks on the game's
+1:36:20 current state, the future looks bright
+1:36:21 for Yu-Gi-Oh going into 2026. And with
+1:36:24 some surprises just over the horizon,
+1:36:26 it's hard to not be optimistic about the
+1:36:27 future of this game moving forward.
+1:36:33 A massive thank you all for supporting
+1:36:35 me throughout this past year, regardless
+1:36:37 of how long the content drought was. And
+1:36:39 a huge thank you to all of you who have
+1:36:40 stuck with me going into 2026. An extra
+1:36:43 massive thank you to Prin, Otaku Gamerx,
+1:36:47 Jukes, Kirky 666, Aeron Noir, The Critic
+1:36:50 of Innocence, Fron Burkehouser, and
+1:36:52 Moses, as well as all of my other
+1:36:54 patrons over on Patreon. You all have
+1:36:57 been my longest time supporters, and I
+1:36:58 appreciate each and every one of you.
+1:37:00 [music] With that said, it's time to get
+1:37:02 back on the horse. See you all again
+1:37:04 real soon.

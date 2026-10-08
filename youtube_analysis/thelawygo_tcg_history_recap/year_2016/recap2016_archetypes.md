@@ -16,20 +16,21 @@ Dragons of Legend Unleashed (August 19th),
 Structure Decks Yugi Muto and Seto Kaiba (October 21st), In Vengeance (November 4th),
 Destiny Soldiers (November 18th).
 
-| Archetype               | Top period            | Months | World Championship 2016 |
-|-------------------------|-----------------------|--------|-------------------------|
-| Performapal Dracoslayer | January to August     | 8      |                         |
-| Kozmo                   | January to August     | 8      |                         |
-| Burning Abyss           | March to October      | 8      | Top 8                   |
-| Monarch                 | February to August    | 7      |                         |
-| Majespecter             | May to October        | 6      | Top 4                   |
-| Metalfoes               | September to December | 4      |                         |
-| Blue-Eyes               | August to October     | 3      | Winner                  |
-| ABC                     | October to December   | 3      |                         |
-| Paleozoic               | November to December  | 2      |                         |
-| HERO                    | December              | 1      |                         |
+| Archetype               | Top period            | Months | Highlights                                                |
+|-------------------------|-----------------------|--------|-----------------------------------------------------------|
+| Performapal Dracoslayer | January to August     | 8      | Tier zero as Performapal Performage (January to February) |
+| Kozmo                   | January to August     | 8      |                                                           |
+| Burning Abyss           | March to October      | 8      | World Championship top 8                                  |
+| Monarch                 | February to August    | 7      |                                                           |
+| Majespecter             | May to October        | 6      | World Championship top 4                                  |
+| Metalfoes               | September to December | 4      |                                                           |
+| Blue-Eyes               | August to October     | 3      | World Champion (Shunsuke Hiyama)                          |
+| ABC                     | October to December   | 3      |                                                           |
+| Paleozoic               | November to December  | 2      |                                                           |
+| HERO                    | December              | 1      |                                                           |
 
-World Championship 2016 winner: Blue-Eyes, Shinsuke Hayame (Japan), his second title in a row.
+World Championship 2016 winner (Orlando, August): Blue-Eyes, Shunsuke Hiyama (Japan),
+his second title in a row (heard as "Shinsuke Hayame", spelling checked externally).
 Worlds used the combined TCG and OCG ban list,
 so Blue-Eyes' short TCG top period does not contradict the title.
 
@@ -210,7 +211,7 @@ so Blue-Eyes' short TCG top period does not contradict the title.
   - `Advanced Ritual Art` for Chaos MAX.
   - `Azure-Eyes Silver Dragon`, `Black Rose Moonlight Dragon` and `Stardust Spark Dragon`
     as Spirit Dragon's tag out targets.
-- Results: Blue-Eyes mirror in the Worlds finals, won by Shinsuke Hayame (August).
+- Results: Blue-Eyes mirror in the Worlds finals, won by Shunsuke Hiyama (August).
   Missing from YCS Rimini's top 32 under the TCG list,
   then the front-runner at YCS Mexico City after the ban list (September).
 - Ended by: ABC at YCS Liverpool (October).

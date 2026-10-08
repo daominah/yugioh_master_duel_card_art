@@ -20,19 +20,19 @@ Battles of Legend: Crystal Revenge (November 18th), Dark World (December 2nd).
 
 Ban lists: February 7th, May 17th, October 3rd, December 1st.
 
-| Archetype             | Top period             | Months | World Championship 2022 |
-|-----------------------|------------------------|--------|-------------------------|
-| Floowandereeze        | January to December    | 12     | Not covered             |
-| Swordsoul Tenyi       | January to July        | 7      | Not covered             |
-| Mystic Mine decks     | May to November        | 7      | Not covered             |
-| Tearlaments           | August to December     | 5      | Not covered             |
-| Prank-Kids            | February to May        | 4      | Not covered             |
-| Branded Despia        | April to July          | 4      | Not covered             |
-| Noh-P.U.N.K.          | May to August          | 4      | Not covered             |
-| Spright               | August to October      | 3      | Not covered             |
+| Archetype         | Top period          | Months | Highlights                       |
+|-------------------|---------------------|--------|----------------------------------|
+| Floowandereeze    | January to December | 12     |                                  |
+| Swordsoul Tenyi   | January to July     | 7      |                                  |
+| Mystic Mine decks | May to November     | 7      |                                  |
+| Tearlaments       | August to December  | 5      | Tier zero (November to December) |
+| Prank-Kids        | February to May     | 4      |                                  |
+| Branded Despia    | April to July       | 4      |                                  |
+| Noh-P.U.N.K.      | May to August       | 4      |                                  |
+| Spright           | August to October   | 3      |                                  |
 
-World Championship 2022 winner: not covered, the video ends at the December 1st ban list
-and never mentions Worlds.
+World Championship 2022: not held (cancelled 2020 to 2022 because of COVID-19;
+Konami ran regional Territorial Championships instead). The video never mentions Worlds.
 The biggest events it does cover:
 YCS Charlotte (April, Prank-Kids), North American WCQ (July, Swordsoul Tenyi),
 European Championship (August, Rikka Sunavalon), Oceanic Championship (September, Tearlaments)
@@ -47,7 +47,7 @@ Tearlaments with the Ishizu engine became the first tier zero deck since SPYRAL 
 - New archetype and engine:
   - The Grand Creators: the Adventure engine, `Wandering Gryphon Rider`,
     `Dracoback, the Rideable Dragon`, `Rite of Aramesir`,
-started by `Water Enchantress of the Temple`,
+    started by `Water Enchantress of the Temple`,
     `Foolish Burial` or `Emergency Teleport`.
   - Battle of Chaos: `Floowandereeze and the Advent of Adventure`,
     a search for any monster or the Field Spell, instantly a staple.
@@ -92,7 +92,7 @@ started by `Water Enchantress of the Temple`,
 - Results: won the May 27th YCS (Po Jiang, Sky Striker),
   both finalists of the North American WCQ (Han Sol Aguiro won),
   won YCS Rio (Xiao Pulau Lima, Mine Burn),
-and showed up in Altergeist (European Championship third).
+  and showed up in Altergeist (European Championship third).
   Three event wins in a couple of months sparked the loudest ban calls of the year.
 - Ended by: the December 1st ban list banned `Mystic Mine`.
 
@@ -135,7 +135,7 @@ and showed up in Altergeist (European Championship third).
   still dominating at the Bogota and Guadalajara YCSs even with Branded on top.
 - Ended by: the May 17th ban list
   (`Predaplant Verte Anaconda`, `Prank-Kids Meow-Meow-Mu`
-and `Mecha Phantom Beast Auroradon` banned).
+  and `Mecha Phantom Beast Auroradon` banned).
 
 ## Branded Despia
 
@@ -245,5 +245,5 @@ Got strong new cards and were playable, but never became a top deck in 2022.
 
 - Altergeist (third at the European Championship), Marincess (fourth at the North American WCQ),
   Madolche (YCS Dortmund top cut), Naturia with Vernusylph,
-and Ghoti (still missing its last piece).
+  and Ghoti (still missing its last piece).
 - Drytron (top four at the May 27th YCS) and Sky Striker (winner of that YCS with `Mystic Mine`).
