@@ -235,6 +235,19 @@ has a semi-transparent "SAMPLE" overlay.
 
 Details are in [cmd/remove_yugiohjpn_watermark/README.md](cmd/remove_yugiohjpn_watermark/README.md).
 
+## YouTube transcripts
+
+`youtube_analysis/` holds notes on Yu-Gi-Oh! YouTube videos, one directory per creator or series.
+`youtube_analysis/youtube_transcript.py` saves the raw transcript of a video, the starting point for a note:
+
+```bash
+pip install -r youtube_analysis/requirements.txt
+# set VIDEO_URL and OUTPUT at the top of the script first
+python youtube_analysis/youtube_transcript.py
+```
+
+Details are in [youtube_analysis/youtube_transcript_guide.md](youtube_analysis/youtube_transcript_guide.md).
+
 ## Card text and effects
 
 Card names and effect text are not in the images.
