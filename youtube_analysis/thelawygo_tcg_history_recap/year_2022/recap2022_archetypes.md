@@ -8,19 +8,19 @@ Months are approximate: the video dates set releases and ban lists exactly,
 but most events only relative to them ("a week later").
 The video covers up to the Dec 1st ban list, so Dec is counted as ongoing.
 
-| Archetype         | Top period | Months | Highlights             |
-|-------------------|------------|--------|------------------------|
-| Floowandereeze    | Jan to Dec | 12     |                        |
-| Swordsoul Tenyi   | Jan to Jul | 7      |                        |
-| Mystic Mine decks | May to Nov | 7      |                        |
-| Tearlaments       | Aug to Dec | 5      | Tier zero (Nov to Dec) |
-| Prank-Kids        | Feb to May | 4      |                        |
-| BASED             | Feb to May | 4      |                        |
-| Branded Despia    | Apr to Jul | 4      |                        |
-| Noh-P.U.N.K.      | May to Aug | 4      |                        |
-| Spright           | Aug to Oct | 3      |                        |
-| Rikka             | Aug        | 1      |                        |
-| Exosister         | Sep        | 1      |                        |
+| Archetype               | Top period | Months | Highlights                             |
+|-------------------------|------------|--------|----------------------------------------|
+| Floowandereeze          | Jan to Dec | 12     |                                        |
+| Swordsoul Tenyi         | Jan to Jul | 7      |                                        |
+| Mystic Mine decks       | May to Nov | 7      |                                        |
+| Tearlaments             | Aug to Dec | 5      | Tier zero (Nov to Dec)                 |
+| Prank-Kids              | Feb to May | 4      |                                        |
+| Adventure DPE Auroradon | Feb to May | 4      | Pile ends on Baronne, Savage, Colossus |
+| Branded Despia          | Apr to Jul | 4      |                                        |
+| Noh-P.U.N.K.            | May to Aug | 4      |                                        |
+| Spright                 | Aug to Oct | 3      |                                        |
+| Rikka                   | Aug        | 1      |                                        |
+| Exosister               | Sep        | 1      |                                        |
 
 World Championship 2022: not held (cancelled 2020 to 2022 because of COVID-19;
 Konami ran regional Territorial Championships instead). The video never mentions Worlds.
@@ -141,16 +141,21 @@ Ban lists: Feb 7th, May 17th, Oct 3rd, Dec 1st.
   (`Predaplant Verte Anaconda`, `Prank-Kids Meow-Meow-Mu`
   and `Mecha Phantom Beast Auroradon` banned).
 
-## BASED
+## Adventure DPE Auroradon
 
 - Top period: Feb to May (about 4 months),
   a pile deck called "the deck to beat in the format" after Battle of Chaos.
+- Name: the video calls it BASED, short for Brave (the Adventure engine),
+  Artifact (`Artifact Scythe`, `Artifact Dagda`), Souls (`Magicians' Souls`),
+  Enforcer (`Destiny HERO - Destroyer Phoenix Enforcer`), Dragon (not explained in the video).
+  Other names it had: Synchropile, DPE Adventure Synchro, Kitchen Sink.
 - Built from `Illusion of Chaos`, `Magicians' Souls`, `Baronne de Fleur`,
   `Borreload Savage Dragon` and `Herald of the Arc Light` with the DPE engine.
 - Results: first showings at YCS Charlotte as DPE Adventure Synchro,
   also used as the Punk engine's main home at the May 27th YCS.
 - Ended by: faded after the May 17th ban list,
-  which limited `Red Rose Dragon` and banned the DPE engine's `Predaplant Verte Anaconda`.
+  which banned `Mecha Phantom Beast Auroradon` and the DPE engine's `Predaplant Verte Anaconda`,
+  and limited `Red Rose Dragon`.
 
 ## Branded Despia
 
@@ -180,7 +185,7 @@ Ban lists: Feb 7th, May 17th, Oct 3rd, Dec 1st.
 - Key non-archetype cards:
   - `Chaos Ruler, the Chaotic Magical Dragon` and `Crystron Halqifibrax` reached from Ze Amin alone.
   - `Emergency Teleport` to summon Ze Amin.
-  - Used as an engine in BASED, Adventure and Therion decks.
+  - Used as an engine in Adventure DPE Auroradon, Adventure and Therion decks.
 - Results: the most represented deck at the North American WCQ
   (11 Punk Adventure and 6 Punk Therion lists in the top cut), but none made the finals.
 - Ended by: `Chaos Ruler, the Chaotic Magical Dragon` and `Crystron Halqifibrax`

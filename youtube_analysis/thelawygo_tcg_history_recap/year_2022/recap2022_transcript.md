@@ -231,8 +231,8 @@ The new pile deck took on many different names and, quite frankly,
 never had a set-in-stone name over the course of its time in the meta,
 with names like Synchropile, DPE Adventure Synchro and Kitchen Sink being applied from time to time.
 But the name that seemed to stick finally was BASED,
-short for Borreload, Artifact, Souls, Enforcer,
-Dragon (the caption read "brave artifact souls enforcer dragon").
+short for Brave, Artifact, Souls, Enforcer, Dragon
+("Brave" is the Adventure engine, from its Japanese name).
 It aimed to jam literally as many good engine pieces as it could together
 to make a deck that could perform the most powerful plays in the game at the time,
 each dueling like omni negates in `Baronne de Fleur`, `Borreload Savage Dragon`
