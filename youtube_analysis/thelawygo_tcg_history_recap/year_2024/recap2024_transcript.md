@@ -876,7 +876,7 @@ the necessary material to hit Apollousa with an I:P protection,
 all before the usage of `Original Sinful Spoils - Snake-Eye`,
 which could then get you to the full Snake Eye combo.
 
-### Rarity Collection 2
+### 25th Anniversary Rarity Collection 2
 
 - Release date: about three weeks after YCS Rition Era (no exact date given).
 - Set type: reprint set.
@@ -1430,7 +1430,7 @@ the second total and the second in a row that the US has won the World Champions
 This would lead into the next release.
 I don't know, it only had three new cards, but I need a section.
 
-### Dueling Mirrors
+### 25th Anniversary Tin: Dueling Mirrors
 
 - Release date: September 20th, 2024.
 - Set type: import and reprint.

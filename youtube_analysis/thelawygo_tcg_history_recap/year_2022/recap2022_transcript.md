@@ -81,8 +81,10 @@ Non-obvious fixes (garbled to canonical):
 
 Not resolved, kept as spoken:
 "extra time" (Grand Creators impact), "ritual best engine" (Battle of Chaos impact),
-"should all 2.0" (Alba Strike impact), "adventure cybers outlets", "ryza" and "Banshee"
-(Ghosts From the Past 2 reprints), "spell in the gate" (Odd-Eyes Pendulumgraph Dragon),
+"should all 2.0" (Structure Deck: Albaz Strike impact),
+"adventure cybers outlets", "ryza" and "Banshee"
+(Ghosts From the Past: The 2nd Haunting reprints),
+"spell in the gate" (Odd-Eyes Pendulumgraph Dragon),
 "electromite", "psychic and Punisher" and "gray Punisher" (Dimension Force Punk support),
 "morences" (Duels From the Deep), "the doomed" (North American WCQ),
 "Oh lion" (October ban list), "a PIRA" and "tetsudo irat numen" (YCS Utrecht),
@@ -286,7 +288,7 @@ Swordsoul, and Adventure with `Token Collector` and Floowandereeze with `Droll &
 This showing from the Adventure engine would only get more powerful, it seemed,
 as another Tier 1 competitor was just around the corner.
 
-### Alba Strike
+### Structure Deck: Albaz Strike
 
 - Release date: April 15th, 2022
 - Set type: structure deck
@@ -323,7 +325,7 @@ even with the new top deck in Branded.
 This would lead into another major reprint set the following month,
 with other sweeping changes just around the corner.
 
-### Ghosts From the Past: The Second Haunting
+### Ghosts From the Past: The 2nd Haunting
 
 - Release date: May 6th, 2022
 - Set type: reprint set
@@ -526,7 +528,7 @@ in the first place.
 This piece of discourse would only grow in the coming months with more results and sets releasing,
 as people now realized Mine's power in the meta, and it wasn't going to just simply go away.
 
-### Duels From the Deep
+### Legendary Duelists: Duels From the Deep
 
 - Release date: June 17th, 2022
 - Set type: Legendary Duelists
@@ -801,7 +803,7 @@ whose list was beginning to really shift into the Runick variant at this stage.
 This long string of event after event would finally be broken in mid-September
 as the next major reprint set was finally given to us to help bring down the price of the meta.
 
-### Tins of the Pharaoh's Gods
+### 2022 Tin of the Pharaoh's Gods
 
 - Release date: September 16th, 2022
 - Set type: Mega-Tins
@@ -828,7 +830,7 @@ Beyond these, nothing would really change meta wise from this release,
 just make the game a little bit more affordable to newer players,
 which could also be said for the release that happened two weeks later.
 
-### Legend of the Crystal Beasts
+### Structure Deck: Legend of the Crystal Beasts
 
 - Release date: September 30th, 2022
 - Set type: structure deck
@@ -1171,7 +1173,7 @@ to be the testing grounds for these new changes.
 With that in mind, there was one more release this year that added cards to the pool,
 though their meta impact has yet to be seen.
 
-### Dark World
+### Structure Deck: Dark World
 
 - Release date: December 2nd, 2022
 - Set type: structure deck

@@ -8,45 +8,46 @@ Months are approximate: the video dates set releases and ban lists exactly,
 but most events only relative to them ("two weeks later").
 2024 had no structure decks and no duelist packs, so every new strategy came from a pack.
 
-2024 sets in release order, for reference:
-Maze of Millennia (January 19th), Phantom Nightmare (February 9th),
-Legacy of Destruction (April 26th), Rarity Collection 2 (about late May),
-Battles of Legend: Terminal Revenge (June 21st), The Infinite Forbidden (July 19th),
-Dueling Mirrors (September 20th), Rage of the Abyss (October 11th),
-Quarter Century Bonanza (November 8th), Crossover Breakers (December 6th).
-
-Ban lists: January 1st, April 15th, September 2nd, December 8th.
-
-| Archetype       | Top period                              | Months | Highlights                                                  |
-|-----------------|-----------------------------------------|--------|-------------------------------------------------------------|
-| Snake-Eye       | February to December (dip in September) | 11     | Solo tier one until the April 15th ban list                 |
-| Tenpai Dragon   | April to December (tier two)            | 9      |                                                             |
-| Yubel           | June to December                        | 7      | World Champion as Fiendsmith Yubel (Ruben Andres Penaranda) |
-| Fiendsmith      | July to December                        | 6      | World Champion as the engine in Fiendsmith Yubel            |
-| Voiceless Voice | February to May (tier three)            | 4      |                                                             |
-| Spright         | June                                    | 1      |                                                             |
-| Ryzeal          | December                                | 1      |                                                             |
-| Maliss          | December                                | 1      |                                                             |
+| Archetype       | Top period              | Months | Highlights                                                  |
+|-----------------|-------------------------|--------|-------------------------------------------------------------|
+| Snake-Eye       | Feb to Dec (dip in Sep) | 11     | Solo tier one until the Apr 15th ban list                   |
+| Tenpai Dragon   | Apr to Dec (tier two)   | 9      |                                                             |
+| Yubel           | Jun to Dec              | 7      | World Champion as Fiendsmith Yubel (Ruben Andres Penaranda) |
+| Fiendsmith      | Jul to Dec              | 6      | World Champion as the engine in Fiendsmith Yubel            |
+| Voiceless Voice | Feb to May (tier three) | 4      |                                                             |
+| White Forest    | Jul to Sep (dip in Aug) | 3      |                                                             |
+| Spright         | Jun                     | 1      |                                                             |
+| Ryzeal          | Dec                     | 1      |                                                             |
+| Maliss          | Dec                     | 1      |                                                             |
 
 World Championship 2024 winner: Fiendsmith Yubel,
 Ruben Andres Penaranda (United States, name as heard).
 It was the second World Championship in a row won by a player from the United States.
 Fiendsmith was the main face of the event: `Fiendsmith's Lacrima` was still legal because the
-September 2nd ban list came out a week before, with Tenpai Dragon and Ritual Beast sprinkled in.
+Sep 2nd ban list came out a week before, with Tenpai Dragon and Ritual Beast sprinkled in.
+
+2024 sets in release order, for reference:
+Maze of Millennia (Jan 19th), Phantom Nightmare (Feb 9th),
+Legacy of Destruction (Apr 26th), 25th Anniversary Rarity Collection 2 (about late May),
+Battles of Legend: Terminal Revenge (Jun 21st), The Infinite Forbidden (Jul 19th),
+25th Anniversary Tin: Dueling Mirrors (Sep 20th), Rage of the Abyss (Oct 11th),
+Quarter Century Bonanza (Nov 8th), Crossover Breakers (Dec 6th).
+
+Ban lists: Jan 1st, Apr 15th, Sep 2nd, Dec 8th.
 
 ## Snake-Eye
 
-- Top period: February to December (about 11 months), the only tier one deck from February to
-  April, a comfortable tier one through the Fiendsmith era,
-  dropped for about a month after the September 2nd ban list,
-  then back on top from October.
+- Top period: Feb to Dec (about 11 months), the only tier one deck from Feb to
+  Apr, a comfortable tier one through the Fiendsmith era,
+  dropped for about a month after the Sep 2nd ban list,
+  then back on top from Oct.
 - New archetype support by set:
   - Phantom Nightmare: `Snake-Eyes Poplar` (the card that revolutionized the deck),
     `Promethean Princess, Bestower of Flames` as the fire link that lets Flamberge be reused.
   - Legacy of Destruction: `Snake-Eyes Diabellstar`, an extension piece for the pure build.
   - Rage of the Abyss: the Azamina cards `Azamina Ilia Silvia`, `Azamina Mu Rcielago`,
     `The Hallowed Azamina` and `Deception of the Sinful Spoils`,
-    a new one card line with hand trap insulation after the September 2nd ban list.
+    a new one card line with hand trap insulation after the Sep 2nd ban list.
 - Key non-archetype cards:
   - `Diabellstar the Black Witch` searching `Original Sinful Spoils - Snake-Eye`,
     the entry point for both the pure and the Fire King builds.
@@ -68,17 +69,17 @@ September 2nd ban list came out a week before, with Tenpai Dragon and Ritual Bea
   the Central America and Oceania WCQs, YCS Sacramento (Jesse Cotton, Fiendsmith Snake-Eye),
   YCS Niagara Falls and YCS Guayaquil (Landon Oliver, Fire King variant).
 - Hit by:
-  - April 15th ban list (`Linkuriboh`, `Baronne de Fleur`, `Borrelsword Dragon`,
+  - Apr 15th ban list (`Linkuriboh`, `Baronne de Fleur`, `Borrelsword Dragon`,
     `Borreload Savage Dragon`, `Summon Limit` banned): did not dethrone it.
-  - September 2nd ban list (`Snake-Eye Ash` and `Snake-Eyes Poplar` limited,
+  - Sep 2nd ban list (`Snake-Eye Ash` and `Snake-Eyes Poplar` limited,
     `Apollousa, Bow of the Goddess` and `Beatrice, Lady of the Eternal` banned): a month of
     weaker results.
-  - December 8th ban list: `Original Sinful Spoils - Snake-Eye` banned,
+  - Dec 8th ban list: `Original Sinful Spoils - Snake-Eye` banned,
     the one many players had wanted banned for half a year.
 
 ## Tenpai Dragon
 
-- Top period: April to December (about 9 months), a tier two deck for most of it,
+- Top period: Apr to Dec (about 9 months), a tier two deck for most of it,
   never the best deck but the one that won a major WCQ.
 - New archetype (Legacy of Destruction): `Tenpai Dragon Paidra`, `Tenpai Dragon Fadra`,
   `Tenpai Dragon Chundra`, `Sangenpai Bident Dragion`, `Sangenpai Transcendent Dragion`,
@@ -93,15 +94,15 @@ September 2nd ban list came out a week before, with Tenpai Dragon and Ritual Bea
     `Lightning Storm`, `Dark Hole`, `Harpie's Feather Duster`, `Forbidden Droplet`.
 - Results: topped YCS Rition Era (May, as the newcomer),
   rose to tier two with Yubel at the South America WCQ,
-  and Esteban Re (name as heard) won the European WCQ (July).
-- Hit by: September 2nd ban list (`Sangen Summoning` limited),
-  December 8th ban list (`Tenpai Dragon Chundra` and `Sangen Kaimen` limited,
+  and Esteban Re (name as heard) won the European WCQ (Jul).
+- Hit by: Sep 2nd ban list (`Sangen Summoning` limited),
+  Dec 8th ban list (`Tenpai Dragon Chundra` and `Sangen Kaimen` limited,
   its best starter from six copies down to two), but it kept topping.
 
 ## Yubel
 
-- Top period: June to December (about 7 months), the dominant deck from late September to
-  early October.
+- Top period: Jun to Dec (about 7 months), the dominant deck from late Sep to
+  early Oct.
 - New archetype (Phantom Nightmare): `Spirit of Yubel`, `Grinder Golem`, `Samsara D Lotus`,
   `Yubel - The Loving Defender Forever`, `Nightmare Pain`, `Mature Chronicle`, `Eternal Favorite`.
   Support: `Nightmare Throne` and `Gruesome Grave Squirmer` (Legacy of Destruction),
@@ -111,15 +112,15 @@ September 2nd ban list came out a week before, with Tenpai Dragon and Ritual Bea
     ban hurt it less; the rank six slot became `D/D/D Wave High King Caesar`.
   - `Dark Beckoning Beast` and `Varudras, the Final Bringer of the End Times` for level 10 plays.
   - Kashtira package (`Kashtira Unicorn`) to rip a card from the opponent's extra deck.
-- Results: third overall representation at the Central America WCQ (June),
+- Results: third overall representation at the Central America WCQ (Jun),
   tier two at the South America WCQ and YCS Sacramento,
   won the World Championship (Ruben Andres Penaranda, Fiendsmith Yubel),
   YCS LY (Noel Hamill), Team YCS Santiago, YCS Cancun (Fiendsmith Yubel).
-- Hit by: December 8th ban list (`Phantom of Yubel` limited, heavily hampering repeatability).
+- Hit by: Dec 8th ban list (`Phantom of Yubel` limited, heavily hampering repeatability).
 
 ## Fiendsmith
 
-- Top period: July to December (about 6 months), an engine, not a standalone deck:
+- Top period: Jul to Dec (about 6 months), an engine, not a standalone deck:
   in 27 of the top 32 decks at YCS Sacramento.
 - New archetype (The Infinite Forbidden): `Fiendsmith Engraver`, `Fiendsmith's Lacrima`,
   `Fiendsmith's Desirae`, `Fiendsmith Kyrie`, `Fiendsmith's Sequence`, `Fiendsmith's Tract`,
@@ -134,16 +135,16 @@ September 2nd ban list came out a week before, with Tenpai Dragon and Ritual Bea
     `Beatrice, Lady of the Eternal` as the flexible rank six.
   - `Magical Musketeer Max`, `Magical Musketeer Starfire` and `Magical Musketeer Calamity`
     as light fiend starters (a pure Magical Musketeer Fiendsmith won YCS Barcelona).
-- Results: the North American WCQ (July 19th release, the day before it),
+- Results: the North American WCQ (Jul 19th release, the day before it),
   top deck at the European WCQ, 27 of the top 32 at YCS Sacramento,
   and the World Championship (Fiendsmith Yubel).
-- Hit by: September 2nd ban list (`Fiendsmith's Lacrima` banned 52 days after its release,
+- Hit by: Sep 2nd ban list (`Fiendsmith's Lacrima` banned 52 days after its release,
   the fastest release to ban time ever, and `Beatrice, Lady of the Eternal` banned),
-  yet the engine stayed in most top decks and Ryzeal could splash it in December.
+  yet the engine stayed in most top decks and Ryzeal could splash it in Dec.
 
 ## Voiceless Voice
 
-- Top period: February to May (about 4 months), a tier three deck most of the time,
+- Top period: Feb to May (about 4 months), a tier three deck most of the time,
   a slower control deck that played low to the ground.
 - New archetype (Phantom Nightmare): `Lo, the Prayers of the Voiceless Voice`,
   `Saffira, Dragon Queen of the Voiceless Voice`, `Sauravis, Dragon Sage of the Voiceless Voice`,
@@ -154,11 +155,22 @@ September 2nd ban list came out a week before, with Tenpai Dragon and Ritual Bea
   YCS Guadalajara, tier two contender at YCS Rition Era.
 - Ended by: Tenpai Dragon and Yubel taking the second best deck spot.
 
+## White Forest
+
+- Top period: Jul to Sep (about 3 months), dipped in Aug.
+- New archetype (The Infinite Forbidden): `Astellar of the White Forest`,
+  `Elzette of the White Forest`, `Diabell, Queen of the White Forest`.
+- Key non-archetype cards: Runick as the mix-in archetype,
+  covering the need for a level two non-tuner and spell traps to pitch:
+  any level four White Forest monster with a Runick spell was a full combo.
+- Results: first top at the European WCQ as a Runick mix-in,
+  topped YCS LY as Runick White Forest.
+
 ## Spright
 
 Called "Sprite" in the video.
 
-- Top period: June (about 1 month).
+- Top period: Jun (about 1 month).
 - Key non-archetype cards from Battles of Legend: Terminal Revenge:
   `Mirror Mage of the Ice Barrier`, which `Swap Frog` can dump,
   searching `Freezing Chains of the Ice Barrier` to revive it,
@@ -169,7 +181,7 @@ Called "Sprite" in the video.
 
 ## Ryzeal
 
-- Top period: December (about 1 month), from the day of Crossover Breakers.
+- Top period: Dec (about 1 month), from the day of Crossover Breakers.
 - New archetype (Crossover Breakers): `Sword Ryzeal`, `Node Ryzeal`, `Ice Ryzeal`,
   `Ext Ryzeal`, `Palm Ryzeal`, `Ryzeal Duo Drive`, `Ryzeal Detonator`, `Ryzeal Plugin`,
   `Ryzeal Cross`, `Ryzeal Plasma Hole`.
@@ -182,7 +194,7 @@ Called "Sprite" in the video.
 
 ## Maliss
 
-- Top period: December (about 1 month).
+- Top period: Dec (about 1 month).
 - New archetype (Crossover Breakers): `Maliss <P> White Rabbit`, `Maliss <P> Chessy Cat`,
   `Maliss <P> Dormouse`, `Maliss <Q> Red Ransom`, `Maliss <Q> White Binder`,
   `Maliss <Q> Hearts Crypter`, `Maliss <C> MTP-07`, `Maliss <C> GWC-06`, `Maliss <C> TB-11`,
@@ -195,7 +207,8 @@ Called "Sprite" in the video.
 
 ## Honorable mentions
 
-Got strong new cards and were playable, but never became a top deck in 2024.
+Playable with strong new cards, but never won a major event in 2024
+nor made the top cut at two or more.
 
 ### Flame Swordsman
 
@@ -243,13 +256,7 @@ Got strong new cards and were playable, but never became a top deck in 2024.
   (Legacy of Destruction); `Centur-Ion Atrii` (The Infinite Forbidden);
   `Centur-Ion Primera Primus` (Rage of the Abyss).
 - Results: topped the South America WCQ through the Melodious line.
-  `Hot Red Dragon Archfiend King Calamity` (the Calamity lock) was banned September 2nd.
-
-### White Forest
-
-- New archetype (The Infinite Forbidden): `Astellar of the White Forest`,
-  `Elzette of the White Forest`, `Diabell, Queen of the White Forest`.
-- Results: first top at the European WCQ as a Runick mix-in, topped YCS LY.
+  `Hot Red Dragon Archfiend King Calamity` (the Calamity lock) was banned Sep 2nd.
 
 ### Gimmick Puppet
 

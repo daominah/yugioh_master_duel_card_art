@@ -542,7 +542,7 @@ This would set the stage for this new meta landscape,
 being followed up by a structure deck released the following week
 which would introduce yet another strategy into the pool worth experimenting with.
 
-### Beware of Traptrix
+### Structure Deck: Beware of Traptrix
 
 - Release date: February 23rd, 2023.
 - Set type: structure deck.
@@ -1464,7 +1464,7 @@ showing the resilience of the strategy that would never truly die.
 This would be followed up by another set just five days later,
 and it would be an odd one to witness after the events of the last year, to say the least.
 
-### Soul Burning Volcano
+### Legendary Duelists: Soulburning Volcano
 
 - Release date: August 10th, 2023.
 - Set type: duelist pack.
@@ -1590,7 +1590,7 @@ but would be nowhere near enough to make the deck a standalone meta threat.
 This left the pack just as quickly as it had gotten there, with the new set coming a month later
 to bring some levity to the price ceiling of the game as a whole.
 
-### Dueling Heroes
+### 25th Anniversary Tin: Dueling Heroes
 
 - Release date: September 7th, 2023.
 - Set type: reprint set.
@@ -1677,7 +1677,7 @@ This would lead into the next structure deck release a week later,
 and while it wouldn't be the most impactful,
 changes were on the way alongside it that were sure to shake up the meta substantially.
 
-### The Crimson King
+### Structure Deck: The Crimson King
 
 - Release date: September 21st, 2023.
 - Set type: structure deck.
@@ -2097,7 +2097,7 @@ this one would
 give it a run for best set of the year, being an absolute crowd pleaser
 that we could have only dreamed of.
 
-### Rarity Collection
+### 25th Anniversary Rarity Collection
 
 - Release date: November 2nd, 2023.
 - Set type: reprint set.
@@ -2304,7 +2304,7 @@ Though this was the last pack of 2023, it was not the last set release,
 as we still had one more structure deck to hit
 the masses, and it was aimed at giving one last shakeup to finish the year off with a bang.
 
-### Fire Kings
+### Structure Deck: Fire Kings
 
 - Release date: December 8th, 2023.
 - Set type: structure deck.

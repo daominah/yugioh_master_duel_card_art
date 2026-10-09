@@ -18,9 +18,9 @@ Speaker shorthand is kept when it is a short form of the canonical name
 and so are community nicknames ("Pepe", "Draco Pals", "PK Fire", "Merlantean", "Tin Can Turbo").
 Non-obvious fixes (garbled to canonical):
 
-- "Cosmo" to `Kozmo`, "Xceed" / "exceed" to `Xyz`, "spiral" to `SPYRAL`,
-  "Dark Lord" to `Darklord`, "Raid Raptor" to `Raidraptor`, "Metal Foes" to `Metalfoes`.
-- "Trako Face-Off" to `Draco Face-Off`, "Traikoverlord" to `Dracoverlord`,
+- "Cosmo" to Kozmo, "Xceed" / "exceed" to Xyz, "spiral" to SPYRAL,
+  "Dark Lord" to Darklord, "Raid Raptor" to Raidraptor, "Metal Foes" to Metalfoes.
+- "Trako Face-Off" to `Draco Face-Off`, "Traikoverlord" to Dracoverlord,
   "Igknister Prominence" to `Ignister Prominence, the Blasting Dracoslayer`.
 - "lizard draw" to `Performapal Lizardraw`, "guitar doll" to `Performapal Guitartle`.
 - "welp" to `Buster Whelp of the Destruction Swordsman`.
@@ -32,7 +32,7 @@ Non-obvious fixes (garbled to canonical):
 - In the Emergency Teleport and Extra Deck Monarch sentences,
   "Blue-Eyes" / "Red-Eyes" to `Super Quantum Blue Layer` / `Super Quantum Red Layer`.
 - "Merlairus" to `Sky Scourge Norleras`, "Tunetable of Contents" to `Toon Table of Contents`.
-- "Zolkien" / "Zalkin" / "Zultan" to `Ultimaya Tzolkin`, "Ultimaia" to `Ultimaya`.
+- "Zolkien" / "Zalkin" / "Zultan" to `Ultimaya Tzolkin`, "Ultimaia" to Ultimaya.
 - "Da'at" / "Adia" to `Edea the Heavenly Squire`.
 - "Pal Amaro" to `X-Saber Palomuro`, "King of the Pharaoh Imps" to `King of the Feral Imps`.
 - "Searer" / "Sear" (ban list hits to PK Fire) to `Cir, Malebranche of the Burning Abyss`.
@@ -96,7 +96,7 @@ This would be extremely useful alongside Lizardraw specifically as you could sca
 scale lizard to draw one off the turtle, then send lizard for its effect to draw one,
 effectively giving you a pot of greed style effect.
 
-Lastly, Performapal Pendulum Sorcerer was an OCG import that
+Lastly, `Performapal Pendulum Sorcerer` was an OCG import that
 on special summon popped up the two cards you control to search for a Performapals up
 to the number of cards you popped.
 This was an incredibly powerful effect that standardly would let you pop scales to search
@@ -111,27 +111,27 @@ This would be a pretty major nerf to the cards applications,
 specifically in regards to popping cards like Plushfire in the scale,
 which was a very common play at the time due to Plushfire's float effect.
 
-Buster Blader would be the newest attempt at retraining a monster used by Yugi,
-giving us Buster Blader, the Destruction Swordmaster,
-who's treated as Buster Blader on the field and in grave,
+`Buster Blader` would be the newest attempt at retraining a monster used by Yugi,
+giving us `Buster Blader, the Destruction Swordmaster`,
+who's treated as `Buster Blader` on the field and in grave,
 equips opponents monsters destroyed by battle to himself and can send an equipped monster
 to grave to pop all same type monsters the opponent controls, as well as the Whelps,
-a series of dragon tuner companions for Buster Blader.
+a series of dragon tuner companions for `Buster Blader`.
 Buster Whelp would be the main one, able to search a Destruction Sword card on normal,
-contribute itself to summon Buster Blader from hand or grave,
+contribute itself to summon `Buster Blader` from hand or grave,
 and can summon itself from grave by discarding a Destruction Sword card
-if you control Buster Blader.
-This was a quick and easy way to access one of the deck's primary bosses, being Buster Blader,
-the Dragon Destroyer Swordsman through a search for Destruction Swordsman Fusion,
+if you control `Buster Blader`.
+This was a quick and easy way to access one of the deck's primary bosses, being `Buster Blader`,
+the Dragon Destroyer Swordsman through a search for `Destruction Swordsman Fusion`,
 a quick play spell that can recur itself by discarding any card
 when fusion summoned gains a thousand attack for every dragon in the opponent's field or grave,
 swapping all dragons to defense, locking their effects, and gains piercing.
-Or the Synchro, Buster Dragon, who turns all opponent's monsters into dragons,
-can summon a Buster Blader from grave if you do not control one,
-and can equip a Destruction Sword monster from grave to Buster Blader once per turn,
+Or the Synchro, `Buster Dragon`, who turns all opponent's monsters into dragons,
+can summon a `Buster Blader` from grave if you do not control one,
+and can equip a Destruction Sword monster from grave to `Buster Blader` once per turn,
 being effectively a companion piece for the anti-dragon bosses.
-As for the other Whelps, each can equip from hand or field to a Buster Blader,
-with each having a flood gate effect and an effect that move the Whelp off of Buster Blader
+As for the other Whelps, each can equip from hand or field to a `Buster Blader`,
+with each having a flood gate effect and an effect that move the Whelp off of `Buster Blader`
 for an immediate bonus.
 With Dragon Buster locking the opponent's special summons from extra deck,
 and can summon itself while equipped.
@@ -140,9 +140,9 @@ Wizard Buster locking the opponent's grave effects,
 and can send itself to grave to recur a Destruction Sword monster.
 And Robot Buster locking face-up spell and trap effects,
 and can send itself to grave to boost the equipped monster by a thousand for the turn.
-This would be an extremely comprehensive and solid way of legacy support for Buster Blader,
+This would be an extremely comprehensive and solid way of legacy support for `Buster Blader`,
 giving the deck a solid direction.
-But it suffered pretty heavily from the Retrain not having the name Buster Blader in hand or deck,
+But it suffered pretty heavily from the Retrain not having the name `Buster Blader` in hand or deck,
 meaning half of the support couldn't be used with it until the Retrain was on the field
 or in the grave, leading to the deck bricking to high heaven more often than not.
 Although it would see rogue level play in formats with high dragon representation
@@ -156,7 +156,7 @@ and any other pendulum.
 Can revive a Dracoslayer pendulum once per turn,
 and blocks all pendulum cards you control from destruction of any kind.
 However, there was one more piece of support this time that would take Dracoslayer over the top,
-being Draco Face-Off, a quick play spell that revealed a Dracoslayer and a Dracoverlord from deck,
+being `Draco Face-Off`, a quick play spell that revealed a Dracoslayer and a Dracoverlord from deck,
 had the opponent select one at random, and
 then the selected monster could either be special summoned or set in the scale
 with the other moving to the extra deck.
@@ -204,7 +204,7 @@ by that monster's attack and floats into a banished zombie with zero defense on 
 Shiranui had the bones of an interesting strategy for sure,
 unique way of utilizing the standard zombie stick of filling up the grave and recursive payoffs,
 but unfortunately was just not consistent enough at this juncture to become meta.
-Seeing some rogue level experimentation with Uni-Zombie for helping set up Spectralsword lines.
+Seeing some rogue level experimentation with `Uni-Zombie` for helping set up Spectralsword lines.
 Kozmo would see its third wave of support here in Tincan,
 a pilot who can pay 500 to choose three Kozmo cards from deck,
 then add one at random to hand while dumping the other two to grave.
@@ -214,12 +214,12 @@ Delta Shuttle, a ship that can dump a Kozmo from deck to grave to drop a monster
 by its level times 100.
 Dark Eclipser, a ship that can't be targeted and can banish a Kozmo monster from grave
 to negate traps, notably not floating into a Kozmo on death, rather searching one instead.
-And Kozmojo, a trap that pops a Kozmo to non-targeting banish a card on field.
+And `Kozmojo`, a trap that pops a Kozmo to non-targeting banish a card on field.
 This wave would spark an interesting change in direction
 for Kozmo's deck building over the next couple of months,
 mainly centering around the new pilot of Tincan.
 As by using its effect, one could actively set up the grave with multiple ships and
-then revive them using cards like Call of the Haunted and Oasis of Dragon Souls.
+then revive them using cards like `Call of the Haunted` and `Oasis of Dragon Souls`.
 
 This direction of the deck's building style would receive the colloquial name of Tin Can Turbo.
 And while it wouldn't be super popular for now,
@@ -228,7 +228,7 @@ with new releases and the strategy's last support wave.
 Kaiju would receive their most interesting support wave yet, receiving Jizukiru,
 the now strongest Kaiju body at 3300, but also a new reason to actually play it.
 
-Interrupted Kaiju Slumber was effectively Dark Hole that summoned two Kaiju from deck,
+`Interrupted Kaiju Slumber` was effectively `Dark Hole` that summoned two Kaiju from deck,
 one to each side of the field, and could be banished from grave on the following turn
 to search another Kaiju.
 This would spark a movement of using the Kaijus as an engine that was effectively dark hole
@@ -243,34 +243,34 @@ These two would find a home in Majespecter decks,
 namely for the added flexibility they gave to Majespecter setups,
 with Ogama providing a search for either pool of responses the deck had access to.
 
-Guiding Ariadne could, when destroyed, reveal three counter traps in deck
+`Guiding Ariadne` could, when destroyed, reveal three counter traps in deck
 to have the opponent pick one to add to your hand, shuffling the rest back in.
 This would be yet another option for Pepe,
-as not only could it potentially search Solemn Warning if the opponent was daring enough
-to give it to you, but also the new counter trap of Solemn Strike,
+as not only could it potentially search `Solemn Warning` if the opponent was daring enough
+to give it to you, but also the new counter trap of `Solemn Strike`,
 which can negate and destroy either a monster effect or inherent special summon
 for the cost of 1,500 life points, being a massive staple in the meta almost immediately thanks
 to it being a way to block pendulum summon pushes.
-Another option was the more budget friendly Ultimate Providence,
+Another option was the more budget friendly `Ultimate Providence`,
 which was an omni negate at the cost of discarding the corresponding card super type from hand,
 which would see some experimentation.
 
-Twin Twisters was yet another variant of MST,
+`Twin Twisters` was yet another variant of MST,
 taking a discard to use but popping up the two spell traps instead.
 This would be an instant staple, especially in a meta game centered around pendulums,
 as the versatility of being able to snipe both scales or remove multiple back row threats
 while also potentially setting up the grave was too good of a deal to pass up for most players,
 seeing mass play almost immediately.
-Quaking Mirror Force was the third of the elemental variants of the classic Mirror Force,
+`Quaking Mirror Force` was the third of the elemental variants of the classic `Mirror Force`,
 flipping any affected monster face down permanently instead of destroying them,
 seeing experimentation immediately as the ability to lock up the opponent's zones
 with this was actually surprisingly useful.
 
-Fiendish Rhino Warrior was an OCG import that blocked other Fiends from being destroyed,
+`Fiendish Rhino Warrior` was an OCG import that blocked other Fiends from being destroyed,
 able to banish a Fiend from Deck when sent to Grave.
 Being an instant staple in Burning Abyss as it blocked the BA self-pop
-and let you Foolish Burial one after using it.
-Neptabyss, the Atlantean Prince could send an Atlantean from Deck to Grave
+and let you `Foolish Burial` one after using it.
+`Neptabyss, the Atlantean Prince` could send an Atlantean from Deck to Grave
 to search an Atlantean card and can, if sent to Grave for a WATER monster effect,
 revive an Atlantean monster.
 This piece would completely revamp Atlantean, or more accurately Merlantean,
@@ -280,24 +280,25 @@ but also search for a Mermail to pair with it, being the perfect starter for the
 
 Lastly would be two new Xyz in the OCG import slots that would revitalize the staple Rank 4 pool
 in extremely different ways.
-Traptrix Rafflesia is unaffected by traps while she has materials and could detach
-to send a Trap Hole from Deck to Grave when its effects would be able to be applied
+`Traptrix Rafflesia` is unaffected by traps while she has materials and could detach
+to send a `Trap Hole` from Deck to Grave when its effects would be able to be applied
 to trigger that effect.
 Rafflesia would become an instant staple Rank 4 in the format in large part thanks
-to Treacherous Trap Hole.
+to `Treacherous Trap Hole`.
 As her effect became a two-monster pop on a quick effect with that.
 Seeing use for that as well as for applying Bottomless after the fact.
 
-The other, and far more interesting application card was Cyber Dragon Infinity,
-a light locked three-material Rank 6 that can also summon itself over Cyber Dragon Nova.
+The other, and far more interesting application card was `Cyber Dragon Infinity`,
+a light locked three-material Rank 6 that can also summon itself over `Cyber Dragon Nova`.
 Gains 200 attack for each material, can suck up an attack position monster on either field
 as material once per turn, and can detach one for an Omni negate.
 You may be remembering what I said right at the start of this, and no, I did not misspeak.
 
-Cyber Dragon Infinity would be a staple piece of the Rank 4 toolbox due
-to a monster we've mentioned before in our series, being Tellarknight Ptolemaeus,
+`Cyber Dragon Infinity` would be a staple piece of the Rank 4 toolbox due
+to a monster we've mentioned before in our series, being `Tellarknight Ptolemaeus`,
 who could, for the cost of detaching three materials, rank itself up into any LIGHT Rank 5,
-which just so happens to allow access to Cyber Dragon Nova, which in turn gives access to Infinity.
+which just so happens to allow access to `Cyber Dragon Nova`,
+which in turn gives access to Infinity.
 
 #### YCS Sydney
 
@@ -314,9 +315,9 @@ or Trapeze Magician.
 
 At this stage, there were so many different options for the strategy
 that practically every list would be running something different.
-Some would run Rescue Rabbit as a way to access Master Invoker for Xyz plays and Dinoster
-in the Reptile lines for searching with King of the Feral Imps,
-such as X-Saber Palomuro for access to Naturia Beast with Hat Tricker or Masked Chameleon
+Some would run `Rescue Rabbit` as a way to access Master Invoker for Xyz plays and Dinoster
+in the Reptile lines for searching with `King of the Feral Imps`,
+such as `X-Saber Palomuro` for access to `Naturia Beast` with Hat Tricker or `Masked Chameleon`
 to access Ignister Prominence with Engraved Master Invoker.
 And I'm sure many others that were sadly not known due to the lost in most of this event's coverage,
 but we'll talk more about these soon.
@@ -325,17 +326,17 @@ Yaway Zeng would take the event on Pepe,
 using a fairly standard list with no particular standouts in deck composition or interesting techs,
 just utilizing the insanely consistent menace.
 An extremely interesting part of the Pepe mirror match
-that should be discussed here is the interactions of Wavering Eyes.
+that should be discussed here is the interactions of `Wavering Eyes`.
 As timing your usage of the spell was critical for winning the mirror.
 
 The option had always been weighed on whether or not to use it on turn one for your own scales
 to get the benefits before your opponent can, or to save it for the full four scales,
 or save it to chain to your opponent's copy to ensure yours landed first.
-This was also complicated even further by the inclusion of Performage Damage Juggler,
-which could actually be discarded to completely negate Wavering Eyes due to the one pop effect
+This was also complicated even further by the inclusion of `Performage Damage Juggler`,
+which could actually be discarded to completely negate `Wavering Eyes` due to the one pop effect
 being a burn effect, which only added to the mind game complexity of the mirror.
 The only non-Pepe deck that was known that topped here in the tier zero scene was Kozmo Artifact,
-being one of the first major appearances of Artifact Scythe in the meta as a way
+being one of the first major appearances of `Artifact Scythe` in the meta as a way
 to block the massive pendulum flood back swing.
 Able to be summoned the old-fashioned way with Sanctum or with Sliprider popping it off
 of a pilot tack out.
@@ -344,7 +345,7 @@ but it seemed something else was just on the horizon.
 With the structure deck releasing two weeks later bringing forward a revolutionary idea
 for structure decks that would change their design forever.
 
-### Emperor of Darkness
+### Emperor of Darkness Structure Deck
 
 - Release date: January 29th, 2016
 - Set type: structure deck
@@ -379,7 +380,7 @@ The Monarch spell traps would also see an overhaul in Pantheism,
 which discards a Monarch spell trap to draw two,
 that can be banished from grave to reveal three Monarch spell traps in deck
 to have the opponent pick one to add to your hand.
-The Prime Monarch, a continuous trap that can shuffle two Monarch spell traps
+`The Prime Monarch`, a continuous trap that can shuffle two Monarch spell traps
 from grave back into deck to draw one, and can while in grave,
 banish a Monarch spell trap to revive itself as a level five light fairy, and Domain,
 a field spell that boosts your tribute summon monsters by 800 while attacking,
@@ -422,20 +423,21 @@ Pendulum as a strategy in general was rampaging as the tipping point had clearly
 seeing so many viable options that the strategy had already displayed
 in Sydney a couple weeks ago alongside some new ones.
 
-Guiding Ariadne would be a tech that saw success thanks to searching for Solemn Strike
-or Warning when popped by Luster Pendulum or Wavering Eyes,
+`Guiding Ariadne` would be a tech that saw success thanks to searching for `Solemn Strike`
+or Warning when popped by Luster Pendulum or `Wavering Eyes`,
 giving another layer to the end board of the rank four toolbox.
-Dark Pepe would also be a variant that rose here thanks to Armageddon Knight and Zephyros the Elite,
+Dark Pepe would also be a variant that rose here
+thanks to `Armageddon Knight` and Zephyros the Elite,
 as you could bounce your Luster Pendulum back with Zephyros to not only enable rank fours,
 but also to get additional Luster pops with cards like Plushfire, pushing the swarming even further.
 Jose Lagunes would take the event on Pepe, notably opting to not load up on any fancy techs,
 but rather hand traps like Veiler and Maxx "C" to give himself a fighting chance going second.
 
 Monarch would manage to take two top spots here, but falling completely out by top 16.
-With Majesty's Fiend being the big counter pick for the various pendulum swarming effects
+With `Majesty's Fiend` being the big counter pick for the various pendulum swarming effects
 while Domain blocked the spam out.
 Kozmo would also squeak in a single top spot here,
-notably playing Anti-Spell Fragrance in the main to potentially block out the pendulum scales
+notably playing `Anti-Spell Fragrance` in the main to potentially block out the pendulum scales
 as pendulums cannot be set at all, locking the zone from being used.
 It was clear that Pepe was a menace and needed to be dealt with, and interestingly enough,
 Konami would deal with it in the most bizarre way we've seen yet.
@@ -486,7 +488,7 @@ It can tribute itself to summon a Raidraptor Xyz from Extra Deck with its effect
 returning it in the End Phase.
 Force Strix is a Rank 4 that can detach to search a level four Dark Winged Beast.
 
-Satellite Cannon Falcon is a Rank 6 that can feather duster the opponent if summoned
+`Satellite Cannon` Falcon is a Rank 6 that can feather duster the opponent if summoned
 with a Raidraptor monster, blocks responding to that effect,
 and can detach to drop an opponent by 800 attack for every Raidraptor in grave.
 Call can summon a Raidraptor with the same name as one on field from hand or deck,
@@ -497,7 +499,7 @@ for general use was Force Strix, as its search was fairly generic in the current
 being able to search Zephyros.
 But in archetype, the talking point was absolutely Soul Shave Force,
 being the best Rank-Up-Magic the archetype had seen thus far.
-With Satellite Cannon Falcon now being a desired target to summon with it for backrow nukes,
+With `Satellite Cannon` Falcon now being a desired target to summon with it for backrow nukes,
 but overall would still leave Raidraptor on the fringes of rogue play,
 barely scratching the surface.
 
@@ -514,7 +516,7 @@ from grave to dump a Phantom Knights card from deck to grave.
 The payoff for these is Break Sword, a Rank 3 that can detach one to pop a card
 on each field and if destroyed can revive two Phantom Knights of the same level,
 boosting their levels by one each.
-Meant to tie in their anime users boss monster of Dark Rebellion Xyz Dragon from New Challengers.
+Meant to tie in their anime users boss monster of `Dark Rebellion Xyz Dragon` from New Challengers.
 Their traps fall into two categories, those that summon themselves as monsters and those
 that can be banished from grave to revive a Phantom Knights monster.
 With Fog Blade able to negate a monster's effect on field and blocking it from attacking
@@ -541,7 +543,7 @@ and Magnaliger able to detach to pop a monster.
 With all three able to use these effects as quick effects
 if their corresponding Super Quantum is attached.
 
-Super Quantal Fairy Alphan is the enabler for the deck,
+`Super Quantal Fairy Alphan` is the enabler for the deck,
 able to make all monsters you control levels match that of a Super Quant on field
 and contribute itself to reveal three different Super Quant monsters in deck,
 then have the opponent pick one at random to special summon to the field while putting the others
@@ -550,7 +552,7 @@ Their field spell Magnacarrier can discard a card to Xyz summon a Super Quantum
 into its corresponding mech any number of times in a turn.
 But more importantly, if you have all three mech beast Xyz on field or in grave,
 can send itself to grave to use all three as material
-to Xyz summon Super Quantal Mech King Great Magnus,
+to Xyz summon `Super Quantal Mech King Great Magnus`,
 who floats into the three Mechs when sent to grave and gains effects based
 on how many materials it has.
 With two or more letting it detach to quick effect spin a card back into deck,
@@ -584,18 +586,18 @@ of it all.
 Er Kovicic would take the event with Draco Pals,
 playing a list similar to Dark Pepe lists we'd seen before,
 but with the hits cutting the entire Performage side of the deck focused more
-into the Dark package of Armageddon Knight, Zephyros, and Shaddoll Dragon.
+into the Dark package of `Armageddon Knight`, Zephyros, and `Shaddoll Dragon`.
 
 Kozmo would make it to second place here thanks to the slow transition of the deck
-into Tin Can Turbo, adding in more copies of Call of the Haunted and Oasis to take advantage
+into Tin Can Turbo, adding in more copies of `Call of the Haunted` and Oasis to take advantage
 of the grave setup provided by the level one pilot,
 still readily abusing emergency teleport for the strategy.
 Monarch would see a little more experimentation to their builds,
-with a top four version playing copies of Super Quantum Red Layer as a special summonable body
+with a top four version playing copies of `Super Quantum Red Layer` as a special summonable body
 that could also double up as a tribute summonable monster
 to trigger your Monarch spell traps like Domain and Return.
 Phantom Knights would take a top 32 spot on their debut outing utilizing Blue Layer
-and Ghost Ogre with Emergency Teleport as rank three enablers as well as protection
+and Ghost Ogre with `Emergency Teleport` as rank three enablers as well as protection
 with Ghost Ogre as well as the now staple rank three enablers of Terrortop and Taketomborg.
 
 Merlantean would take a top spot here marking its comeback into the meta
@@ -603,11 +605,11 @@ with Neptabyss making the strategy viable to play once again following the calli
 of the tier zero mega threat that was keeping them out.
 Marking itself as a viable rogue option in the newly forming meta game.
 Lastly, and probably most doom and gloom on the format,
-Chicken Game FTK cracked into the top 16 utilizing various amounts of draw spells ranging
-from the Chicken Game line to Monarchs utilizing Aether and Erebus,
-the field draw spells like Cards from the Sky and Trade-In,
-to Toon Table of Contents thinning the deck with Blue-Eyes Toon Dragon
-to facilitate the older Library Magical Explosion FTK.
+`Chicken Game` FTK cracked into the top 16 utilizing various amounts of draw spells ranging
+from the `Chicken Game` line to Monarchs utilizing Aether and Erebus,
+the field draw spells like `Cards from the Sky` and `Trade-In`,
+to `Toon Table of Contents` thinning the deck with `Blue-Eyes Toon Dragon`
+to facilitate the older Library `Magical Explosion` FTK.
 Which while not meta defining, it was still an annoyance to deal with an active
 and consistent FTK in the format fringes.
 
@@ -632,7 +634,7 @@ Because of this and the only card in the strategy requiring an empty extra deck 
 the extra deck in turn was filled to the brim with options for the strategy to play around with,
 most notably in rank five lines.
 
-The Prime Monarch, when revived from the grave, is treated as a level five normal light fairy,
+`The Prime Monarch`, when revived from the grave, is treated as a level five normal light fairy,
 which in turn means that with two, you can access one of the most desired rank fives in the pool,
 Pleiades, in addition to other various threats,
 which also re-popularized the Super Quant as engine pieces for Monarchs.
@@ -645,7 +647,7 @@ as a cornerstone strategy throughout the remainder of the year through various t
 
 The other innovation would be in the topping Burning Abyss deck,
 as not only were they using the full suite of BA monsters like usual in addition
-to the new Fiendish Rhino Warrior from BOSH,
+to the new `Fiendish Rhino Warrior` from BOSH,
 but they were also using a small package of Phantom Knights from Wing Raiders.
 As it turns out, Phantom Knight meshed incredibly well with the Burning Abyss monsters,
 as they provided rank three access to Dante as well as utility from the grave
@@ -655,8 +657,8 @@ would rise substantially in popularity following this performance
 and would only grow more powerful with a certain import in the next set release.
 
 Adam Belaratsky would take the event on Draco Pals,
-utilizing Guiding Ariadne with Solemn Scolding added
-to the counter trap line alongside Archfiend Eccentrick pulling double duty as both a removal
+utilizing `Guiding Ariadne` with `Solemn Scolding` added
+to the counter trap line alongside `Archfiend Eccentrick` pulling double duty as both a removal
 for the opponent's pieces, as well as a way to trigger Ariadne.
 This would lead into the year's Gold Series a week later,
 and this was geared up to be one of the biggest Gold Series releases in years thanks
@@ -679,12 +681,12 @@ in years.
 
 Most were on the generically useful side this time with Star Seraph Charge Warrior
 being a level six generic synchro that draws one on synchro summon,
-The Phantom Knights of Shade Brigandine being a trap activatable the turn it's set
-and summons itself as a level four, and Number 38: Hope Harbinger Dragon Titanic Galaxy
+`The Phantom Knights of Shade Brigandine` being a trap activatable the turn it's set
+and summons itself as a level four, and `Number 38: Hope Harbinger Dragon Titanic Galaxy`
 being a rank eight with a spell negate, battle redirection for your other monsters,
 and a permanent attack buff anytime an Xyz you control dies.
 But as good as these generic pieces were, they were not what was most focused on.
-Beatrice, Lady of the Eternal, was a rank six that could also be summoned over a Dante monster
+`Beatrice, Lady of the Eternal`, was a rank six that could also be summoned over a Dante monster
 by discarding a Burning Abyss.
 Unable to use her effect the turn she summoned this way.
 Able to detach one to quick effect send any card from deck to grave.
@@ -699,7 +701,7 @@ which ended up making Burning Abyss a tier one threat in the OCG almost immediat
 As for the TCG, Burning Abyss had never really left the meta since its inception.
 And with the recent results at Vegas, it actually undergone a research and sent PK Fire.
 So, Beatrice was undoubtedly poised to make an impact,
-giving the strategy effectively a Lavalval Chain, but better.
+giving the strategy effectively a `Lavalval Chain`, but better.
 
 #### YCS San Jose
 
@@ -740,18 +742,19 @@ With the addition of Beatrice to the deck,
 the goal was now unquestionably to reach her as fast as possible,
 which in turn meant that additional rank three engines were added to the deck in order
 to reach Dante reliably to access Beatrice.
-Specifically in that of Speedroid Terrortop and Taketomborg, who not only access Dante for Beatrice,
+Specifically in that of `Speedroid Terrortop` and Taketomborg,
+who not only access Dante for Beatrice,
 but also didn't take the normal summon,
 allowing for the summon of a tool like Tour Guide or the Phantom Knights after.
 
 There would also be an odd variant to see top 32 here of BA, known as Norleras BA,
-which aimed at supplying Sky Scourge Norleras with Beatrice as the fairy required,
+which aimed at supplying `Sky Scourge Norleras` with Beatrice as the fairy required,
 allowing BA to access a board and hand nuke without much in terms of deck concessions.
 Infernoid would once again see top 32, still using Devyaty as the end boss,
-notably able to play through the popular Solemn Strike effectively
+notably able to play through the popular `Solemn Strike` effectively
 as its summon effect can still be used from the grave.
 Merlantean would see another top 32, now also utilizing the Kaijus more effectively
-with the Interrupted Kaiju Slumber package.
+with the `Interrupted Kaiju Slumber` package.
 
 Andre Torres would take the event on Draco Pals,
 utilizing both the Ariadne package as well as the new inclusion of Number 38
@@ -762,18 +765,19 @@ to the extra deck lineup, able to match up well into the mirror with those optio
 With that, a new banlist would take effect on April 11th, two days after Houston,
 and with it we'd see the finalization of the previous adjusted list changes in addition
 to a number of new hits.
-Newly banned were Chicken Game, putting an end to the popular FTK deck, and Wavering Eyes,
+Newly banned were `Chicken Game`, putting an end to the popular FTK deck, and `Wavering Eyes`,
 as the spell was not countering pendulums as was hoped,
 but rather was just making them stronger while also being a silver bullet in the mirror match.
-Newly limited were Ignister Prominence, Wisdom-Eye, and Draco Face-Off,
+Newly limited were Ignister Prominence, Wisdom-Eye, and `Draco Face-Off`,
 all as hits to Draco Pals, reasoning as a hit to Kozmo and Infernoid,
 Norden and Upstart as hits to the popular staples,
-and Thousand-Eyes Restrict returning from the ban section.
+and `Thousand-Eyes Restrict` returning from the ban section.
 
-Newly semi-limited were Emergency Teleport as a hit to Kozmo and the Super Quant Engine for Monarch,
-and Debris Dragon and Allure returning from one.
-Lastly, unlimited were Demock with an Errata, Tragoedia, Advanced Ritual Art,
-and Crush Card Virus all being seen as acceptable in the current environment.
+Newly semi-limited were `Emergency Teleport`
+as a hit to Kozmo and the Super Quant Engine for Monarch,
+and `Debris Dragon` and Allure returning from one.
+Lastly, unlimited were Demock with an Errata, `Tragoedia`, `Advanced Ritual Art`,
+and `Crush Card Virus` all being seen as acceptable in the current environment.
 This list took aim at the continued success of Draco Pals far more than any other strategy
 in the meta, and for good reason.
 While the meta had diversified quite substantially, Draco Pals was still the top deck,
@@ -801,7 +805,7 @@ However, there were two specific cards that appeared on this particular set
 that would catch the eye of the casual observer.
 And they would both provide a significant benefit to the user for a heavy cost.
 
-The first of these was Left Arm Offering, allowing you to,
+The first of these was `Left Arm Offering`, allowing you to,
 if you have two or more cards in hand and are fine with a lock from setting cards that turn,
 banish your entire hand to search for any spell from your deck.
 While this was insane on paper, the practicality of it would be immediately suspect.
@@ -810,7 +814,7 @@ as it all had to go for the search, which would see some experimentation,
 but for the time being was too heavy a cost for the insanely powerful upside.
 On the other hand, get it?
 
-Card of Demise could draw until you had three cards in hand.
+`Card of Demise` could draw until you had three cards in hand.
 Blocks the opponent from taking more damage that turn,
 locks you from special summoning for the entire turn, and discards the entire hand in the end phase.
 This card, though, didn't block you from setting,
@@ -850,21 +854,21 @@ Blue-Eyes would see a massive overhaul to its support,
 seeing an entire archetype of sorts spawn around its previous pieces from the old saga
 of Blue-Eyes structure deck back in the 5D's era.
 
-Dragon Spirit of White was always considered a Blue-Eyes card,
+`Dragon Spirit of White` was always considered a Blue-Eyes card,
 is treated as a normal monster in hand and grave, banishes a spell trap when summoned,
 and contribute itself on quick effect to summon the OG Blue-Eyes from hand.
-Sage with Eyes of Blue searches a level 1 light tuner on normal.
+`Sage with Eyes of Blue` searches a level 1 light tuner on normal.
 Yes, that does include Veiler, and can be discarded to turn an effect monster you control
 into a Blue-Eyes monster from your deck, which conveniently triggers Maiden's summon effect,
 too, since it targets an effect monster.
 
-The White Stone of Ancients, the turn it's sent to grave,
+`The White Stone of Ancients`, the turn it's sent to grave,
 summons a Blue-Eyes from deck if it's still in grave at the end of the turn,
 and can banish itself from grave to recur a Blue-Eyes monster.
-Blue-Eyes Twin Burst Dragon must be fused with two original Blue-Eyes or by sending two
+`Blue-Eyes Twin Burst Dragon` must be fused with two original Blue-Eyes or by sending two
 to grave from field, can't be destroyed by battle, can attack twice on monsters,
 and banishes anything it attacks but doesn't destroy.
-Blue-Eyes Spirit Dragon is a level nine Synchro that takes a tuner and a Blue-Eyes,
+`Blue-Eyes Spirit Dragon` is a level nine Synchro that takes a tuner and a Blue-Eyes,
 blocks both players from summoning multiple monsters at the same time,
 can negate a grave effect once per turn,
 and tribute itself on quick effect to summon a light dragon Synchro from extra deck except itself,
@@ -909,13 +913,13 @@ Because this lock didn't require a pendulum summon for the higher levels,
 Sloth here would see some play in decks thanks to it being a one tribute monster
 that you could search with various pendulum search cards that you could tribute summon at the end
 of a combo.
-Performapal Odd-Eyes Light Phoenix and Unicorn's effects mostly don't matter outside
+`Performapal Odd-Eyes Light Phoenix` and Unicorn's effects mostly don't matter outside
 of niche circumstances where Light Phoenix stays in scale to chump block for you.
 
 What matters here is that they are both Performapal and Odd-Eyes monsters that fill both a low
-and high scale requirement, meaning that Sky Iris can find its way back in a pendulum list now
+and high scale requirement, meaning that `Sky Iris` can find its way back in a pendulum list now
 that it can search something relevant that isn't named Pendulum Dragon.
-Kozmoll Dark Lady is a level five pilot that can pay a thousand to negate
+`Kozmoll Dark Lady` is a level five pilot that can pay a thousand to negate
 and destroy a monster effect with a standard pilot tack out.
 While disappointing that Dark Lady was the only relevant new card Kozmo would receive in this wave,
 Dark Planet looks so cool, but it's just so bad.
@@ -931,12 +935,12 @@ Thunder King, the Lightning Strike Kaiju, is now the strongest Kaiju at 3,300 at
 That's it.
 It's just a better card to summon with IKES now.
 
-Angel Trumpeter is a level four normal tuner,
-meaning that for decks already experimenting with Unexpected Dai, namely that of Pendulums,
+`Angel Trumpeter` is a level four normal tuner,
+meaning that for decks already experimenting with `Unexpected Dai`, namely that of Pendulums,
 they could easily tech this in as a one-off for easier access to things like Ignister Prominence,
 which with a limited Luster is appreciated.
-Lector Pendulum, the Dracoverlord, destroys both itself and a Pendulum at the start
-of the damage step when battling, giving another solid Dracoverlord target for Draco Face-Off,
+`Lector Pendulum, the Dracoverlord`, destroys both itself and a Pendulum at the start
+of the damage step when battling, giving another solid Dracoverlord target for `Draco Face-Off`,
 which would have probably been more relevant had the spell not just been limited.
 Ghost Reaper and Winter Cherries can, if the opponent has more monsters,
 discard itself to reveal an Extra Deck monster and banish all copies of it
@@ -949,7 +953,7 @@ as by cutting off a BA player's access to Dante, you also cut them off of Beatri
 Still, most decks in the meta were not as heavily reliant on one specific card in the Extra.
 So, for now, she'd be relegated to a side deck pick at best.
 
-Crystal Wing Synchro Dragon is a Level 8 Synchro requiring a Tuner and a non-Tuner Synchro.
+`Crystal Wing Synchro Dragon` is a Level 8 Synchro requiring a Tuner and a non-Tuner Synchro.
 Can negate and destroy a monster using its effect once per turn and gain its attack for the turn.
 And if it battles a Level 5 or higher, gains that monster's attack.
 Talk about an upgrade.
@@ -962,7 +966,7 @@ Because it was a Level 8 Dragon Synchro, Tzolkin had found its target,
 able to cheat out Crystal Wing in decks that could make it,
 though none had really become known by this point.
 
-Digital Bug Corebage would be one of the payoffs to the Digital Bug archetype that debuted here,
+`Digital Bug Corebage` would be one of the payoffs to the Digital Bug archetype that debuted here,
 being a Rank 5 that could also rank up over a Rank 3 or 4 Insect by detaching two materials.
 Able to detach one to spin away a defense mode monster,
 able to reattach a material from grave if a monster changes battle position on field.
@@ -976,7 +980,7 @@ by card effects, can detach to drop all opponents by 1,000 attack and locking th
 from using effects for the turn, and can, if it has a Raidraptor as material,
 drop all opponents by 1,000 attack or burn the opponent for 1,000
 if they control no face-up monsters.
-Rank-Up-Magic Skip Force lets you rank up a Raidraptor Xyz two ranks and can banish itself
+`Rank-Up-Magic Skip Force` lets you rank up a Raidraptor Xyz two ranks and can banish itself
 and a Raidraptor in grave to revive a Raidraptor Xyz.
 Between Skip Force and Soul Shave Force, Raidraptor had seen a boon in new good Rank-Up Spells,
 and Ultimate Falcon was finally a payoff worth ranking up to,
@@ -985,7 +989,7 @@ While this wouldn't make Raidraptor meta,
 it would solidify the deck as a solid rogue to tier three option,
 not able to rise up further due to the ever-present Kaijus.
 
-Pre-Preparation of Rites can search a Ritual Spell from deck and a monster listed on
+`Pre-Preparation of Rites` can search a Ritual Spell from deck and a monster listed on
 that Ritual Spell from grave or deck.
 That's right, we buffed old Rituals.
 Take that, Nekroz.
@@ -998,16 +1002,16 @@ or were far too slow or weak to justify running in the first place.
 This would grow in power, though, as new Ritual designs would keep this particular card in mind,
 specifically in the fact that it doesn't have to mention the monster in the summon effect,
 it just needs to mention it, period.
-Drowning Mirror Force completes the Elemental Retrains of Mirror Force series by only
+`Drowning Mirror Force` completes the Elemental Retrains of `Mirror Force` series by only
 being activatable when a direct attack is declared, spinning away all attack position monsters.
 Without question, the best payoff for any of these cards,
-even beating out the shockingly good Quaking Mirror Force,
+even beating out the shockingly good `Quaking Mirror Force`,
 but with the downside of needing the opponent to attack directly,
 who is going to play something like this?
 Yeah, so Demise decks already want to draw almost entirely backrow and very little to no monsters,
 so Drowning would fit perfectly into their lineups, which we'd see soon enough.
 
-Lastly, Fire King Island could pop a monster on field or in hand to search a Fire King monster
+Lastly, `Fire King Island` could pop a monster on field or in hand to search a Fire King monster
 or could summon a Fire Winged Beast from hand once per turn.
 Nuking your monsters have sent to grave or banished.
 While a solid card for Fire Kings, giving the deck the ability to search for its key pieces
@@ -1032,7 +1036,7 @@ and clearly a shift had happened, but in a very strange way overall.
 Kozmo had taken 13 of the top 32, with at least four of those being a new variant
 in Fire King Kozmo.
 Island had clearly made an impact on the strategy,
-seeing a single copy played to where it could be searched by Terraforming
+seeing a single copy played to where it could be searched by `Terraforming`
 and it was a full access to your Kozmo engine without the need to commit your normal summon
 or play E Tele.
 In addition, it was fairly simple to get the Island off the board
@@ -1043,23 +1047,24 @@ to start your lines without the Island potentially nuking the board later.
 
 Demise Kozmo would also see its first real success here,
 playing a slimmed-down Pilot and Ship spread to make room for more Revival Traps,
-Floodgates, Responses, and of course Card of Demise,
+Floodgates, Responses, and of course `Card of Demise`,
 which could net massive draws for the deck given the right opening.
 Speaking of Demise, Qliphort would find a top spot here sporting Demise as well,
-also loading up on plenty of Qliphort tailored floodgates like Re-qliate and Rivalry of Warlords,
-in addition to the new Drowning Mirror Force.
+also loading up on plenty of Qliphort tailored floodgates
+like `Re-qliate` and `Rivalry of Warlords`,
+in addition to the new `Drowning Mirror Force`.
 Pendulum strategies would see a wide variety of tops here,
 ranging from your more standard Draco Pals variant to a couple of Majespecter variants
 and even a Pendulum Magician variant.
 
-The Draco Pals and Magician variant specifically though were now sporting Sky Iris,
+The Draco Pals and Magician variant specifically though were now sporting `Sky Iris`,
 not only as a way to protect the scales,
 but also to access the new Odd-Eyes scales of Light Phoenix and Unicorn,
 rounding out their scale lines and giving yet another way to pop a pen scale.
 Extra Deck Monarchs had overtaken their Domain brethren to rule the slice of the pie chart,
 but a very specific development here would shift the deck structure even more
 into the insane pile it was becoming.
-Brilliant Fusion, a card we've mentioned a couple times at this point,
+`Brilliant Fusion`, a card we've mentioned a couple times at this point,
 but not really had a reason to focus on in the meta game, now had a true home and purpose.
 Because the engine sent a light for part of Seraphinite's requirement,
 you could send an Edea for the summon, which
@@ -1087,26 +1092,28 @@ The WCQ season would begin with Central America two weeks later.
 And for the most part, the meta had once again solidified around Monarch, Kozmo,
 Pendulum, and PK Fire, with multiple variants of each populating their section of the chart,
 most of which were known at the stage, but a new face would appear in some Monarch lists.
-Quickdraw Synchron had been experimented with for Monarch decks since the Extra Deck Monarch pivot,
+`Quickdraw Synchron` had been experimented with for Monarch decks
+since the Extra Deck Monarch pivot,
 but overall, never really had a reason to be played over something like Red Layer until now.
 
 You see, its restriction on what can be Synchro Summoned with it only applies to things
 that are properly Synchro Summoned, meaning that by being an easily summonable level five tuner,
-it and any of the many other level five spam options in the deck could make Ultimaya Tzolkin,
+it and any of the many other level five spam options in the deck could make `Ultimaya Tzolkin`,
 which in turn could access the new powerhouse that was Crystal Wing.
 This would add yet another option to the ever-growing pool of options for extra deck Monarch.
-With another interesting development also happening here on the Brilliant Fusion engine side.
+With another interesting development also happening here on the `Brilliant Fusion` engine side.
 
 Rather than playing the Garnet to access Edea to cycle back a spell trap,
 as that line wasn't always live when playing the Brilliant out the gate like many wanted to do,
-Monarch would start opting for Gem-Knight Lazuli and a normal monster of choice,
-in this case Jack's Knight, to cycle back the hand for a level five tribute summonable body
+Monarch would start opting for `Gem-Knight Lazuli` and a normal monster of choice,
+in this case `Jack's Knight`, to cycle back the hand for a level five tribute summonable body
 that could trigger a return.
-This would evolve over the next few weeks to instead search Dark Witch specifically
+This would evolve over the next few weeks to instead search `Dark Witch` specifically
 because she's a level five light fairy that you can summon under Gozen or Rivalry
 with Seraphinite already on the board.
 Brandon Gonzalez would take the event on extra deck Monarchs,
-notably also playing Lazuli as the Brilliant Fusion target, though wasn't playing a normal with it.
+notably also playing Lazuli as the `Brilliant Fusion` target,
+though wasn't playing a normal with it.
 
 #### Oceania WCQ
 
@@ -1124,7 +1131,7 @@ and a couple of new additions to the variant piles would be seen here for the fi
 Majespecter would be the newest deck to hop on the Demise train,
 sacrificing its pendulum summon for the turn to draw more of the Majespecter back row,
 which is actually decently potent thanks to Tempest
-and Tornado providing really solid interruption points.
+and `Tornado` providing really solid interruption points.
 On top of being able to get Majespecters out of the hand for Demise by setting them as pen scales,
 similar to Demise Qliphort.
 
@@ -1148,7 +1155,7 @@ to its access to Kirin, which boosted the potency of their in-board significantl
 #### Number S0: Utopic ZEXAL promo
 
 Interestingly, there would be almost a 1-month gap between the remaining WCQs,
-in which time the newest Shonen Jump promo would be mailed out, being Number S0: Utopic ZEXAL,
+in which time the newest Shonen Jump promo would be mailed out, being `Number S0: Utopic ZEXAL`,
 able to be overlaid onto a Utopia monster by discarding a Rank-Up-Magic,
 can't have it summon negated, locks responding to its summon,
 gains 1,000 attack and defense for each material,
@@ -1190,7 +1197,7 @@ With all of that out of the way, there's also a set released just 2 days after t
 And this would be the one chance of shaking things up
 in the meta before the remaining two WCQs could take place.
 
-### Rise of the True Dragons
+### Rise of the True Dragons Structure Deck
 
 - Release date: July 8th, 2016
 - Set type: structure deck
@@ -1205,13 +1212,13 @@ As the target of their revival effect isn't chosen until after you tribute.
 This is done to facilitate Arc Brave Dragon,
 who banishes all of an opponent's back row on summon from grave,
 and can revive a level 7 or 8 dragon the turn after it's put in grave,
-and Divine Dragon Lord Felgrand, who banishes the monster on summon from grave,
+and `Divine Dragon Lord Felgrand`, who banishes the monster on summon from grave,
 and revives a level 7 or 8 dragon on destroying something in battle.
 While interesting, the issue stood in that the warriors can't activate their effects until you have
 at least one dragon in grave, which the deck did nothing to really circumvent outside
-of reprinting Foolish Burial, which was limited.
-However, a new spell that would be interesting here was Return of the Dragon Lords,
-being a Monster Reborn for level 7 and 8 dragons,
+of reprinting `Foolish Burial`, which was limited.
+However, a new spell that would be interesting here was `Return of the Dragon Lords`,
+being a `Monster Reborn` for level 7 and 8 dragons,
 and can be banished from grave to prevent a dragon's destruction.
 
 This would be recognized as a perfect addition to Blue-Eyes specifically,
@@ -1224,7 +1231,7 @@ Though Blue-Eyes still wasn't meta viable with this.
 The NAWCQ would be the same weekend, and once again,
 the meta was fairly set in stone at this point with the main four continuing
 to shift around their ratios with PK Fire and Monarch both taking 21 of the top 64 each.
-PSY-Frame would squeak into top 64 just barely here thanks in large part to Drowning Mirror Force.
+PSY-Frame would squeak into top 64 just barely here thanks in large part to `Drowning Mirror Force`.
 As the deck already liked on an empty monster row to keep their PSY-Frames live as much as possible,
 so having a back row that heavily benefits from this was greatly appreciated.
 
@@ -1249,7 +1256,7 @@ But the best option might have been just a little further ahead as it seems
 that Konami was rushing a certain product out way sooner than we
 in the TCG should have received it to stack Worlds in the favor of one specific deck.
 
-### Dark Side of Dimensions Movie Pack
+### The Dark Side of Dimensions Movie Pack
 
 - Release date: July 22nd, 2016
 - Set type: import set
@@ -1279,7 +1286,7 @@ to summon alongside your level one tuners to access Spirit Dragon on the first t
 This also pulled Melody of Awakening Dragon out of the bulk pile at last because it searched
 for Alternative and the OG Blue-Eyes, giving you the ability to summon it out immediately.
 On the more niche side of things, Chaos Max was also a boss worth considering
-as it could be summoned with Advanced Ritual Art by dumping an OG Blue-Eyes from deck,
+as it could be summoned with `Advanced Ritual Art` by dumping an OG Blue-Eyes from deck,
 giving an option to absolutely obliterate more defensive decks.
 It's fair to say that this support was the reason the pack was rushed out so fast,
 making the strategy completely legal for Worlds, which we'd see soon enough.
@@ -1288,7 +1295,7 @@ The rest of the pack was dedicated to other strategies from DSOD, specifically t
 a stall focused strategy focused around Vijam,
 who can't be destroyed in battle and locks up monsters at battles, and the Magician Girls,
 a series of spellcasters that loop with one another to fill up the board.
-The only other notable cards here would be that of Gold Gadget and Silver Gadget,
+The only other notable cards here would be that of `Gold Gadget` and `Silver Gadget`,
 who summoned a level four machine from hand on summon and float into any other gadget
 on destruction, which would see some experimentation for now,
 but not widespread success until much later in the year.
@@ -1300,58 +1307,58 @@ but whether it would be impactful to the world scene would have to be seen.
 
 - Release date: August 5th, 2016
 - Set type: core set
-- Major strategies: Dark Magician, Metalfoes, Paleozoic
+- Major strategies: `Dark Magician`, Metalfoes, Paleozoic
 - Impact: laying the groundwork for future metas
 
-The Dark Illusion was the third core set of 2016,
+The `Dark Illusion` was the third core set of 2016,
 and while it wouldn't be as explosive as BOSH or the fourth core set of the year,
 TDIL would lay the groundwork for multiple meta archetypes that would take hold later
 in the year and beyond.
 Following the archetypes spawned around Blue-Eyes,
 Dark Magician would receive a wave of legacy support centered around the titular card.
-Magician of Dark Illusion becomes Dark Magician on field,
+`Magician of Dark Illusion` becomes `Dark Magician` on field,
 can summon itself on the opponent's turn when you use a spell trap effect,
-and can summon a Dark Magician from grave when you use a spell trap effect once while on field.
+and can summon a `Dark Magician` from grave when you use a spell trap effect once while on field.
 
-Magician's Robe during the opponent's turn can discard a spell trap to summon Dark Magician
+`Magician's Robe` during the opponent's turn can discard a spell trap to summon `Dark Magician`
 from deck, and can summon itself from grave on the opponent's turn when you use a spell trap effect.
-Magician's Rod searches a spell trap that mentions Dark Magician on normal,
+`Magician's Rod` searches a spell trap that mentions `Dark Magician` on normal,
 and can recur itself on the opponent's turn when you use a spell trap effect by tributing a monster.
-Ebon High Magician is a spellcaster locked rank seven that can use spell traps from hand
+`Ebon High Magician` is a spellcaster locked rank seven that can use spell traps from hand
 on the opponent's turn by detaching material for each,
 and floats into a Dark Spellcaster in deck on removal, then pops a card on field.
-Their spell traps all revolve around the original Dark Magician,
-with Illusion Magic able to tribute a spellcaster to search up to two Dark Magicians
+Their spell traps all revolve around the original `Dark Magician`,
+with `Illusion Magic` able to tribute a spellcaster to search up to two Dark Magicians
 from deck or grave.
 
-Dark Magic Expand gaining more effects for each Dark Magician or girl on field or in grave,
+Dark Magic Expand gaining more effects for each `Dark Magician` or girl on field or in grave,
 with one plus boosting a Dark Spellcaster by a thousand,
 two plus locking the opponent from chaining to spell trap effects and preventing them
 from destruction, and three plus making dark spell casters you control immune to card effects.
-And Magician Navigation, summoning a Dark Magician from hand and a level seven
+And `Magician Navigation`, summoning a `Dark Magician` from hand and a level seven
 or lower dark spell caster from deck, able to banish from grave to negate the effects
-of a face-up spell trap while you control Dark Magician.
-Lastly, Dark Magical Circle looks at the top three of the deck on activation,
-adding a Dark Magician or spell trap that mentions it to hand from those
+of a face-up spell trap while you control `Dark Magician`.
+Lastly, `Dark Magical Circle` looks at the top three of the deck on activation,
+adding a `Dark Magician` or spell trap that mentions it to hand from those
 and places the others back in any order.
-And while on field, banishes an opponent's card once per turn when you summon a Dark Magician.
+And while on field, banishes an opponent's card once per turn when you summon a `Dark Magician`.
 
 The strategy had a clear direction here,
 with Circle Control easily being the name of the game with its banish effect.
-But the issue lied in consistent access to Dark Magician reliably.
+But the issue lied in consistent access to `Dark Magician` reliably.
 A lot of the decks plays relied heavily on Circle and Navigation,
-which in turn meant you consistently needed a Dark Magician in hand to trigger Nav
+which in turn meant you consistently needed a `Dark Magician` in hand to trigger Nav
 in the first place, which naturally led to bricking galore.
 This would leave Dark Magician in the position of a rogue deck at best for now,
 but a note should be made here about the requirement to search cards
-that listed Dark Magician specifically.
+that listed `Dark Magician` specifically.
 This was clearly put in place to make the new support able
-to search older cards like Thousand Knives and Dark Magic Curtain,
+to search older cards like `Thousand Knives` and `Dark Magic Curtain`,
 but left a very specific casualty in the funniest way possible.
 
-The Eye of Timaeus, despite having Dark Magician written on the card,
-could not be searched with any of the support due to it not listing Dark Magician specifically,
-as it said a Dark Magician monster.
+`The Eye of Timaeus`, despite having `Dark Magician` written on the card,
+could not be searched with any of the support due to it not listing `Dark Magician` specifically,
+as it said a `Dark Magician` monster.
 This would be a bit of a logistical mess in the short term,
 but a funny trivia fact looking back now.
 Metalfoes was a new series of normal Pendulums,
@@ -1366,7 +1373,7 @@ and Combination able to summon a Metalfoes from grave
 with a lower level than a Fusion Summon Metalfoes on summon,
 and searches the Metalfoes monster when sent to grave.
 Their primary game plan involves using the various pops and pendulum summons
-to facilitate their main spell Metalfoes Fusion with a standard Fusion effect
+to facilitate their main spell `Metalfoes Fusion` with a standard Fusion effect
 and the ability to put itself from grave on bottom of deck to draw one.
 
 Adamante is a vanilla Fusion of a Metalfoes and a 2500 or less attack monster.
@@ -1428,7 +1435,7 @@ but on initial inspection looked to be the better of the two archetypes,
 being a far more generically usable engine of sorts.
 With Super Agent providing board swarm and spell trap removal,
 and Quik-Fix for some reason being a machine type,
-meaning that it was abusable with Machine Duplication.
+meaning that it was abusable with `Machine Duplication`.
 While unassuming now, many would pick up a set of these on release thanks
 to the potential these initial cards held with just a little shaping.
 In the OCG import slots though, we'd also see two archetypes.
@@ -1441,9 +1448,9 @@ These had been introduced back in Zexal and popularized slightly by Gustav Max
 as a burn tool for FTK decks.
 But here they get the couple of pieces the strategy had been missing for a while now.
 
-Heavy Freight Train Derricrane can summon itself from hand if you summon an Earth Machine,
+`Heavy Freight Train Derricrane` can summon itself from hand if you summon an Earth Machine,
 and can pop a card when detached from an Xyz.
-Revolving Switchyard is a field spell that summons a level four Earth Machine from deck
+`Revolving Switchyard` is a field spell that summons a level four Earth Machine from deck
 when you summon a level 10, then boost its level up to 10,
 and can discard a card to search a level 10 Earth Machine.
 Number 81 Superdreadnought Rail Cannon Super Dora is a rank 10 that can detach
@@ -1470,7 +1477,7 @@ While interesting for sure, Paleozoic didn't do enough on their own right now
 to be considered for the meta, though many would be keeping an eye on them for the future
 if the remainder of their support got imported.
 
-D/D Savant Thomas in the scale can recur a face-up D/D pendulum from extra deck,
+`D/D Savant Thomas` in the scale can recur a face-up D/D pendulum from extra deck,
 and on field can pop a D/D in scale to summon a level eight D/D/D from deck,
 giving D/Ds an option to actually access Oblivion King Abyss Ragnarok semi-reliably,
 giving D/D a slight boost into the meta.
@@ -1493,16 +1500,16 @@ As while it was already solidly useful,
 within one year it would become one of the most ban-worthy cards the game had seen in a long time.
 But I'm getting ahead of myself.
 
-True King Agnimazud, the Vanisher, would be the first of the new True King archetype,
+`True King Agnimazud, the Vanisher`, would be the first of the new True King archetype,
 able to summon itself from hand by popping two monsters on field or in hand, including a fire.
 Banished a monster when summoned this way and recurred a non-FIRE Wyrm if both pops were fire.
 Though interesting for sure, this card was a bit too early to the party to be useful yet.
 But let's put a pin in that and we'll circle back to it in 2017.
 
-Shiranui Solitaire contribute a zombie to summon tuner with zero defense from deck,
+`Shiranui Solitaire` contribute a zombie to summon tuner with zero defense from deck,
 and if banished can summon a banished Shiranui monster.
 This was the only card Shiranui needed to be relevant, and boy was it.
-By tributing itself, you could summon Uni-Zombie from deck,
+By tributing itself, you could summon `Uni-Zombie` from deck,
 who in turn put a Spectralsword from deck into grave to make it level four.
 
 From there, Spectralsword could banish itself and Solitaire to summon a level six synchro,
@@ -1519,7 +1526,7 @@ One card access to a level eight synchro and a level four or five tuner,
 what more could you ask for?
 This would, unfortunately, be a decently popular option in the upcoming meta game
 and would be a deck that would have to be accounted for in multiple meta games moving forward.
-Speaking of, Block Dragon can be special summoned by banishing three Earths from hand or grave,
+Speaking of, `Block Dragon` can be special summoned by banishing three Earths from hand or grave,
 blocks all destruction except battle destruction,
 and if sent to grave searches up to three rocks whose total level equals eight.
 This card, on release, was a complete flop as there was not a single rock archetype
@@ -1528,7 +1535,7 @@ Though some would try this with Triamids from the same set and with the prior ro
 but both would come up short.
 Though this card would be seen again.
 
-Fairy Tail - Snow, on summon, flips an opponent's monster face down and can be summoned
+`Fairy Tail - Snow`, on summon, flips an opponent's monster face down and can be summoned
 from grave by banishing seven cards from hand, field, or grave.
 Oh, I get it, like the seven dwarves.
 Snow is a weird card to talk about in a vacuum as it was recognized as good out the gate,
@@ -1537,28 +1544,28 @@ but for the time being was relegated to an option for decks that specialized
 in milling like Lightsworn.
 And that is something we will have to discuss later as it's a whole 'nother can of worms.
 
-Coral Dragon is a level six synchro tuner that can discard a card to pop a card and
+`Coral Dragon` is a level six synchro tuner that can discard a card to pop a card and
 when sent to grave draws a card.
 Simple, effective, and gave decks with easy level six synchro access to Tzolkin.
-Yeah, because of Stardust Charge Warrior,
+Yeah, because of `Stardust Charge Warrior`,
 a common practice moving forward for decks that can make two level six synchros is
 to make these two to access Tzolkin and Crystal Wing thanks to the draws they provide,
 which would prove to be quite useful over time.
 
-Cosmic Cyclone, for the cost of a thousand life points, can banish a spell trap,
+`Cosmic Cyclone`, for the cost of a thousand life points, can banish a spell trap,
 being clearly intended as yet another alternative to MST that handled more cases
 in a far stronger way, which would see serious play following release.
-Card of the Soul could search any monster whose total attack
+`Card of the Soul` could search any monster whose total attack
 and defense equaled your current life points.
 While this card was incredibly niche, some experimentation would be seen with it
 for searching monsters with a total of 8,000 thanks to your starting life total being that much,
-primarily in use with Obelisk the Tormentor and Kozmo Dark Planet.
+primarily in use with `Obelisk the Tormentor` and `Kozmo Dark Planet`.
 
-Floodgate Trap Hole could flip any summoned monster face down permanently,
+`Floodgate Trap Hole` could flip any summoned monster face down permanently,
 which would see serious play as a way to mass lock a bunch
 of pendulum summoned monsters all at once as a Rafflesia target.
 Lastly, and without question the most hotly debated card of the time,
-Pot of Desires could banish the top 10 cards of your deck face-down to draw two.
+`Pot of Desires` could banish the top 10 cards of your deck face-down to draw two.
 This would be a card that caused massive divide in the player base immediately on whether
 or not it was worth playing, debating whether this was a plus one or a minus nine.
 And truthfully, this wouldn't have happened if the card wasn't a secret rare.
@@ -1567,7 +1574,7 @@ The common consensus was that Desires in a deck that's almost exclusively built
 of three of's with no critical Garnets was without question an insanely great option.
 While decks that played a lot of one of's or played heavier Garnet counts
 for their engines would maybe pass on the card, but there was no questioning its impact.
-The Dark Illusion was a far more impactful set than one might have expected on the 10,
+The `Dark Illusion` was a far more impactful set than one might have expected on the 10,
 but it wasn't the only pack shaking up the meta just before Worlds,
 as there was another OCG import set just two weeks later.
 And based on how last year's iteration went, this one had a lot of slack to pick up.
@@ -1590,15 +1597,15 @@ Of the initial wave, the one primarily focused on by most was Benten,
 able to search for any light fairy when tributed.
 Because of this interaction, there was a laundry list of cards that Benten could search
 in the right deck, from play starters like Stick and Chair to floodgates like Kristya
-and Vanity's Ruler to even more copies of itself as ritual fodder,
+and `Vanity's Ruler` to even more copies of itself as ritual fodder,
 which put it on a lot of people's list as a ritual toolbox enabler.
-Number 100: Numeron Dragon, can be made with any two same name Number Xyz,
+`Number 100: Numeron Dragon`, can be made with any two same name Number Xyz,
 and can detach to boost itself by the total ranks of Xyz on the field times 1,000,
 making it a prime OTK enabler for decks with heavy Xyz summons,
 but at the time did not have enough ranks to enable it effectively.
 
-Galaxy-Eyes Cipher Dragon can detach to steal an opponent's monster, make its attack 3,000,
-and change its name to Galaxy-Eyes Cipher Dragon for the turn.
+`Galaxy-Eyes Cipher Dragon` can detach to steal an opponent's monster, make its attack 3,000,
+and change its name to `Galaxy-Eyes Cipher Dragon` for the turn.
 This would be a fairly massive boon for the Galaxy-Eyes Xyz pool at the time,
 providing a reliable rank eight that can be used to overlay onto for any number of Xyz rank ups,
 while still actually doing something useful on its own.
@@ -1614,7 +1621,7 @@ which coupled with the various hits to the main deck PAs already present,
 would leave the deck to rely more heavily on its other rank three tools,
 specifically in Break Sword.
 Majespecter would climb all the way to top four,
-utilizing Sky Iris for completing scales and giving access to high enough scales
+utilizing `Sky Iris` for completing scales and giving access to high enough scales
 to keep Kirin on the board.
 
 Kirin here would be a major player, as its effect
@@ -1627,7 +1634,7 @@ a player could now reliably access Spirit Dragon going first,
 which in turn locked out its competition and could even dodge removal with its effect
 to tag into a light dragon, which gave the option of Azure-Eyes, the intended target of this effect,
 as its destruction immunity would override the downside of Spirit,
-as well as alternative targets in Black Rose Moonlight Dragon and Stardust Spark.
+as well as alternative targets in `Black Rose Moonlight Dragon` and Stardust Spark.
 
 Hayame Shinsuke of Japan would take this year's Worlds title with Blue-Eyes,
 not only marking himself as the first and so far only player to win worlds twice,
@@ -1643,8 +1650,8 @@ needing a ban list to do so in the future.
 Probably the biggest point of note here would be the top spot of Brilliant Lightsworn,
 which went completely undefeated in Swiss rounds, only to fall out in top 32.
 
-The new pieces the deck gained from Dark Illusion were actually incredibly significant,
-being Fairy Tail - Snow, which could utilize your milled and grave cards incredibly well
+The new pieces the deck gained from `Dark Illusion` were actually incredibly significant,
+being `Fairy Tail - Snow`, which could utilize your milled and grave cards incredibly well
 for access to Minerva by being half of a rank four, meaning you could detach and mill more,
 gaining even more fodder for another run.
 This would actually be the tipping point for Minerva, as moving forward from here,
@@ -1656,7 +1663,7 @@ meaning that her qualities were extremely limited now, even more than they had b
 Alberto Conti would take the event on Fire King Kozmo,
 utilizing more niche picks like Delta Shuttle, Landwalker, and even three Soartroopers,
 a practice not common amongst Kozmo players of the era.
-He would also be the first recipient of the new YCS prize card Number 93: Utopia Kaiser,
+He would also be the first recipient of the new YCS prize card `Number 93: Utopia Kaiser`,
 which would not be relevant in the meta.
 THANK YOU.
 
@@ -1673,16 +1680,16 @@ Bodan Temnyk would take the event on PK Fire, a common sight of the format at th
 
 The ban list would be updated two days later on August 29th
 and unsurprisingly would bring down a culling wave onto the meta for the past 6 months.
-Newly banned were Performapal Monkeyboard, the one card scale option of pendulum strategies,
-and Kaiser Colosseum, an annoyance to play into on all fronts.
+Newly banned were `Performapal Monkeyboard`, the one card scale option of pendulum strategies,
+and `Kaiser Colosseum`, an annoyance to play into on all fronts.
 Newly limited were Beatrice and Cir as hits to PK Fire,
 Aether Pantheism and Stormforth as hits to Monarch, Dark Destroyer and E-tele as hits to Kozmo,
-and Kirin and Pendulum Call as hits to Pendulum.
+and Kirin and `Pendulum Call` as hits to Pendulum.
 
 Newly semi-limited were Maxx "C", sparking a massive debate in the community
 on whether the blowout hand trap even had a place at one or two,
-and Ryko and Wind-Up Magician returning from one.
-Lastly, unlimited were Thousand-Eyes Restrict, Allure of Darkness, and Gold Sarcophagus,
+and Ryko and `Wind-Up Magician` returning from one.
+Lastly, unlimited were `Thousand-Eyes Restrict`, `Allure of Darkness`, and `Gold Sarcophagus`,
 with two of these still being solid options for some decks in the meta.
 With the blanket hits across the board to all four meta strategies, PK Fire, Monarch,
 Kozmo, and Pendulums would all need to restructure or die to remain.
@@ -1701,7 +1708,7 @@ to watch it as it is a wonderful piece of Yu-Gi-Oh! history.
 The year's Mega Tin would also follow with this ban list.
 Notably reprinting the archetypes of D/D/D, Fluffal, Gem-Knight, Igknight, Kaiju,
 Majespecter, Performage, and Performapal, but also bringing us two specific promos of note.
-D/D/D Flame King Genghis and D/D/D Gust King Alexander would be imported here,
+`D/D/D Flame King Genghis` and `D/D/D Gust King Alexander` would be imported here,
 being a fusion of two D/D/Ds and a level seven synchro requiring a D/D tuner respectively.
 With both sharing an effect to revive a D/D when a D/D is summoned,
 with Flame King able to revive a D/D on special summon,
@@ -1710,7 +1717,7 @@ both being critical pieces of the D/D decks combo lines, but still not quite cra
 requiring a couple more specific imports to do the trick, hovering in the rogue range for now.
 
 Duelist Pack Rivals of the Pharaoh would also release here,
-bringing a singular relevant card in Lullaby of Obedience, which can pay 2K to declare a monster,
+bringing a singular relevant card in `Lullaby of Obedience`, which can pay 2K to declare a monster,
 and if it's in the opponent's deck, either summons it to your field or adds it to your hand.
 This would be an interesting card kicked around for some mirror matchups,
 but would for the most part be un remarkable unless the format was
@@ -1735,9 +1742,9 @@ There were a lot of one-offs that would appear in this particular top cut,
 and though we don't have lists for majority of them, we do have a couple to look over.
 Blazing Gadget would be one of the more interesting lists we'd see,
 utilizing the gadget swarming and the brilliant fusion engine to facilitate the summon
-of The Blazing Mars, who in turn could sack the board for a 2,000 damage burn.
+of `The Blazing Mars`, who in turn could sack the board for a 2,000 damage burn.
 Dinomist would see a top here alongside the standard Performapal package we've come
-to expect for pendulums, namely utilizing Dinomist Charge to both set scales
+to expect for pendulums, namely utilizing `Dinomist Charge` to both set scales
 and provide recursion for your Dinomist pieces.
 
 The most impactful of the one-offs that we have list though would be Shiranui Zombie,
@@ -1748,13 +1755,13 @@ Adrian Madriz would take the event on probably the most talked about new threat,
 
 Metalfoes had gotten their big break with the shift in the meta,
 utilizing all sorts of tools alongside their pops to gain as much value as possible.
-Some options included Qliphort Scout, who could pay eight to search for Monolith,
+Some options included `Qliphort Scout`, who could pay eight to search for Monolith,
 pop it for a Metalfoes search, and then on the pendulum summon bring back the Scout
-with Monolith to make Cyber Dragon Nova into Infinity.
+with Monolith to make `Cyber Dragon Nova` into Infinity.
 Blackwing Gofu to provide its two tokens for the Metalfoes pops,
 and then convert itself in another level five like the Qliphorts to make Tzolkin
 for a toolbox of dragon synchros.
-And the newly released Odd-Eyes Meteorburst Dragon a better scale eight for Sky Iris
+And the newly released `Odd-Eyes Meteorburst Dragon` a better scale eight for `Sky Iris`
 when you don't need the Performapal synergy of Unicorn.
 
 #### Legendary Decks II
@@ -1762,16 +1769,16 @@ when you don't need the Performapal synergy of Unicorn.
 Adding onto the ever-growing list of more minor releases, Legendary Decks 2 dropped on October 6th,
 bringing three nostalgic bait decks for Yugi, Kaiba, and Joey,
 but also including a few interesting promos.
-Ties of the Brethren could pay 2K to target a level four or lower,
+`Ties of the Brethren` could pay 2K to target a level four or lower,
 then summon two monsters from deck with the same type, level, and attribute,
 but different names, locking special summons and battle phase for the turn.
 Ties could easily swarm out tools for use in decks of like type and attributed monsters,
 seeing experimentation with some strategies already in the meta, which we'll discuss soon.
 
-The other interesting promo was Eternal Soul,
-a continuous trap that makes Dark Magician immune to opponent's effects,
-can either summon a Dark Magician from hand or grave,
-or search a Dark Magic Attack or Thousand Knives from deck once per turn,
+The other interesting promo was `Eternal Soul`,
+a continuous trap that makes `Dark Magician` immune to opponent's effects,
+can either summon a `Dark Magician` from hand or grave,
+or search a `Dark Magic Attack` or `Thousand Knives` from deck once per turn,
 and nukes your monsters if it leaves the field.
 This would provide Dark Magician with something the deck desperately needed,
 reliable and repeatable access to the titular monster,
@@ -1784,23 +1791,24 @@ YCS Minneapolis would be the following weekend,
 and though many of the decks of the previous meta took large hits on the ban list,
 they'd begin to creep back in here, with PK Fire specifically reestablishing itself
 as a meta threat.
-Majespecter would see a new variant pop here in Ties of the Brethren,
+Majespecter would see a new variant pop here in `Ties of the Brethren`,
 with level threes giving access to Nekomata and Bunbuku,
-and level fours giving access to Yata-Garasu, Kyubi, and Ojama,
+and level fours giving access to `Yata-Garasu`, Kyubi, and Ojama,
 allowing full access to the spell trap suite.
-Infernoid would pop back up here thanks to Card Trooper popping back up,
+Infernoid would pop back up here thanks to `Card Trooper` popping back up,
 able to set up your Infernoids in grave while also cycling a card when removed.
 
-Lightsworn would once again see the top 32 fully embracing Fairy Tail - Snow
+Lightsworn would once again see the top 32 fully embracing `Fairy Tail - Snow`
 as a level four swarming body while also stepping more
 into the previously popular Clown Blade engine, notably on one Minerva.
 Phantom Knights would see a top completely separate from the BA cards,
-notably playing Gofu to access PSY-Framelord Omega with the level three Phantom Knights
-as well as more interesting techs in Super Hippo Carnival able
-to access Performapal Hip Hippo though, serving a similar purpose to how E-Tele was previously used,
+notably playing Gofu to access `PSY-Framelord Omega` with the level three Phantom Knights
+as well as more interesting techs in `Super Hippo Carnival` able
+to access `Performapal Hip Hippo` though,
+serving a similar purpose to how E-Tele was previously used,
 but at three copies for the level three body.
 Marcus Hayden would take the event on Metalfoes,
-leaning heavily into the three copies of Jowgen the Spiritualist,
+leaning heavily into the three copies of `Jowgen the Spiritualist`,
 who was a popular tech option at the time for countering out Blue-Eyes specifically thanks
 to being a pendulum summonable body whose defense is high enough
 to block the entire Blue-Eyes normal summon lineup with most Blue-Eyes players not having an out
@@ -1810,7 +1818,7 @@ the structure decks that released a week would not qualify in that camp as it wo
 of structure decks for the first time in years with one aim
 that completely upsetting the established meta.
 
-### Structure Decks Yugi Muto and Seto Kaiba
+### Structure Deck: Yugi Muto and Structure Deck: Seto Kaiba
 
 - Release date: October 21st, 2016
 - Set type: structure deck
@@ -1836,17 +1844,17 @@ able to summon itself by banishing the three Electromagnets from hand, field, or
 can banish a Magna Warrior in grave to pop a card,
 and when destroyed summons the three Electromagnets from banishment.
 There was even a fusion of the two Magna Warriors, both Berserkion and the original Valkyrion,
-being Imperion Magnum the Superconductive Battlebot,
+being `Imperion Magnum the Superconductive Battlebot`,
 who has a once-per-turn omni negate and destroy,
 and if removed by opponent's card effect summons the two Magna Warriors from hand or deck.
 
-Magnetic Field was a field spell that could summon a Magnet Warrior from grave
+`Magnetic Field` was a field spell that could summon a Magnet Warrior from grave
 if you controlled an Earth Rock once-per-turn and can bounce a monster that battles
 with an Earth Rock but isn't destroyed.
-Lastly, Magnet Conversion can recover back three Magnet Warriors on activation
+Lastly, `Magnet Conversion` can recover back three Magnet Warriors on activation
 and can banish itself from grave to summon a banished Magnet Warrior.
 While absolutely interesting and seemingly competent,
-meshing well with the recent Ties of the Brethren,
+meshing well with the recent `Ties of the Brethren`,
 Magnet Warrior would suffer due to three major reasons.
 Number one was the reliance on the original Magnet Warrior monsters,
 as they were the only level fours available to tag into with the Electromagnet effects,
@@ -1881,17 +1889,17 @@ Similar to Magnet Warriors, A-to-Z Dragon Buster Cannon was a banished contact F
 of ABC and the original XYZ.
 That has a repeatable omni-negate at the cost of a discard each time,
 and can banish itself to resummon both ABC and XYZ from banishment.
-Union Hangar was their new Field Spell, able to search a Light Machine Union on activation,
+`Union Hangar` was their new Field Spell, able to search a Light Machine Union on activation,
 and can equip an appropriate Light Machine Union from deck to a Light Machine Union
 that is summoned once per turn.
 
-Lastly, Union Scramble can summon up to three banished Light Machine Normal or Union monsters
+Lastly, `Union Scramble` can summon up to three banished Light Machine Normal or Union monsters
 on activation, and can banish itself from grave to recur another to hand.
 ABC, to put bluntly, was way better than Magnet Warriors in almost every way.
 Their Field Spell let them turbo out two monsters at a time,
 their payoff didn't need to be searched first, the payoff's removal was a quick effect,
 and in general, Level 4 Machines already have way more existing support than Level 3 Rocks too,
-like Gold and Silver Gadget for example,
+like Gold and `Silver Gadget` for example,
 which in turn makes it easier to trigger things like the grave effects of the union
 since you can just overlay the equipped monster to put the unions attached in grave.
 
@@ -1905,27 +1913,27 @@ There would be no clear indication of this deck's immediate impact than YCS Live
 where ABC would take 14 of the top 32 almost completely shunting Blue-Eyes off its top
 of the meta position.
 Utilizing various tools in the rank four arsenal
-like Gold Gadget and Silver Gadget, Photon Thrasher,
-and various rank fours like Gear Gigant X and Bujintei Tsukuyomi,
-ABC would absolutely dominate the event although notably utilizing Artifact Scythe
+like `Gold Gadget` and `Silver Gadget`, `Photon Thrasher`,
+and various rank fours like `Gear Gigant X` and `Bujintei Tsukuyomi`,
+ABC would absolutely dominate the event although notably utilizing `Artifact Scythe`
 in its lineup with Sanctum reaching all the way to top four on its first outing.
 Lightsworn continued to both impress and depress as it would be tied with PK Fire
 for the second most represented deck in top 32 bringing even more fuel onto the fire
 of Minerva's exclusivity.
-This time around it would be new variants like a light toolbox using Brilliant Fusion
-to set up its various tools as well as a zombie variant with Uni-Zombie and Mezuki
+This time around it would be new variants like a light toolbox using `Brilliant Fusion`
+to set up its various tools as well as a zombie variant with `Uni-Zombie` and `Mezuki`
 that aimed to access Omega repeatedly.
 
 D/D would crack into the top 32 for the first time here utilizing their newly released fusion D/D/D
 Flame King Genghis to facilitate a far stronger swarming strategy than the previous version
 of the deck.
-Also utilizing dark level six options like Destiny HERO - Malicious and Mask Change II
+Also utilizing dark level six options like `Destiny HERO - Malicious` and `Mask Change II`
 for Dark Law in order to make Beatrice the proper way for further grave setup.
 Speaking of dark tools, Dark Synchro would see another top here
 being the first publicly available list for the deck and looking over this all
 of the alarm bells should be going off.
 This deck was entirely predicated on the idea of hand looping the opponent out of the game
-with a combination of various tuners with Level Eater which could eat the levels off
+with a combination of various tuners with `Level Eater` which could eat the levels off
 of an Omega before banishing it to gain level advantage or to eat down a used Trishula
 to use it as material for an Omega.
 They also use cards like DDR in order to reuse the Omega hand banish effect just to drive
@@ -1950,12 +1958,12 @@ as this deck had so many varying lines to go through that learning it
 in a sufficient manner was a massive challenge in and of itself.
 
 Star Seraph Herald would also see the top cut for the first time,
-using Cyber Angel Benten as a Swiss Army knife of sorts, able to search for a missing Seraph,
-a Herald of Perfection to summon, additional Fairies for the hand, an Honest or more Benten,
-or even Archlord Kristya to add a special summon lock to the Herald board,
+using `Cyber Angel Benten` as a Swiss Army knife of sorts, able to search for a missing Seraph,
+a `Herald of Perfection` to summon, additional Fairies for the hand, an `Honest` or more Benten,
+or even `Archlord Kristya` to add a special summon lock to the Herald board,
 being a solid rogue pick for the time.
 Thomas Rose would take the event on PK Fire,
-notably running a line of three Chaos Hunter in the main board to prevent the opponent
+notably running a line of three `Chaos Hunter` in the main board to prevent the opponent
 from banishing cards, locking them out of summoning ABC as well as Ghost Reaper being
 able to clean up most matches by revealing Dante, ABC, or Spirit Dragon.
 If you thought the ABC shook up the meta, though, you haven't seen anything yet,
@@ -1963,7 +1971,7 @@ as the last core set was just around the corner,
 and it would take the newly broken up meta and completely overhaul it with some
 of the strongest support to existing archetypes we've seen in a long time.
 
-### In Vengeance
+### Invasion: Vengeance
 
 - Release date: November 4th, 2016
 - Set type: core set
@@ -1972,7 +1980,7 @@ of the strongest support to existing archetypes we've seen in a long time.
 
 I MESSED IT UP.
 INOV was the last core set of the year, and its job was fairly simple.
-Support the strategies introduced in Dark Illusion,
+Support the strategies introduced in `Dark Illusion`,
 which it handled more effectively than I think any of us at the time were ready for.
 
 Starting with Metalfoes, their support here would include Bismugear,
@@ -1985,10 +1993,10 @@ for a Metalfoes fusion.
 Mithrilium, a fusion of a Metalfoes and a pendulum,
 able to shuffle back two Metalfoes cards in grave to bounce a card,
 floating into a Metalfoes pendulum in face-up extra or grave when sent to grave.
-And Fullmetalfoes Fusion, a quick-play fusion spell for Metalfoes.
+And `Fullmetalfoes Fusion`, a quick-play fusion spell for Metalfoes.
 This support would change practically everything about the more pure variants of Metalfoes,
 giving them interaction on the opponent's turn in Alkahest,
-who can now be summoned on the opponent's turn with Fullmetalfoes Fusion,
+who can now be summoned on the opponent's turn with `Fullmetalfoes Fusion`,
 but also in Mithrilium, who not only provides great removal,
 she recycles your used spells and traps to then reset with the scale effects,
 and her float effect also goes off when used as fusion material,
@@ -1997,9 +2005,9 @@ This would shoot Metalfoes up the ranks of the meta into a tier one to two posit
 able to compete solidly with ABC already in the meta.
 
 SPYRAL would receive a couple of interesting new pieces in Master Plan,
-able to search a SPYRAL MISSION and search a SPYRAL Resort and a SPYRAL monster when sent
+able to search a SPYRAL MISSION and search a `SPYRAL Resort` and a SPYRAL monster when sent
 from field to grave.
-And SPYRAL Resort, which gave your other SPYRAL cards targeting protection,
+And `SPYRAL Resort`, which gave your other SPYRAL cards targeting protection,
 search to SPYRAL monster once per turn,
 and shuffles a monster from grave into deck as maintenance cost to prevent destruction.
 While Well, wouldn't do anything in the short term,
@@ -2023,7 +2031,7 @@ But to say this was all they received would be disingenuous.
 As well this was all the archetypal support they got,
 there was also another Xyz released here that should be talked about with them.
 
-Toadally Awesome, TCG localization at the time was a joke,
+`Toadally Awesome`, TCG localization at the time was a joke,
 is an Aqua locked rank two that can detach in the standby phase to summon a frog from deck,
 can once per turn tribute an Aqua for an omni negate and destroy,
 then you can set that card to your field, and if sent to grave recurs back a water monster.
@@ -2032,37 +2040,37 @@ as with it Paleozoic had an omni negate it could access thanks to the entire arc
 being Aqua level twos.
 In addition to a perfect rank two engine it can now access for going first place,
 being that of frog.
-In addition, Toadally Awesome's omni negate didn't require materials,
-meaning that by cheating it out with Bahamut Shark you could tribute itself
+In addition, `Toadally Awesome`'s omni negate didn't require materials,
+meaning that by cheating it out with `Bahamut Shark` you could tribute itself
 for its omni negate effect, then put it back in extra with its recursion,
 meaning that not only was it a rank two threat,
-but any deck with Bahamut Shark access could also use it,
+but any deck with `Bahamut Shark` access could also use it,
 which we'd see the implications of with the upcoming YCS's.
 
-Doki Doki can discard a rock to summon another from deck with the same level and attribute,
+`Doki Doki` can discard a rock to summon another from deck with the same level and attribute,
 being a decent option for Magnet Warriors for now,
 but would be far more useful in a couple of years.
-Mare Mare was a level seven tuner that could lower its level by one to summon a level one token.
+`Mare Mare` was a level seven tuner that could lower its level by one to summon a level one token.
 Being an extremely interesting combo enabler when used with Yazi,
 and would get far more popular with the next era of the game.
 
-Starving Venom Fusion Dragon would be the fourth of the mechanic dragons.
+`Starving Venom Fusion Dragon` would be the fourth of the mechanic dragons.
 Taking two dark monsters on the field, gains the attack of an opponent special summon monster
 on fusion summon, and can copy a level five or higher name and effect for a turn,
 and nukes the opponent special summoned monsters when destroyed.
 This would be notably the weakest of the four dragons for now,
 as the only real card that could make it without sinking too many resources
-with Super Polymerization, which was currently banned.
+with `Super Polymerization`, which was currently banned.
 Leaving Starving Venom in a weird spot for now.
 
-Meteor Black Comet Dragon is a fusion of a level seven Red-Eyes and a level six dragon.
+`Meteor Black Comet Dragon` is a fusion of a level seven Red-Eyes and a level six dragon.
 Can dump a Red-Eyes from deck on summon to burn for half its original attack,
 and revives a normal monster when sent to grave.
-And Red-Eyes Insight dumps a Red-Eyes monster from deck to search another Red-Eyes spell trap.
+And `Red-Eyes Insight` dumps a Red-Eyes monster from deck to search another Red-Eyes spell trap.
 These two would help form an FTK of sorts for Red-Eyes.
-Specifically in that Meteor Black Comet Dragon summon with Red-Eyes Fusion,
-and then two copies of Inferno Fire Blast would be 8200 damage.
-Which while an extremely inconsistent FTK thanks to Inferno Fire Blast not being searchable,
+Specifically in that `Meteor Black Comet Dragon` summon with `Red-Eyes Fusion`,
+and then two copies of `Inferno Fire Blast` would be 8200 damage.
+Which while an extremely inconsistent FTK thanks to `Inferno Fire Blast` not being searchable,
 was still one to be aware of.
 
 Denglong, first of the Yang Zing, is a level five synchro that searches a Yang Zing card on summon.
@@ -2075,7 +2083,7 @@ which would be attractive for many strategies.
 Vermilion Dragon Mech was a TCG exclusive level nine synchro that could banish a tuner
 and grave to pop a card, and if destroyed by card effect or card to banish tuner.
 Being a solid option for Blue-Eyes.
-Lastly, Dimensional Barrier could lock the summon and effects of either rituals,
+Lastly, `Dimensional Barrier` could lock the summon and effects of either rituals,
 fusions, synchros, Xyz, or pendulums for a turn.
 Being an extremely powerful floodgate to an entire mechanic of your choosing,
 but was also seen as problematic immediately because it listed all of the mechanics it hit,
@@ -2093,7 +2101,7 @@ With the additions of Alkahest and Mithrilium,
 Metalfoes had ditched some of the more niche options in its arsenal
 for more standard pendulum pieces like the Majespecter package and Luster Pendulum,
 turning it into the go-to pendulum deck of the format.
-Painful Decision was also starting to get more popular in the deck
+`Painful Decision` was also starting to get more popular in the deck
 for accessing basically whatever scale you needed, as now with Mithrilium,
 the dump scale wasn't gone for good, as you could just float back into it later
 or cycle it back to the deck for her bounce effect.
@@ -2104,14 +2112,14 @@ either for Toad backed up by a series of traps or for Opabinia to churn out the 
 on the first turn without needing to set them first.
 As the deck was super reliant on traps in the first place,
 it made sense that its lineup would be chock-full of floodgates and counters to top strategies,
-such as Anti-Spell Fragrance, Floodgate Trap Hole, Quaking Mirror Force,
-and Barrier Statue of the Torrent.
-Most interesting here was Waboku, which served the purpose of being protection
+such as `Anti-Spell Fragrance`, `Floodgate Trap Hole`, `Quaking Mirror Force`,
+and `Barrier Statue of the Torrent`.
+Most interesting here was `Waboku`, which served the purpose of being protection
 for your summoned Paleos as well as being chainable to any removal,
 which in turn also triggered a Paleo in grave, making it an incredibly important inclusion.
 
 Galileo De Obaldia, the 2010's world's winner, would take the event on ABC,
-with the only real change to the deck being the inclusion of Dimensional Barrier,
+with the only real change to the deck being the inclusion of `Dimensional Barrier`,
 as ABC was one of the best decks to utilize it since it could pivot between fusions
 and Xyz better than some other strategies.
 This would lead us into the last set of the year, and with so much changing so fast,
@@ -2137,7 +2145,7 @@ to the strategy focused around their cards Aster Phoenix used in the recent stin
 of the Arc-V anime.
 Drilldark can summon a D-HERO from hand on summon with attack less or equal to itself
 and deals piercing.
-Dark Angel can discard itself if you have three or more D-HEROes in grave to summon a D-HERO
+`Dark Angel` can discard itself if you have three or more D-HEROes in grave to summon a D-HERO
 from grave to the opponent's board negating and destroying any spells activated by its controller.
 It can banish itself and another D-HERO from grave in your standby phase
 to have both players stack a normal spell from deck on top of their deck.
@@ -2165,8 +2173,8 @@ able to summon Darklords from deck on tribute summon up to the number
 of effect monsters the opponent had, had targeting protection while you controlled another Darklord,
 and can mill cards up to the number of Darklords you controlled to gain 500
 for each Darklord card milled that way.
-As for their spell traps, Banishment searched a Darklord card, Contact revived a Darklord,
-Rebellion could send a Darklord from hand or field to grave to pop a card,
+As for their spell traps, Banishment searched a Darklord card, `Contact` revived a Darklord,
+`Rebellion` could send a Darklord from hand or field to grave to pop a card,
 and Enchantment could do the same to brain control a monster for the turn.
 With the traps notably skipping their costs if used by the Darklord copy effect.
 This would be a bold departure from the GX era cards.
@@ -2183,11 +2191,11 @@ of rogue-level decks.
 YCS Anaheim would follow two weeks later,
 and with the new pool of cards from INOV new strategies would start popping up.
 Toad and its consequences would result in the appearance of not only Mermail,
-taking advantage of the new Bahamut Shark target to regain some of its relevance lost
+taking advantage of the new `Bahamut Shark` target to regain some of its relevance lost
 with the shuffling of the meta, but also in, of all places, Hero.
-Because Bahamut Shark could access Toad, the deck had resorted back to an old favorite,
-being Bubble Man, as it could be half of a Bahamut Shark very easily either with another copy
-of itself or with Tin Goldfish, which had always been considered for a Shadow Mist enabler,
+Because `Bahamut Shark` could access Toad, the deck had resorted back to an old favorite,
+being Bubble Man, as it could be half of a `Bahamut Shark` very easily either with another copy
+of itself or with `Tin Goldfish`, which had always been considered for a Shadow Mist enabler,
 but never really had a reason to be played over something like Goblinberg until now.
 As such, the end board of Dark Law and Toad would become more and more common
 as Hero rose back into a tier three position in the meta.
@@ -2195,13 +2203,13 @@ as Hero rose back into a tier three position in the meta.
 Darklord would take two top spots on its first outing,
 being able to mitigate its bricks in a Swiss setting, but crumbling a bit in single elimination,
 falling out in top 32.
-Though notably playing three copies of Darklord Zerato from Phantom Darkness as It's tribute nuke.
+Though notably playing three copies of `Darklord Zerato` from Phantom Darkness as It's tribute nuke.
 Yang Zing would see a top here mostly thanks to Denglong in addition
 to the Metalfoes enabling the Yang Zing float effects in a major way,
 which in turn allowed for the deck to set up both Denglong and Zefraniu,
 which resulted in multiple Nine Pillars to form a defensive line.
 
-Elvis Vu would take the event on ABC utilizing the Brilliant Fusion engine as a way
+Elvis Vu would take the event on ABC utilizing the `Brilliant Fusion` engine as a way
 to flood board and to access the ABC pieces on the light dump for easier access
 to the fusion ABC itself.
 
@@ -2213,19 +2221,19 @@ being that of ABC, Metalfoes, Paleozoic, and Hero.
 Paleo had shown the most growth here over time since release as it had trimmed its monster
 and spell count down to about as low as it could go, being that of a frog engine,
 Maxx "C", and Desires, leaving the rest of the deck to be impact traps and Paleos
-with probably the most interesting pivot here being that of Reckless Greed,
+with probably the most interesting pivot here being that of `Reckless Greed`,
 filling a similar niche to how it was used back in Dark World
 to stack multiple together without getting multiple of the drawback.
 Only this time it could also revive a Paleo when you used it.
 
 Awesome Performage Lightsworn would be a pile
-of pile decks combining the previous Lightsworn game plan with that of using Tin Goldfish
-as half of Bahamut Shark with the other half usually being Gigobyte,
-which was still searchable with King of the Feral Imps and easy
+of pile decks combining the previous Lightsworn game plan with that of using `Tin Goldfish`
+as half of `Bahamut Shark` with the other half usually being `Gigobyte`,
+which was still searchable with `King of the Feral Imps` and easy
 to summon between the Performages and Minerva.
 Zombie would take the turn going down the hand loop trail we all expected utilizing the Shiranui
-engine in addition to various level one and two tuner options alongside Beast of the Pharaoh
-to loop through their Omega and Trishula with Beast of the Pharaoh able to revive Zombie Master
+engine in addition to various level one and two tuner options alongside `Beast of the Pharaoh`
+to loop through their Omega and Trishula with `Beast of the Pharaoh` able to revive `Zombie Master`
 when sent for a synchro summon, Master then being able to discard to revive Beast,
 and then with a level one tuner makes Omega or a level two makes Trishula,
 reviving the Master with Beast to do it all over again.

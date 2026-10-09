@@ -67,7 +67,7 @@ Non-obvious fixes (garbled to canonical):
   `Gem-Knight Hollowcore`, "Galatea Eye" to `Galatea-I, the Orcust Automaton`,
   "Gearsu" / "in gearsu" to `Enlilgirsu, the Orcust Mekk-Knight`,
   "Rising Scale" to `Noh-P.U.N.K. Rising Scale`, "Jam Fever" to `P.U.N.K. JAM FEVER!`.
-- Duelist Advance: "Finmemell" to `Artmage Finmel`, "Diacteris" to `Artmage Diactorus`,
+- Duelist's Advance: "Finmemell" to `Artmage Finmel`, "Diacteris" to `Artmage Diactorus`,
   "Thea Realize" to `Theorealize`, "Dodo Warrior" to `Dodododo Warrior`,
   "Liker dancer" to `Lunalight Liger Dancer`, "Beaga" / "Beooka" to
   `Number 41: Bagooska the Terribly Tired Tapir`, "Holly Sue" to `Vanquish Soul Hollie Sue`,
@@ -443,7 +443,7 @@ it wasn't difficult to find lines with the strategy anymore.
 This would lead us into the next set release a week later, and to many players, a welcome sight,
 being the first time in over a year where we'd be graced with a truly cheaper option.
 
-### Blue-Eyes White Destiny
+### Structure Deck: Blue-Eyes White Destiny
 
 - Release date: February 14th, 2025 (the speaker first said February 7th and corrected himself).
 - Set type: structure deck.
@@ -1154,7 +1154,7 @@ Now these cards wouldn't be the only releases
 to consider for some of the World Championship Qualifier that remained as 3 weeks later we get our
 third core set of the year right before we roll out the remaining four tournaments.
 
-### Duelist Advance
+### Duelist's Advance
 
 - Release date: July 4th, 2025.
 - Set type: core set.
@@ -1966,7 +1966,7 @@ and searching your Dracotail bridge.
 Thanks to this performance, branded Dracotail would become a more common sight in the format,
 but also because of a brand new set type that would drop just 2 weeks later.
 
-### The Fallen & The Virtuous
+### The Chronicles Deck: The Fallen & The Virtuous
 
 - Release date: October 24th, 2025.
 - Set type: Chronicles deck.

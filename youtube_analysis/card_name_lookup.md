@@ -33,23 +33,29 @@ and the user may be working in it at the same time.
 an untracked directory shows in the user's `git status`
 and gets compiled by their `go build ./...`.
 
-## Look up by name substring
+## Lookup scripts
 
-Save a lookup script in a temporary directory outside both repos
-(for example `%TEMP%\yt_transcript_scripts\lookup.py`).
-It reads the live `data/yugioh.db` in place, opened read-only (`mode=ro`),
+Save these scripts in a temporary directory outside both repos,
+one directory per run (for example `%TEMP%\yt_transcript_scripts_2015\`),
+so parallel runs don't overwrite each other's `YEAR`.
+They read the live `data/yugioh.db` in place, opened read-only (`mode=ro`),
 so lookups always see the user's current database and can never write to it.
-It needs only the Python standard library.
+They need only the Python standard library,
+and they print UTF-8 so names with ★, ☆ or Ø don't crash a Windows console.
+
+### Look up by name substring
+
+`lookup.py`, one argument per guessed name (or archetype prefix):
 
 ```python
 import sqlite3
 import sys
 
-
 # Absolute path to the card database in the sibling repo,
 # or to the downloaded copy when the sibling repo is missing.
 DATABASE = "C:/Users/tungd/go/src/github.com/daominah/yugioh_card_editor_database/data/yugioh.db"
 
+sys.stdout.reconfigure(encoding="utf-8")
 connection = sqlite3.connect(f"file:{DATABASE}?mode=ro", uri=True)
 for query in sys.argv[1:]:
     rows = connection.execute(
@@ -63,14 +69,76 @@ for query in sys.argv[1:]:
         print(f"  {name}")
 ```
 
-Pass each guessed name (or archetype prefix) as an argument:
-
 ```bash
-python "$TEMP/yt_transcript_scripts/lookup.py" "Vanquish Soul" "Lunalight" "Dominus"
+python "$TEMP/yt_transcript_scripts_2015/lookup.py" "Vanquish Soul" "Lunalight" "Dominus"
 ```
 
-To disambiguate by effect, query `card_texts` the same way
-(join on the card id, filter `lang = 'en'`, match on `effect`).
+### Search by effect text
+
+`effect_search.py`, for a garble that sounds nothing like the name:
+every argument must appear in the English effect text.
+Set `YEAR` to the recap year to list only that year's new cards
+(`cards.year` is text, for example `"2025"`), or to `""` for all years.
+With `YEAR` set and no arguments, it lists every card of that year,
+the fastest way to map a year's new garbled names.
+
+```python
+import sqlite3
+import sys
+
+DATABASE = "C:/Users/tungd/go/src/github.com/daominah/yugioh_card_editor_database/data/yugioh.db"
+YEAR = "2025"
+
+sys.stdout.reconfigure(encoding="utf-8")
+connection = sqlite3.connect(f"file:{DATABASE}?mode=ro", uri=True)
+query = (
+    "SELECT c.card_name_en, t.effect FROM cards c"
+    " JOIN card_texts t ON t.card_id = c.card_id AND t.lang = 'en'"
+    " WHERE (? = '' OR c.year = ?)"
+)
+params = [YEAR, YEAR]
+for word in sys.argv[1:]:
+    query += " AND t.effect LIKE '%' || ? || '%' COLLATE NOCASE"
+    params.append(word)
+for name, effect in connection.execute(query + " ORDER BY c.card_name_en", params):
+    print(f"{name}\n  {effect[:200]}")
+```
+
+```bash
+python "$TEMP/yt_transcript_scripts_2015/effect_search.py" "add 1" "then discard 1"
+```
+
+### Check every backticked name
+
+`check_names.py`, run on each finished `.md` file:
+it lists every backticked name that is not exactly a `cards.card_name_en`.
+Only card names may be backticked, so the list must come out empty
+(file names and code in a guide like this one are the exception).
+
+```python
+import re
+import sqlite3
+import sys
+
+DATABASE = "C:/Users/tungd/go/src/github.com/daominah/yugioh_card_editor_database/data/yugioh.db"
+
+sys.stdout.reconfigure(encoding="utf-8")
+connection = sqlite3.connect(f"file:{DATABASE}?mode=ro", uri=True)
+for path in sys.argv[1:]:
+    with open(path, encoding="utf-8") as file:
+        names = set(re.findall(r"`([^`\n]+)`", file.read()))
+    failed = sorted(
+        name for name in names
+        if not connection.execute("SELECT 1 FROM cards WHERE card_name_en = ?", (name,)).fetchone()
+    )
+    print(f"{path}: {len(names)} names, {len(failed)} failed")
+    for name in failed:
+        print(f"  {name}")
+```
+
+```bash
+python "$TEMP/yt_transcript_scripts_2015/check_names.py" year_2015/recap2015_*.md
+```
 
 For the full details of one card (stats, all locales, effect, prints),
 run the existing command with a `card_id` from the `yugioh_card_editor_database` directory

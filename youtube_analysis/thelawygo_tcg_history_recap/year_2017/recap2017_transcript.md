@@ -110,7 +110,7 @@ and given how it had been delayed time and time again,
 finally seeing it come out would be a boon to a strategy that's been in the fringes
 for some time now.
 
-### Pendulum Domination
+### Pendulum Domination Structure Deck
 
 - Release date: January 20th, 2017
 - Set type: structure deck
@@ -678,7 +678,7 @@ This would lead us into the next structure deck a week later,
 and seemingly the Structure Deck R train was set to keep going,
 as we weren't just getting one this time, it was a duo.
 
-### Machine Reactor and Dinosmasher's Fury
+### Machine Reactor Structure Deck and Dinosmasher's Fury Structure Deck
 
 - Release date: April 14th, 2017
 - Set type: structure deck
@@ -1332,7 +1332,7 @@ This would lead into the year's starter deck,
 and with it would come a fundamental shift to the game as a whole
 that many players weren't quite ready for, in many ways.
 
-### Link Strike
+### Starter Deck: Link Strike
 
 - Release date: July 21st, 2017
 - Set type: starter deck
